@@ -1,9 +1,9 @@
 ---
-name: writing-style
+name: style-profile
 description: Extract a user's writing style from text samples into a reusable style profile, then apply that style to rewrite, generate, or critique content. Use when user mentions "my style", "writing style", "extract style", "write like me", "rewrite in my voice", "style profile", or wants to analyze or apply their personal writing voice.
 ---
 
-# Writing Style
+# Style Profile
 
 ## Quick start
 
@@ -12,7 +12,7 @@ description: Extract a user's writing style from text samples into a reusable st
 
 ## Important
 
-**ALWAYS check for an existing [STYLE_PROFILE.md](STYLE_PROFILE.md) BEFORE telling the user you don't have a style profile.** Read the file first. If it exists and contains profile data, use it. Only ask for samples if the file doesn't exist or is empty/template-only.
+**ALWAYS check for an existing `./STYLE_PROFILE.md` in the current working directory BEFORE telling the user you don't have a style profile.** Read the file first. If it exists and contains profile data, use it. Only ask for samples if the file doesn't exist or is empty/template-only.
 
 ## Workflows
 
@@ -31,13 +31,57 @@ description: Extract a user's writing style from text samples into a reusable st
    - **Rhetorical patterns** — openings, closings, argument flow, use of questions/examples
 4. Include 2-3 short verbatim excerpts as anchors per dimension
 5. Note confidence per dimension — flag where more samples would help
-6. Save to [STYLE_PROFILE.md](STYLE_PROFILE.md) using [STYLE_PROFILE_TEMPLATE.md](STYLE_PROFILE_TEMPLATE.md)
+6. Save to `./STYLE_PROFILE.md` in the **current working directory** using this structure:
 
-**If STYLE_PROFILE.md exists:** Merge new observations. Update dimensions with stronger signal. Preserve what isn't contradicted.
+```markdown
+# Style Profile
+
+> Generated from [N] writing samples. Last updated: [date].
+
+## Tone
+**Confidence:** [high/medium/low — more samples needed for X]
+[Description of formality, warmth, humor, energy]
+**Examples:**
+- "[verbatim excerpt]"
+- "[verbatim excerpt]"
+
+## Sentence Structure
+**Confidence:** [high/medium/low]
+[Length patterns, fragment use, complexity, rhythm]
+**Examples:**
+- "[verbatim excerpt]"
+- "[verbatim excerpt]"
+
+## Vocabulary
+**Confidence:** [high/medium/low]
+[Technical level, preferred words/phrases, jargon, distinctive word choices]
+**Examples:**
+- "[verbatim excerpt]"
+- "[verbatim excerpt]"
+
+## Formatting
+**Confidence:** [high/medium/low]
+[Header usage, list preferences, paragraph length, punctuation quirks]
+**Examples:**
+- "[verbatim excerpt]"
+- "[verbatim excerpt]"
+
+## Rhetorical Patterns
+**Confidence:** [high/medium/low]
+[How they open pieces, build arguments, use questions, deploy examples, close pieces]
+**Examples:**
+- "[verbatim excerpt]"
+- "[verbatim excerpt]"
+
+## Notes
+[Anything that doesn't fit above — distinctive quirks, things to avoid, areas needing more samples]
+```
+
+**If `./STYLE_PROFILE.md` exists:** Merge new observations. Update dimensions with stronger signal. Preserve what isn't contradicted.
 
 ### Apply style
 
-1. Read [STYLE_PROFILE.md](STYLE_PROFILE.md)
+1. Read `./STYLE_PROFILE.md` from the **current working directory**
 2. Detect intent:
    - **Rewrite** ("rewrite this", "edit this") — preserve all points, change only voice. Conservative.
    - **Generate** ("write a...", "draft a...") — create new content in the style

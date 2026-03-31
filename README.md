@@ -1,27 +1,41 @@
 # Skills
 
+Agent skills for Claude Code.
+
 ## Install
 
-**Domain Storytelling** — Turn stakeholder conversations into a pure domain layer. Interview-driven DDD that writes the code for you.
-
 ```bash
-npx skills@latest add Ivcota/skills/domain-storytelling
+npx skills@latest add Ivcota/skills/<skill-name>
 ```
 
-**Writing Style** — Extract your unique voice from writing samples, then apply it everywhere. Never sound like a robot again.
+---
 
-```bash
-npx skills@latest add Ivcota/skills/writing-style
-```
+## Design
 
-**Office Hours** — YC-style office hours that pressure-test your idea before you write a line of code. Startup mode grills you. Builder mode riffs with you.
+**Office Hours** — Two modes for pressure-testing ideas: Startup mode asks hard questions, Builder mode helps you think through the details.
 
 ```bash
 npx skills@latest add Ivcota/skills/office-hours
 ```
 
-**FAAS** — Four-phase framework for shipping features with confidence: Find → ARCH → Automate → Specify-Test-Refine. Guides you from ticket to green test suite using Responsibility-Driven Design and the 54321 layered architecture model.
+**Domain Storytelling** — Interview-driven DDD that maps stakeholder conversations to a domain model.
+
+```bash
+npx skills@latest add Ivcota/skills/domain-storytelling
+```
+
+## Engineering
+
+**FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
 
 ```bash
 npx skills@latest add Ivcota/skills/faas
+```
+
+## Writing
+
+**Style Profile** — Extract a style profile from writing samples and apply it to new content.
+
+```bash
+npx skills@latest add Ivcota/skills/style-profile
 ```
