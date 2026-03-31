@@ -4,15 +4,23 @@ description: |
   Four-phase engineering framework for shipping features with confidence: Find → ARCH → Automate → Specify-Test-Refine.
   Each phase has a required input, a guided process, and an exit gate you must pass before advancing.
   Integrates Responsibility-Driven Design and the 54321 layered architecture model.
+  Supports interview mode for when the user doesn't want to provide codebase access — the agent interviews instead of exploring.
   Use when the user wants to plan and build a feature, says "help me ship this", "let's plan this out",
   "walk me through building this", or provides a ticket, PRD, design, or feature request.
+  Also triggers on "interview mode", "no codebase access", or "faas interview".
 ---
 
 # FAAS — Find, ARCH, Automate, Specify-Test-Refine
 
 A four-phase engineering framework for shipping features with confidence. Each phase has a required input, a guided process, and an exit gate. **You do not advance to the next phase until the exit gate is satisfied.**
 
-References: [54321 Layer Model](54321.md) | [RDD Stereotypes](rdd.md) | [Phase Details & Artifacts](phases.md)
+References: [54321 Layer Model](54321.md) | [RDD Stereotypes](rdd.md) | [Phase Details & Artifacts](phases.md) | [Interview Mode](interview-mode.md)
+
+## Mode Detection
+
+**Standard mode** (default): Agent explores the codebase to discover entry points, patterns, and context.
+
+**Interview mode**: Activated when the user says "interview mode", "no codebase access", "faas interview", or similar. The agent interviews the user instead of exploring code. Do not use Glob, Grep, or Read for codebase exploration. All context comes from the conversation. See [Interview Mode](interview-mode.md) for full process.
 
 ## Input Detection
 
