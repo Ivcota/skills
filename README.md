@@ -34,6 +34,12 @@ npx skills@latest add Ivcota/skills/faas
 
 ## Writing
 
+**Buyer Profile** — Deep buyer psychology analysis. Uncovers emotional drivers, fears, desires, and internal monologue behind purchasing decisions. Interview mode or direct mode.
+
+```bash
+npx skills@latest add Ivcota/skills/buyer-profile
+```
+
 **Style Profile** — Extract a style profile from writing samples and apply it to new content.
 
 ```bash
