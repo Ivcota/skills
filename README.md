@@ -45,3 +45,9 @@ npx skills@latest add Ivcota/skills/buyer-profile
 ```bash
 npx skills@latest add Ivcota/skills/style-profile
 ```
+
+**Persona to Product** — Turn a buyer persona into ranked product and service ideas. Extracts problem signals from a buyer profile and generates 5–7 concepts evaluated against the persona's psychology, constraints, and objections.
+
+```bash
+npx skills@latest add Ivcota/skills/persona-to-product
+```
