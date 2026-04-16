@@ -40,6 +40,12 @@ npx skills@latest add Ivcota/skills/faas
 npx skills@latest add Ivcota/skills/bear-hunter-system
 ```
 
+**Distill to Skill** — Turn a book, method, or framework into a Claude Code skill. Fans out citation-grounded sub-agents to extract frameworks, copy patterns, and case studies, then synthesizes against a strict template.
+
+```bash
+npx skills@latest add Ivcota/skills/distill-to-skill
+```
+
 ## Writing
 
 **Style Profile** — Extract a style profile from writing samples and apply it to new content.
