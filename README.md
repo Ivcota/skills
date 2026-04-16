@@ -53,3 +53,11 @@ npx skills@latest add Ivcota/skills/distill-to-skill
 ```bash
 npx skills@latest add Ivcota/skills/style-profile
 ```
+
+## Business
+
+**E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
+
+```bash
+npx skills@latest add Ivcota/skills/e-myth-revisited
+```
