@@ -61,3 +61,11 @@ npx skills@latest add Ivcota/skills/style-profile
 ```bash
 npx skills@latest add Ivcota/skills/e-myth-revisited
 ```
+
+## Productivity
+
+**The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
+
+```bash
+npx skills@latest add Ivcota/skills/the-one-thing
+```
