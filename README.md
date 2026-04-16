@@ -32,6 +32,14 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 npx skills@latest add Ivcota/skills/faas
 ```
 
+## Learning
+
+**Bear Hunter System** — Encode complex material with 80-95% retention by building a causal GRINDE map through AIM → SHOOT → SKIN phases.
+
+```bash
+npx skills@latest add Ivcota/skills/bear-hunter-system
+```
+
 ## Writing
 
 **Style Profile** — Extract a style profile from writing samples and apply it to new content.
