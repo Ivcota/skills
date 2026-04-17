@@ -24,6 +24,12 @@ npx skills@latest add Ivcota/skills/office-hours
 npx skills@latest add Ivcota/skills/feynman
 ```
 
+**Good Strategy / Bad Strategy** — Write, diagnose, and audit strategy using Richard Rumelt's Kernel (diagnosis, guiding policy, coherent action), the Four Hallmarks of Bad Strategy, and the Nine Sources of Power.
+
+```bash
+npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
+```
+
 ## 2. Know the buyer
 
 **Buyer Profile** — Create deep buyer psychology profiles that uncover real emotional drivers, fears, desires, and motivations behind purchasing decisions.
