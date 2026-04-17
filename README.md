@@ -1,6 +1,6 @@
 # Skills
 
-Agent skills for Claude Code.
+Agent skills for Claude Code, organized around the founder's operating loop.
 
 ## Install
 
@@ -10,7 +10,7 @@ npx skills@latest add Ivcota/skills/<skill-name>
 
 ---
 
-## Design
+## 1. Think — pressure-test the idea
 
 **Office Hours** — Two modes for pressure-testing ideas: Startup mode asks hard questions, Builder mode helps you think through the details.
 
@@ -18,13 +18,35 @@ npx skills@latest add Ivcota/skills/<skill-name>
 npx skills@latest add Ivcota/skills/office-hours
 ```
 
-**Domain Storytelling** — Interview-driven DDD that maps stakeholder conversations to a domain model.
+**Feynman** — Deep-understand any concept by explaining it simply until all gaps are exposed and filled.
 
 ```bash
-npx skills@latest add Ivcota/skills/domain-storytelling
+npx skills@latest add Ivcota/skills/feynman
 ```
 
-## Engineering
+## 2. Know the buyer
+
+**Buyer Profile** — Create deep buyer psychology profiles that uncover real emotional drivers, fears, desires, and motivations behind purchasing decisions.
+
+```bash
+npx skills@latest add Ivcota/skills/buyer-profile
+```
+
+**Persona to Product** — Turn a buyer persona into ranked product and service ideas grounded in their real problems, failed solutions, and transformation desires.
+
+```bash
+npx skills@latest add Ivcota/skills/persona-to-product
+```
+
+## 3. Get attention
+
+**$100M Leads** — Build a lead generation engine using the Core Four, lead magnets, and Lead Getters. Covers Rule of 100, Hook-Retain-Reward, and the advertising compounding model.
+
+```bash
+npx skills@latest add Ivcota/skills/hundred-million-leads
+```
+
+## 4. Build
 
 **FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
 
@@ -32,7 +54,29 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 npx skills@latest add Ivcota/skills/faas
 ```
 
-## Learning
+**Domain Storytelling** — Interview-driven DDD that maps stakeholder conversations to a domain model and generates pure domain layer code.
+
+```bash
+npx skills@latest add Ivcota/skills/domain-storytelling
+```
+
+## 5. Operate — make the business run without you
+
+**E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
+
+```bash
+npx skills@latest add Ivcota/skills/e-myth-revisited
+```
+
+## 6. Focus — what to do today
+
+**The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
+
+```bash
+npx skills@latest add Ivcota/skills/the-one-thing
+```
+
+## 7. Absorb — turn inputs into durable capability
 
 **Bear Hunter System** — Encode complex material with 80-95% retention by building a causal GRINDE map through AIM → SHOOT → SKIN phases.
 
@@ -46,26 +90,10 @@ npx skills@latest add Ivcota/skills/bear-hunter-system
 npx skills@latest add Ivcota/skills/distill-to-skill
 ```
 
-## Writing
+## 8. Voice
 
 **Style Profile** — Extract a style profile from writing samples and apply it to new content.
 
 ```bash
 npx skills@latest add Ivcota/skills/style-profile
-```
-
-## Business
-
-**E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
-
-```bash
-npx skills@latest add Ivcota/skills/e-myth-revisited
-```
-
-## Productivity
-
-**The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
-
-```bash
-npx skills@latest add Ivcota/skills/the-one-thing
 ```
