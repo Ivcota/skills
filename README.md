@@ -52,6 +52,12 @@ npx skills@latest add Ivcota/skills/persona-to-product
 npx skills@latest add Ivcota/skills/hundred-million-leads
 ```
 
+**Value Equation Audit** — Score an offer, product, or feature against Hormozi's Value Equation. Rates each of the four levers (Dream Outcome, Perceived Likelihood, Time Delay, Effort & Sacrifice) 1-10 against a rubric, computes a composite value score, identifies the weakest lever, and produces a rung-by-rung path to 10/10.
+
+```bash
+npx skills@latest add Ivcota/skills/value-equation-audit
+```
+
 ## 4. Build
 
 **FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
