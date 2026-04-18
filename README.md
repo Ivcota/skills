@@ -109,3 +109,9 @@ npx skills@latest add Ivcota/skills/distill-to-skill
 ```bash
 npx skills@latest add Ivcota/skills/style-profile
 ```
+
+**Humanizer** — Remove signs of AI-generated writing from text. Detects and rewrites 29 patterns (significance inflation, AI vocabulary, em dash overuse, chatbot artifacts, filler phrases, and more). Supports voice calibration from a writing sample.
+
+```bash
+npx skills@latest add Ivcota/skills/humanizer
+```
