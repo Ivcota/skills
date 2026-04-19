@@ -32,6 +32,12 @@ npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
 
 ## 2. Know the buyer
 
+**Validate ICP** — Mine public communities (Reddit, HN, X, IndieHackers, Trustpilot, Discord, forums) for verbatim first-person pain quotes to prove an ICP exists before committing to interviews. Returns source-linked quotes, a named DM list, a reachability scorecard, and a VALIDATED / WEAK / NOT FOUND verdict.
+
+```bash
+npx skills@latest add Ivcota/skills/validate-icp
+```
+
 **Buyer Profile** — Create deep buyer psychology profiles that uncover real emotional drivers, fears, desires, and motivations behind purchasing decisions.
 
 ```bash
