@@ -78,6 +78,12 @@ npx skills@latest add Ivcota/skills/faas
 npx skills@latest add Ivcota/skills/domain-storytelling
 ```
 
+**User Story Mapping** — Apply Jeff Patton's User Story Mapping technique to build shared understanding and slice work into outcome-focused releases. Organizes the backlog as a two-dimensional grid (backbone + prioritized tasks) instead of a flat list, keeping the whole story visible while planning incremental delivery.
+
+```bash
+npx skills@latest add Ivcota/skills/user-story-mapping
+```
+
 ## 5. Operate — make the business run without you
 
 **E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
