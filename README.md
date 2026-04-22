@@ -30,6 +30,12 @@ npx skills@latest add Ivcota/skills/feynman
 npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
 ```
 
+**Millionaire Fastlane** — Score business ideas and wealth plans against MJ DeMarco's Fastlane framework: the three Roadmaps (Sidewalk, Slowlane, Fastlane), the CENTS / NECST commandments (Control, Entry, Need, Time, Scale), and the Wealth Equation (Net Profit + Asset Value). Distinguishes "Get Rich Quick" (real, process-driven) from "Get Rich Easy" (guru fantasy) and "Get Rich Slow" (40-year wager).
+
+```bash
+npx skills@latest add Ivcota/skills/millionaire-fastlane
+```
+
 ## 2. Know the buyer
 
 **Validate ICP** — Mine public communities (Reddit, HN, X, IndieHackers, Trustpilot, Discord, forums) for verbatim first-person pain quotes to prove an ICP exists before committing to interviews. Returns source-linked quotes, a named DM list, a reachability scorecard, and a VALIDATED / WEAK / NOT FOUND verdict.
