@@ -24,6 +24,12 @@ npx skills@latest add Ivcota/skills/office-hours
 npx skills@latest add Ivcota/skills/feynman
 ```
 
+**Align Mental Model** — Surface wrong beliefs before you act on them. Prediction-check loop with confidence calibration: you predict, rate your confidence, then see the truth — high-confidence-wrongs (the dangerous ones) get why-traced down to the root assumption. Three modes: codebase (verify against code), learning (verify against an authoritative source), planning (split present-reality from future-bets).
+
+```bash
+npx skills@latest add Ivcota/skills/align-mental-model
+```
+
 **Good Strategy / Bad Strategy** — Write, diagnose, and audit strategy using Richard Rumelt's Kernel (diagnosis, guiding policy, coherent action), the Four Hallmarks of Bad Strategy, and the Nine Sources of Power.
 
 ```bash
