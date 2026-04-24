@@ -4,13 +4,26 @@ Agent skills for Claude Code, organized around the founder's operating loop.
 
 ## Install
 
+Every skill installs the same way:
+
 ```bash
 npx skills@latest add Ivcota/skills/<skill-name>
 ```
 
+## Index
+
+1. [Think — pressure-test the idea](#1--think--pressure-test-the-idea)
+2. [Know the buyer](#2--know-the-buyer)
+3. [Get attention](#3--get-attention)
+4. [Build](#4--build)
+5. [Operate — make the business run without you](#5--operate--make-the-business-run-without-you)
+6. [Focus — what to do today](#6--focus--what-to-do-today)
+7. [Absorb — turn inputs into durable capability](#7--absorb--turn-inputs-into-durable-capability)
+8. [Voice](#8--voice)
+
 ---
 
-## 1. Think — pressure-test the idea
+## 1 — Think — pressure-test the idea
 
 **Office Hours** — Two modes for pressure-testing ideas: Startup mode asks hard questions, Builder mode helps you think through the details.
 
@@ -36,13 +49,19 @@ npx skills@latest add Ivcota/skills/align-mental-model
 npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
 ```
 
+**Zero to One** — Evaluate startup ideas against Peter Thiel's framework: the Contrarian Question, Monopoly vs Competition, Four Characteristics of Monopoly + Last Mover Advantage, Definite Optimism, the Power Law, Secrets, Foundations, Distribution, and the Seven Questions every business must answer.
+
+```bash
+npx skills@latest add Ivcota/skills/zero-to-one
+```
+
 **Millionaire Fastlane** — Score business ideas and wealth plans against MJ DeMarco's Fastlane framework: the three Roadmaps (Sidewalk, Slowlane, Fastlane), the CENTS / NECST commandments (Control, Entry, Need, Time, Scale), and the Wealth Equation (Net Profit + Asset Value). Distinguishes "Get Rich Quick" (real, process-driven) from "Get Rich Easy" (guru fantasy) and "Get Rich Slow" (40-year wager).
 
 ```bash
 npx skills@latest add Ivcota/skills/millionaire-fastlane
 ```
 
-## 2. Know the buyer
+## 2 — Know the buyer
 
 **Validate ICP** — Mine public communities (Reddit, HN, X, IndieHackers, Trustpilot, Discord, forums) for verbatim first-person pain quotes to prove an ICP exists before committing to interviews. Returns source-linked quotes, a named DM list, a reachability scorecard, and a VALIDATED / WEAK / NOT FOUND verdict.
 
@@ -62,7 +81,7 @@ npx skills@latest add Ivcota/skills/buyer-profile
 npx skills@latest add Ivcota/skills/persona-to-product
 ```
 
-## 3. Get attention
+## 3 — Get attention
 
 **$100M Leads** — Build a lead generation engine using the Core Four, lead magnets, and Lead Getters. Covers Rule of 100, Hook-Retain-Reward, and the advertising compounding model.
 
@@ -76,7 +95,7 @@ npx skills@latest add Ivcota/skills/hundred-million-leads
 npx skills@latest add Ivcota/skills/value-equation-audit
 ```
 
-## 4. Build
+## 4 — Build
 
 **FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
 
@@ -96,7 +115,7 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 npx skills@latest add Ivcota/skills/user-story-mapping
 ```
 
-## 5. Operate — make the business run without you
+## 5 — Operate — make the business run without you
 
 **E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
 
@@ -104,7 +123,7 @@ npx skills@latest add Ivcota/skills/user-story-mapping
 npx skills@latest add Ivcota/skills/e-myth-revisited
 ```
 
-## 6. Focus — what to do today
+## 6 — Focus — what to do today
 
 **The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
 
@@ -112,7 +131,7 @@ npx skills@latest add Ivcota/skills/e-myth-revisited
 npx skills@latest add Ivcota/skills/the-one-thing
 ```
 
-## 7. Absorb — turn inputs into durable capability
+## 7 — Absorb — turn inputs into durable capability
 
 **Bear Hunter System** — Encode complex material with 80-95% retention by building a causal GRINDE map through AIM → SHOOT → SKIN phases.
 
@@ -126,7 +145,7 @@ npx skills@latest add Ivcota/skills/bear-hunter-system
 npx skills@latest add Ivcota/skills/distill-to-skill
 ```
 
-## 8. Voice
+## 8 — Voice
 
 **Style Profile** — Extract a style profile from writing samples and apply it to new content.
 
