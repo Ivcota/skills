@@ -153,6 +153,12 @@ npx skills@latest add Ivcota/skills/distill-to-skill
 npx skills@latest add Ivcota/skills/style-profile
 ```
 
+**Style to Skill** — Package an existing `STYLE_PROFILE.md` into a personal, invokable Claude Code skill (like `write-like-me`) so you can apply your voice anywhere without pointing at the source file.
+
+```bash
+npx skills@latest add Ivcota/skills/style-to-skill
+```
+
 **Humanizer** — Remove signs of AI-generated writing from text. Detects and rewrites 29 patterns (significance inflation, AI vocabulary, em dash overuse, chatbot artifacts, filler phrases, and more). Supports voice calibration from a writing sample.
 
 ```bash
