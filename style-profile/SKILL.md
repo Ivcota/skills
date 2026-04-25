@@ -1,6 +1,6 @@
 ---
 name: style-profile
-description: Extract a user's writing style from text samples into a reusable style profile, then apply that style to rewrite, generate, or critique content. Use when user mentions "my style", "writing style", "extract style", "write like me", "rewrite in my voice", "style profile", or wants to analyze or apply their personal writing voice.
+description: Extract a user's writing style from text samples into a reusable style profile, then apply that style to rewrite, generate, or critique content. Also supports refining an existing profile sentence-by-sentence against a draft. Use when user mentions "my style", "writing style", "extract style", "write like me", "rewrite in my voice", "style profile", "refine my style", "go through this sentence by sentence", or wants to analyze or apply their personal writing voice.
 ---
 
 # Style Profile
@@ -9,6 +9,7 @@ description: Extract a user's writing style from text samples into a reusable st
 
 **Extract:** "Extract my writing style from this text" or "Build a style profile from ./blog-posts/*.md"
 **Apply:** "Rewrite this in my style" or "Write a blog post about X in my voice"
+**Refine:** "Go through this sentence by sentence — I'll approve or rewrite, then update the profile"
 
 ## Important
 
@@ -87,3 +88,45 @@ description: Extract a user's writing style from text samples into a reusable st
    - **Generate** ("write a...", "draft a...") — create new content in the style
    - **Critique** ("review this", "does this sound like me") — compare against profile, suggest edits
 3. Default conservative. Allow freer rephrasing when user signals latitude ("make this sound like me", "put in my voice").
+
+### Refine style (sentence-by-sentence)
+
+Use when the user has an existing `./STYLE_PROFILE.md` and wants to sharpen it against a fresh draft. Triggers: "go through this sentence by sentence", "I'll approve or rewrite", "refine my style profile", "tighten the profile against this".
+
+The core mechanic: **the user's rewrites are data, your verdicts are hypotheses.** Approvals reinforce existing profile entries. Rewrites correct or add to them.
+
+**Steps:**
+
+1. Read the existing `./STYLE_PROFILE.md`. If it doesn't exist, run the Extract workflow first instead — refine assumes you already have a hypothesis to test.
+
+2. Take the user's draft text. Do not paraphrase or summarize it back.
+
+3. **One sentence at a time.** For each sentence:
+   - Quote the original sentence verbatim
+   - Give a verdict: **sounds like you** (with which profile dimensions back it up) or **suggested tweak** (with the specific reason — which profile rule pushes the change)
+   - If suggesting a tweak, propose a concrete rewrite
+   - End with a short prompt: "Approve, or rewrite?"
+   - **Stop and wait.** Do not advance to the next sentence until the user responds.
+
+4. Read the user's response as one of:
+   - **Approval** ("yep", "approve", "sure", "its fine") — move to next sentence. No profile update needed; the existing rule held.
+   - **Rewrite** (any version of the sentence) — this is the signal. Note what changed and why in one line back to the user ("logged — connector instead of fragment, `for sure` as a tag"), then move on.
+   - **Question or pushback** — answer it before advancing.
+
+5. **Handle truncated input.** If a sentence is cut off mid-word, reconstruct a best-guess version using the existing profile's vocabulary and the surrounding logic. Mark it as a guess and let the user approve, rewrite, or replace.
+
+6. **At the end, fold findings into the profile.** Use Edit (not Write) to update the existing `./STYLE_PROFILE.md`:
+   - Update dimension descriptions where rewrites revealed a stronger or contradicting pattern
+   - Add new entries to Vocabulary (softeners, tags, recurring words) and Notes (quirks, things to avoid)
+   - Sharpen Latitude levels if the rewrites exposed a context split (e.g., reply-mode vs long-form behave differently for the same rule)
+   - Bump confidence levels where the pass added evidence
+   - Update the "Last updated" line with the date and a brief note on what was refined
+
+**What to log vs. what to skip:**
+- Log: rewrites, surprising approvals (where the user accepted something the profile didn't predict), patterns that repeat across multiple rewrites
+- Skip: routine approvals of already-documented patterns, one-off typos in rewrites (don't infer rules from a single instance unless it matches an existing trend)
+
+**Tone during the pass:**
+- Brief. One verdict per sentence, one-sentence reason. Don't lecture.
+- Cite the profile rule by name when proposing a tweak ("profile says em dashes are rare for you")
+- After a rewrite, log the signal in one line. Don't re-explain the whole rule.
