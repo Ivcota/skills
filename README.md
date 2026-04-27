@@ -89,10 +89,16 @@ npx skills@latest add Ivcota/skills/persona-to-product
 npx skills@latest add Ivcota/skills/hundred-million-leads
 ```
 
-**Value Equation Audit** — Score an offer, product, or feature against Hormozi's Value Equation. Rates each of the four levers (Dream Outcome, Perceived Likelihood, Time Delay, Effort & Sacrifice) 1-10 against a rubric, computes a composite value score, identifies the weakest lever, and produces a rung-by-rung path to 10/10.
+**Value Equation** — Apply Hormozi's Value Equation as a thinking tool against any artifact — offers, content, features, or ideas. Two modes: Evaluate scores an existing artifact across the four levers (Dream Outcome, Perceived Likelihood, Time Delay, Effort & Sacrifice), finds the weakest lever, and produces a path to 10/10. Create runs a lever-by-lever design interview that saves a brief to `./value-equation-briefs/<slug>.md`.
 
 ```bash
-npx skills@latest add Ivcota/skills/value-equation-audit
+npx skills@latest add Ivcota/skills/value-equation
+```
+
+**Grand Slam Offer** — Walk through Hormozi's $100M Offers workflow end-to-end to design an offer from scratch: Dream Outcome → Problems → Solutions → Trim & Stack → Bonuses → Guarantee → Scarcity & Urgency → Pricing → Naming. Produces a complete Offer Card (named, priced, bonus-stacked, guaranteed, with scarcity copy) ready to drop into a sales page.
+
+```bash
+npx skills@latest add Ivcota/skills/grand-slam-offer
 ```
 
 ## 4 — Build
