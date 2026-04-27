@@ -26,7 +26,7 @@ Ask both:
 1. **ICP** — "Who's this offer for? Be narrow — vertical, role, situation."
 2. **Dream Outcome direction** — "What outcome do they want? (Rough; we sharpen in Step 1.)"
 
-If user has no ICP, point to `validate-icp` or `jobs-to-be-done`, then proceed with whatever they bring. Never proceed silently with a generic ICP.
+If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Intake — ICP Selection` (three-market framework, sub-niche examples, three qualification gates), then proceed with whatever they bring. For deeper research, point to `validate-icp` or `jobs-to-be-done`. Never proceed silently with a generic ICP.
 
 ---
 

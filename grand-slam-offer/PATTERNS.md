@@ -6,6 +6,37 @@ The running example throughout is **weight loss for busy moms** — Hormozi's ca
 
 ---
 
+## Intake — ICP Selection *(book)*
+
+Hormozi's three-part framework for picking who to serve:
+
+**1. Start in one of the three primary markets:**
+- **Health** — weight, fitness, mental health, longevity
+- **Wealth** — business, investing, career, income
+- **Relationships** — dating, marriage, parenting, social skills
+
+These markets are permanent — people always want to be healthier, richer, and more loved. Sub-niche from one of these three.
+
+**2. Sub-niche until it's uncomfortable.**
+
+| ❌ Too broad | ✅ Narrow enough |
+|---|---|
+| "Freelancers" | "Solo B2B consultants billing under $10K/month stuck on referrals" |
+| "People who want to lose weight" | "Busy moms 35–50 who've tried diets before and failed" |
+| "Small businesses" | "Restaurant owners with 1–3 locations struggling to retain staff" |
+| "Coaches" | "Life coaches transitioning from 1-on-1 to group programs" |
+
+The narrower you go, the more a prospect feels *this was made for me* — and the more you can charge.
+
+**3. Your niche must pass three gates:**
+- **Burning problem** — not a nice-to-have; something they're actively trying to solve
+- **Money** — can they pay your target price? (B2B tends to outperform B2C here)
+- **Urgency** — are they looking right now, not "someday"?
+
+> *(book)* "A great offer to the wrong market still fails." Market selection comes before everything.
+
+---
+
 ## Step 1 — Dream Outcome
 
 **Strong vs weak (in customer's voice):**
