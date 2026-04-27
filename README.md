@@ -129,6 +129,12 @@ npx skills@latest add Ivcota/skills/user-story-mapping
 npx skills@latest add Ivcota/skills/e-myth-revisited
 ```
 
+**Theory of Constraints** — Diagnose system bottlenecks and prescribe interventions using Goldratt's Five Focusing Steps (Identify → Exploit → Subordinate → Elevate → Repeat), throughput accounting (T/I/OE), Drum-Buffer-Rope scheduling, and the four constraint types (physical, policy, market, paradigm). Produces a Constraint Diagnosis one-pager with a sequenced exploit→subordinate→elevate plan. Universal lens — works for software flow, sales pipelines, hiring, manufacturing, personal productivity.
+
+```bash
+npx skills@latest add Ivcota/skills/theory-of-constraints
+```
+
 ## 6 — Focus — what to do today
 
 **The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
