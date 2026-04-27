@@ -101,6 +101,12 @@ npx skills@latest add Ivcota/skills/value-equation
 npx skills@latest add Ivcota/skills/grand-slam-offer
 ```
 
+**$100M Money Models** — Design a *sequence* of offers — Attraction → Upsell → Downsell → Continuity — so 30-day gross profit per customer exceeds (CAC + cost-to-serve), turning credit-card float into client-financed acquisition. Where `grand-slam-offer` builds one offer, this skill chains five Attraction Offers (Win Your Money Back, Giveaways, Decoy, Buy X Get Y Free, Pay Less Now or Pay More Later), four Upsells (Classic, Menu, Anchor, Rollover), three Downsells (Payment Plan, Trial With Penalty, Feature), and three Continuity types (Bonus, Discount, Waived Fee) into one Money Model with the explicit CFA breakdown.
+
+```bash
+npx skills@latest add Ivcota/skills/hundred-million-money-models
+```
+
 ## 4 — Build
 
 **FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
