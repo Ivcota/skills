@@ -1,6 +1,8 @@
 # Skills
 
-Agent skills for Claude Code, organized by domain: **Product** (build the thing), **Craft** (sharpen yourself), **Business** (grow the company).
+Type `/grand-slam-offer`. Claude becomes Hormozi. Type `/zero-to-one`. Claude becomes Thiel. Every framework elite builders rely on — encoded as a single command, ready the moment you need it.
+
+Organized by domain: **Product** (build the thing), **Craft** (sharpen yourself), **Business** (grow the company).
 
 ## Install
 
@@ -31,11 +33,11 @@ npx skills@latest add Ivcota/skills/<skill-name>
 
 # Product & Engineering
 
-*Translate intent into shipped software.*
+*Ship the right thing the first time.*
 
 ## Discovery & scoping
 
-**User Story Mapping** — Apply Jeff Patton's User Story Mapping technique to build shared understanding and slice work into outcome-focused releases. Organizes the backlog as a two-dimensional grid (backbone + prioritized tasks) instead of a flat list, keeping the whole story visible while planning incremental delivery.
+**User Story Mapping** — Stop shipping features that don't connect to outcomes. Builds a 2D grid — backbone + tasks — so the whole team sees the story before committing to a sprint.
 
 ```bash
 npx skills@latest add Ivcota/skills/user-story-mapping
@@ -43,7 +45,7 @@ npx skills@latest add Ivcota/skills/user-story-mapping
 
 ## Modeling
 
-**Domain Storytelling** — Interview-driven DDD that maps stakeholder conversations to a domain model and generates pure domain layer code.
+**Domain Storytelling** — Build a domain model the business actually recognizes. Interview-driven DDD that maps stakeholder conversations directly to code — no translation layer, no guesswork.
 
 ```bash
 npx skills@latest add Ivcota/skills/domain-storytelling
@@ -51,7 +53,7 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 
 ## Delivery
 
-**FAAS** — Four-phase framework for shipping features: Find → ARCH → Automate → Specify-Test-Refine. Uses Responsibility-Driven Design and the 54321 layered architecture model.
+**FAAS** — Ship features without the mess. Four phases — Find → ARCH → Automate → Specify-Test-Refine — so every feature lands clean, tested, and maintainable.
 
 ```bash
 npx skills@latest add Ivcota/skills/faas
@@ -61,23 +63,23 @@ npx skills@latest add Ivcota/skills/faas
 
 # Craft
 
-*Cross-cutting skills that apply to product and business work alike.*
+*Think sharper than your tools.*
 
 ## Thinking
 
-**Align Mental Model** — Surface wrong beliefs before you act on them. Prediction-check loop with confidence calibration: you predict, rate your confidence, then see the truth — high-confidence-wrongs (the dangerous ones) get why-traced down to the root assumption. Three modes: codebase (verify against code), learning (verify against an authoritative source), planning (split present-reality from future-bets).
+**Align Mental Model** — Catch wrong beliefs before they cost you. Runs a prediction-check loop — predict, rate confidence, see the truth. High-confidence-wrongs get traced to the root assumption. Three modes: codebase, learning, planning.
 
 ```bash
 npx skills@latest add Ivcota/skills/align-mental-model
 ```
 
-**Feynman** — Deep-understand any concept by explaining it simply until all gaps are exposed and filled.
+**Feynman** — Find out what you actually understand. Explain any concept simply until every gap surfaces — then fill them.
 
 ```bash
 npx skills@latest add Ivcota/skills/feynman
 ```
 
-**The ONE Thing** — Narrow focus to extraordinary results using Gary Keller's Focusing Question, Goal Setting to the Now, and Time Blocking. Covers the Six Lies of success, the Three Commitments (Mastery, E→P, Accountability Cycle), and the Four Thieves of productivity.
+**The ONE Thing** — Stop splitting attention, start making real progress. Runs Keller's Focusing Question and Goal Setting to the Now to isolate the one move that makes everything else easier or unnecessary.
 
 ```bash
 npx skills@latest add Ivcota/skills/the-one-thing
@@ -85,13 +87,13 @@ npx skills@latest add Ivcota/skills/the-one-thing
 
 ## Learning
 
-**Bear Hunter System** — Encode complex material with 80-95% retention by building a causal GRINDE map through AIM → SHOOT → SKIN phases.
+**Bear Hunter System** — Actually remember what you learn. Builds a causal GRINDE map through AIM → SHOOT → SKIN so complex material sticks at 80–95% retention.
 
 ```bash
 npx skills@latest add Ivcota/skills/bear-hunter-system
 ```
 
-**Distill to Skill** — Turn a book, method, or framework into a Claude Code skill. Fans out citation-grounded sub-agents to extract frameworks, copy patterns, and case studies, then synthesizes against a strict template.
+**Distill to Skill** — Turn any book into a Claude skill. Fans out citation-grounded agents to extract the frameworks, patterns, and cases — then synthesizes them into an installable skill.
 
 ```bash
 npx skills@latest add Ivcota/skills/distill-to-skill
@@ -99,19 +101,19 @@ npx skills@latest add Ivcota/skills/distill-to-skill
 
 ## Voice
 
-**Style Profile** — Extract a style profile from writing samples and apply it to new content.
+**Style Profile** — Write in your voice, not Claude's. Extracts a style profile from your samples and applies it to any new content.
 
 ```bash
 npx skills@latest add Ivcota/skills/style-profile
 ```
 
-**Style to Skill** — Package an existing `STYLE_PROFILE.md` into a personal, invokable Claude Code skill (like `write-like-me`) so you can apply your voice anywhere without pointing at the source file.
+**Style to Skill** — Make your voice a reusable command. Packages your style profile into a personal skill so you can invoke it anywhere — no source file needed.
 
 ```bash
 npx skills@latest add Ivcota/skills/style-to-skill
 ```
 
-**Humanizer** — Remove signs of AI-generated writing from text. Detects and rewrites 29 patterns (significance inflation, AI vocabulary, em dash overuse, chatbot artifacts, filler phrases, and more). Supports voice calibration from a writing sample.
+**Humanizer** — Make AI-written text read like you wrote it. Detects and rewrites 29 AI patterns — significance inflation, em dash overuse, chatbot artifacts — with optional voice calibration from your own samples.
 
 ```bash
 npx skills@latest add Ivcota/skills/humanizer
@@ -121,29 +123,29 @@ npx skills@latest add Ivcota/skills/humanizer
 
 # Business
 
-*Customer, offer, pricing, distribution, operations.*
+*Build the machine that grows.*
 
 ## Strategy & idea selection
 
-**Office Hours** — Two modes for pressure-testing ideas: Startup mode asks hard questions, Builder mode helps you think through the details.
+**Office Hours** — Find the holes in your idea before the market does. Two modes: Startup (hard questions that expose fatal flaws) and Builder (think through the details).
 
 ```bash
 npx skills@latest add Ivcota/skills/office-hours
 ```
 
-**Zero to One** — Evaluate startup ideas against Peter Thiel's framework: the Contrarian Question, Monopoly vs Competition, Four Characteristics of Monopoly + Last Mover Advantage, Definite Optimism, the Power Law, Secrets, Foundations, Distribution, and the Seven Questions every business must answer.
+**Zero to One** — Find out if your startup is genuinely different or just a copy. Runs Thiel's full framework — Contrarian Question, Monopoly vs Competition, Seven Questions — and gives you a verdict.
 
 ```bash
 npx skills@latest add Ivcota/skills/zero-to-one
 ```
 
-**Millionaire Fastlane** — Score business ideas and wealth plans against MJ DeMarco's Fastlane framework: the three Roadmaps (Sidewalk, Slowlane, Fastlane), the CENTS / NECST commandments (Control, Entry, Need, Time, Scale), and the Wealth Equation (Net Profit + Asset Value). Distinguishes "Get Rich Quick" (real, process-driven) from "Get Rich Easy" (guru fantasy) and "Get Rich Slow" (40-year wager).
+**Millionaire Fastlane** — Score your wealth plan before it costs you a decade. Runs DeMarco's CENTS commandments and Wealth Equation to tell you if you're on the Sidewalk, Slowlane, or Fastlane.
 
 ```bash
 npx skills@latest add Ivcota/skills/millionaire-fastlane
 ```
 
-**Good Strategy / Bad Strategy** — Write, diagnose, and audit strategy using Richard Rumelt's Kernel (diagnosis, guiding policy, coherent action), the Four Hallmarks of Bad Strategy, and the Nine Sources of Power.
+**Good Strategy / Bad Strategy** — Stop mistaking goals for strategy. Runs Rumelt's Kernel — diagnosis, guiding policy, coherent action — and flags the four hallmarks of bad strategy before you commit to a direction.
 
 ```bash
 npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
@@ -151,19 +153,19 @@ npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
 
 ## Customer
 
-**Validate ICP** — Mine public communities (Reddit, HN, X, IndieHackers, Trustpilot, Discord, forums) for verbatim first-person pain quotes to prove an ICP exists before committing to interviews. Returns source-linked quotes, a named DM list, a reachability scorecard, and a VALIDATED / WEAK / NOT FOUND verdict.
+**Validate ICP** — Prove the market exists before you build. Mines Reddit, HN, X, and forums for verbatim pain quotes — then returns a VALIDATED / WEAK / NOT FOUND verdict with source links and a DM list.
 
 ```bash
 npx skills@latest add Ivcota/skills/validate-icp
 ```
 
-**Buyer Profile** — Create deep buyer psychology profiles that uncover real emotional drivers, fears, desires, and motivations behind purchasing decisions.
+**Buyer Profile** — Stop guessing why people buy. Builds a deep psychology profile — real emotional drivers, fears, and desires — so your copy and offer speak to the actual decision.
 
 ```bash
 npx skills@latest add Ivcota/skills/buyer-profile
 ```
 
-**Persona to Product** — Turn a buyer persona into ranked product and service ideas grounded in their real problems, failed solutions, and transformation desires.
+**Persona to Product** — Turn a buyer profile into ranked product ideas. Grounds each in real problems, failed solutions, and transformation desires — so you build what they'll actually pay for.
 
 ```bash
 npx skills@latest add Ivcota/skills/persona-to-product
@@ -171,19 +173,19 @@ npx skills@latest add Ivcota/skills/persona-to-product
 
 ## Offer & pricing
 
-**Value Equation** — Apply Hormozi's Value Equation as a thinking tool against any artifact — offers, content, features, or ideas. Two modes: Evaluate scores an existing artifact across the four levers (Dream Outcome, Perceived Likelihood, Time Delay, Effort & Sacrifice), finds the weakest lever, and produces a path to 10/10. Create runs a lever-by-lever design interview that saves a brief to `./value-equation-briefs/<slug>.md`.
+**Value Equation** — Find the lever killing your conversions. Scores any offer, feature, or content across Hormozi's four levers — Dream Outcome, Perceived Likelihood, Time Delay, Effort — and gives you a path to 10/10.
 
 ```bash
 npx skills@latest add Ivcota/skills/value-equation
 ```
 
-**Grand Slam Offer** — Walk through Hormozi's $100M Offers workflow end-to-end to design an offer from scratch: Dream Outcome → Problems → Solutions → Trim & Stack → Bonuses → Guarantee → Scarcity & Urgency → Pricing → Naming. Produces a complete Offer Card (named, priced, bonus-stacked, guaranteed, with scarcity copy) ready to drop into a sales page.
+**Grand Slam Offer** — Design an offer so good people feel stupid saying no. Runs Hormozi's full workflow — Dream Outcome through Pricing — and hands you a complete Offer Card ready for a sales page.
 
 ```bash
 npx skills@latest add Ivcota/skills/grand-slam-offer
 ```
 
-**$100M Money Models** — Design a *sequence* of offers — Attraction → Upsell → Downsell → Continuity — so 30-day gross profit per customer exceeds (CAC + cost-to-serve), turning credit-card float into client-financed acquisition. Where `grand-slam-offer` builds one offer, this skill chains five Attraction Offers (Win Your Money Back, Giveaways, Decoy, Buy X Get Y Free, Pay Less Now or Pay More Later), four Upsells (Classic, Menu, Anchor, Rollover), three Downsells (Payment Plan, Trial With Penalty, Feature), and three Continuity types (Bonus, Discount, Waived Fee) into one Money Model with the explicit CFA breakdown.
+**$100M Money Models** — Make acquisition self-funding. Chains Attraction → Upsell → Downsell → Continuity offers so 30-day gross profit exceeds CAC — turning credit-card float into client-financed growth.
 
 ```bash
 npx skills@latest add Ivcota/skills/hundred-million-money-models
@@ -191,21 +193,27 @@ npx skills@latest add Ivcota/skills/hundred-million-money-models
 
 ## Demand
 
-**$100M Leads** — Build a lead generation engine using the Core Four, lead magnets, and Lead Getters. Covers Rule of 100, Hook-Retain-Reward, and the advertising compounding model.
+**$100M Leads** — Stop hoping leads find you. Builds a lead engine using the Core Four, lead magnets, and Lead Getters — with the Rule of 100 and advertising compounding model built in.
 
 ```bash
 npx skills@latest add Ivcota/skills/hundred-million-leads
 ```
 
+**Breakthrough Advertising** — Write copy that doesn't try to create desire — it channels desire that already exists. Runs Schwartz's full diagnostic (mass desire × awareness state × sophistication stage) before a single word is written.
+
+```bash
+npx skills@latest add Ivcota/skills/breakthrough-advertising
+```
+
 ## Operations
 
-**E-Myth Revisited** — Build a small business that works without its owner. Applies Michael E. Gerber's Entrepreneur/Manager/Technician model, the Franchise Prototype, and the seven Business Development strategies (Primary Aim, Strategic Objective, Organizational, Management, People, Marketing, Systems).
+**E-Myth Revisited** — Stop being the bottleneck in your own business. Applies Gerber's Franchise Prototype and seven Business Development strategies to build a system that runs without you.
 
 ```bash
 npx skills@latest add Ivcota/skills/e-myth-revisited
 ```
 
-**Theory of Constraints** — Diagnose system bottlenecks and prescribe interventions using Goldratt's Five Focusing Steps (Identify → Exploit → Subordinate → Elevate → Repeat), throughput accounting (T/I/OE), Drum-Buffer-Rope scheduling, and the four constraint types (physical, policy, market, paradigm). Produces a Constraint Diagnosis one-pager with a sequenced exploit→subordinate→elevate plan. Universal lens — works for software flow, sales pipelines, hiring, manufacturing, personal productivity.
+**Theory of Constraints** — Stop optimizing the wrong thing. Runs Goldratt's Five Focusing Steps to find the one constraint limiting your entire system — then prescribes the exact intervention to break it.
 
 ```bash
 npx skills@latest add Ivcota/skills/theory-of-constraints
