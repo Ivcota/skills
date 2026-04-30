@@ -87,6 +87,12 @@ npx skills@latest add Ivcota/skills/the-one-thing
 
 ## Learning
 
+**Deep Learner** — Actually understand what you study, not just recognize it. Runs a 7-step Socratic framework — Anchor → Connect → Translate → Dissect → Stress Test → Evaluate → Build — so every concept gets pulled out of you, not poured in.
+
+```bash
+npx skills@latest add Ivcota/skills/deep-learner
+```
+
 **Bear Hunter System** — Actually remember what you learn. Builds a causal GRINDE map through AIM → SHOOT → SKIN so complex material sticks at 80–95% retention.
 
 ```bash
