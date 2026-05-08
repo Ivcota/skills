@@ -1,325 +1,276 @@
-# Case Studies: Lead Generation Engine Breakdowns
+# Case Studies — Worked Examples from $100M Leads
 
-Theory is only useful when applied. This reference provides detailed breakdowns of lead generation systems across six business types: SaaS, coaching/consulting, e-commerce, agency, local business, and info product. Each case study follows the same structure: context, original lead gen approach, redesigned system, and key lessons. These are composite examples drawn from common patterns in each industry.
-
-## Table of Contents
-1. [Case Study 1: SaaS -- CRM for Real Estate Agents](#case-study-1-saas-crm-for-real-estate-agents)
-2. [Case Study 2: Coaching -- Business Coach for Service Providers](#case-study-2-coaching-business-coach-for-service-providers)
-3. [Case Study 3: E-Commerce -- DTC Supplement Brand](#case-study-3-e-commerce-dtc-supplement-brand)
-4. [Case Study 4: Agency -- B2B Lead Generation Agency](#case-study-4-agency-b2b-lead-generation-agency)
-5. [Case Study 5: Local Business -- Dental Practice](#case-study-5-local-business-dental-practice)
-6. [Case Study 6: Info Product -- Freelance Copywriting Course](#case-study-6-info-product-freelance-copywriting-course)
-7. [Cross-Case Patterns](#cross-case-patterns)
+Every story below is one Hormozi tells in *$100M Leads* (Acquisition.com Publishing, 2023) to illustrate a framework. Page numbers refer to the PDF of the manuscript. Use these as evidence and as analogies when applying the frameworks — not as method.
 
 ---
 
-## Case Study 1: SaaS -- CRM for Real Estate Agents
+## Origin Stories
 
-### Context
-A B2B CRM specifically designed for real estate agents. 2,000 users on the free plan, 200 on paid ($79/month). Growth has stalled. Relying entirely on Google search ads for new users. CAC: $340. LTGP per paid customer: $620. Ratio: 1.8:1. Not sustainable.
+### The 2017 Disaster
 
-### Original Lead Gen Approach
-- Google Search ads targeting "real estate CRM"
-- Generic free trial (14 days, self-serve)
-- No content marketing
-- No outreach
-- No referral program
-- Marketing team: 1 person running ads
+In 2017 Hormozi's gym-launching business cratered: two consecutive launches generated $150,000 in customer refund demands. One gym owner stood on a chair mid-workout and told members to refund and go home. Another offered customers half price if they refunded Hormozi and paid him directly instead. On top of that, a fraudulent partner with a prior fraud indictment Hormozi already knew about emptied the company bank account during a separate launch, sent the funds offshore, and filed bankruptcy.
 
-### Redesigned System
+**Lesson:** "When money meets experience... the money gets the experience, and the experience gets the money." This is the rock-bottom that motivated the whole framework — the rest of the book is what Hormozi built to never be that exposed again.
 
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | Founder personally reaches out to existing free users | 50 messages/day |
-| **Content** | YouTube tutorials on "How to never lose a lead as a real estate agent" | 100 min/day content creation |
-| **Cold Outreach** | SDR sends personalized cold emails to agents at top brokerages | 100 emails/day |
-| **Paid Ads** | Meta ads targeting real estate agents, driving to lead magnet | $150/day |
-
-**Lead Magnet:** "The Real Estate Follow-Up Calculator" -- a free spreadsheet tool that shows agents how many deals they're losing by not following up. (Problem Revealer + Software delivery vehicle.) After seeing the revenue they're leaving on the table, the CTA: "Our CRM automates all of this."
-
-**Lead Getters:**
-- Customer referrals: "Refer an agent, both get 1 month free" (in-app prompt after 30 days)
-- Affiliate program: Partner with real estate coaches who recommend the CRM to their students (25% recurring commission)
-
-**Results after 6 months:**
-- CAC dropped from $340 to $95
-- LTGP:CAC ratio improved from 1.8:1 to 6.5:1
-- Paid users grew from 200 to 1,100
-- Referrals became 35% of new customers
-- YouTube channel driving 40% of free trial signups
-
-### Key Lessons
-- The free trial was a weak lead magnet -- the calculator (Problem Revealer) was 4x more effective
-- Cold outreach to agents at top brokerages had the highest close rate (they had budget)
-- YouTube content compounded: videos from month 1 still drive signups in month 6
-- Customer referrals were the lowest CAC channel ($12 per referred customer)
+*Citation: $100M Leads, "How I Got Here," pp. 14–19.*
 
 ---
 
-## Case Study 2: Coaching -- Business Coach for Service Providers
+### Hormozi's First Business (May 2013)
 
-### Context
-A business coach helping service providers (designers, consultants, freelancers) scale from $10K to $50K months. Currently selling 1-on-1 coaching at $500/month through Instagram DMs. Limited to 12 clients. No scalable lead gen. All leads come from sporadic Instagram posts.
+Launching his fitness coaching business as Impetus Group LLC ("The Free Training Project"), Hormozi had no idea how to advertise or sell. So he just messaged everyone he knew — calls, texts, Facebook DMs to phone and social contacts. Six people said yes: two high-school friends, one college friend, and three people they referred. After 12 weeks of free-for-charity training, those clients started paying him; their referrals brought five or six more paying clients. The business cleared ~$4,000/month and replaced his job income.
 
-### Original Lead Gen Approach
-- Posts on Instagram 3x/week (inconsistent quality)
-- Responds to DMs when they come in
-- No lead magnet
-- No outreach
-- No content strategy
-- No referral system
+**Lesson:** This is the original use of warm outreach, before Hormozi knew the term — proof that "1-to-1 to a Warm Audience" is the cheapest way to land your first five customers in any new business, even when you have no advertising or sales skill.
 
-### Redesigned System
-
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | ACA framework to Instagram followers and past clients | 100 DMs/day |
-| **Content** | Daily Instagram Reels + weekly YouTube long-form | 100 min/day |
-| **Cold Outreach** | (Deferred until warm outreach and content mastered) | -- |
-| **Paid Ads** | (Deferred until content producing organic leads) | -- |
-
-**Lead Magnet:** "The Revenue Bottleneck Assessment" -- a 10-question quiz that identifies the #1 constraint in their business (pricing, positioning, delivery, or lead gen). Results page includes personalized recommendations + CTA to book a free strategy call. (Problem Revealer + Software delivery vehicle.)
-
-**Lead Getters:**
-- Customer referrals: Ask every graduating client for 3 referrals on their last call
-- Strategic partnerships: Guest on 2 podcasts/month that serve the same audience
-
-**Content strategy (Hook-Retain-Reward):**
-- Hook: "Why you're stuck at $10K months (it's not what you think)"
-- Retain: Story of a client who was stuck, what they tried, what actually worked
-- Reward: The specific framework the client used + CTA to take the assessment
-
-**Results after 6 months:**
-- Leads grew from 3/month to 45/month
-- Launched group program ($5,000) alongside 1-on-1 ($3,000/month)
-- Revenue grew from $6,000/month to $42,000/month
-- Instagram grew from 2,000 to 18,000 followers
-- Quiz assessment converted at 38% opt-in rate
-
-### Key Lessons
-- Warm outreach using ACA framework produced immediate results (week 1)
-- The quiz lead magnet was the highest-converting asset because it was personalized
-- Content consistency (daily posting) created a compounding audience effect
-- Referrals from satisfied clients were the highest-quality leads (2x close rate vs. cold)
+*Citation: $100M Leads, "Warm Outreach," pp. 81–84.*
 
 ---
 
-## Case Study 3: E-Commerce -- DTC Supplement Brand
+### Selling Gym Launch as a Lead Magnet
 
-### Context
-A direct-to-consumer protein supplement brand. Selling on Shopify. $150K/month in revenue. 90% of sales from Meta ads. CPL: $8. CAC: $45. LTGP: $95. Ratio: 2.1:1. Need to diversify lead sources and improve ratio.
+After the 2017 disaster, Hormozi pivoted from running gym launches *for* gym owners to selling gym owners the *system* itself. Boise was first: $6,000 for one gym to license the system. Then $8,000. Then $10,000. Eight planned launches converted 8-of-8. "In a single day, I collected $60,000 selling something with zero cost to fulfill." Net 30-day result: $215,000 profit. Average client added $30,000 in cash in their first 30 days using the system.
 
-### Original Lead Gen Approach
-- Meta ads driving directly to product pages
-- No lead magnet
-- No email nurture sequence
-- No content strategy
-- No referral program
-- No affiliate program
+**Lesson:** Sell the system, not the service. When the work that produced the result is more valuable than the result itself, the lead magnet *is* the business. This is the move from operator to multiplier.
 
-### Redesigned System
-
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | Email reactivation to past customers who haven't purchased in 60+ days | 50 personalized emails/day |
-| **Content** | TikTok + Instagram Reels: fitness tips, protein myths, recipe videos | 100 min/day |
-| **Cold Outreach** | DMs to fitness influencers for partnerships | 30 DMs/day |
-| **Paid Ads** | Meta + TikTok ads driving to lead magnet (not directly to product) | $200/day |
-
-**Lead Magnet:** "The 7-Day Protein Challenge" -- a free email course with daily recipes, workout tips, and a protein timing guide. Day 7 email includes a 20% discount on a protein starter bundle. (One Step + Information delivery vehicle.)
-
-**Lead Getters:**
-- Customer referrals: Post-purchase card in every shipment: "Share with a friend and you both get 15% off"
-- Affiliate program: Fitness influencers earn 20% commission. White-label lead magnet: influencers share a branded version of the 7-Day Challenge with their audience.
-- UGC program: Customers who post content with the product get featured and receive free products
-
-**Results after 6 months:**
-- Revenue grew from $150K to $310K/month
-- CAC dropped from $45 to $28
-- LTGP:CAC ratio improved from 2.1:1 to 3.4:1
-- Email list grew from 5,000 to 45,000
-- TikTok content driving 25% of new customers
-- Affiliate sales: $40K/month (zero ad spend)
-- Customer referrals: 18% of new orders
-
-### Key Lessons
-- Running ads to a lead magnet (7-Day Challenge) instead of directly to the product cut CAC by 38%
-- TikTok content compounded: viral recipe videos drove sustained organic traffic
-- The white-label lead magnet was the key to activating affiliates -- they shared it because it was valuable and branded to them
-- Customer referral cards in physical shipments outperformed digital referral prompts 3:1
+*Citation: $100M Leads, "How I Got Here," pp. 26–28.*
 
 ---
 
-## Case Study 4: Agency -- B2B Lead Generation Agency
+## Lead Magnet Cases
 
-### Context
-A B2B lead gen agency serving SaaS companies. 12 clients at $4,000/month retainer. Growth stalled. All new clients come from the founder's personal network (warm outreach only). No scalable lead gen for the agency itself -- the cobbler's children have no shoes.
+### The Webinar → Case Study Pivot
 
-### Original Lead Gen Approach
-- Founder's personal network and referrals (warm outreach only)
-- Sporadic LinkedIn posts (2-3/month)
-- No cold outreach
-- No paid ads
-- No lead magnet
-- No structured referral program
+Hormozi paid $25,000 to be in a mastermind. His mentor told him: "Do a webinar every week until you make a million dollars. Until then, don't ask me about anything else." He spent eight Sundays building the webinar, ran $450 in ads, got 80 leads — and zero sales. Nobody watched. Then he saw a competing ad: "Free Case Study on How I Spent $1 and Made $123,000 in a Weekend." He killed the webinar, recorded a 13-minute screen-share walkthrough of one gym's actual ad account, and ran it under the headline: *"FREE Case Study: How we added 213 members and $112,000 in revenue to a small gym in San Diego."* The calendar booked solid overnight.
 
-### Redesigned System
+**Lesson:** "Spend your time testing the offer rather than perfecting an untested product." They didn't want his webinar; they wanted his case study. When zero sales happen, the answer is almost never "build more product."
 
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | Founder re-engages all LinkedIn connections with ACA framework | 50/day |
-| **Content** | LinkedIn posts (daily) + bi-weekly YouTube case study videos | 100 min/day |
-| **Cold Outreach** | SDR sends cold emails to VP Marketing at SaaS companies ($5M-$50M) | 100 emails/day |
-| **Paid Ads** | LinkedIn ads targeting SaaS marketing leaders, driving to lead magnet | $100/day |
-
-**Lead Magnet:** "The SaaS Lead Gen Audit" -- a free 15-minute audit of any SaaS company's current lead gen setup with a personalized report. (Problem Revealer + Services delivery vehicle.)
-
-**Lead Getters:**
-- Customer referrals: Quarterly "case study + referral" call with every client. Celebrate results and ask for introductions.
-- Strategic partnerships: Partner with SaaS consultants who refer clients needing lead gen help (10% revenue share for 6 months)
-- Employee: Hired 1 SDR to execute cold outreach, trained using founder's process
-
-**Cold email approach:**
-- Subject: "Quick thought on [Company]'s lead gen"
-- Personalization: Reference a specific recent initiative (product launch, funding round, job posting for marketing role)
-- Value: Include 1-2 specific observations about their current approach
-- CTA: "Happy to share the full audit -- takes 15 minutes. Worth it?"
-
-**Results after 6 months:**
-- Clients grew from 12 to 28
-- Monthly retainer revenue: $112K (up from $48K)
-- Cold outreach generated 8 of 16 new clients
-- LinkedIn content generated 4 new clients (inbound inquiries)
-- Referrals generated 3 new clients
-- LinkedIn ads generated 1 new client (lowest volume but highest deal size)
-
-### Key Lessons
-- The agency was great at lead gen for clients but had no system for itself -- the redesign applied their own methodology
-- Cold outreach with a personalized audit offer had the highest conversion rate (the audit was the product demo)
-- LinkedIn content established authority and made cold outreach warmer (prospects checked the founder's profile before responding)
-- The SDR hire paid for itself in month 2 (generated 3 clients from cold outreach alone)
+*Citation: $100M Leads, Section II "Engage Your Leads," pp. 35–40.*
 
 ---
 
-## Case Study 5: Local Business -- Dental Practice
+### The Book Itself
 
-### Context
-A dental practice in a mid-size city. 800 active patients. Relying on location and word-of-mouth for new patients. 15-20 new patients per month. Goal: 40+ new patients per month to justify opening a second location.
+Hormozi A/B-tested the title and subhead of *$100M Leads* via Instagram polls before committing. Round I: $100M Advertising 69% vs. $100M Promotion 31% — Advertising won. Round II: $100M Advertising 42% vs. $100M Leads 58% — Leads won. Round III: $100M Marketing 46% vs. $100M Leads 54% — Leads won. He ran a separate poll to pick the cover (real cover vs. cartoon cover), and four poll rounds for the subheadline. Winning subhead: "How to get strangers to want to buy your stuff." The losing version was identical except missing two words: "how to."
 
-### Original Lead Gen Approach
-- Google Business Profile (maintained but not optimized)
-- Occasional Facebook posts (1-2/month, staff photos)
-- Word of mouth (unstructured, no prompts)
-- No lead magnet
-- No outreach
-- No paid ads
+**Lesson:** Test what to name it. The headline is ~80 cents of the dollar (Ogilvy). Don't trust your taste — let the audience pick. "Small changes can make big differences."
 
-### Redesigned System
-
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | Front desk calls patients due for checkups. Post-visit follow-up texts. | 50 calls/day |
-| **Content** | TikTok/Instagram Reels: "Things your dentist wants you to know" + Google Business posts | 100 min/day |
-| **Cold Outreach** | Direct mail to new homeowners in 5-mile radius | 100 mailers/week |
-| **Paid Ads** | Google Local + Meta ads targeting residents within 10 miles | $100/day |
-
-**Lead Magnet:** "Free Smile Assessment + $100 Off Your First Visit" -- new patients book a free consultation that includes X-rays and a personalized treatment plan. (Problem Revealer + Services delivery vehicle.)
-
-**Lead Getters:**
-- Patient referrals: "Refer a Friend" cards handed to every patient after a positive visit. Both get $50 credit.
-- Local partnerships: Partner with orthodontists, pediatricians, and gyms to cross-refer patients (reciprocal referrals)
-- Employee: Trained receptionist to ask every patient at checkout: "Is there anyone in your family who needs a dentist?"
-
-**Results after 6 months:**
-- New patients grew from 18/month to 52/month
-- Patient referral cards generated 15 new patients/month (highest source)
-- Google ads generated 12 new patients/month
-- Social media content generated 8 new patients/month (mostly from TikTok)
-- Direct mail generated 5 new patients/month
-- Reactivation calls brought back 12 lapsed patients/month
-
-### Key Lessons
-- Patient referral cards were the single highest-ROI channel -- the practice had never systematically asked for referrals
-- Reactivation calls to lapsed patients (people who hadn't visited in 12+ months) produced immediate results
-- TikTok content (dental tips, myth-busting) attracted younger demographics the practice had struggled to reach
-- Google Local ads had the highest intent (people searching "dentist near me" are ready to book)
+*Citation: $100M Leads, "Step 4: Test what to name it," pp. 59–64.*
 
 ---
 
-## Case Study 6: Info Product -- Freelance Copywriting Course
+### $100M Offers Multi-Format
 
-### Context
-An online course teaching aspiring copywriters how to land freelance clients. $497 course, self-paced. 20-30 sales per month from organic Instagram traffic. No other lead sources. Creator posts daily on Instagram but is plateauing at 12,000 followers.
+When Hormozi released *$100M Offers*, he made it available as ebook, paperback, audiobook, and video. The format split came in near-perfect quarters: roughly ¼ ebook / ¼ physical / ¼ audio / ¼ video. Single-format publishing would have lost three to four times the leads — same writing, same ad spend, but fewer people willing to consume the format on offer.
 
-### Original Lead Gen Approach
-- Daily Instagram posts and stories
-- Occasional Instagram Lives
-- Link in bio to sales page
-- No lead magnet
-- No email list
-- No outreach
-- No ads
+**Lesson:** "Make it easy to consume." Multi-format is 2–4x the leads for the same unit of work. Anyone publishing a single format is leaving the majority of the audience uncaptured.
 
-### Redesigned System
-
-**Core Four deployment:**
-
-| Method | Implementation | Daily Volume |
-|--------|---------------|-------------|
-| **Warm Outreach** | DMs to engaged followers who comment on posts about freelancing struggles | 50 DMs/day |
-| **Content** | Instagram + YouTube (long-form tutorials) + email newsletter | 100 min/day |
-| **Cold Outreach** | (Deferred -- not ideal for info product B2C) | -- |
-| **Paid Ads** | Meta ads retargeting warm audience + lookalike audiences, driving to lead magnet | $100/day |
-
-**Lead Magnet:** "5-Day Email Course: Land Your First Copywriting Client" -- a free email series. Day 1: pick your niche. Day 2: create your portfolio (with template). Day 3: find prospects. Day 4: send your first outreach (with script). Day 5: close the deal + CTA for full course. (One Step + Information delivery vehicle.)
-
-**Lead Getters:**
-- Student referrals: Students who land their first client get a "success package" (badge, feature on the Instagram, $50 credit) + prompted to share with aspiring copywriter friends
-- Affiliate program: Writing bloggers and freelance YouTubers earn 40% commission ($199 per sale)
-- Guest content: Bi-weekly guest posts on popular freelancing blogs driving to the lead magnet
-
-**Content strategy:**
-- Instagram: Short-form tips, behind-the-scenes of copywriting work, student success stories
-- YouTube: Long-form tutorials ("How I'd land 5 copywriting clients in 30 days starting from scratch")
-- Newsletter: Weekly deep-dive on one copywriting or freelancing topic
-
-**Results after 6 months:**
-- Email list grew from 0 to 28,000 subscribers
-- Course sales grew from 25/month to 110/month
-- Revenue grew from $12,500/month to $54,700/month
-- YouTube became the #1 lead source (40% of email opt-ins)
-- Affiliate sales: 20% of total revenue
-- Email nurture sequence converts at 2.8% from subscriber to buyer
-
-### Key Lessons
-- The 5-Day Email Course was a breakthrough -- Instagram followers who wouldn't buy directly converted after receiving 5 days of free value
-- YouTube long-form content attracted a different (and more committed) audience than Instagram short-form
-- Building an email list was the single most impactful change -- the creator now "owns" the audience instead of depending on Instagram's algorithm
-- Affiliates in adjacent niches (freelancing, writing) brought in buyers the creator could never have reached alone
+*Citation: $100M Leads, "Step 5: Make it easy to consume," p. 66.*
 
 ---
 
-## Cross-Case Patterns
+## Volume / Open-To-Goal Cases
 
-Across all six case studies, the same patterns emerge:
+### The Flyer Parable
 
-| Pattern | Frequency | Impact |
-|---------|-----------|--------|
-| Added a lead magnet (didn't have one before) | 6/6 | Dramatically improved conversion from stranger to lead |
-| Applied Rule of 100 to at least one Core Four method | 6/6 | Consistent daily effort produced compounding results |
-| Activated customer referrals (weren't asking before) | 6/6 | Lowest CAC channel in every case |
-| Started with 1-2 Core Four methods, not all 4 | 6/6 | Focus produced faster mastery and results |
-| Content compounded over time | 5/6 | Older content continued generating leads months later |
-| Added at least one Lead Getter channel | 6/6 | Broke through the scaling ceiling of doing everything yourself |
-| Lead magnet was a Problem Revealer | 4/6 | Problem Revealers had the highest engagement and conversion |
-| CAC decreased while lead volume increased | 6/6 | Better systems + compounding = efficiency gains |
+June 2014. Hormozi printed 300 flyers and put them out. Zero leads (and one person who claimed his Mercedes had been scratched). He called his mentor. The mentor's response: *"You only put out 300? I test with 5,000. Then when we find a winner, we put out 5,000 per day, every day, for a month. If we get half a percent, that's decent. If we get one percent, that's a winner."*
+
+**Lesson:** "I was doing 1/1500th the level of effort required to make a flyer campaign work — I just didn't know it." Effort is the variable to suspect *first*, not last. Most failed campaigns aren't broken on the offer or the copy; they're broken on volume.
+
+*Citation: $100M Leads, "Open To Goal," pp. 364–365.*
+
+---
+
+### The Gym Sales Manager
+
+A successful gym chain let its sales managers write their own schedules — but with one rule: sign up five new members per day no matter what. If they hit it by lunch, they could leave. If it took 18 hours, so be it. They called this work mode "open-to-goal."
+
+**Lesson:** Commit to the *outcome*, not the input. The Rule of 100 says do 100 reach-outs per day; Open-To-Goal says do whatever it takes today to land *N* customers, full stop. Elite operators run on the second mode because it unlocks "a whole new level of effort you never even realized you had."
+
+*Citation: $100M Leads, "Open To Goal," p. 366.*
+
+---
+
+### The Tweet/Reach-Out Reframe
+
+Someone tells Hormozi: "I reached out to 100 people over the last six weeks, I only got one customer, it doesn't work." Hormozi's response, verbatim: "You did 1/42 of the amount of work required. It was 100 per day, not 100 over time."
+
+**Lesson:** Daily concentration beats spread-out volume. The Rule of 100 is *100 per day for 100 days*, not 100 ever. Spreading the same number across six weeks is doing 1/42 the work the rule prescribes.
+
+*Citation: $100M Leads, "Open To Goal," p. 365.*
+
+---
+
+## Cold Outreach Volume Math
+
+### The 801 → 21 Funnel Screenshot
+
+Hormozi reproduces a real screenshot from a portfolio company's cold email tooling: 801 contacts emailed → 428 opened (53%) → 48 replied (6%) → 21 opportunities. That's a single ~3% conversion from cold contact to opportunity, achieved with a personalized list and a tested message.
+
+**Lesson:** Cold email's target is roughly 3% of your list turning into engaged leads. If you're under that, the script or the list is wrong; if you're over it, scale immediately. The numbers are knowable; cold outreach is a math problem, not a creativity problem.
+
+*Citation: $100M Leads, "Cold Outreach," p. 181.*
+
+---
+
+### VA at $20K/Customer Business
+
+Hormozi's belief-breaking volume reference: in one of his businesses where each customer was worth $20,000, a single VA armed with the right software stack sent 2,000 emails per day. That generated 40 engaged leads per day, which converted to 4 customers per day. One person. One workflow.
+
+**Lesson:** Volume looks impossible until you see the unit economics. Don't set a daily cold-outreach goal below 100. And on a high-ticket product, the only ceiling on cold outreach is your willingness to let one person send four-figure-volumes per day.
+
+*Citation: $100M Leads, "Cold Outreach," Author Note, p. 187.*
+
+---
+
+### Cold Outreach Unit Economics
+
+Hormozi's worked example for cold outreach unit cost: a rep paid $15/hour + $50/show calls 200 leads/day and books ~2 shows/day → fully loaded cost is $120 per show → at a 33% close rate, that's $360 per closed customer. With $3,600 of profit per customer, that's a **10:1 LTGP:CAC return**. He also reports tuned operations hitting "over 30:1." The threshold below which a business he invests in struggles to scale: LTGP:CAC under 3:1.
+
+**Lesson:** Cold outreach is for higher-ticket products, because the rep cost only pencils when each customer is worth multiples of the show cost. Build the unit economics on paper before you hire the first SDR.
+
+*Citation: $100M Leads, "Cold Outreach," pp. 180–183; also "Run Paid Ads Part II," p. 222.*
+
+---
+
+## Paid Ads Cases
+
+### First Ad: Chino Hills 6-Week Challenge
+
+Hormozi's first paid ad ever, written for his own gym: *"I'M LOOKING FOR 5 CHINO HILLS RESIDENTS TO TAKE PLACE IN A FREE 6 WEEK CHALLENGE."* The structure is his all-time favorite verbal callout pattern: **LOCAL AREA + TYPE OF PERSON**. Specificity scales: Americans < Texans < Dallas Residents < Irving Residents. The more specifically your label names someone, the more their cocktail-party-effect attention triggers.
+
+**Lesson:** Your headline's job is to make the right person notice. Naming the city + the avatar in the same line is a 200-year-old pattern that still wins. "Worked two hundred years ago, works today, will work tomorrow."
+
+*Citation: $100M Leads, "Run Paid Ads Part I," pp. 190, 198.*
+
+---
+
+### The "Six Inches From Gold" Story
+
+A business in Hormozi's orbit spent $150,000 testing paid ads, decided ads "didn't work," and shut everything down. The owner refused to look at his own sales floor — where Hormozi later discovered the engaged leads were arriving healthy and the *closing* was broken. By giving up, the owner forfeited what Hormozi estimates was $30M in enterprise value, "six inches from gold."
+
+**Lesson:** Confusing a sales problem with an advertising problem is the most expensive diagnostic mistake there is. Diagnostic question: "Do my engaged leads have the problem I solve and the money to spend?" If yes, your ads work — fix sales, not creative.
+
+*Citation: $100M Leads, "Run Paid Ads Part II," p. 230.*
+
+---
+
+## More Better New Cases
+
+### The "Saturated" Chiropractor
+
+A chiropractor in a Hormozi Q&A doing $2M/yr at $30K/month on one platform claimed his market was saturated. He wasn't making content. Wasn't doing cold outreach. Meanwhile a peer in the same niche spent $30K *per week* across four platforms. The chiropractor was advertising on roughly 1/16th of the available surface area and calling that the whole market.
+
+**Lesson:** The Size of the Pie Fallacy in action. Most "saturated" markets are saturated *for the slice you happen to be advertising in*. Before you believe a niche is full, count the platforms, the placements, and the volume — yours and your most-aggressive competitor's.
+
+*Citation: $100M Leads, "Core Four On Steroids: More Better New," pp. 234–236.*
+
+---
+
+### The Weight-Loss Entrepreneur Afraid of Saturation
+
+Another Q&A: a weight-loss entrepreneur at $3M/yr afraid that pushing past $40K/month in ad spend would saturate his platform. Hormozi's response was one word: "Silly." That platform had ~1 billion daily active users. The US weight-loss market alone is ~$60B. The entrepreneur's spend was so far from the platform's ceiling that "saturation" wasn't a coherent concept.
+
+**Lesson:** "Saying 'I'm as big as I can get' is much easier than saying 'I'm not as good at advertising as I thought.'" Saturation is almost always a story we tell ourselves to avoid the work of "more."
+
+*Citation: $100M Leads, "Core Four On Steroids: More Better New," pp. 236, 242.*
+
+---
+
+### Funnel Constraint Worked Example
+
+A 3-step funnel: 30% optin → 5% apply → 50% schedule. Add a 5-percentage-point absolute lift to each step independently:
+
+| Step | Before → After | Lead lift |
+|---|---|---|
+| Optin | 30% → 35% | 1.16x |
+| Apply | 5% → 10% | **2.0x** |
+| Schedule | 50% → 55% | 1.10x |
+
+The smallest-percentage step is the constraint. A 5-point lift on the 5% step doubles the whole funnel; the same lift on the 50% step barely moves it.
+
+**Lesson:** "Focus on the constraint." Find the step where the most leads drop off and concentrate testing there. The smallest improvement at the bottleneck creates the biggest boost in results.
+
+*Citation: $100M Leads, "Core Four On Steroids: More Better New," pp. 240–241.*
+
+---
+
+### Hormozi's Channel Stack Across Businesses
+
+One page from More Better New summarizes which two-of-the-Core-Four each Hormozi business ran on:
+
+- **First business (fitness coaching, 2013)** — content + warm outreach
+- **Gyms (his own gyms)** — content + paid ads
+- **Gym Launch** — paid ads + cold outreach
+- **Prestige Labs** — affiliates
+- **ALAN** — paid ads + affiliates
+- **Acquisition.com** — content
+
+His commentary: *"They all work if you do."*
+
+**Lesson:** You don't need all four. You need to pick a viable two and max them out. Different businesses settle on different pairs depending on ticket size, audience, and what's already working.
+
+*Citation: $100M Leads, "Core Four On Steroids: More Better New," p. 248.*
+
+---
+
+## Lead Getter Cases
+
+### Half-of-Sales-from-Referrals Salesman
+
+A salesman became the top performer in his organization with one habit: he asked for referrals at the moment of signup. Every contract, every checkout, he asked for names and phone numbers of people the buyer would like to do this with. Half of his sales came from referrals.
+
+**Lesson:** "Not 'If' But 'Who.'" Ask at the point of sale, while goodwill is at peak. Don't ask whether they know someone — ask who. The customer's lasting impression of a business forms within the first 48 hours, so the ask belongs inside that window.
+
+*Citation: $100M Leads, "Customer Referrals," p. 275.*
+
+---
+
+### Hormozi's Own Referral Discovery (Level 4)
+
+This is the moment Hormozi's roadmap calls Level 4. He noticed that his ads had been shut off for a stretch — and he was still getting referrals every week. So he doubled down: he built a strong referral program with big incentives, and he updated his product every two weeks based on customer feedback. The referrals weren't accidental — they were the output of a deliberate goodwill investment.
+
+**Lesson:** Referrals are exponential where Core Four inputs are linear. Once you can get 25%+ of new customers from referrals, you've earned the right to scale ads with a bigger team. Warning attached: this is also "where most people mess up — they let their product slip and never recover."
+
+*Citation: $100M Leads, "The Roadmap," Level 4, pp. 374–375.*
+
+---
+
+### Prestige Labs Affiliate Launch
+
+Hormozi launched Prestige Labs to affiliates and got a $150,000 spike — then nothing. He relaunched with proper integration (affiliates building Prestige into their core offer instead of just blasting it once) and got $450,000, but more importantly, *recurring* revenue rather than a one-shot.
+
+**Lesson:** Integration matters more than launch spike. An affiliate launch without integration is a one-time event. Integration is "the long-term strategy for using affiliates to get enduring lead flow" — affiliates either give away your lead magnet alongside their core offer, sell your lead magnet, or sell your core offer directly.
+
+*Citation: $100M Leads, "Affiliates and Partners," pp. 316, 333–334.*
+
+---
+
+### The Skill-Transfer Agency Deal
+
+Hormozi's founding agency deal: $6,000 and 8 hours, in exchange for explicit skill transfer. He went to an agency and said *"I want to do what you do in my business, but I don't know how. I'd like to work with you for 6 months so I can learn how you do it. Plus, I'll pay extra for you to break down why you make the decisions you do… Then I'd like to change to a lower-cost consulting arrangement."* That $6K conversation taught him a skill that "made me millions."
+
+**Lesson:** Hire agencies with a purpose and a deadline. Negotiate for knowledge transfer up front and a sunset clause to consulting. Pay *more* in exchange for the agency explaining its decisions, not just executing. The framing is win-win: they get a customer, you get a skill for life.
+
+*Citation: $100M Leads, "Agencies," pp. 309, 314.*
+
+---
+
+### Hire-Experience-Not-Potential
+
+Hormozi's Level 6 Pro Tip is built on a personal lesson. He tried to launch cold outreach in his portfolio twice. Both failures had one thing in common: he hired people without cold-outreach experience and tried to develop them. The third hire was a veteran who already knew the channel, and cold outreach finally succeeded.
+
+**Lesson:** "Pick experience. They should know more than you do. **If you're not learning from them in the interview, you've got the wrong person.**" The compounding cost of hiring potential for a channel you don't yet know is months of false negatives and a wrongly-discarded channel.
+
+*Citation: $100M Leads, "The Roadmap," Level 6 Pro Tip, p. 376.*
+
+---
+
+## How to Use These Cases
+
+These are evidence, not method. When you're applying a framework from this skill, the case studies serve three purposes:
+
+1. **Sanity-check the diagnosis.** If a user says "my market is saturated," the chiropractor and weight-loss entrepreneur cases name the fallacy directly and force them to count.
+2. **Calibrate volume.** The flyer parable, the gym sales manager, and the 1/42 reframe are the cleanest references for resetting effort expectations.
+3. **Defuse perfectionism.** The webinar-to-case-study pivot is the canonical "stop perfecting an untested product" story; the book-title polls show even Hormozi tests instead of trusting his taste.
+
+Cite the page number when you use a case so the user can verify it in the source.

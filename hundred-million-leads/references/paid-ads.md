@@ -1,202 +1,262 @@
-# Paid Ads: Buying Attention at Scale
+# Run Paid Ads — Anatomy, What-Who-When, and Money Math
 
-Paid advertising is spending money to show your message to targeted strangers at scale. It is the fastest of the Core Four -- you can have leads within hours of launching a campaign. It is also the most scalable -- there is no ceiling on how many people you can reach, only a ceiling on how much you can profitably spend. The key is systematic testing, disciplined budgeting, and ruthless scaling of winners.
+Expansion of SKILL.md Section 5. Source: Alex Hormozi, *$100M Leads* (2023), Chapters "Run Paid Ads Part I: Making An Ad" and "Run Paid Ads Part II: Money Stuff," approx. PDF pp. 188–233.
 
-## Getting Started with Paid Ads
+---
 
-### Step 1: Pick a Platform
+## What Paid Ads Are (and Why They Come Last)
 
-Choose the platform where your ideal customers spend time and where you can target them precisely.
+Paid ads are the fourth quadrant of Hormozi's Core Four: the **public, one-to-many** way to advertise to people who *don't* know you. He defines them plainly — "Paid ads are a way to advertise one-to-many to cold audiences. People who don't know you. Paid ads work by paying another person or business to put your offer in front of *their* audience" (p. 191). The mental model is renting eyeballs (or "earballs") that someone else has already gathered.
 
-| Platform | Best For | Targeting Strength | Min Budget |
-|----------|---------|-------------------|-----------|
-| **Meta (Facebook/Instagram)** | B2C, e-commerce, local, coaching | Interest, behavior, lookalike | $100/day |
-| **Google Search** | High-intent buyers searching for solutions | Keyword intent | $100/day |
-| **LinkedIn** | B2B, professional services, SaaS | Title, company, industry, seniority | $100/day |
-| **YouTube** | Education, coaching, SaaS, long-form | Interest, search, remarketing | $100/day |
-| **TikTok** | B2C, younger audiences, mass awareness | Interest, behavior, lookalike | $50/day |
-| **Google Display** | Retargeting, brand awareness | Remarketing, placement | $50/day |
+Where warm outreach uses your own list, free content depends on a platform sharing you, and cold outreach burns labor to reach strangers privately, paid ads convert money directly into reach. Hormozi places paid ads deliberately at the end of the Core Four because the other three are cheap school-tuition for the skills you'll need here. "I recommend doing paid ads *last* for two reasons. First, skills from the other three methods transfer to this one. And second, paid ads cost money. Money you will have if you start with the other three methods first" (p. 233).
 
-### Step 2: Begin with Narrow Targeting
+The chapter epigraph crystallizes the framing: "Advertising is the only casino where, with enough skill, you become the house" (p. 188). Paid ads are a game of *efficiency* — buying a dollar's worth of attention and selling it for two — not a game of creativity or art. Part II opens with Proposition Joe from *The Wire*: "I'm just trying to buy a dolla' and sell it for two" (p. 217).
 
-Call out your target customer directly. The more specific your targeting and messaging, the higher your relevance and conversion rate.
+---
 
-**Bad:** "Grow your business with our software"
-**Good:** "SaaS founders at $1M-$5M ARR: cut your churn rate in half"
+## Mechanism: Reach Is Guaranteed, Profit Is Not
 
-### Step 3: Set Up Profit Tracking
+Hormozi's thesis on paying-to-reach-strangers rests on three claims.
 
-Before spending a dollar, ensure you can track:
-- Cost per lead (CPL)
-- Cost per acquisition (CPA)
-- Revenue per customer
-- LTGP:CAC ratio
+**1. Reach is guaranteed; profit is not.** "The reach is *guaranteed*. But getting your money back isn't. So it's a game of efficiency rather than reach" (p. 191). In principle, infinite money buys infinite reach — so the question is never "do ads work?" but "how *well* can you make them work?"
 
-Without tracking, you're gambling, not advertising.
+**2. Cold audiences respond at low percentages, so the fix is volume + targeting.** "Like cold outreach, paid ads go to colder lower trust audiences. So even with good offers, a smaller percentage of people will respond... if an ad isn't profitable, most of the time, it's because the right people *never saw it*" (p. 192).
 
-### Step 4: Test Different Ads
+**3. Efficiency comes from *narrowing* the haystack — and from repulsion.** "I start with the entire world as my audience (haystack) then narrow down to get a higher percentage of engaged leads (needles). First, I pick a platform that contains my ideal audience. Second, I use whatever targeting methods... Third, I craft my ad in a way that *repels* anyone else. Finally, I tell whoever's left standing to take the next step" (p. 192). Repulsion is a feature: a good ad actively scares off the wrong people so the platform stops showing it to them.
 
-Run multiple ad variations to find winners. Most ads will fail. That's expected. Your job is to find the 1-in-10 that works.
+The compounding move is to win small first, then scale. "Once we advertise profitably in a small puddle of an audience, we expand to a pond, then a lake, then an ocean" (p. 192). Efficiency drops as you scale, but absolute profit rises — "$1000 to make $10,000... vs. $100,000 to make $300,000... Your ratio goes down, but you make more money" (p. 192).
 
-### Step 5: Scale the Winners
+---
 
-When you find an ad that produces leads profitably, increase spend aggressively. "100x down" on winners.
+## Ad Anatomy — Three Chunks
 
-## Ad Structure
+Hormozi names exactly **three core chunks** every ad needs (p. 196):
 
-Every ad follows this structure:
+- **Call Out** — the first few seconds whose only job is to make the right person *notice* the ad. "Whatever you do to get the attention of your audience" (p. 197).
+- **Value (a.k.a. Value Elements)** — the body of the ad that gets the noticed prospect *interested* by promising big benefits and small costs.
+- **Call to Action (CTA)** — the closer that *tells them exactly what to do next* — click, call, reply YES, scan, etc. (p. 211).
 
-### Call Out
-Identify your target customer in the first line. People who see themselves will stop scrolling.
+Above the ad sits **Targeting** (the platform + filters that decide who even sees it, p. 193). Below it sits the **Landing Page** (the place that captures contact info, p. 213). The full pipeline:
 
-**Examples:**
-- "Attention SaaS founders..."
-- "If you're a coach struggling to fill your calendar..."
-- "E-commerce brands doing $1M+ in revenue:"
+```
+Platform → Targeting → Call Out → Value (What-Who-When) → CTA → Landing Page
+```
 
-### Promise
-State what they will get -- the Dream Outcome. Be specific.
+---
 
-**Examples:**
-- "...here's how to get 50 qualified leads per month"
-- "...without spending a dollar on ads"
-- "...in the next 90 days, guaranteed"
+## Call Out — The First Five Seconds Are 80% Of The Ad
 
-### CTA (Call to Action)
-Tell them exactly what to do and give them a reason to do it now.
+Hormozi calls the opening seconds the **Call Out**, and his design principle is brutal: every second of the ad exists only to sell the next second. "The purpose of each second of the ad is to sell the next second of the ad. And the headline is the first sale" (p. 196). He quotes David Ogilvy: "After you've written your headline, you've spent eighty cents of your advertising dollar" (p. 196). His own claim: "my advertising became 20x more effective when I focused the majority of my effort on the first five seconds" (p. 196). The first impression is "the part of the ad I test the most" (p. 196).
 
-**Every CTA needs two things:**
-1. **What to do** -- click, call, sign up, download, book
-2. **Why to do it now** -- urgency, scarcity, immediate benefit
+The mechanism behind it is the **cocktail-party effect**: in a roomful of noise, the only sounds that pierce through are ones that signal *this is for me*. A callout's job is to trigger that recognition — specific enough to nab the right person, broad enough to nab as many as possible.
 
-**Examples:**
-- "Click below to get your free audit (limited to 10 per week)"
-- "Book your free strategy call before Friday"
-- "Download the template -- 500 people already have"
+### Verbal Callout Patterns (pp. 198–199)
 
-## The Hook Testing Framework
+**1. Labels — "LOCAL AREA + TYPE OF PERSON"** (Hormozi's all-time favorite)
 
-The hook is the single most important variable in any ad. It determines whether someone stops scrolling or keeps going. Everything else is secondary.
+> "A local ad with 'LOCAL AREA + TYPE OF PERSON' callout is *still* one of my all-time favorite ways to get someone's attention. It worked two hundred years ago, it works today, and it'll work tomorrow" (p. 198).
 
-**The 10:1 hook rule:** For every piece of ad content, create 10 different hooks. Test all 10. The winning hook may outperform the worst by 5-10x.
+His own first ad was literally this: "I'M LOOKING FOR 5 CHINO HILLS RESIDENTS TO TAKE PLACE IN A FREE 6 WEEK CHALLENGE" (p. 190). The deeper rule: "your ideal customers need to identify with the label" (p. 198). Specificity scales: Americans < Texans < Dallas Residents < Irving Residents.
 
-**Hook testing process:**
-1. Create 10 hook variations (different opening lines, different angles, different formats)
-2. Run each as a separate ad with the same body/CTA
-3. Let each run until statistically significant (usually 1,000+ impressions)
-4. Kill the bottom 8
-5. Scale the top 2
-6. Create 10 new hooks to test against the winners
-7. Repeat forever
+Template: *"I'm looking for [N] [LOCAL AREA] [TYPE OF PERSON] to [DO/GET OUTCOME]."*
 
-**Hook types to test:**
+**2. Yes-Questions** — make the right person nod before they think
 
-| Hook Type | Example |
-|-----------|---------|
-| **Bold claim** | "We generate 200 leads per day for B2B companies" |
-| **Question** | "Tired of spending money on ads that don't convert?" |
-| **Statistic** | "93% of businesses waste 50% of their ad spend" |
-| **Testimonial** | "This company went from 0 to 150 leads/month in 60 days" |
-| **Demonstration** | [Video showing the product in action] |
-| **Story** | "3 months ago, our client was about to close their doors..." |
-| **Contrarian** | "Stop running Facebook ads. Here's what to do instead." |
-| **Social proof** | "10,000+ companies use this to generate leads" |
-| **UGC** | [Customer video talking about their experience] |
-| **Behind the scenes** | "Here's exactly how we set up our client's campaign" |
+A question whose only "yes" comes from the avatar.
 
-## Budget Management
+Template: *"Do you [SPECIFIC SYMPTOM/CONDITION OF AVATAR]?"*
+Example: *"Do you wake up to pee more than once a night?"* (p. 198)
 
-### Testing Budget Formula
+**3. If-Then Statements** — qualify on contact
 
-Budget **2x the cash collected from a customer in the first 30 days** for testing new ads.
+Front-loads the qualifier so non-avatars peel off and the avatar leans in.
 
-**Example:** If you collect $500 from a new customer in the first 30 days, your testing budget per ad set is $1,000.
+Template: *"If you [meet condition / fit avatar], then [you qualify / pay attention / can get outcome]."*
+Example: *"If you run over $100,000 per month in ads, we can save you 20% or more."* (p. 198)
 
-### Kill Threshold
+**4. Ridiculous Results** — outcome that violates expected sacrifice
 
-If an ad generates zero leads after spending **1x the 30-day cash collected**, shut it off.
+The pattern interrupt is a result that doesn't fit the prospect's mental model.
 
-**Example:** If 30-day cash is $500, kill an ad that's spent $500 with zero leads.
+Template: *"[Avatar] [achieved bizarre outcome] [against expected sacrifice]."*
+Example: *"This woman lost 50 pounds eating pizza and fired her trainer."* (p. 198)
 
-### Scale Threshold
+### Nonverbal Callouts (pp. 200–202)
 
-When an ad breaks even or better, scale it significantly. Even small winners deserve aggressive scaling.
+For visual/audio assets, Hormozi adds three nonverbal levers:
 
-**Example:** Out of 10 ads tested, if 1 breaks even and 1 is profitable -- kill the other 8, scale the 2.
+- **Contrast** — bright > dull, moving > still, loud > quiet. The ad's visual environment must out-shout the feed it's appearing in.
+- **Likeness** — "look like the customer you want to attract." Quack like a duck. If your avatar is a 45-year-old contractor, the person on camera should resemble (or speak to) one.
+- **Scene** — pick a setting that signals "this is for [specific person] in [specific situation]." A gym at 5 a.m. signals one avatar; a kitchen at 7 p.m. signals another.
 
-### Budget Allocation Framework
+Operating principle: "Make the *ad in its entirety* as specific as you can in the most efficient space you've got. If you've got audio and visuals at your disposal then use contrast, likeness, and the scene itself to *match your copy*" (p. 206).
 
-| Phase | Budget Split | Goal |
-|-------|-------------|------|
-| **Testing** (first 30 days) | 80% testing, 20% scaling | Find 1-2 winning ads |
-| **Optimization** (days 30-90) | 40% testing, 60% scaling | Improve winners, test new hooks |
-| **Scaling** (day 90+) | 20% testing, 80% scaling | Maximum profitable volume |
+---
 
-## Creative Development
+## Value — The What-Who-When Framework
 
-### Types of Ad Creative
+Within the Value chunk, Hormozi prescribes the **What-Who-When framework** (p. 204).
 
-| Creative Type | Production Cost | Performance | Best For |
-|--------------|----------------|-------------|---------|
-| **UGC (User Generated Content)** | Low | Often highest | Testimonials, social proof |
-| **Talking head** | Low | High for coaches/personal brands | Education, authority building |
-| **Screen capture** | Low | Good for SaaS/tech | Product demos, tutorials |
-| **Professional video** | High | Variable | Brand campaigns, high-ticket |
-| **Static image + copy** | Lowest | Good for testing messaging | Fast iteration, A/B testing copy |
-| **Carousel** | Low | Good for education/stories | Step-by-step, before/after |
+### What — The Eight Value-Equation Elements (4 Carrots + 4 Sticks)
 
-### The Organic-to-Paid Pipeline
+The four carrots (benefits) and four sticks (costs/anti-benefits) — show *and* tell each one (p. 205):
 
-Content that performs well organically often makes excellent paid ads.
+| Carrot (lever up) | Stick (lever down — fear/avoidance) |
+|---|---|
+| Dream Outcome | Nightmare (the thing they fear) |
+| Perceived Likelihood of Achievement | Risk (the chance it doesn't work) |
+| Speed (time to result) | Time Delay (how long they suffer if they wait) |
+| Ease | Effort & Sacrifice (what it costs them) |
 
-**Process:**
-1. Post content organically across platforms
-2. Identify top performers (highest engagement, most saves, most shares)
-3. Turn those into paid ads with the same creative
-4. Test 10 hook variations on the winning organic content
-5. Scale the winners
+Each element is paired: don't just promise the dream, contrast it against the nightmare. Don't just promise the speed, contrast it against the cost of waiting. The ad shows *and* tells — depict the carrot visually, name the stick verbally, or vice versa.
 
-This reduces creative risk because you've already validated the message with a real audience.
+### Who — Status-Driven, Through Multiple Sets Of Eyes
 
-## Scaling Strategy
+Show the eight elements through the eyes of the prospect *and* the people around them — spouse, kids, parents, colleagues, bosses, friends, rivals — because "humans are primarily status-driven" (p. 207).
 
-### When to Scale
+A weight-loss ad doesn't just show the prospect feeling thinner. It shows the spouse noticing. The kids noticing. The colleague who used to mock them noticing. The status math is the buying decision; ads that only show the internal experience leave the biggest motivator on the table.
 
-Scale when:
-- LTGP:CAC ratio is at target (3:1, 6:1, or 9:1 depending on business type)
-- You've spent enough to be statistically confident (usually 100+ leads)
-- The results have been consistent for at least 2 weeks
-- You have the fulfillment capacity to handle more customers
+### When — Past, Present, Future
 
-### How to Scale
+Drag those experiences across past, present, and future to "help them see the consequences of their decision (or indecision) *right now*" (p. 209).
 
-| Method | What It Means | When to Use |
-|--------|-------------|------------|
-| **Increase daily budget** | Spend more on winning ads | When ratio is strong and consistent |
-| **Duplicate winning ad sets** | Run the same ad to new audience segments | When current audience is saturated |
-| **New platforms** | Take winning creative to a different ad platform | When you've maxed out primary platform |
-| **Retargeting** | Re-engage people who saw but didn't convert | Always (cheapest leads) |
-| **Lookalike audiences** | Target people similar to your best customers | When you have 1,000+ customers to model from |
+- **Past:** "Remember when [pain] kept happening?" — anchors the nightmare in lived memory.
+- **Present:** "Right now, [pain] is still happening — and every day you wait, [stick] compounds."
+- **Future:** "In [time], you can be [dream outcome] — or you can be [nightmare], still."
 
-### Scaling Warning Signs
+The result is a body of copy that hits all eight value elements, through multiple pairs of eyes, across three time horizons. That is the entire content of "the middle of the ad."
 
-| Signal | What It Means | Action |
-|--------|-------------|--------|
-| CPL increasing steadily | Audience fatigue or saturation | Test new hooks, expand audience |
-| Conversion rate dropping | Ad is attracting wrong people | Tighten targeting, qualify harder |
-| LTGP:CAC ratio degrading | Scaling too fast or to wrong audiences | Slow down, analyze by segment |
-| High CPL but high close rate | Expensive leads but qualified | May be acceptable -- check overall ROI |
+---
 
-## Exercises
+## Call to Action — Spell It Out, Third-Grade Level
 
-### Exercise 1: Platform Selection
-Based on your ICP, which platform(s) should you advertise on? Justify your choice with specific targeting capabilities and audience overlap.
+The CTA's design rule is **spell it out, make it easy, and make the next step inevitable**. "If your ad got them interested, then your audience will have huge motivation… for a tiny time. Take advantage. Tell them *exactly* what to do next. S-P-E-L-L it out: Click this. Call this number. Reply with 'YES.' Go to this website. Scan this QR Code" (p. 211).
 
-### Exercise 2: The 10-Hook Test
-Write 10 different hooks for your best offer. Run them as ads with identical body copy and CTA. After 1,000 impressions each, which 2 won? Why?
+The operating assumption (Hormozi's own tweet, quoted in the chapter): "Assume the audience has no idea who you are, what you do, how it works, they're in a rush, and they have a 3rd grade education" (p. 211).
 
-### Exercise 3: Budget Calculator
-Calculate your 30-day cash per customer. Set your testing budget at 2x that number. How many ads can you test per month? What's your kill threshold?
+Tactical rules:
 
-### Exercise 4: Organic-to-Paid Audit
-Review your last 30 pieces of organic content. Which 3 performed best? Turn those into paid ad concepts with 3 hook variations each.
+- **Make CTAs quick and easy.** "Easy phone numbers, obvious buttons, simple websites" (p. 211). Hormozi paid $370,000 for `acquisition.com` because he believes everyone *under*values easy domains.
+- **Layer urgency, scarcity, and bonuses** from the engage-leads chapter on top for stronger CTAs (p. 213).
+- **The CTA's purpose is *not* to sell.** It's to ask if they're interested. "We aren't selling anything. We are asking if they're interested" (p. 215). The ad gets contact info; the rest of the funnel sells.
+
+---
+
+## Infinite Ads Pro Tip — 30 × 10 = 300
+
+Hormozi's creative thesis is **"efficiency matters more than creativity"** (p. 217). He explicitly rejects perfectionism: "Maybe people get crazy about making paid ads because they have words like 'copy' and 'creative' and 'media' then get hyper-focused on getting all that stuff 'perfect' (as if you can). You can tweak all day and night… until the cows come home! The reality is that paid ads, any advertising really, is all about *the return on your investment*" (p. 217). His decree: "good enough is good enough" (p. 217).
+
+The institutional version of this thesis is the **Infinite Ads pro tip** (p. 203):
+
+> "Record ten or so new ads every week. But, record thirty or more first sentences or questions to begin the ad. Think five second clips. These are the call outs people consume before deciding to watch more. With thirty callouts and ten main ads you can make three hundred variations in a matter of hours. Once you know the best callout, you apply it to all ads."
+
+Test the hooks; recycle the bodies. 30 callouts × 10 main bodies = 300 variations from a few hours of recording. Once a callout wins, pin it to every body.
+
+---
+
+## Money Math (Part II)
+
+### LTGP : CAC ≥ 3 : 1 — and Why LTGP, Not LTV
+
+Hormozi measures paid-ad efficiency with one ratio: **LTGP : CAC** (Lifetime Gross Profit to Cost to Acquire a Customer). He deliberately uses **LTGP, not LTV**:
+
+> "Lifetime gross profit is all the money a customer ever spends on your stuff minus all the money it takes to deliver it... Gross profit is important in general because it's the actual money you use to acquire customers, pay rent, cover payroll, and... everything else to run your business" (p. 220).
+
+LTV pretends revenue is profit; LTGP doesn't lie to you. The next customer is paid for with gross profit, not top-line revenue.
+
+The threshold is explicit:
+
+> "Every business I invest in that struggles to scale has at least one thing in common — their LTGP to CAC ratio was *less than 3 to 1*. As soon as I get it above 3 to 1 (either through decreasing CAC or increasing LTGP), they take off. *This is a pattern I personally observed, not a rule*" (p. 222).
+
+### Client Financed Acquisition — The 30-Day Payback Rule
+
+The payback rule is **30 days** — what Hormozi calls **Client Financed Acquisition**:
+
+> "If your customer spends more than it costs you to get *and* fulfill them — in the first 30 days — then you have the funds to scale *now* and *forever*. I call this **client financed acquisition**" (p. 224).
+
+Why 30 days? "Any business can get interest free money for thirty days in the form of a credit card" (p. 224). The bottom line: "Figure out a way to get your customers to pay you back in the first thirty days so you can recycle your cash to get more customers" (p. 227).
+
+### Test Budget — 2x 30-Day Cash, Kill Below 1x
+
+For the *testing* budget on a new ad (before the customer's full LTGP is known):
+
+> "I budget two times the cash I collect from a customer in thirty days (**not** LTGP) when testing new ads" (p. 218).
+
+And: "If I'm not getting any leads from an ad at all, before I spend 1x thirty-day cash I shut it off" (p. 219).
+
+For *scaling* the budget (Phase Three): "Instead of asking 'How much money should I spend on an ad?' I ask 'How many customers do I want?' or 'How many customers can I handle?' So once ads break even or better, I reverse my budget from my sales goals" (p. 219). Then pad by 20% because efficiency drops at scale.
+
+### Three Phases of Scaling Paid Ads (p. 218)
+
+- **Phase 1 — Track Money.** "Before spending a dollar on ads, set everything up so you can accurately track your returns. If you don't track, you're gonna get cleaned out" (p. 218).
+- **Phase 2 — Lose Money.** "You're gonna lose money. In fact, I've lost money more *times* than I've made money running paid ads. But every time I make money with paid ads, I make back everything I lost, *and then a bunch more*" (p. 218). His ratio of wins to losses is low; the magnitude of wins is enormous (10x down on winners, p. 219).
+- **Phase 3 — Print Money.** "If you're making back more money than you spend — the answer is simple — *spend as much as you can*" (p. 219).
+
+### Diagnostic Rule — CAC < 3x Industry → Fix LTGP; CAC > 3x → Fix Ads
+
+On top of LTGP:CAC ≥ 3, Hormozi adds an additional diagnostic (p. 223):
+
+> "Research your industry averages for the cost to acquire customers. **If your CAC is below 3x your industry average (good), focus on your business model (LTGP). If your CAC is above 3x the average (bad), focus on your advertising (CAC).**"
+
+His finding: "The cost to acquire customers, between competitors in the same industry, is *much closer than you'd think*. The difference between the winners and the losers is *how much they make off each customer*" (p. 223).
+
+The corollary: "Increasing advertising efficiency beyond a certain point is like trying to 'save your way' to a billion dollars" (p. 224). Once CAC is in the industry zone, fix what the customer is worth — not what the ad costs.
+
+---
+
+## Targeting — Lookalike + Filters
+
+Targeting is the *first* thing that filters the haystack and the leverage point Hormozi cares about most. "The right message to the wrong audience will fall on deaf ears" (p. 195). Goal: "get the highest number of people you think will buy your stuff to see your ad" (p. 195).
+
+Two targeting moves on modern platforms (p. 195):
+
+**1. Lookalike audience.** "Modern platforms can show your ad to an audience that is similar to, and much bigger than, a list you provide." Build the seed list in *quality order* — current/previous customers first, then warm outreach list, then cold outreach leads — until you hit the platform's minimum.
+
+**2. Targeting with factors of your choosing.** "Targeting options include: age, income, gender, interests, time, location, etc." Use these as filters *on top* of the lookalike.
+
+**Tradeoff rule:**
+
+> "The more filters you use, the more specific the list. The more specific the list, the more efficient your ads but the faster you will 'burn' through it. However, this specificity sets you up to get more wins early on. The wins from smaller specific audiences now give you the money to advertise to larger and broader audiences later. *This is how you scale*" (p. 196).
+
+Local-targeting caveat: "Since local markets are already *tiny*... be as specific as possible, but no further. The local market on its own is already .1% of a nation" (p. 196).
+
+---
+
+## Platforms — Meta-Principles Only
+
+Hormozi refuses to lecture per-platform tactics because "platforms change all the time, but these principles stay the same" (p. 194). His four-question filter for picking a platform (p. 193):
+
+1. **I've used it and gotten value from it as a consumer** — so I have some idea how it works.
+2. **I can target people on the platform interested in my stuff.**
+3. **I know how to format ads specific to the platform.**
+4. **I have the minimum amount of money to spend to place an ad.**
+
+**Replicate before iterate** — "Place Ads Where Your Competitors Place Ads (To Start). Look at the ad placement of other people in your space, and start there. If they can make it work so can you. *Replicate before you iterate*" (p. 194).
+
+Underneath, Hormozi treats Facebook, Google, YouTube, TikTok, LinkedIn, Instagram, etc. as interchangeable — "platforms distribute content to an audience" (p. 193). The differentiator is which one contains *your* ideal audience, not which is intrinsically better. Do not believe a market is saturated until you're advertising on multiple platforms with serious volume.
+
+---
+
+## Common Mistakes
+
+1. **Skipping tracking before spending.** "If you don't track, you're gonna get cleaned out" (p. 218).
+2. **Confusing a sales problem with an advertising problem.** "If your engaged leads have the problem you solve and the money to spend, and they're not buying, then your ads work fine — you have a sales problem" (p. 230).
+3. **Killing winners too early or letting losers run too long.** Budget exactly 2x 30-day cash on test ads, kill below 1x if zero leads (p. 218).
+4. **Optimizing CAC when the real problem is LTGP.** "Increasing advertising efficiency beyond a certain point is like trying to 'save your way' to a billion dollars" (p. 224).
+5. **Spending year one perfecting copy/creative instead of scaling efficiency.** "Good enough is good enough" (p. 217); "you don't need to become a copywriting expert" (p. 210).
+6. **Believing your niche is saturated** without checking spend volume, platform count, and conversion rate (pp. 234–235 case study — $30k/mo on one platform in a $15.1B industry, called "saturated").
+7. **Forgetting the landing page must match the ad.** "You don't want to end up with some Frankenstein experience where everything looks different. You want a continuous experience from 'click to close'" (p. 215).
+8. **Ignoring the cash-flow trap of waiting months for LTGP.** Solve it with upsells inside 30 days so CAC is paid on day zero (pp. 225–227).
+
+---
+
+## Ethical Guardrails
+
+- **Don't confuse advertising problems with sales problems and blame the wrong thing.** Hormozi tells the story of a business that spent $150k, gave up "six inches from gold," and lost an estimated $30M in enterprise value because the owner refused to look at his sales floor (p. 230).
+- **Don't pretend you're not technical and stay poor.** "If You Say You Suck At Something, You Will Probably Suck At It. Never say 'I'm not techy' or 'I hate tech stuff.' It just keeps you poorer than you should be" (p. 230).
+- **Don't promise on the ad and deliver something different on the landing page.** Match what you promised; otherwise you waste click money and break trust (p. 215).
+- **Don't run ads in industries the platform bans** — weight loss, tobacco, firearms, cannabis face stringent rules. Respect platform compliance *and* FTC compliance (cf. cold outreach chapter, p. 184).
+- **Don't measure on a one-week horizon.** "Just make sure you measure the returns over a long time horizon, not next week. Can you think of anything more valuable than a machine that prints money? It would be unreasonable for it to be cheap (or easy)" (p. 219).
+- **Don't lie to yourself with vanity metrics like LTV** — use LTGP because it's the actual money that pays for the next customer (p. 220).
+- **Don't fund acquisition with debt you can't recycle in 30 days.** Client Financed Acquisition is the ethical/operational guardrail that keeps a paid-ad business from blowing up its own balance sheet (p. 224).
+- **Don't turn paid ads into your *first* lead source.** "I recommend doing paid ads *last* for two reasons. First, skills from the other three methods transfer to this one. And second, paid ads cost money. Money you will have if you start with the other three methods first" (p. 233). Don't gamble money you don't have on a skill you haven't built.

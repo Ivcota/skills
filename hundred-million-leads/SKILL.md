@@ -1,421 +1,419 @@
 ---
 name: hundred-million-leads
-description: 'Build a lead generation engine using the Core Four, lead magnets, and Lead Getters. Use when the user mentions "lead generation", "getting leads", "cold outreach", "warm outreach", "lead magnet", "content strategy for leads", "paid ads strategy", "affiliate marketing", "referral system", "Rule of 100", or "Core Four". Also trigger when building outbound sales systems, designing lead magnets, scaling advertising, creating referral programs, or diagnosing why a business is not getting enough leads. Covers the Core Four, Lead Getters, Hook-Retain-Reward, More Better New, and the advertising compounding model. For offer creation, see hundred-million-offers. For outbound sales process, see predictable-revenue.'
+description: 'Design and audit lead generation systems using Alex Hormozi''s Core Four (Warm Outreach, Post Free Content, Cold Outreach, Paid Ads), Lead Magnets, More-Better-New scaling, and the four Lead Getters (Customers, Employees, Agencies, Affiliates). Distinct from `hundred-million-offers` (which scores a single offer) and `hundred-million-money-models` (which sequences offers across 30-day payback) — this skill is about getting strangers to raise their hand. Use when the user mentions "Core Four", "lead magnet", "warm outreach", "cold outreach", "Hook Retain Reward", "More Better New", "Open To Goal", "Rule of 100", "Seven Levels of Advertisers", "engaged leads", "client financed acquisition", "Hormozi", or "$100M Leads". Also trigger when the user says "I need more leads", "ads aren''t working", "no one is signing up", "my pipeline is empty", "how do I get my first 100 customers", "I''m just starting", or wants to build a referral program, affiliate program, cold email sequence, ad creative, content plan, lead magnet, or one-page advertising plan. For offer construction (price, bonuses, guarantee), see hundred-million-offers. For sequencing offers across attraction → upsell → downsell → continuity, see hundred-million-money-models.'
 license: MIT
 metadata:
-  author: iversondiles
+  author: distill-to-skill
   version: "1.0.0"
+  source: "$100M Leads by Alex Hormozi (Acquisition.com, 2023)"
 ---
 
-# $100M Lead Generation Engine
+# $100M Leads — Lead Generation Framework
 
-Framework for getting strangers to want to buy your stuff. Based on the principle that advertising is the act of making known -- letting people know about the stuff you sell. There are only four ways to do it (the Core Four), four types of people who can do it for you (Lead Getters), and one rule that guarantees you cannot fail (the Rule of 100). Master these and leads become a math problem, not a mystery.
+How to get strangers to raise their hand for the stuff you sell. Based on Alex Hormozi's *$100M Leads* (Acquisition.com Vol. II, 2023). The book sits on top of *$100M Offers* — it assumes you already have something worth selling, and answers the next question: *who do I sell it to, and how do I make them want it.*
 
 ## Core Principle
 
-Lead generation is not luck. It is a repeatable system with predictable inputs and outputs. The equation is simple: **More Stuff x Better Stuff = More Leads.** "Stuff" is any form of value you give away free -- content, samples, tools, webinars, experiences -- that demonstrates expertise before you ask for money. The more you give, and the better what you give is, the more people will want what you sell.
+**Advertising is the master skill that compensates for everything else.** It lets you have a terrible product and still make money; lets you be terrible at sales and still make money. Hormozi's claim: *"All else being equal… when you double your leads, you double your business"* (p. 33). The output of advertising is not raw leads — it is *engaged leads*: people who have shown interest in the stuff you sell.
 
-**The foundation:** There are only four ways to let people know about your stuff (the Core Four). You can do them yourself, or you can get other people to do them for you (Lead Getters). The compounding effect of doing both simultaneously, consistently, over time, is what separates businesses that struggle for leads from businesses that have more demand than they can serve.
+**The foundation:** Engaged leads are the true output of advertising. There are exactly two ways to let strangers know about your stuff: you do it (the **Core Four**), or other people do it for you (the **four Lead Getters**). Everything in this skill is one of those two things, scaled by a third frame — **More Better New** — and run inside a fourth — the **One-Page Advertising Plan / Open To Goal** discipline. The book ends at the raised hand. Closing the sale is `hundred-million-offers` territory.
 
-## Scoring
+## Scoring — The Seven Levels of Advertisers
 
-**Goal: 10/10.** When reviewing or building lead generation systems, rate them 0-10 based on adherence to the $100M Leads principles below. A 10/10 means the system covers all four Core Four methods, has compelling lead magnets, uses Lead Getters for scale, and follows the Rule of 100 consistently. Lower scores indicate missing channels, weak lead magnets, or inconsistent effort. Always provide the current score and specific improvements needed to reach 10/10.
+Diagnose where the user's business sits before prescribing action. From `The Roadmap`, pp. 369–376. Each level has a single Primary Action; do not skip levels.
+
+| Level | Headline | Primary Action |
+|---|---|---|
+| **1** | "Your friends know about the stuff you sell." | Warm outreach. |
+| **2** | "You consistently let everyone you know about the stuff you sell." | "Do as much warm outreach and post as much content as you can consistently." |
+| **3** | "You get employees to help you do more advertising." | "You hire people to advertise profitably on your behalf." |
+| **4** | "Your product is good enough to get consistent referrals." | "Focus on your product until you get consistent referrals, then go back to scaling your advertising with a bigger team." (Hormozi: *"This is where most people mess up. They let their product slip and never recover."*) |
+| **5** | "You advertise in more places in more ways with more people." | "Advertise profitably using at least two methods on multiple platforms." |
+| **6** | "You hire killers." | "Get battle-hardened executives and department heads to take over new advertising activities and channels." |
+| **7** | (Hormozi has not written this yet — *"I'll come back and edit this chapter once I cross a billion."*) | — |
+
+There is no 1–10 numeric score per asset. The diagnostic is positional: identify the level, execute the Primary Action, advance.
 
 ## The $100M Leads Framework
 
-### 1. The Lead Generation Equation
+### 1. Engage Your Leads — Lead Magnets (the Seven Steps)
 
-**Core concept:** Lead generation is math, not magic. Understanding the key metrics -- Lifetime Gross Profit (LTGP), Customer Acquisition Cost (CAC), and the ratio between them -- determines whether your advertising is profitable and how aggressively you can scale.
+**Core concept:** A lead magnet is a complete solution to a narrow problem — typically free or low-cost — that reveals the next problem your core offer solves. Hormozi's two-path frame: try advertising the core offer directly first; if the offer is expensive or trust-gated, lead with a magnet because *"a person who pays with their time now is more likely to pay with their money later"* (p. 50).
 
-**Why it works:** When you know your numbers, you can make rational decisions about where to invest time and money. A business that knows its LTGP:CAC ratio can outspend competitors on acquisition because it knows exactly what a customer is worth.
+**Why it works:** People buy based on the value they expect *after* purchase. The fastest way to make them expect value is to *give* value before purchase. The math: cost-per-call drops from $1,000 (direct) to $100 (with a magnet); even at lower close rate, CAC drops from $3,000 to $1,000 — *"we triple our business"* (p. 74).
 
 **Key insights:**
-- A **Lead** is a person you can contact. If you can contact them, they are a lead.
-- An **Engaged Lead** is a person who shows interest in what you sell -- someone willing to give you their contact information. Engaged leads are the true output of advertising.
-- **LTGP (Lifetime Gross Profit)** = all the money a customer ever spends minus all the money it takes to deliver. For physical products: average gross profit per transaction x average customer transactions. For recurring revenue: gross profit per customer / churn rate.
-- **CAC (Customer Acquisition Cost)** = total marketing and sales expenses / number of new customers acquired.
-- Target a minimum **3:1 LTGP:CAC ratio** for businesses without human interaction. **6:1** for businesses with some human element. **9:1+** for businesses with multiple human touchpoints.
-- **Client-Financed Acquisition:** Ensure the customer pays back more than the cost to acquire and fulfill them within the first 30 days. This lets you fund growth from revenue, not savings.
+- Pick a problem whose solution naturally surfaces the next problem your core offer solves (the Problem-Solution Cycle, p. 52)
+- Three lead-magnet types: **Reveal Their Problem** (diagnosis), **Sample/Trial**, **One Step of a Multi-Step Process** (pp. 53–56)
+- Four delivery mechanisms: **Software** (give a tool), **Information** (teach), **Services** (do work for free), **Physical Product** (something tangible) — combinatorially that's up to 12 magnets per problem (pp. 58–59)
+- Test in this order: **headline → image → subheadline.** "If you only test one thing, test that [headline]" (p. 60)
+- Make it consumable in multiple formats — single-format publishing loses 2-4x the leads (p. 66)
+- "Give away the secrets, sell the implementation" (p. 66) — provide more value than the cost of your core offer *before they've bought it*
+- A good CTA = (1) what to do + (2) reason to do it *right now* — Scarcity, Urgency, or "Make Up A Reason" (Langer's *because*) (pp. 71–73)
 
 **Product applications:**
 
 | Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Track LTGP per cohort to determine ad spend ceiling | "Our avg customer is worth $3,600 over 12 months, so we can spend up to $1,200 to acquire one" |
-| **Coaching** | Price programs to fund acquisition from first payment | "$5,000 program with $1,500 ad spend = client-financed from day one" |
-| **E-commerce** | Calculate LTGP including repeat purchases | "First order profit: $20. Avg customer makes 4 orders. LTGP: $80. CAC ceiling: $26" |
-| **Agency** | Use performance guarantees to justify premium pricing that funds acquisition | "We charge $5K/mo. CAC of $2,500 pays back in the first 15 days" |
-| **Info product** | Bundle upsells to increase LTGP beyond initial purchase | "$997 course + $297 upsell + $2,400/yr community = $3,694 LTGP" |
-
-**Diagnostic questions:**
-- "What is your LTGP per customer?"
-- "What is your current CAC?"
-- "What is your LTGP:CAC ratio?"
-- "Does a new customer pay back their acquisition cost within 30 days?"
-
-**Ethical boundary:** Never mislead about projected returns. Every LTGP claim must be based on real customer data, not aspirational numbers.
-
-See: [references/lead-generation-equation.md](references/lead-generation-equation.md) for the complete equation breakdown, ratio benchmarks, and client-financed acquisition model.
-
-### 2. The Core Four
-
-**Core concept:** There are exactly four ways to let people know about your stuff. They are organized on a 2x2 matrix: warm vs. cold audiences, and one-to-one vs. one-to-many communication. Every advertising method that has ever existed is a variation of one of these four.
-
-**Why it works:** By reducing all of advertising to four methods, you eliminate overwhelm and shiny-object syndrome. You pick one, master it, and scale it before adding another. The simplicity is the power.
-
-**Key insights:**
-- The 2x2 matrix: **Warm Audience** (people who know you) vs. **Cold Audience** (strangers), crossed with **One-to-One** (personal) vs. **One-to-Many** (broadcast)
-- The four methods: (1) Warm Outreach, (2) Posting Free Content, (3) Cold Outreach, (4) Paid Ads
-- Start with the one that matches your current resources (time vs. money)
-- If you have more time than money: start with Warm Outreach (free, immediate)
-- If you have more money than time: start with Paid Ads (fast, scalable)
-- Master one before adding another -- do not spread thin across all four
-- Every method benefits from a strong lead magnet
-
-**The Core Four Matrix:**
-
-| | **One-to-One** | **One-to-Many** |
 |---|---|---|
-| **Warm Audience** (people who know you) | **Warm Outreach** -- personal DMs, calls, texts to your existing network | **Posting Free Content** -- videos, posts, articles, podcasts to your followers |
-| **Cold Audience** (strangers) | **Cold Outreach** -- emails, DMs, calls to people who don't know you | **Paid Ads** -- running ads to targeted audiences on platforms |
+| **SaaS** | Reveal-Their-Problem diagnostic | Website-speed test that quantifies dollars lost (p. 54) |
+| **Local services** | One-step-of-multi-step | Free first coat of garage-door sealant when three are required (p. 56) |
+| **B2B/Agency** | Information + Service hybrid | Run a gym owner's ads free for 30 days (p. 58); 13-min "Free Case Study" video (p. 39) |
+| **Coaching/Info product** | Multi-format release | $100M Offers shipped as ebook + paperback + audio + video → 4x leads per unit work (p. 66) |
+| **Consumer/E-commerce** | Sample/Trial | Costco "fun-sized" samples (p. 55); dressing rooms (all three magnet types in one, p. 57) |
+
+**Copy patterns:**
+- *"FREE Case Study: How we added [Quantified Outcome] to a [Specific Avatar in Specific Place]."* (p. 39)
+- *"How to [Outcome] for [Avatar's Identity]."* (subhead, p. 64)
+- *"I'll [Dream Outcome] in [Time Frame] for free. If I don't [Outcome], I don't make money. You spend nothing either way."* (p. 17)
+- Scarcity: *"I can only handle [N] [Avatar] per [Time Unit], so if you want [Outcome] soon, do [CTA]."* (p. 71)
+- Urgency: *"Through [Day], I'll also throw in a free [Bonus] to anyone who [Action]."* (p. 72)
+- *"[CTA] **because** [Any Reason — even a bad one]."* (p. 73)
+
+**Ethical boundary:** Scarcity must be *real*. *"If you can't handle more than five new customers per week, say so"* (p. 71). Lead magnets must actually deliver — *"99% of people aren't gonna buy, but they will create (or destroy) your reputation based on the value of your free stuff"* (p. 67). Make sure it's legal (p. 55).
+
+See: [references/lead-magnets.md](references/lead-magnets.md) for the seven-step build process, three magnet types, four delivery mechanisms, and CTA construction.
+
+### 2. Warm Outreach (Core Four #1)
+
+**Core concept:** One-to-one private contact with people who already know you (your phone contacts, every email account you've ever used, every social platform). It is the cheapest, easiest, most reliable advertising — *"as certain as the sun rises and sets, it works"* (p. 86) — and most businesses don't do it.
+
+**Why it works:** Each message is personal, so volume is sacrificed for certainty. Everyone has a warm audience whether they realize it or not. The system scales identically from 100 contacts to 1,000,000 — start small with you, scale up with automation and employees.
+
+**Key insights:**
+- Compile contacts from *every* platform (phone + every email + every social) — most people have 1,000+ leads they didn't know they had (p. 88)
+- The ten-step sequence: **Get Your List → Pick A Platform → Personalize → Reach Out → Warm Them Up (ACA) → Make An Offer → First Five Free → Start Back At The Top → Start Charging → Keep Your List Warm** (p. 87)
+- **A-C-A framework:** Acknowledge their reply, Compliment something you can tie to a positive trait, Ask a question that leads toward your offer (pp. 90–91)
+- The signature mental shift: ask for *referrals*, not the sale. *"We're not asking them to buy anything. We're asking if they know anyone"* (p. 95)
+- Make the first five customers free — four reasons: get reps, reduce pressure, learn faster, generate testimonials/referrals (p. 99)
+- After referrals start, raise prices 20% every five customers (p. 105)
+- Keep the list warm with regular value; periodically probe with Dean Jackson's 9-word email: *"Are you still looking to [4-word desire]?"* (p. 107)
 
 **Product applications:**
 
 | Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Cold outreach to ICP + content marketing for inbound | "100 personalized emails/day + 2 LinkedIn posts/week" |
-| **Coaching** | Warm outreach to network + content to build authority | "Message 100 contacts + post daily on Instagram" |
-| **E-commerce** | Paid ads for acquisition + content for organic reach | "$100/day on Meta ads + TikTok content 3x/week" |
-| **Agency** | Cold outreach for pipeline + case study content for credibility | "Cold email campaigns + YouTube case study breakdowns" |
-| **Local business** | Warm outreach to community + paid ads for local reach | "Door-to-door/referral asks + Google Local ads" |
+|---|---|---|
+| **First-five-clients launch** | Personalized DM/text/call to existing contacts asking who-do-they-know | Hormozi 2013: 6 yes responses → ~$4,000/mo within months (p. 84) |
+| **Service business** | Charity-donation framing instead of cash | *"Train you for 12 weeks free if you donate to a charity and let me use your testimonial"* (p. 81) |
+| **Coaching/Agency** | Value-equation pitch in one line | *"I help [ideal customer] get [dream outcome] in [time] without [effort]"* (p. 95) |
+| **Re-engagement** | Dean Jackson's 9-word email to a cold list | *"Are you still looking to [tone up your arms]?"* (p. 107) |
+| **Higher-ticket sales** | Prepay-vs-payment-plan close + guarantee | *"Would you rather pay less today or get all your money back?"* (Dr. Kashey, p. 106) |
 
-**Ethical boundary:** Every method must deliver genuine value. The goal is to make known, not to manipulate. People should be grateful they heard from you, not annoyed.
+**Copy patterns:**
+- Personalized opener: *"Saw you just had a baby! Congrats! How is the baby doing? How are you?"* (p. 89)
+- Master referral ask: *"By the way, do you know anybody who is [struggle] looking to [dream outcome] in [time]? I'm taking on five case studies for free, because that's all I can handle."* (p. 94)
+- Honest first-five-free pitch: *"Since I'm only taking on five people, I can give you all the attention you need to get brag-worthy results. And I'll give it all for free so long as you promise to: 1) Use it 2) Give me feedback 3) Leave a killer review if you think it deserves one."* (p. 97)
+- Handle a "no": *"What would I have to do to make it worth it for you to continue?"* (p. 101)
 
-See: [references/core-four.md](references/core-four.md) for the complete 2x2 matrix, method selection criteria, and scaling sequence.
+**Volume math:** 100 reach outs/day, ≥4 hours/day, follow up up to 3 times. Benchmark conversion: 1 in 5 reply, 1 in 5 take the free offer, 1 in 4 of those convert paid → ~1 paying customer per 100 reach outs. At 500/week × $400 product = ~$104,000/yr from warm outreach alone (p. 109).
 
-### 3. Warm Outreach
+**Ethical boundary:** Don't lie or exaggerate when constructing the offer (p. 94). Don't be pushy — design the ask so you win without pushing. Don't push the legal envelope: *"Don't be that person. It always comes back to bite you"* (p. 110). Contacts have given you means and permission; respect it.
 
-**Core concept:** Warm outreach is reaching out to people who already know you -- friends, family, followers, past customers, contacts. These people already trust you to some degree, which makes them the easiest and fastest path to your first leads and customers. Use the ACA framework (Acknowledge, Compliment, Ask) to have natural conversations that lead to opportunities.
+See: [references/warm-outreach.md](references/warm-outreach.md) for the 10-step process, ACA framework, the nine scripts, and the daily checklist.
 
-**Why it works:** Warm audiences have pre-existing trust. You do not need to prove your credibility from scratch. A personal message from someone they know cuts through noise in a way that ads and cold emails cannot. This is the fastest path to revenue for any new business or offer.
+### 3. Post Free Content + Free Goodwill (Core Four #2)
+
+**Core concept:** Broadcasting valuable content one-to-many to convert strangers into a warm audience you can later monetize. The compounding asset isn't the content — *the audience is* (p. 113). In Hormozi's hands, free content is not branding or self-expression. It is paid-with-time advertising whose only goal is engaged leads.
+
+**Why it works:** Hormozi paid an influencer $120,000 and got one sentence: *"You just gotta do more bro"* (p. 115). Audience growth compounds in three directions: (1) people who find value join your warm audience, (2) they share, recruiting more strangers, (3) every other Core Four channel converts better when prospects can verify you exist. His own data: *78% of his gym-coaching clients had consumed at least TWO long-form pieces of content before booking a call* (p. 142).
 
 **Key insights:**
-- **Warm** = anyone who has given you permission to contact them: friends, family, followers, current customers, previous customers, contacts
-- The **ACA Framework**: **A**cknowledge (restate what they said in your own words), **C**ompliment (link it to a positive character trait), **A**sk (transition to what you offer)
-- Start by making a list of everyone you know -- aim for 1,000+ contacts across all platforms
-- Reach out to 100 per day (Rule of 100)
-- Each contact should be attempted up to 3 times (once per day for 3 days, or once per week for physical mail)
-- Don't pitch directly -- strike up a genuine conversation, listen, then ask if they know anyone who might need what you offer
-- The **"I'm working on something new"** approach: frame outreach around a new project to create curiosity and lower resistance
-- Start with 5 free clients to gather testimonials and referrals, then gradually increase price
-- The **9-Word Email** (Dean Jackson technique): a short, simple reactivation message for re-engaging past customers and dead leads
-- Ask for referrals from every conversation -- even if they're not a fit, they may know someone who is
-
-**The 10-Step Warm Outreach Process:**
-1. Get a list -- scrape all contacts across platforms (aim for 1,000+)
-2. Pick the platform where you have the most people
-3. Send personalized messages using something specific you know about the contact
-4. Reach out to 100 per day (Rule of 100)
-5. Warm them up -- don't pitch immediately, build rapport first
-6. Ask for referrals -- "Do you know anyone who might need help with [problem]?"
-7. Make an easy offer -- give it away FREE initially
-8. Start back at the top and work the rest of the leads one more time
-9. Reduce your discount -- go from free to 80% off to 60% off every 5 new customers
-10. Keep your list warm -- regularly provide value so you can keep getting leads
+- The atomic unit is the **content unit** — *"the smallest amount of material it takes to hook, retain, and reward attention. It can be as little as an image, a meme, or a sentence"* (p. 120). Long content = many content units linked together.
+- **Hook:** topic + headline + format. Five topic categories: **Far Past, Recent Past, Present, Trending, Manufactured** (pp. 122–124). Seven attention components from news media — Recency, Relevancy, Celebrity, Proximity, Conflict, Unusual, Ongoing — *"include at least two in your headline"* (pp. 125–126).
+- **Retain:** drive curiosity. Three vehicles — **Lists, Steps, Stories** (p. 130). *"Embed questions in their minds to make them want to know what happens next"* (p. 132).
+- **Reward:** *"How good your content is depends on how often it rewards your audience in the time it takes them to consume it"* (p. 132). Value per second. *"There is no such thing as too long, only too boring."*
+- Build for strangers, not for existing fans — *"inside jokes... no one else will feel welcome"* slows growth (p. 129). Switch from "How to" to "How I" so no one can question your experience (p. 142).
+- **Give:Ask ratio ≥ 3:1** (TV runs 3.5:1) — *"The moment you start asking for money is the moment you decide to slow down your growth"* (p. 137). Give in public, ask in private.
+- **Two metrics, not one:** size (followers/reach) AND rate of growth (% per month) — a 50% monthly growth rate from 1,000 to 1,500 is a stronger signal than a flat-but-large follower count (pp. 144–145).
+- One CTA at a time. *"A confused mind doesn't buy"* (p. 145).
 
 **Product applications:**
 
 | Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Reach out to former colleagues and LinkedIn connections | "Hey [Name], I'm building a tool that [solves problem]. Would love your feedback." |
-| **Coaching** | Message past clients and personal network | "I'm launching a new program for [avatar]. Know anyone who might be a fit?" |
-| **E-commerce** | Text/DM friends and family about new product launch | "Just launched [product]. Thought of you because [personal reason]." |
-| **Agency** | Reconnect with former clients and industry contacts | "Hey [Name], saw your recent [achievement]. We're offering [new service]." |
-| **Local business** | Door-to-door, community events, local contacts | "I just opened [business] on [street]. Wanted to personally invite you." |
+|---|---|---|
+| **Solo creator** | Daily 100-min content block, batch-record, depth-first on one platform | Hormozi: 4 years, twice-weekly podcast before Top 100 (p. 147) |
+| **B2B/Coaching** | Long-form to nurture a paid-ads audience | Survey: 78% of clients consumed ≥2 long-form pieces before booking (p. 142) |
+| **Local service** | "Puddle" content for one town/niche before going broader | Plumbing in one town before general business (p. 143) |
+| **Multi-platform brand** | Width-then-depth: tweak one piece for every platform's native format | *"Format your content for the platform first. Then tweak it so it hooks your ideal audience"* (p. 127) |
 
-**Ethical boundary:** Warm outreach is not spam. It is a genuine conversation with someone who knows you. Never blast impersonal mass messages to your contact list. Personalization is not optional -- it is the entire point.
+**Copy patterns:**
+- *"7 Ways I [Verb-ed] [$/N] [Object] in My 20s That Paid Off Big"* — list hook (p. 130)
+- *"I lived on [extreme constraint] for a [time]. Here's how."* — manufactured-experience hook (p. 124)
+- *"My journey from [low state] to [high state]"* — story hook (p. 131)
+- *"[Vulnerability] while [ironic context]"* — far-past hook (p. 122)
 
-See: [references/warm-outreach.md](references/warm-outreach.md) for the ACA framework scripts, the 10-step process, reactivation campaigns, and referral ask templates.
+**Free Goodwill** is a separate sub-chapter (pp. 153–158): a soft ask on behalf of someone the reader has never met (e.g., "leave this book a review for an entrepreneur you'll never meet"). It is itself an instance of the give-until-they-ask doctrine — Hormozi practicing what he preached. Content builds *your* audience; goodwill leverages your audience to build *someone else's*.
 
-### 4. Cold Outreach
+**Volume math:** 100 minutes/day creating content, every morning, 7 days a week. Release ≥1/day per platform. *"Most people don't make money because they can't wait 12 months"* (p. 135).
 
-**Core concept:** Cold outreach is contacting strangers -- people who have never heard of you -- via email, DM, phone, or direct mail. It requires high volume, strong personalization, and a compelling free offer to overcome the absence of trust. The formula is simple: build a great list, personalize at scale, offer massive value upfront, and automate the process.
+**Ethical boundary:** Always reward what you hook — don't bait-and-switch on a headline's promise (p. 133). Maintain the give-to-ask ratio — *"don't kill your golden goose. It's a balancing act"* (p. 138). Talk about your experience, not their obligation: *"How I"* not *"How to"* avoids preachy moralizing (p. 143). Don't blame the audience's "short attention span" for your failure to reward (p. 144).
 
-**Why it works:** Cold outreach lets you proactively reach your exact ideal customer instead of waiting for them to find you. While warm outreach is limited by the size of your network, cold outreach is limited only by the size of your target market. It is the highest-leverage one-to-one method because it can be systematized and delegated.
+See: [references/post-free-content.md](references/post-free-content.md) for the Hook–Retain–Reward expansion, topic categories, audience metrics, depth vs. width strategy, and Free Goodwill.
+
+### 4. Cold Outreach (Core Four #3)
+
+**Core concept:** One-to-one private contact with strangers — people who do not know you. *"The more advanced cousin of warm outreach, no longer limited by your warm audience"* (p. 162). The defining variable: trust. *"Strangers don't trust you"* (p. 163).
+
+**Why it works:** Three problems strangers introduce — (1) you don't have their contact info, (2) even if you do, they ignore you, (3) even if they pay attention, they're not interested. The chapter is structured to solve each in order: **Build a List → Personalize → Big Fast Value → Volume.**
 
 **Key insights:**
-- Four foundational steps: (1) Build a high-quality lead list, (2) Personalize to trigger psychological responses, (3) Offer substantial value upfront, (4) Automate the outreach process
-- The list is king -- if you hit a terrible list, nothing else matters
-- **"Big Fast or Small Slow"**: With cold audiences, you must offer big, fast value to overcome the absence of trust. You cannot take the slow-build approach you use with warm leads.
-- Follow up 2-3 times with each person -- it takes an average of 8 touchpoints to convert
-- "Your first 10,000 emails might flop, but that's part of the process" -- volume precedes optimization
-- Personalization at scale: use AI and automation tools to insert personalized snippets while maintaining operational scalability
-- Initial response rates may be around 0.5% -- at sufficient volume, this still produces results
-- It is statistically impossible to fail if volume is high enough
-
-**Cold Email/DM Framework:**
-1. Attention-grabbing subject line (avoid generic phrases, hint at specific benefit)
-2. Open with a personalized comment about the recipient
-3. Offer something for free they would usually pay for
-4. Clear, easy call to action
-5. Follow up 2-3 times over the next 1-2 weeks
+- Three list-building methods, fastest first: **Scrape 'em** (software) → **Buy 'em** (brokers) → **Look for 'em** (manual / "elbow grease") (p. 167)
+- Specificity is cold outreach's edge — *"hedge fund managers managing over $1B"* or *"golf apparel retail store owners over $3M in sales"* (p. 167)
+- Freshness beats convenience: manually-built lists outperform commodity lists because they haven't been hammered (p. 169). Interest groups are the highest-quality source.
+- **Personalization-vs-volume tradeoff:** *"The fewer leads you have, the less automation you should use"* (p. 176). 1,000 hedge fund managers → personalize all. 10M weight-loss prospects → less personalization. If you can personalize at scale with tech, that's the deadly combo.
+- Open with the one or two pieces of light research that make a cold reach feel warm (pp. 170–173)
+- **Big Fast Value:** drop a lead magnet/offer so generous *"they feel stupid saying no"* — the bar is *"blow their minds in under thirty seconds"* (pp. 173–174)
+- **Multi-channel beats single-channel:** *"The more ways you try to contact someone, the more likely you are to contact them"* (p. 174). Email first; phone-call follow-up earns the right to a different channel — *"Hey I'm calling you to follow up about my email"* (p. 175).
+- Rewriting scripts at a third-grade reading level produced a 50% response bump (p. 173)
+- Floor: *"Don't set a daily goal below 100. And don't stop for 100 days minimum"* (p. 188)
 
 **Product applications:**
 
 | Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Cold email to ICP with free audit or tool | "I noticed your [specific issue]. Built a free tool that fixes it in 5 minutes." |
-| **Coaching** | LinkedIn DMs to target avatar with free resource | "Saw your post about [topic]. Created a guide that helped 50 [avatars] with this." |
-| **E-commerce** | DMs to influencers and potential brand partners | "Love your content about [topic]. We make [product] -- would love to send you one." |
-| **Agency** | Cold email with free competitive analysis or audit | "Ran a quick SEO audit on your site. Found 3 things that could double your traffic." |
-| **Local business** | Direct mail and cold calls to local businesses | "We help [type of business] on [street/area] get 20+ new customers per month." |
+|---|---|---|
+| **High-ticket B2B** | Surgical TAM list + heavy personalization | $20k/customer business: 1 VA at 2,000 emails/day → 40 engaged leads/day → 4 customers/day (p. 187) |
+| **Low-ticket consumer** | Use cold outreach to land *affiliates* (effectively converting low-ticket to high-ticket) | Author Note p. 179 |
+| **Local service** | Door knock + handwritten letter + scraped interest groups | Mentioned p. 162, p. 175 |
+| **B2B agency** | Email-first sequence + cross-channel follow-up | 801 contacted → 428 opened (53%) → 48 replied (6%) → 21 opportunities (p. 181) |
 
-**Ethical boundary:** Cold outreach must provide genuine value, not just extract attention. If the recipient would not benefit from your message, do not send it. Comply with all anti-spam laws (CAN-SPAM, GDPR) and always provide an opt-out.
+**Copy patterns** (representative; ≤30 words each):
+- Personalized opener: *"It's Alex… I watched a few of your videos and read that recent blog post on dog training. It was killer! Really helped me out with my doberman."* (p. 171)
+- Pivot to ask: *"I work for a company that helps [avatar] fill up their books… If you got a boatload of high paying new customers you wouldn't be upset with me, would you?"* (p. 171)
+- Cross-channel follow-up: *"Hey I'm calling you to follow up about my email."* (p. 175)
 
-See: [references/cold-outreach.md](references/cold-outreach.md) for list building strategies, cold email frameworks, personalization at scale, and automation tools.
+**Volume math:**
+- Email: 100 personalized/day → 30% open → 10% reply → 3% become engaged leads (p. 180)
+- Phone: 100 calls/day → 20% pick-up → 25% take the magnet → 4 engaged leads/day, ~1/hour (p. 180)
+- DM: 100 personalized voice memos/videos/day → 20% reply (p. 182)
+- Unit economics: rep at $15/hr + $50/show, ~2 shows/day → $120/show, $360/closed client at 33% close → at $3,600 profit/client = **10:1 return** (p. 183)
+- Tuned operations hit **30:1** (p. 182)
+- **Profitability rule:** make at least 3x lifetime profit vs. acquisition cost (p. 180)
 
-### 5. Posting Free Content
+**Ethical boundary:** Stop when asked. *"You don't want a bad reputation. That kind of stuff follows you"* (p. 176). Legal methods only — Hormozi's parenthetical "every (legal) cold outreach method we knew" is doing intentional work (p. 161). FTC compliance is your responsibility even when platforms aren't policing (p. 185). Don't milk interest groups: *"I prefer to find contact information outside the group so I don't come off as someone solely trying to milk the group for business"* (p. 168). Genuine helpful intent over going through the motions.
 
-**Core concept:** Content is warm outreach at scale -- instead of reaching one person at a time, you reach your entire audience simultaneously. Use the Hook-Retain-Reward framework to create content that grabs attention, keeps it, and delivers value. Give away your secrets for free. Sell the implementation.
+See: [references/cold-outreach.md](references/cold-outreach.md) for the 3-step scaffold, list-building waterfall, personalization-vs-volume curve, and channel selection.
 
-**Why it works:** Free content builds trust, demonstrates expertise, and warms cold audiences into engaged leads over time. 78% of Hormozi's clients consumed at least 2 pieces of long-form content before booking a call. Content compounds -- every piece you create continues working for you indefinitely. The longer you consistently create content, the larger the "snowball" becomes.
+### 5. Run Paid Ads (Core Four #4)
+
+**Core concept:** Public, one-to-many advertising to people who don't know you, by paying another business to put your offer in front of *their* audience. Place it last in your Core Four sequence: *"the skills from the other three methods transfer to this one. And paid ads cost money"* (p. 233).
+
+**Why it works:** Reach is guaranteed; profit is not. *"Advertising is the only casino where, with enough skill, you become the house"* (p. 188). Cold audiences respond at low percentages, so the lever is volume + targeting + a **repulsive** ad — one that actively scares off the wrong people so the platform stops showing it to them.
 
 **Key insights:**
-- **Hook-Retain-Reward Framework:**
-  - **Hook** -- Grab attention with bold, compelling headlines or visuals. Record 10 different hooks for every 1 piece of content. The hook is the variable that most determines performance.
-  - **Retain** -- Keep people engaged using curiosity, unresolved questions, and storytelling (like cliffhangers)
-  - **Reward** -- Deliver on the hook's promise, making people feel rewarded for their attention
-- Three content formats: **Lists** (items sequentially with numbers), **Steps** (actions in specific order), **Stories** (real or imaginary events with lessons). Use individually or interwoven.
-- **"Give away the secrets, sell the implementation"** -- mediocre free content actively harms your reputation and pushes prospects to competitors
-- Two ways to make asks: **Integrated** (mention your offer naturally during content) and **Intermittent** (dedicated promotional posts, ratio ~10 give : 1 ask)
-- **Rule of 100 for content:** Spend 100 minutes per day creating content
-- Platform strategy: **Depth then Width** (maximize one platform before expanding) vs. **Width then Depth** (establish presence everywhere, then go deep)
-- The longer you delay your ask, the disproportionately larger what you receive will be
+- **Three ad chunks:** **Call Out** (notice) → **Value** (interest) → **Call to Action** (next step) (p. 196)
+- Build the **Value** chunk with **What-Who-When**: **What** = the eight value-equation elements (Dream/Nightmare, Likelihood/Risk, Speed/Time-Delay, Ease/Effort), **Who** = show those through the eyes of the prospect AND people around them (status-driven), **When** = drag those experiences across past, present, future (pp. 204–209)
+- The first 5 seconds get the bulk of optimization effort. *"My advertising became 20x more effective when I focused the majority of my effort on the first five seconds"* (p. 196)
+- Verbal callout patterns: **Labels** (esp. "LOCAL AREA + TYPE OF PERSON" — Hormozi's all-time favorite), **Yes-Questions, If-Then Statements, Ridiculous Results** (pp. 198–199)
+- Nonverbal callouts: **Contrast, Likeness, Scene** — bright > dull, moving > still, *"look like the customer you want to attract"* (pp. 200–202)
+- **Infinite Ads pro tip:** record 30+ first-sentence callouts × 10 main bodies = 300 variations in hours; recycle the winning callout across all bodies (p. 203)
+- **CTA rule:** S-P-E-L-L it out. Click this. Call this. Reply YES. *"Assume the audience has no idea who you are, what you do, how it works, they're in a rush, and they have a 3rd grade education"* (p. 211). The ad's job is asking if they're interested — *"We aren't selling anything"* (p. 215). The sale happens downstream.
+- *"Good enough is good enough"* (p. 217). Efficiency, not creativity, runs paid ads.
+- Ad → Landing page must be a continuous experience. Don't end up with a *"Frankenstein experience where everything looks different"* (p. 215).
 
 **Product applications:**
 
 | Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Blog posts, YouTube tutorials, LinkedIn thought leadership | "5 Metrics Every SaaS Founder Ignores (And How to Fix Them)" |
-| **Coaching** | Instagram Reels, YouTube long-form, podcast episodes | "How I Went from $3K to $30K Months (Exact Steps)" |
-| **E-commerce** | TikTok product demos, UGC, educational content | "3 Mistakes You're Making with [Product Category]" |
-| **Agency** | Case study breakdowns, industry analysis, how-to guides | "We Doubled This Client's Traffic in 90 Days -- Here's How" |
-| **Local business** | Google Business posts, local social media, community content | "5 Things Every [City] Homeowner Should Know About [Service]" |
+|---|---|---|
+| **Local service** | Local + Type-of-Person callout label | *"I'm looking for 5 Chino Hills residents to take place in a free 6-week challenge"* (p. 190) |
+| **B2B SaaS** | If-Then qualification callout | *"If you run over $100,000 per month in ads, we can save you 20% or more"* (p. 198) |
+| **Health/Wellness** | Yes-Question callout pulling on a specific symptom | *"Do you wake up to pee more than once a night?"* (p. 198) |
+| **Diet/Fitness** | Ridiculous-Result callout against expected sacrifice | *"This woman lost 50 pounds eating pizza and fired her trainer"* (p. 198) |
+| **Audience scaling** | Lookalike-of-best-customers + filters | Build seed list in quality order (current customers → warm list → cold leads), add age/income/interest filters (p. 195) |
 
-**Ethical boundary:** Never create content that misleads about results or capabilities. Free content should be genuinely valuable -- not clickbait that disappoints. If you would be embarrassed to charge for it, do not give it away either.
+**Copy patterns:**
+- Local + Type-of-Person: *"I'm looking for [N] [LOCAL AREA] [TYPE OF PERSON] to [DO/GET OUTCOME]."*
+- Yes-Question: *"Do you [SPECIFIC SYMPTOM/CONDITION OF AVATAR]?"*
+- If-Then: *"If you [meet condition], then [you qualify / pay attention / can get outcome]."*
+- Ridiculous Result: *"[Avatar] [achieved bizarre outcome] [against expected sacrifice]."*
 
-See: [references/content-strategy.md](references/content-strategy.md) for the Hook-Retain-Reward framework, content format breakdown, platform strategy, and posting cadence.
+**Money math (Part II):**
+- **LTGP : CAC ≥ 3 : 1** is the threshold. Use **LTGP** (lifetime gross profit), not LTV — *"gross profit is the actual money you use to acquire customers, pay rent, cover payroll"* (p. 220)
+- **30-day payback rule = Client Financed Acquisition.** *"Any business can get interest free money for thirty days in the form of a credit card"* (p. 224)
+- **Test budget: 2x the cash collected from a customer in 30 days** (not LTGP). Kill below 1x if zero leads (p. 218)
+- **Three Phases of Scaling:** **Track Money → Lose Money → Print Money** (p. 218). Hormozi loses money more *times* than he wins; magnitude of wins covers the losses 10x.
+- **Diagnostic rule:** If CAC < 3x industry average → fix LTGP (business model). If CAC > 3x → fix advertising (CAC). *"The cost to acquire customers, between competitors, is much closer than you'd think. The difference between winners and losers is how much they make off each customer"* (p. 223)
 
-### 6. Paid Ads
+**Ethical boundary:** Don't promise on the ad and deliver something different on the landing page (p. 215). Don't measure on a one-week horizon (p. 219). Don't lie to yourself with vanity metrics — use LTGP because it's the actual money that pays for the next customer (p. 220). Don't fund acquisition with cash you can't recycle in 30 days. Don't run paid ads first — *"don't gamble money you don't have on a skill you haven't built"* (p. 233).
 
-**Core concept:** Paid advertising is spending money to show your message to targeted strangers at scale. It is the fastest way to reach cold audiences and the most scalable of the Core Four. Start by scaling content that already performs organically, test aggressively, and double down on winners.
+See: [references/paid-ads.md](references/paid-ads.md) for the ad anatomy, What-Who-When, callout libraries, money math, and Client Financed Acquisition.
 
-**Why it works:** Paid ads let you buy attention predictably. Unlike organic methods that compound slowly, paid ads can produce leads on day one. When combined with a strong lead magnet and clear tracking, paid ads become a math problem: spend $X, get $Y in leads, convert Z% into customers.
+### 6. More Better New (scaling each Core Four channel)
+
+**Core concept:** Once you're running one or more of the Core Four, three levers boost any of them: **More** (do more of what's working), **Better** (improve conversion at the constraint), **New** (expand to new placements/platforms/activities).
+
+**Why it works:** The **Size of the Pie Fallacy** — most plateaued businesses think the slice they advertise to is the whole market. *"They believe they got as big as they possibly can. Because, for many, saying 'I'm as big as I can get' is much easier than saying 'I'm not as good at advertising as I thought'"* (p. 242). More-Better-New systematically attacks that fallacy.
 
 **Key insights:**
-- Start by turning organically successful content into paid ads -- what resonates for free often resonates when amplified
-- **Hook testing is everything:** Record 10 different hooks for every 1 piece of ad content. Test hooks before testing anything else.
-- **Testing budget:** Budget 2x the cash collected from a customer in the first 30 days for testing new ads
-- **Kill threshold:** If an ad generates zero leads, shut it off after spending 1x the 30-day cash collected
-- **Scale threshold:** Find even small winners (one ad breaking even out of ten tested), then "100x down" on them
-- CTAs must have two things: (1) What to do (click, call, sign up) and (2) A reason to do it right now
-- User-generated content (UGC) like testimonials and reviews are particularly powerful ad creatives
-- Run ads that offer your lead magnet rather than going directly for the sale
-- **LTGP:CAC ratio targets:** 3:1 minimum (no human interaction), 6:1 (some human), 9:1+ (multiple human touchpoints)
+- **MORE — The Rule of 100:** *"100 primary actions per day, for 100 days in a row… you will get more engaged leads"* (p. 238)
+  - Warm/Cold reach outs: 100/day
+  - Post Content: 100 minutes/day + ≥1 release/day/platform
+  - Paid Ads: 100 minutes/day creating + 100 days running
+- **More tests = better ads.** *"The top .1% of Facebook advertisers test 11x more creative than everyone else"* (p. 239)
+- **BETTER — Find the constraint.** The step where the most leads drop off. *"Constraints are the points where the smallest improvements create the biggest boost in results"* (p. 240). On a 30%/5%/50% funnel, a 5-point lift on the 5% step = **2x leads** vs. 1.16x and 1.1x for the others.
+- **Test cadence:** one test per week per platform. *"If we can't beat the version we're currently running in four tries (or one month), we move onto the next constraint"* (p. 242)
+- **NEW — three levels, easy → hard:** **New placements → New platforms → New Core Four activity** (p. 246). Selection rule: *"what will get me the most leads for the amount of work?"*
+- **The size-flip pro tip:** Default is **More → Better → New.** *"But once you cross $1,000,000 in annual profit, making things better can be the lowest cost, highest return thing you do"* — flip to **Better → More → New** (p. 243)
 
 **Product applications:**
 
-| Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Facebook/LinkedIn ads driving to free trial or demo | "Free 14-day trial -- set up your first dashboard in 5 minutes" |
-| **Coaching** | YouTube/Instagram ads driving to webinar or lead magnet | "Free masterclass: How to hit $50K months as a coach" |
-| **E-commerce** | Meta/TikTok ads with UGC driving to product page or bundle | "See why 10,000+ customers switched to [Product]" |
-| **Agency** | LinkedIn/Google ads driving to free audit or case study | "Free SEO audit: see exactly what's holding your rankings back" |
-| **Local business** | Google Local/Facebook ads driving to booking page | "Free estimate for [City] homeowners -- book in 30 seconds" |
+| Annual profit | Default order |
+|---|---|
+| **< $1M** | More → Better → New (volume first; percentage changes don't matter yet) |
+| **≥ $1M** | Better → More → New (a 1% lift on big volume becomes the biggest lever) |
 
-**Ethical boundary:** Never run misleading ads. Ad claims must be truthful and substantiated. Comply with all platform advertising policies. Track results honestly -- vanity metrics are not business metrics.
+**Decision rule (verbatim, p. 247):** *"First, you do way more of the advertising that works until it 'breaks.' Then, the next drop off point becomes obvious. Then you keep that level of advertising up while you go back, fix the constraint, and make it better. So really, better and more work with each other more than they work separately."*
 
-See: [references/paid-ads.md](references/paid-ads.md) for ad testing frameworks, budget allocation, creative development, and scaling strategies.
+**Ethical boundary:** Implicit — More-Better-New is volume + iteration on real value, anchored upstream by your offer and lead magnet quality. The chapter's tonal floor: *"Advertising is the process of making known"* — make more people know about real value, not louder versions of misleading.
 
-### 7. Lead Magnets
+See: [references/more-better-new.md](references/more-better-new.md) for the Rule of 100, constraint analysis, the three levels of "New", and the size-flip rule.
 
-**Core concept:** A lead magnet is "a complete solution to a narrow problem." It should be so valuable you could charge for it. After consuming it, the prospect should want more of what you offer because solving the narrow problem reveals a bigger problem your core offer solves. The lead magnet is the bridge between a stranger and an engaged lead.
+### 7. The Four Lead Getters
 
-**Why it works:** Strangers do not give you their contact information for nothing. A lead magnet gives them a reason -- a valuable piece of content, tool, or experience in exchange for their attention and information. A great lead magnet does double duty: it generates the lead AND warms them up for the core offer by demonstrating your expertise and revealing a larger need.
+**Core concept:** Other people who run the Core Four for you. *"Only two people can let strangers know about the stuff you sell: 1) You 2) Other people. There are more of them than you"* (p. 249). Lead Getters compound the Core Four — and ideally recruit more Lead Getters in turn. Order matters: **Customers → Employees → Agencies → Affiliates** — *"in the order of what happens naturally"* (p. 351).
+
+**Why it works:** Doing the Core Four yourself is *"Work: HIGH, Leads: LOW, Leverage: LOW."* One Lead Getter = HIGH leverage. Lead Getters who recruit Lead Getters = HIGHEST. That is the math behind the *$100M Leads* machine.
 
 **Key insights:**
-- Three types of lead magnets (by problem type):
-  1. **Problem Revealers** -- Make people aware of a problem they didn't know they had (assessments, audits, diagnostics). Works best when the problem gets worse the longer you wait.
-  2. **Samples and Trials** -- Solve a recurring problem for a limited time (free trials, product samples, limited access). Consumables by nature have limited uses.
-  3. **One Step of a Multi-Step Process** -- Give away one valuable step for free; the rest come with the core offer.
-- Four delivery vehicles: **Software** (spreadsheets, calculators, tools), **Information** (courses, guides, interviews), **Services** (consultations, done-for-you), **Physical Products** (samples, kits)
-- **The Lead Magnet Matrix:** 3 types x 4 delivery vehicles = up to **12 possible lead magnets** for a single narrow problem
-- **Seven-step creation process:** (1) Pick a narrow problem, (2) Figure out how to solve it, (3) Choose the delivery method, (4) Test the name, (5) Make it easy to consume, (6) Make it exceptionally valuable, (7) Include a clear CTA that bridges to your core offer
-- The name matters enormously -- improving the headline can 2x, 3x, or 10x engagement
-- **Offer-Lead Magnet alignment:** The lead magnet must be a stepping stone, not disconnected. Solving the narrow problem should naturally reveal the bigger problem your paid offer solves.
+
+**(a) Customer Referrals (Word of Mouth)** — Charlie Munger: *"The best source of new work is the work on your desk"* (p. 254). Two compounding effects: higher LTGP (referred customers buy more, faster, upfront) AND lower CAC. *"Referrals are exponential"* (p. 262). The **Referral Growth Equation:** % Clients Referred Monthly − % Clients Churned Monthly = % Monthly Compounding Growth. If referrals < churn, you must advertise just to stay flat — *"the hamster wheel of death."* Seven ways to ask: One-Sided Benefit, Two-Sided Benefits, Ask At Sale, Negotiation Chip, Referral Events, Ongoing Programs, Unlockable Bonuses (pp. 273–280). Pro tip: *"Not 'If' But 'Who.'"*
+
+**(b) Employees** — Their job is doing the Core Four for you. The **Internal Core Four:** the customer-acquisition activities point at potential teammates instead of customers (warm outreach → asking your network; cold outreach → recruiting; content → posting job openings; paid ads → promoting job postings). The **3Ds training method: Document, Demonstrate, Duplicate** (pp. 296–297). Hire when CAC stays within 3x industry average and LTGP:CAC ≥ 3:1 (p. 298). Diagnostic question: *"Do my engaged leads have the problem I solve and the money to spend?"* — if no, advertising problem. If yes-but-not-buying, sales problem. *"Don't fire your sales guy if you've got advertising problems"* (p. 299).
+
+**(c) Agencies** — Pay for skill transfer with an explicit deadline. The opener: *"I want to do what you do in my business, but I don't know how. I'd like to work with you for 6 months so I can learn how you do it. Plus, I'll pay extra for you to break down why you make the decisions you do… Then I'd like to change to a lower cost consulting arrangement"* (p. 309). Vetting checklist (10 signals): word-of-mouth recommendation, prominent client results, waiting list, realistic expectations, long-term strategy (no hacks), clear deliverables, regular cadence, plain-English reporting, four-lever offer, expensive (*"all good agencies are expensive… but not all expensive agencies are good"*) (pp. 312–313). What to avoid: agencies you only know from their *own* paid ads — *"the best ones rely on word of mouth"* (p. 312).
+
+**(d) Affiliates & Partners** — Other businesses that promote your stuff to their audience for money/free stuff/both. **Six-step process:** Find Ideal Affiliate → Make Them An Offer → Qualify Them (make them buy + train them) → Pay Them → Launch (Whisper-Tease-Shout) → Integrate (give-away-magnet / sell-magnet / sell-core-offer) (pp. 320–334). **Three-tier commission structure** based on % of max CAC: **Agree (sign up) = 25% → Activate (do a launch) = 50% → Sustain (steady performance) = 100%** (pp. 328–329). Pro tip: *"Sell 3, Get It Free"* — pay with product at lower tiers (you give retail value, but only your cost) (p. 330). Never cap payouts (p. 334).
 
 **Product applications:**
 
-| Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Free tool or calculator that reveals a problem | "Website Speed Grader -- see what's slowing your site down" |
-| **Coaching** | Free assessment or workshop | "The Revenue Bottleneck Assessment -- find your #1 growth constraint" |
-| **E-commerce** | Free sample or starter kit | "Free 7-Day Skincare Trial Kit (just pay shipping)" |
-| **Agency** | Free audit or competitive analysis | "Free LinkedIn Audit -- see how your profile stacks up" |
-| **Info product** | Free mini-course or template pack | "5-Day Email Course: Land Your First Freelance Client" |
+| Lead Getter | When to add | Signature mechanic |
+|---|---|---|
+| **Customers (referrals)** | Always; start at Level 1 | Referral Growth Equation; ask **WHO**, not **IF** |
+| **Employees** | When workload exceeds you (Level 3) | 3Ds training (Document → Demonstrate → Duplicate) |
+| **Agencies** | When you can pay for skill transfer | 6-month learn-and-drop-to-consulting deal |
+| **Affiliates** | After managing employees (Level 5+) | 25/50/100 tiered commission + Whisper-Tease-Shout launch |
 
-**Ethical boundary:** Lead magnets must deliver genuine value. A lead magnet that disappoints teaches the prospect that your paid offer will also disappoint. Never use a lead magnet as bait-and-switch.
+**Ethical boundary:** Match referral incentive to the product so you attract real buyers, not coupon hunters (p. 282). For affiliates: *"You gotta buy it to ethically sell it"* (p. 324). For employees: *"Reward the good stuff. Learning a new skill is punishing enough, we don't need to add to it"* (p. 297). For agencies: be upfront about your knowledge-transfer intent — don't covertly extract knowledge (p. 310).
 
-See: [references/lead-magnets.md](references/lead-magnets.md) for the Lead Magnet Matrix, seven-step creation process, naming strategies, and alignment with core offers.
+**Two ways to compound** (the unifying principle, p. 349): *"Find more people who never stop buying your stuff, OR more people who never stop selling it for you. Referrals are the former. Affiliates are the latter."*
 
-### 8. Lead Getters: Getting Others to Advertise for You
+See: [references/lead-getters.md](references/lead-getters.md) for the Referral Growth Equation, the seven ways to ask, the Internal Core Four for hiring, the agency vetting checklist, and the six-step affiliate process.
 
-**Core concept:** Lead Getters are people or entities you recruit to execute the Core Four on your behalf. There are four types: Customers (referrals), Employees, Agencies, and Affiliates. When your Lead Getters do the Core Four, you get the **"Core Four on Steroids"** -- multiplicative scale that turns a solo effort into an army of advertisers.
+### 8. Open To Goal — The Discipline (Process)
 
-**Why it works:** There is a ceiling on how much one person can do. You can only send so many DMs, create so many videos, write so many emails. Lead Getters break through this ceiling by multiplying your advertising capacity. Instead of just YOU doing the Core Four, you now have dozens or hundreds of people doing it simultaneously.
+**Core concept:** Most people commit to inputs ("100/day"). Hormozi's elite move is committing to *outcomes* and refusing to stop until hit. *"They had to sign up five new members per day no matter what. So if they did it by lunch, they could cut out early. But if it took 18 hours, so be it"* (p. 366). The Rule of 100 on steroids.
 
-**Key insights:**
-- **Customer Referrals** -- The most powerful and underutilized Lead Getter. Two barriers: (1) your product is not good enough, (2) you don't directly ask. Hormozi's ad platform shut down and they didn't notice for two weeks because referrals alone were generating $500K/week.
-- **Employees** -- Find and train people to do what you are currently doing yourself. Use process checklists to systematize what works.
-- **Agencies** -- Hire agencies not to manage campaigns indefinitely, but to teach you their lead-getting methods. The goal is knowledge transfer, not dependency.
-- **Affiliates** -- Independent businesses promoting your offerings to their audiences. Three-tier commission structure: Tier 1 (25% of CAC), Tier 2 (50% of CAC), Tier 3 (100% of CAC). **Pay-to-play model:** Have affiliates pay to join ($4-8K, or 10-20% of expected year-one earnings) to filter for serious partners.
-- **White Label Lead Magnets:** Let affiliates use lead magnets you've created, rebranded for their audience -- a low-friction way to activate affiliates.
-- **Dream 100** (adapted from Chet Holmes): Identify your 100 ideal affiliate partners who already have your target audience, then systematically build relationships with them.
-- **Core Four on Steroids:** The scaling progression is: do more of what works, improve it, then expand. Once you master each quadrant yourself, recruit Lead Getters to execute the Core Four on your behalf.
-
-**Product applications:**
-
-| Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | Customer referral program + affiliate integrations | "Refer a friend, get 1 month free. Affiliate partners get 30% recurring." |
-| **Coaching** | Client testimonial referrals + certified coach program | "Graduate coaches can license the methodology and recruit their own clients." |
-| **E-commerce** | Influencer affiliate program + customer reviews | "Earn 15% commission on every sale through your unique link." |
-| **Agency** | Client referral incentives + strategic partnerships | "Refer a qualified lead, receive $500 when they sign." |
-| **Info product** | Affiliate launches + student success referrals | "Affiliates earn 50% commission. Top affiliates get $40 per sale." |
-
-**Ethical boundary:** Never recruit affiliates or referral partners to promote something you would not recommend yourself. Commission structures should reward genuine promotion, not incentivize spam or deception.
-
-See: [references/lead-getters.md](references/lead-getters.md) for referral systems, employee training frameworks, agency hiring strategies, affiliate program design, and the Dream 100 method.
-
-### 9. The Rule of 100
-
-**Core concept:** The Rule of 100 is the minimum daily activity threshold that guarantees leads over time. Pick one: 100 outreaches per day, 100 minutes of content creation per day, or $100/day on paid ads. Do it every single day for 100 days. It is statistically impossible to fail at this volume.
-
-**Why it works:** The biggest failure mode in lead generation is quitting too early. Most people try something for a week, don't see results, and switch to something else. The Rule of 100 eliminates this by setting a minimum threshold that is high enough to produce results but sustainable enough to maintain. Volume precedes optimization -- you cannot improve what you haven't done enough of to measure.
+**Why it works:** Most failure is under-volume, not under-strategy. The flyer parable: Hormozi did 300 flyers, his mentor did 5,000/day for a month. *"I was doing 1/1500th the level of effort required to make a flyer campaign work"* (p. 365). The reframe: *"It was 100 per day, not 100 over time"* (p. 365).
 
 **Key insights:**
-- Three options (pick one and commit for 100 days):
-  - **100 outreaches per day** (warm or cold -- calls, texts, emails, DMs)
-  - **100 minutes of content creation per day** (writing, filming, recording)
-  - **$100/day on paid ads** ($3,000/month minimum ad budget)
-- The promise: If you do 100 primary actions per day for 100 days straight, you WILL get more engaged leads
-- Volume precedes quality -- your first attempts will be bad, and that is fine
-- Consistency beats intensity -- 100/day for 100 days beats 1,000/day for 10 days
-- The Rule of 100 is a floor, not a ceiling -- do more when you can
-- Track everything: outreaches sent, responses received, leads generated, customers acquired
+- *"The right action in the wrong amount still fails"* (p. 365)
+- *"Most people stop too soon. We don't do enough"* (p. 365)
+- *"Never let effort be the reason anything didn't work for me. It could be the offer, copy, image, targeting… But not. my. effort."* (p. 364)
+- Hormozi's habit stack (his highest-ROI): wake 4–5 am → get right to work, no rituals → no meetings until noon → 8 straight hours focused on advertising (p. 367)
+- *"Whenever I get to a low point where I think 'why do I even bother?' I just try to remind myself: this is where most people stop, and this is why they don't win"* (p. 368)
 
-**Product applications:**
+**The One-Page Advertising Plan** (p. 370):
 
-| Context | Application | Example |
-|---------|-------------|---------|
-| **SaaS** | 100 cold emails/day to ICP list | "100 personalized emails to SaaS founders doing $1M-$5M ARR" |
-| **Coaching** | 100 minutes/day creating YouTube + Instagram content | "Film 2 short-form videos + write 1 LinkedIn post = 100 min" |
-| **E-commerce** | $100/day on Meta ads testing product creatives | "Test 3 ad sets at $33/day each, rotate creatives weekly" |
-| **Agency** | 100 LinkedIn connection requests + messages/day | "50 new connections + 50 follow-up messages to pending connections" |
-| **Local business** | 100 door-knocks or phone calls/day | "25 businesses per block, 4 blocks per day" |
+1. **Pick the type of engaged lead** — Customers, Affiliates, Employees, or Agencies
+2. **Pick Rule of 100 or Open To Goal** — commit to daily action
+3. **Fill out the Daily Checklist** (table below)
+4. **Do this daily until you can pay someone else to do it**
+5. **When you can — go back to step 1, make Employees your new target lead type, repeat steps 1–4 until you have the help you need. Then scale again.**
 
-**Ethical boundary:** Volume should never come at the expense of quality or compliance. 100 genuine, personalized outreaches beat 100 copy-paste spam messages. Never sacrifice legal compliance (CAN-SPAM, GDPR) for volume.
+**Advertising Daily Checklist (the 10-row table):**
 
-See: [references/rule-of-100.md](references/rule-of-100.md) for daily tracking templates, the 100-day commitment framework, and scaling beyond the Rule of 100.
+| Field | Default Value |
+|---|---|
+| Who | You |
+| What | Your Offer or Lead Magnet |
+| Where | Platform |
+| To Whom | Audience / List |
+| When | First 8 hours |
+| Why | Get X engaged leads or lead getters |
+| How | Warm / Cold Outreach, Content, Ads |
+| How Much | 100/day or until you hit your goal |
+| How Many | # follow-ups / times retargeted |
+| How Long | 100 days or until you hit your goal |
 
-### 10. More, Better, New
+**Closing exhortation:** *"You cannot lose if you do not quit"* (p. 386, bold-underlined). The Many Sided Die parable: every roll, the green side either gains another green side or doesn't change. *"The more times you roll, the better you get. If you quit, you lose"* (p. 386). Time horizon to the *$100M Leads* machine: *"five to ten years"* — *"It took my wife and I more than ten years of our best effort to cross the first $100M in net worth"* (p. 378).
 
-**Core concept:** When you want more leads, you have exactly three levers, and they must be pulled in this exact order: (1) More -- do more of what already works, (2) Better -- make what you're doing better, (3) New -- only then try something entirely new. Most entrepreneurs skip straight to "New" when they should be doing "More" of what already works.
+**Ethical boundary:** Don't write a 100-page plan instead of a 1-page plan. *"Skip the atrocious waste of time that is writing pages of baloney"* (p. 371). Don't read instead of advertise: *"Reading doesn't get people interested in the stuff you sell — advertising does"* (p. 371).
 
-**Why it works:** "More" has the lowest risk and fastest payoff. If cold emails are getting responses, send more cold emails before changing the subject line. "Better" has medium risk -- optimize after you have enough volume to measure. "New" has the highest risk and slowest payoff -- it requires learning a new skill, platform, or method from scratch. The order matters because each lever builds on the one before it.
+See: [references/open-to-goal.md](references/open-to-goal.md) for the One-Page Plan, the daily habit stack, the Roadmap chapter, and the Many Sided Die parable.
 
-**Key insights:**
-- **More:** Before changing anything, increase volume. If you're sending 50 emails/day and getting 2 responses, send 100 emails/day and you'll likely get 4 responses. This is the fastest lever.
-- **Better:** Improve your scripts, headlines, targeting, follow-up sequences. Optimize the existing process. Only possible after you have enough volume to measure what works.
-- **New:** Add a new channel, platform, or type of outreach. Only after maxing out "More" and "Better." This is where most people start (chasing shiny objects), and it's why most people fail.
-- The critical insight: Most entrepreneurs skip straight to "New" because it feels exciting. "More" feels boring. But boring and effective beats exciting and unproven every time.
-- Apply this framework to each of the Core Four independently
-- Revisit the sequence regularly -- what was "new" six months ago is now "existing" and can be scaled with "more"
+## $100M Leads Process
 
-**Diagnostic questions:**
-- "Have you maxed out the volume on your current best-performing channel?"
-- "Have you optimized the conversion rate of what you're already doing?"
-- "Is the desire for something 'new' based on data or boredom?"
+End-to-end sequence to apply the whole framework:
 
-**Ethical boundary:** "More" does not mean more spam. Scaling volume must maintain quality, personalization, and compliance. If increasing volume degrades the experience, improve the system before scaling further.
-
-See: [references/more-better-new.md](references/more-better-new.md) for the optimization sequence, decision framework, and examples across all Core Four methods.
-
-## Lead Generation Process
-
-Follow these 10 steps in order to build a $100M lead generation engine from scratch:
-
-1. **Know your numbers.** Calculate your LTGP, CAC, and LTGP:CAC ratio. If you don't know these, you're flying blind.
-2. **Choose your first Core Four method.** More time than money? Start with Warm Outreach. More money than time? Start with Paid Ads. Pick one.
-3. **Create a lead magnet.** Solve one narrow problem completely. Choose the type (Problem Revealer, Sample, or One Step) and delivery vehicle (Software, Information, Services, Physical).
-4. **Apply the Rule of 100.** Commit to 100 outreaches, 100 minutes of content, or $100/day in ads -- every single day for 100 days.
-5. **Track everything.** Outreaches sent, responses received, leads generated, customers acquired. You cannot improve what you do not measure.
-6. **Apply More, Better, New -- in that order.** First increase volume, then optimize quality, then (and only then) try new channels.
-7. **Master a second Core Four method.** Once your first method is producing consistent leads, add a second. Do not try all four at once.
-8. **Build your first Lead Getter channel.** Start with customer referrals (ask every customer). Then consider employees, agencies, or affiliates.
-9. **Create a compounding machine.** Content and goodwill compound over time. The longer you consistently show up, the larger the snowball becomes. Never stop advertising.
-10. **Scale with Lead Getters.** Train employees, recruit affiliates, hire agencies to execute the Core Four on your behalf. This is the "Core Four on Steroids."
+1. **Confirm you have an offer worth advertising.** *$100M Leads* sits on top of *$100M Offers* (see [hundred-million-offers](../hundred-million-offers/SKILL.md)). If no Grand Slam Offer, build that first.
+2. **Diagnose the user's level on the Seven Levels of Advertisers.** That sets the Primary Action.
+3. **Design or audit the lead magnet.** Run the seven-step process: pick the narrow problem → pick the type → pick the delivery → test the headline → make it consumable → make it darn good → build the CTA.
+4. **Pick the Core Four channel(s) appropriate for the level.** Level 1: Warm Outreach. Level 2: add Post Free Content. Levels 3+: add Cold Outreach and Paid Ads in that order.
+5. **Commit to Rule of 100 or Open To Goal.** Fill out the One-Page Advertising Checklist (10 rows, 5 minutes).
+6. **Run More-Better-New on whichever channel you're scaling.** Sub-$1M profit: More first. ≥$1M profit: Better first. Use weekly tests at the constraint.
+7. **Add Lead Getters in order:** customer referrals first (always), then employees (when workload exceeds you), then agencies (when you can pay for skill transfer), then affiliates (when you can manage people outside your business).
+8. **Repeat.** Do not skip levels. Stay in flow long enough to see the constraint move — *"I expect to crack a new lead source in three to six months"* (p. 351). Don't quit before the green roll.
 
 ## Common Mistakes
 
 | Mistake | Why It Fails | Fix |
-|---------|-------------|-----|
-| **Trying all four Core Four methods at once** | Spreads effort too thin, nothing gets done well | Pick one, master it, then add the next |
-| **Quitting before the Rule of 100** | Lead generation compounds -- early results are always small | Commit to 100 days minimum before evaluating |
-| **Skipping straight to "New"** | Chasing shiny objects instead of scaling what works | Follow the More, Better, New sequence strictly |
-| **No lead magnet** | Going straight for the sale with cold audiences fails | Create a complete solution to a narrow problem |
-| **Weak lead magnet** | A low-value freebie attracts low-quality leads | Make it so good you could charge for it |
-| **Not asking for referrals** | Leaving the easiest leads on the table | Ask every customer, every time |
-| **Not tracking numbers** | Can't optimize what you don't measure | Track LTGP, CAC, outreaches, responses, conversions daily |
-| **Inconsistent effort** | Advertising compounds; stopping resets the flywheel | Never stop. The Rule of 100 is daily, not weekly. |
+|---|---|---|
+| **Underestimating volume** | *"I was doing 1/1500th the level of effort required to make a flyer campaign work"* (p. 365). The right action in the wrong amount still fails. | Rule of 100. 100 primary actions/day for 100 days. |
+| **100 over time, not 100 per day** | Spread-out effort doesn't compound through platform algorithms or your own learning curve | *"It was 100 per day, not 100 over time"* (p. 365) |
+| **Skipping warm outreach** | Easiest, cheapest, highest-trust source — and most people don't do it (p. 86) | Compile contacts from phone + every email + every social. Most people have 1,000+ contacts they didn't know about. |
+| **Asking them to buy** | Pushy. Triggers defensive reflex. | Ask if they know anyone — *"We're not asking them to buy anything. We're asking if they know anyone"* (p. 95). Use the WHO-not-IF rule. |
+| **Lead magnet "sucky fluff"** | People who would have bought tell others not to. *"It's a vicious cycle you don't want to ride"* (p. 67). | Give away the secrets, sell the implementation. Provide more value than the cost of your core offer *before they buy*. |
+| **Stopping content before 12 months** | Audience growth has a long tail. *"Most people don't make money because they can't wait 12 months"* (p. 135) | Treat audience as the asset. 100 minutes/day, every morning, 7 days/week, for at least a year. |
+| **Asking too much in content (give-to-ask < 3:1)** | *"The moment you start asking for money is the moment you decide to slow down your growth"* (p. 137) | Maintain ≥3:1. Give in public, ask in private. |
+| **Treating cold outreach as one-shot** | Most operators don't follow up at all. | Multi-channel, multi-touch. Email first, phone follow-up. Expect 2–3 conversations before higher-ticket sale (p. 175). |
+| **Optimizing CAC when the real problem is LTGP** | *"Increasing advertising efficiency beyond a certain point is like trying to 'save your way' to a billion dollars"* (p. 224) | Use the diagnostic rule: CAC < 3x industry average → fix LTGP. CAC > 3x → fix ads. |
+| **Vanity LTV instead of LTGP** | LTV pretends revenue is profit. The next customer is paid for with *gross profit*, not revenue. (p. 220) | LTGP : CAC ≥ 3 : 1 is the real threshold. |
+| **Running paid ads first** | Costs money you don't have, on a skill you haven't built (p. 233) | Do warm outreach + content + cold outreach first. They teach the skills cheaply. |
+| **Letting product slip after referrals start** | Level 4 trap. *"This is where most people mess up. They let their product slip and never recover"* (p. 375) | When referrals hit ~25% of customers, redirect attention to product before scaling ads further. |
+| **Hiring potential, not experience** | New advertising channels need someone who already knows. *"If you're not learning from them in the interview, you've got the wrong person"* (p. 376) | Hire experienced operators for new channels. Pay them more. Promote from within for known channels. |
+| **Believing your market is saturated** | Size of the Pie Fallacy. The slice you advertise to isn't the whole market. (p. 242) | Do More on your current channel before declaring saturation. Then test a new placement, then a new platform. |
+| **Quitting before the green roll** | The Many Sided Die parable: every roll either grows your green or doesn't change it. *"If you quit, you lose"* (p. 386) | Stick three to six months minimum on a new channel. *"You cannot lose if you do not quit."* |
+| **Reading instead of advertising** | *"Reading doesn't get people interested in the stuff you sell. Advertising does"* (p. 371) | Close the book, fill out the One-Page Plan, do the work. |
 
 ## Quick Diagnostic
 
-Use this table to audit any existing lead generation system:
+Use this table to audit a lead-generation system:
 
 | Question | If No | Action |
-|----------|-------|--------|
-| Do you know your LTGP and CAC? | Flying blind -- can't scale profitably | Calculate immediately using real customer data |
-| Are you executing at least one Core Four method daily? | No consistent lead flow | Pick one method, apply the Rule of 100 |
-| Do you have a lead magnet that solves a narrow problem completely? | Weak conversion from stranger to engaged lead | Create a lead magnet using the 3x4 matrix |
-| Are you doing the Rule of 100 every day? | Insufficient volume to generate or optimize results | Commit to 100 days of daily action |
-| Have you applied "More" before "Better" before "New"? | Likely chasing shiny objects | Scale volume on best channel before optimizing or adding new ones |
-| Are customers referring new leads? | Missing the easiest, highest-quality lead source | Ask every customer directly and make it easy |
-| Are you tracking outreaches, responses, and conversions daily? | No data to optimize | Set up daily tracking immediately |
-| Do you have at least one Lead Getter channel active? | Scaling ceiling -- limited to your own capacity | Start with customer referrals, then add employees/affiliates |
+|---|---|---|
+| Do you have a Grand Slam Offer worth advertising? | No offer = no leads to chase | Stop. Go to [hundred-million-offers](../hundred-million-offers/SKILL.md) first. |
+| Do you have a lead magnet (or have you tested without one and confirmed direct sale works)? | Direct-to-offer not converting | Build a lead magnet using the seven-step process (Section 1). |
+| Are you doing the Core Four channel appropriate for your Seven Levels position? | Wrong channel for the level | Drop back to the level's Primary Action — usually warm outreach + content for Levels 1–2. |
+| Are you doing 100 primary actions/day OR running Open To Goal? | Volume is the failure mode | Pick one. Fill out the One-Page Plan. |
+| Is your give-to-ask ratio ≥3:1 in content? | Audience growth slowing | Stop asking; give in public, ask in private. |
+| Is your LTGP : CAC ≥ 3 : 1 on paid? | Below 3 = can't scale | Diagnostic rule: CAC vs. industry → fix LTGP or fix CAC accordingly. |
+| Can a customer pay you back in 30 days? | No → can't recycle cash | Add an upsell or front-end offer that hits Client Financed Acquisition. See [hundred-million-money-models](../hundred-million-money-models/SKILL.md). |
+| Are you running More-Better-New on a working channel? | Plateau without diagnosis | Find the constraint. Test the constraint. <$1M: More first. ≥$1M: Better first. |
+| Do you have at least one Lead Getter (customer referrals counts)? | All work flows through you | Add referrals first (no hiring required). Then employees, agencies, affiliates in order. |
+| Are referrals > churn? | Treadmill — must advertise to stay flat | Improve product (Level 4) until referral rate exceeds churn rate. |
+| Does your product earn 25%+ of customers from referrals? | Below 25% suggests the product isn't there yet | Pause ad scale. Fix product. The Level 4 trap. |
 
 ## Reference Files
 
-- [lead-generation-equation.md](references/lead-generation-equation.md): LTGP, CAC, ratio benchmarks, client-financed acquisition model, and unit economics
-- [core-four.md](references/core-four.md): The 2x2 matrix, method selection criteria, scaling sequence, and channel mastery checklist
-- [warm-outreach.md](references/warm-outreach.md): ACA framework scripts, 10-step process, reactivation campaigns, referral ask templates
-- [cold-outreach.md](references/cold-outreach.md): List building, cold email frameworks, personalization at scale, automation, and compliance
-- [content-strategy.md](references/content-strategy.md): Hook-Retain-Reward framework, content formats, platform strategy, posting cadence
-- [paid-ads.md](references/paid-ads.md): Ad testing frameworks, budget allocation, creative development, scaling strategies
-- [lead-magnets.md](references/lead-magnets.md): Lead Magnet Matrix (3x4), seven-step creation process, naming, and offer alignment
-- [lead-getters.md](references/lead-getters.md): Customer referrals, employee training, agency hiring, affiliate program design, Dream 100
-- [rule-of-100.md](references/rule-of-100.md): Daily tracking templates, 100-day commitment framework, and scaling beyond 100
-- [more-better-new.md](references/more-better-new.md): Optimization sequence, decision framework, and examples across all Core Four methods
-- [case-studies.md](references/case-studies.md): Detailed lead generation breakdowns across SaaS, coaching, e-commerce, agency, local business, and info products
-- [lead-gen-checklist.md](references/lead-gen-checklist.md): Step-by-step worksheet, scoring rubric, and fill-in templates
+- [lead-magnets.md](references/lead-magnets.md): Seven-step build, three magnet types, four delivery mechanisms, CTA construction
+- [warm-outreach.md](references/warm-outreach.md): The 10 steps, ACA framework, the nine scripts, daily checklist
+- [post-free-content.md](references/post-free-content.md): Hook-Retain-Reward, topic categories, audience metrics, depth vs. width, Free Goodwill
+- [cold-outreach.md](references/cold-outreach.md): The 3-step scaffold, list-building waterfall, personalization-vs-volume, channel rules
+- [paid-ads.md](references/paid-ads.md): Ad anatomy, What-Who-When, callout libraries, money math, Client Financed Acquisition
+- [more-better-new.md](references/more-better-new.md): Rule of 100, constraint analysis, three levels of "New", size-flip rule
+- [lead-getters.md](references/lead-getters.md): Referral Growth Equation, seven ways to ask, Internal Core Four, agency vetting, six-step affiliate process
+- [open-to-goal.md](references/open-to-goal.md): The One-Page Plan, daily habit stack, Roadmap, Many Sided Die parable
+- [case-studies.md](references/case-studies.md): Detailed worked examples — Gym Launch, Webinar→Case Study pivot, the chiropractor "saturation" story, the flyer parable
+- [checklist.md](references/checklist.md): Step-by-step worksheet, daily/weekly checklists, scoring rubric
 
 ## Further Reading
 
-This skill is based on Alex Hormozi's lead generation framework. For the complete methodology, expanded case studies, and additional business growth strategies:
+This skill is based on *$100M Leads: How to Get Strangers To Want To Buy Your Stuff* by Alex Hormozi (Acquisition.com, 2023). For the complete methodology:
 
-- [*"$100M Leads: How to Get Strangers to Want to Buy Your Stuff"*](https://www.amazon.com/100M-Leads-Strangers-Want-Stuff/dp/1737475774) by Alex Hormozi
-- [*"$100M Offers: How to Make Offers So Good People Feel Stupid Saying No"*](https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/1737475731) by Alex Hormozi
+- [*"$100M Leads"*](https://www.amazon.com/100M-Leads-Strangers-Stuff-Acquisition-com/dp/1737475774) by Alex Hormozi (hardcover, ISBN-13: 978-1737475774)
+- [*"$100M Offers"*](https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/1737475731) by Alex Hormozi — the prerequisite (Vol. I, 2021, ISBN-13: 978-1737475736)
+- [*"$100M Money Models"*](https://www.amazon.com/100M-Money-Models-Make-Acquisition-com/dp/1963349156) by Alex Hormozi — the sequel (Vol. III, 2024, ISBN-13: 978-1963349153)
+- [Acquisition.com](https://www.acquisition.com/) — Hormozi's holding company / publisher
+- [Free book companion training](https://acquisition.com/training/leads) — referenced inside the book
 
 ## About the Author
 
-**Alex Hormozi** is an entrepreneur, investor, and author who has built and scaled multiple businesses generating over $200 million in revenue. He is the founder of Acquisition.com, a portfolio of companies that does over $200 million per year. *$100M Leads* is the companion book to *$100M Offers*, focusing on the other half of the business equation: getting people to know about your offer in the first place. Hormozi generated over $75 million in sales through affiliates alone and built his personal brand from 2,000 YouTube subscribers to millions of followers by consistently applying the frameworks in this book.
+**Alex Hormozi** is the founder of Acquisition.com, a holding company he started in 2020 that invests in profitable, bootstrapped businesses; its portfolio companies generate $200M+ per year in revenue. Before Acquisition.com he built Gym Launch, in 2021 selling a 66% stake in Gym Launch and Prestige Labs to American Pacific Group at a $46.2M valuation after taking $42M in owner pay over four years (*$100M Leads*, "How I Got Here", p. 20). He is the author of three books in the *Acquisition.com $100M Series:* *$100M Offers* (Vol. I, 2021), *$100M Leads* (Vol. II, 2023), and *$100M Money Models* (Vol. III, 2024). Hormozi reports surpassing $100M in net worth at age 32 (*$100M Leads*, p. 11), with a lifetime advertising return of 36:1.

@@ -1,181 +1,197 @@
-# More, Better, New: The Lead Generation Optimization Sequence
+# More Better New — Scaling the Core Four
 
-When you want more leads, you have exactly three levers. Most entrepreneurs pull the wrong one first. The correct order is always: More → Better → New. This sequence minimizes risk, maximizes speed, and prevents the most common lead generation mistake: chasing shiny objects instead of scaling what already works.
+Reference for $100M Leads §6 ("Core Four On Steroids"), pp. 234–248. Expands SKILL.md section 6. Use this once at least one Core Four channel is already running and producing engaged leads.
 
-## The Three Levers
+> *"If at first you don't succeed, use force."* — chapter epigraph, p. 234
 
-### Lever 1: More
+---
 
-**What it means:** Do more of what is already working. Before changing anything, increase volume.
+## Definition
 
-**Why it comes first:** "More" has the lowest risk and fastest payoff. If cold emails are getting responses, send more cold emails. If Instagram posts are generating leads, post more often. The relationship between volume and results is usually linear in the early stages -- 2x the volume ≈ 2x the results.
+More-Better-New is the framework for boosting any Core Four channel (warm outreach, post content, cold outreach, paid ads) once it's already running. There are three levers, in this default order:
 
-**Examples:**
+1. **MORE** — do more of what you're currently doing.
+2. **BETTER** — do what you're currently doing better.
+3. **NEW** — do it somewhere new.
 
-| Current Activity | "More" Action | Expected Impact |
-|-----------------|--------------|----------------|
-| Sending 50 cold emails/day | Send 100 cold emails/day | ~2x the responses |
-| Posting 3x/week on LinkedIn | Post daily (7x/week) | ~2x the engagement |
-| Spending $50/day on ads | Spend $100/day on ads | ~2x the leads |
-| Asking 1 in 5 customers for referrals | Ask every customer | ~5x the referrals |
-| Reaching out to 30 warm contacts/day | Reach out to 100 warm contacts/day | ~3x the conversations |
+Hormozi: *"There are two ways to boost any of the core four to get even more engaged leads on your own. I use these every time I want to increase the engaged lead flow in a portfolio company. They are easy to remember: More, Better, New."* (p. 237)
 
-**When to stop pulling "More":**
-- You've maxed out your capacity (can't physically do more without help)
-- You've exhausted your list (no more people to reach)
-- Quality is degrading (more volume = sloppier execution)
-- You're hitting platform limits (LinkedIn connection limits, email sending limits)
-- Returns are diminishing (doubling volume only produces 20% more results)
+The chapter opens with a chiropractor doing $2M/yr who claims he's "saturated the market" — but spends only $30K/mo on one platform, makes no content, does no cold outreach. A peer in the same niche spends $30K *per week* across four platforms. The chiropractor hadn't begun to scale on the channels he already had. (pp. 234–236)
 
-### Lever 2: Better
+---
 
-**What it means:** Improve what you're already doing. Optimize scripts, headlines, targeting, follow-up sequences, landing pages, and conversion points.
+## The Size of the Pie Fallacy
 
-**Why it comes second:** You need enough volume to measure what works. You cannot optimize a cold email template if you've only sent 50 emails. You cannot improve ad creative if you've only tested 2 versions. "Better" requires data, and data requires volume.
+The bedrock mechanism behind all three levers — named in the New section but applies throughout:
 
-**Examples:**
+> *"A small business uses one of the core four, on one platform, in one specific way, with a very targeted audience. And in that same space, advertising the same way, there may only be a handful of other competitors. They mistakenly assume the tiny slice of the universe they advertise to is the entire available market!"* (p. 242)
 
-| Current Activity | "Better" Action | Expected Impact |
-|-----------------|----------------|----------------|
-| Cold emails getting 2% response rate | Test new subject lines, personalization, value prop | Improve to 4-6% response rate |
-| Content getting 1% engagement | Improve hooks (test 10 variations per piece) | Improve to 3-5% engagement |
-| Ads getting $50 CPL | Test new hooks, audiences, landing pages | Reduce to $25-30 CPL |
-| Sales calls closing at 10% | Improve script, qualification, objection handling | Improve to 20-25% close rate |
-| Referral ask getting 5% yes rate | Test new language, timing, incentives | Improve to 15-20% yes rate |
+> *"This is why most businesses stay small. When they plateau, they think there's no more leads to get. They believe they got as big as they possibly can. Because, for many, saying 'I'm as big as I can get' is much easier than saying 'I'm not as good at advertising as I thought.' This false argument keeps entrepreneurs everywhere poorer than they should be."* (p. 242)
 
-**What to optimize (in order of impact):**
+More-Better-New systematically attacks the fallacy: do more inside your current slice, then improve conversion inside that slice, then expand to adjacent slices.
 
-| Element | Impact Level | How to Optimize |
-|---------|-------------|----------------|
-| **The hook** | Highest | Test 10 variations, measure click/open/engagement rate |
-| **The offer** | Very High | Test different lead magnets, CTAs, value propositions |
-| **Targeting** | High | Narrow or expand audience, test different segments |
-| **The follow-up** | High | Add more touchpoints, vary the approach, add value |
-| **Landing page** | Medium-High | Test headline, layout, social proof, form length |
-| **Copy/messaging** | Medium | Test different angles, stories, proof points |
-| **Timing** | Medium | Test day of week, time of day, frequency |
-| **Format** | Lower | Test video vs. text, long vs. short, image vs. no image |
+The companion case: a weight-loss entrepreneur at $3M/yr afraid that increasing past $40K/mo would "saturate" a platform with **1B daily active users** in a **$60B** US weight-loss market. Hormozi: *"Silly."* (p. 236)
 
-**When to stop pulling "Better":**
-- Conversion rates have plateaued despite multiple tests
-- Marginal improvements are too small to matter
-- You've tested the major variables (hook, offer, targeting, follow-up)
-- Further optimization requires a fundamental change in approach
+---
 
-### Lever 3: New
+## MORE — The Rule of 100
 
-**What it means:** Try something entirely new. Add a new channel, platform, outreach method, or lead source.
+> *"Even with no improvements at all, if you double your inputs, you'll get more engaged leads. Make twice the reach outs, post twice the content, run twice the ads, double the ad spend, etc. You won't regret it. Unless, of course, you hate money."* (p. 238)
 
-**Why it comes last:** "New" has the highest risk and slowest payoff. A new channel means learning a new skill, building a new audience, and going through the growing pains all over again. It is the most exciting lever (which is why people pull it first) but the least efficient.
+> *"While we'll always focus on testing to make ourselves better… the **biggest** increases often come from advertising more."* (p. 238)
 
-**Examples:**
+### The Rule of 100
 
-| Current Activity | "New" Action | Expected Timeline |
-|-----------------|-------------|-------------------|
-| Only doing cold email | Add LinkedIn content posting | 60-90 days to see traction |
-| Only posting on Instagram | Add YouTube channel | 90-180 days to build audience |
-| Only running Meta ads | Add Google Search ads | 30-60 days to optimize |
-| Only warm outreach | Add cold outreach | 30-60 days to build list and test |
-| Only customer referrals | Launch affiliate program | 60-90 days to recruit and activate |
+> *"The rule of 100 is simple. You advertise your stuff by doing 100 primary actions every day, for one hundred days in a row. That's it. I don't make many promises, but this is one. If you do 100 primary actions per day, and you do it for 100 days straight, you will get more engaged leads. Commit to the rule of 100 and you will never go hungry again."* (p. 238)
 
-**When to pull "New":**
-- You've genuinely maxed out "More" and "Better" on existing channels
-- Data shows diminishing returns despite optimization
-- You have the bandwidth (time, money, people) to learn a new channel without neglecting existing ones
-- The new channel addresses a gap in your audience reach
-- You're making a strategic decision, not chasing a shiny object
+### Per-channel quotas (pp. 238–239)
 
-## The Decision Framework
+| Core Four channel | Daily quota | Notes |
+|---|---|---|
+| Warm Reach Outs | 100 reach outs/day | email, text, DM, calls — personal |
+| Post Content | 100 minutes/day creating + ≥1 release/day per platform | "As you get better, post even more." |
+| Cold Reach Outs | 100 reach outs/day | email, text, DM, cold call, flyers — *"expect lower response rates, so use automation."* |
+| Paid Ads | 100 minutes/day creating + 100 days straight running | *"Aim for Client Financed Acquisition."* |
 
-When you're thinking about what to do next for lead generation, ask these questions in order:
+### Pro tip: more tests = better ads
 
-### Question 1: "Am I doing enough volume?"
-If no → **More.** Increase volume on your best channel.
+> *"Facebook reviewed the accounts of all advertisers on their platform. They found something curious. The top .1% of advertisers test eleven times more creative than everyone else. Oftentimes, it's not that you can't scale an ad profitably. You just can't scale a mediocre ad profitably. And the only way to find the exceptional ads is to make eleven times more of them. Success leaves clues."* (p. 239)
 
-### Question 2: "Have I optimized the key variables?"
-If no → **Better.** Test hooks, offers, targeting, and follow-ups.
+The implication: *More* isn't only volume of distribution — it's volume of *creative tests*. Volume of tests is what then enables Better.
 
-### Question 3: "Have I genuinely maxed out this channel?"
-If no → Go back to Question 1.
-If yes → **New.** Add a new channel.
+---
 
-### The Shiny Object Test
-Before adding anything new, ask: "Am I doing this because the data shows I've maxed out my current approach, or because I'm bored and want something exciting?"
+## BETTER — The Constraint Rule
 
-If it's boredom → Go back to More and Better.
-If it's data → Proceed to New.
+> *"Getting better gets you more leads for the same effort. We want that. And you can only get better by doing one thing — testing. So you do more and more… until it breaks. Then, you make it better… Thousands of these tiny tests separate the winners from the beginners."* (p. 240)
 
-## Applying More, Better, New to Each Core Four
+### Find the constraint
 
-### Warm Outreach
+> *"Every action a lead takes before they become a customer is a potential 'drop-off' point. So I do the most testing at whatever step the most leads drop off. I call these 'constraints.' Constraints are the points where the smallest improvements create the biggest boost in results."* (p. 240)
 
-| Lever | Action |
-|-------|--------|
-| **More** | Reach out to more contacts per day. Expand your contact list. Join more communities. |
-| **Better** | Improve your ACA script. Test different opening lines. Optimize your referral ask. |
-| **New** | Move from one platform (LinkedIn) to adding another (Instagram, email, phone). |
+### Worked example: 30% / 5% / 50% funnel (pp. 240–241)
 
-### Cold Outreach
+A 3-step funnel — 30% Optin → 5% Apply → 50% Schedule. A 5-point absolute lift at each step yields:
 
-| Lever | Action |
-|-------|--------|
-| **More** | Send more emails per day. Build bigger lists. Add more SDRs. |
-| **Better** | Test subject lines. Improve personalization. Optimize follow-up sequence. |
-| **New** | Move from cold email to cold calling. Add LinkedIn outreach. Try direct mail. |
+| Step | Before → After | Result |
+|---|---|---|
+| Optin | 30% → 35% | +16% leads (1.16x) |
+| **Apply** | **5% → 10%** | **+100% leads (2x)** ← the constraint |
+| Schedule | 50% → 55% | +10% leads (1.1x) |
 
-### Content
+> *"Improving the constraint also comes out the clear winner. So, focus on the constraint. And, again, if you're not sure which step is the biggest constraint, find the step where the most leads drop off. You'll get the biggest reward for the smallest improvement."* (p. 241)
 
-| Lever | Action |
-|-------|--------|
-| **More** | Post more frequently. Create more content per day. Repurpose across platforms. |
-| **Better** | Improve hooks. Test new formats. Analyze top performers and double down. |
-| **New** | Add a new platform. Try a new content type (podcast, newsletter, YouTube). |
+### Test cadence: one test per week per platform
 
-### Paid Ads
+Four reasons (pp. 241–242):
 
-| Lever | Action |
-|-------|--------|
-| **More** | Increase daily budget. Expand to new ad sets. Target broader audiences. |
-| **Better** | Test new hooks. Improve landing pages. Optimize targeting. Reduce CPL. |
-| **New** | Add a new platform. Try a new ad format (video vs. static). Test new audiences. |
+1. *"If you test multiple things at a time on one platform you never really learn what worked."*
+2. *"Steps affect each other. A single change can affect results at other steps."* Multiple simultaneous changes obscure attribution.
+3. *"It forces you to prioritize what will get you the most engaged leads… don't waste it on a color change from red to bright red."*
+4. *"You run the test for long enough to see if you actually get an improvement. Too short and you won't get enough data. Too long and you waste time you could've spent improving the next constraint. With the size of my team and the amount of money I spend on advertising, one week is typically long enough."*
 
-## Common Traps
+### The Monday ritual (p. 242)
 
-### Trap 1: "More" Without Tracking
-Increasing volume without measuring results. You think you're doing more, but you don't know if it's working.
+1. Look at the results, pick the winners for each platform test.
+2. Log the results — *"so the next time we do something, we start a zillion improvements later, not at square one."*
+3. Define the next test to beat the current best version. **If we can't beat it in four tries (or one month), move on to the next constraint.**
 
-**Fix:** Track daily. Outreaches sent, responses received, leads generated, customers acquired.
+### Pro tip: Front > Back (most times)
 
-### Trap 2: "Better" Without Volume
-Trying to optimize a cold email template based on 20 sends. You don't have enough data to know what works.
+> *"In general, the lowest percentage steps usually happen at the front. And, the higher percentage steps happen at the back. As in 1% of people may click an ad then 30% will give you their contact information. This is why (most times) you'll end up focusing on the front more than the back. And that's fine. Those steps are usually the constraint. They have largest returns for the smallest improvements. The call out. The value elements. The offer. The CTA. The landing page headline. Sub headline. Image, etc."* (p. 243)
 
-**Fix:** Get to 1,000+ before optimizing. Small sample sizes produce misleading conclusions.
+Walk in the order the lead sees and does — usually that's where the constraint lives.
 
-### Trap 3: "New" Because of Boredom
-Adding a TikTok channel because it sounds fun, not because you've maxed out LinkedIn.
+---
 
-**Fix:** Apply the Shiny Object Test. Is this decision driven by data or excitement?
+## NEW — Three Levels (easy → hard)
 
-### Trap 4: Abandoning What Works
-Starting a new channel and neglecting the existing one. Your best channel decays while you struggle with the new one.
+> *"So after you've improved your marketing efforts through 'more' and 'better' the only thing you have left is — 'new places in new ways.' In simple terms — new."* (p. 244)
 
-**Fix:** Only add "New" when you have the bandwidth to maintain current channels at full capacity.
+### When to do New
 
-### Trap 5: Optimizing Too Early
-Spending hours perfecting a landing page before you've sent 100 people to it.
+> *"When the returns you get from doing more ↔ better are lower than what you could get from a new placement or new way of advertising."* (p. 245)
 
-**Fix:** More first. Get 1,000 visitors before optimizing the page.
+### The three levels (p. 246)
 
-## Exercises
+> *"New placements → New Platforms → New Core Four."*
 
-### Exercise 1: The Three-Lever Audit
-For your primary lead generation channel, answer: (1) What would "More" look like? (2) What would "Better" look like? (3) What would "New" look like? Which lever should you pull right now?
+1. **New placements** — same platform, different ad surface.
+   > *"On Instagram you can make stories, messenger ads, and posts. On YouTube you can make shorts, longs, community posts, etc."* (pp. 245–246)
+2. **New platforms** — same Core Four activity, different platform.
+   > *"They go from Instagram messenger to Facebook messenger. They go from YouTube shorts videos to Instagram short videos (reels)."* (p. 246)
+3. **New Core Four activity** — a whole new advertising mode altogether.
+   > *"Once they've exhausted those, they could add an entirely new core four activity."* (p. 246)
 
-### Exercise 2: The Volume Check
-Are you doing enough volume to generate meaningful data? How many outreaches/posts/ad impressions have you had this month? If less than 1,000, your only job is "More."
+### Selection rule
 
-### Exercise 3: The Optimization Backlog
-List every variable you could test in your current best channel (subject lines, hooks, targeting, CTAs, follow-ups, timing). Rank them by expected impact. Test the top 3 this month.
+> *"And if you're curious, the order I pick my next 'new' comes down to one thing: what will get me the most leads for the amount of work? That is the rule."* (p. 246)
 
-### Exercise 4: The New Channel Justification
-If you're considering adding a new channel, write a one-paragraph justification that includes: (1) what you've done to max out "More" and "Better" on existing channels, (2) data showing diminishing returns, and (3) why this specific new channel addresses a gap. If you can't write this paragraph, you're not ready for "New."
+### Action step (verbatim, pp. 246–247)
+
+> *"Exhaust more better first. Once you can't do anymore, any better (meaning the returns are lower than putting that same effort into a new platform) try new. Use this rough order: new placement, new platform, new core four activity. Get it going. Measure how you do. And scale up from there using more–better. Then, rinse and repeat."*
+
+---
+
+## The Decision Hierarchy
+
+The default order is **More → Better → New**, with Better and More working in tandem (More until it breaks → Better → resume More), and New only after exhausting both.
+
+> *"First, you do way more of the advertising that works until it 'breaks.' Then, the next drop off point becomes obvious. Then you keep that level of advertising up while you go back, fix the constraint, and make it better. So really, better and more work with each other more than they work separately. The first question I usually ask myself before we invest in a company that needs to get more customers is 'What's stopping them from doing ten times what they're currently doing?' Sometimes, nothing — so we just do more. Other times we just need to make something better first. So answer that question and you'll know what to do next."* (p. 247)
+
+### Pro tip: the size-flip
+
+> *"When talking to businesses less than $1,000,000 per year in profit, I usually advise them to do more first. They haven't done enough volume for percentage changes to make a big difference. But once you cross $1,000,000 in annual profit, making things better can be the lowest cost, highest return thing you do. So once a business is big enough, I flip the order from 'more, better, new' to 'better, more, new.'"* (p. 243)
+
+| Annual profit | Default order |
+|---|---|
+| **< $1M** | More → Better → New |
+| **≥ $1M** | Better → More → New |
+
+The logic: percentage lifts only matter when there's enough volume for the percentage to be meaningful. A 1% lift on $40K/mo of spend is nothing; a 1% lift on $4M/mo of spend pays for an executive.
+
+---
+
+## Numeric Targets at a Glance
+
+- **Rule of 100:** 100 primary actions/day × 100 days (p. 238)
+- **Top 0.1% of Facebook advertisers test 11x more creative** than everyone else (p. 239)
+- **Test cadence:** one test/week/platform; can't beat current best in 4 tries / 1 month → move to next constraint (pp. 241–242)
+- **Profit threshold for the size-flip:** $1M annual profit (p. 243)
+- **Funnel math:** 5-point lift on a 5% step = 2x leads; same lift on a 30% step = 1.16x; on a 50% step = 1.1x (pp. 240–241)
+
+---
+
+## Common Mistakes
+
+- **Believing your market is saturated.** Size of the Pie Fallacy — the slice you currently advertise to is not the whole market (p. 242).
+- **Saying "I'm as big as I can get"** instead of "I'm not as good at advertising as I thought" (p. 242).
+- **Jumping to New before exhausting More and Better.** *"Now, this is much harder in practice, which is why I exhaust 'more, better' first."* (p. 246)
+- **Testing multiple things at once on one platform.** You can't tell what worked (p. 241).
+- **Wasting your one weekly test on something trivial** — "color change from red to bright red" (pp. 241–242).
+- **Running tests too short or too long.** Too short = no data; too long = lost time on the next constraint (p. 242).
+- **Optimizing a non-constraint step.** Biggest mistake of "Better" — the math just doesn't move (pp. 240–241).
+- **Trying to get Better before doing enough volume** (sub-$1M businesses). Percentage changes don't matter yet (p. 243).
+- **Confusing sales problems with advertising problems** (p. 232) — More/Better/New all assume your sales process can convert.
+
+---
+
+## Notes on Ethics (implicit boundaries)
+
+The chapter doesn't carry an explicit ethics section. The implicit boundary is the same one Hormozi uses throughout the book:
+
+> *"But remember, you only need to do one to get engaged leads. So, just pick one. Then, max it out. Do more. Do better. Do new."* (p. 248)
+
+There's no instruction to cross channels you can't deliver on, spam, or deceive. More-Better-New is volume + iteration on real value, anchored upstream by the Lead Magnet and Offer chapters. The chapter's tonal floor:
+
+> *"Advertising is the process of making known."* (p. 247)
+
+Make more people know about real value — not louder versions of misleading. If your product is sucky fluff, More multiplies the harm; if your offer doesn't deliver, Better just optimizes a deception. The lever amplifies whatever's underneath.
+
+---
+
+## Closing Quote
+
+> *"First, you do way more of the advertising that works until it 'breaks.' Then, the next drop off point becomes obvious. Then you keep that level of advertising up while you go back, fix the constraint, and make it better… Only once you've exhausted more–better do the real returns come from doing new. First, go with new ad placements on a platform you know. Second, go with placements you know on a new platform. Then, once you get the hang of that new platform, use new placements on it. Once you exhaust that, you can add a new core four activity on top of what you currently do. That gives you my simple, real-world way, I put the core four on steroids to get even more leads."* (p. 247)
+
+The chapter closes by handing off to Section IV: once More-Better-New runs you out of hours, you need *Lead Getters* — other people doing the Core Four for you. See [lead-getters.md](lead-getters.md).
