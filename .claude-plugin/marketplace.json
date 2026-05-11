@@ -1,0 +1,75 @@
+{
+  "name": "ivcota-skills",
+  "owner": { "name": "Ivcota" },
+  "plugins": [
+    {
+      "name": "engineering",
+      "source": "./",
+      "description": "Ship the right thing the first time. User Story Mapping, Domain Storytelling, and FAAS — for discovery, modeling, and clean feature delivery.",
+      "version": "0.0.1",
+      "skills": [
+        "./user-story-mapping",
+        "./domain-storytelling",
+        "./faas"
+      ]
+    },
+    {
+      "name": "learning-thinking",
+      "source": "./",
+      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, One-Month Day, Deep Learner, Bear Hunter System, Distill-to-Skill, and ADDIE instructional design.",
+      "version": "0.0.1",
+      "skills": [
+        "./align-mental-model",
+        "./feynman",
+        "./the-one-thing",
+        "./one-month-day",
+        "./deep-learner",
+        "./bear-hunter-system",
+        "./distill-to-skill",
+        "./addie"
+      ]
+    },
+    {
+      "name": "writing",
+      "source": "./",
+      "description": "Write in your voice, not Claude's. Style Profile, Style-to-Skill, and Humanizer — extract your voice, package it as a skill, and strip AI patterns from any draft.",
+      "version": "0.0.1",
+      "skills": [
+        "./style-profile",
+        "./style-to-skill",
+        "./humanizer"
+      ]
+    },
+    {
+      "name": "strategy-operations",
+      "source": "./",
+      "description": "Pick the right bet and run the business that bets it. Office Hours, Zero to One, Millionaire Fastlane, Good Strategy / Bad Strategy, E-Myth Revisited, and Theory of Constraints.",
+      "version": "0.0.1",
+      "skills": [
+        "./office-hours",
+        "./zero-to-one",
+        "./millionaire-fastlane",
+        "./good-strategy-bad-strategy",
+        "./e-myth-revisited",
+        "./theory-of-constraints"
+      ]
+    },
+    {
+      "name": "sales-marketing",
+      "source": "./",
+      "description": "Find them, win them, sell them. Validate ICP, Buyer Profile, Persona to Product, Win Friends & Influence People, Value Equation, Grand Slam Offer, $100M Money Models, $100M Leads, and Breakthrough Advertising.",
+      "version": "0.0.1",
+      "skills": [
+        "./validate-icp",
+        "./buyer-profile",
+        "./persona-to-product",
+        "./win-friends-influence-people",
+        "./value-equation",
+        "./grand-slam-offer",
+        "./hundred-million-money-models",
+        "./hundred-million-leads",
+        "./breakthrough-advertising"
+      ]
+    }
+  ]
+}
