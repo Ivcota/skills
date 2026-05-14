@@ -25,6 +25,16 @@ A Hook Point can be **text** (a phrase, title, copy), an **insight** (statistic,
 
 **A Hook Point is not** a USP, tagline, mission statement, or brand purpose — though any of those *can* be a Hook Point *if* they grab attention in 3 seconds. The Hook Point is the attention vehicle; the USP, tagline, and mission deliver meaning *after* attention is captured. And unlike a USP or mission, Hook Points must continuously evolve — what worked last quarter dies as competitors copy and audiences habituate.
 
+## Reduced Mode: 60-Second Hook
+
+When you need a hook *now* and can't run the full 9-step process, collapse to three moves:
+
+1. **Pain or desire in one sentence.** What is the reader trying to escape or reach? Specific, not category-level.
+2. **Subvert + specify.** Take the obvious framing and either invert it ("Meditation is a scam") or pin it to a concrete number, name, or image ("96 million black balls"). Cut every word that isn't load-bearing.
+3. **Read aloud, 3-second test.** If it doesn't land in one breath, it's too long. If it needs a setup, it's not a hook — it's a paragraph.
+
+Use Reduced Mode for replies, comments, subject lines, and first drafts. Use the full process for headlines, video openers, landing pages, and anything you'll spend money promoting.
+
 ## Scoring
 
 Kane proposes **no numeric scoring**. Effectiveness is measured by whether the hook captures attention in the specific platform and audience — measured by A/B test, view-through, click, share. The discipline is generate 50–100 variants → compare → test → iterate. Hooks have a lifespan; the right metric is *current* attention capture, not a static grade.
@@ -67,6 +77,18 @@ See: [references/01-definition.md](references/01-definition.md) for the hook-vs-
 - **Tagline + value-prop split:** Nike's "Just Do It" is the tagline; the shoes are the USP; the hook rotates ("Believe in something. Even if it means sacrificing everything." / Vaporfly "the five fastest men's marathons in history have all been run in the last 13 months").
 
 **Ethical boundary:** A Hook Point should always remain true to who you are as a brand. Inauthenticity will register as clickbait the second the audience clicks through.
+
+**Platform constraints (where the hook actually lives):**
+
+| Platform | Hook real estate | Cutoff rule |
+|---|---|---|
+| LinkedIn post | First ~210 chars before "...see more" | If the gag is past the fold, the hook failed |
+| X / Twitter post | First 7–10 words of the first line | Thumb decides before reaching word 11 |
+| YouTube title | ~60 chars before truncation on mobile | Pair with thumbnail; title alone never carries it |
+| Cold email subject | 30–50 chars (mobile preview ~40) | Preview text is a second hook — design both |
+| TikTok / Reels opener | First 1.5 seconds of audio + visual | Open with the payoff; no intro card |
+| Landing page H1 | 6–12 words above the fold | Sub-headline carries the proof; H1 carries the hook |
+| Podcast title / episode | ~40 chars before app truncation | Guest name alone is not a hook |
 
 See: [references/02-creating.md](references/02-creating.md) for the full 5-step workshop and 30+ copy-pattern templates.
 
@@ -187,6 +209,41 @@ See: [references/09-world-class.md](references/09-world-class.md) for novelty pa
 - **Brand as movie studio:** Each new release is a new opportunity to test fresh hooks.
 - **Build iteration into your business strategy.** *"Revising and examining your hooks on an ongoing basis gives you power."*
 
+**Signature hook vs. rotating hook — don't confuse them:**
+
+| | Signature anchor | Rotating hook |
+|---|---|---|
+| **Frequency** | One per brand, for years | Many per quarter |
+| **Purpose** | Identity; the thing the brand *is* | Attention; the thing the brand *says today* |
+| **Examples** | Nike "Just Do It", Apple "Think Different", FedEx "absolutely, positively overnight" | Nike Vaporfly "the five fastest marathons", Apple "1000 songs in your pocket" |
+| **When it decays** | Almost never — protect it | Constantly — replace it |
+| **Restraint rule** | If everything is signature, nothing is. Pick one. | Have the next variant ready before this one dies. |
+
+A common failure mode: treating every campaign as a signature attempt, or treating the signature anchor like a rotating hook and abandoning it under one bad quarter.
+
+**Trigger states — track where your hook is on the decay curve:**
+
+| State | Symptom | Action |
+|---|---|---|
+| **Fresh** | Outperforms prior baseline; competitors haven't copied yet | Run it hard; document what's working |
+| **Mature** | Performance plateau; still hits baseline | Begin testing successors in parallel |
+| **Habituated** | Same audience seeing it for 3rd+ time; CTR drops | Rotate to next variant from backlog |
+| **Dead** | Competitors widely copying; audience eye-rolls | Retire publicly; the new hook is the news |
+
+**Modes — same hook, different rules:**
+
+The same hook framing operates under different rules depending on context. Treat these as modes:
+
+| Mode | What changes |
+|---|---|
+| **Cold vs. warm** | Cold needs more curiosity gap; warm can lead with payoff |
+| **B2B vs. B2C** | B2B tolerates specificity-with-jargon; B2C needs everyday language |
+| **Video vs. text** | Video opens with the gag in motion; text opens with the gag in 7 words |
+| **Owned vs. paid** | Owned hooks build identity; paid hooks optimize for click-through |
+| **Top-of-funnel vs. bottom-of-funnel** | Top: novelty and pattern interrupt. Bottom: proof and specificity. |
+
+If you copy a hook from one mode into another without re-tuning the rules, you'll get the Rings problem — viral in one mode, dead in another.
+
 See: [references/10-iteration.md](references/10-iteration.md) for the Moneyball anchor + rotation pattern and the TOMS / Chatbooks evolution cases.
 
 ## Hook Point Process
@@ -202,6 +259,34 @@ Kane's explicit 5-step method from Ch. 2, extended with Ch. 6 (listening) and Ch
 7. **Listen and refine.** Watch responses. Ask. Adjust the hook to the specific audience in the room.
 8. **Watch for hook fatigue.** Track when the hook stops landing. Have the next variant ready.
 9. **Repeat with evolved hooks.** Build the cycle into your ongoing work. *"Revising and examining your hooks on an ongoing basis gives you power."*
+
+## Feedback Loops
+
+A hook is a microinteraction: the reader gives feedback to themselves (do I stay or scroll?), and the platform gives feedback to you (did it work?). Design for both.
+
+**Reader-side feedback — what the reader feels, second by second:**
+
+| Time | What must happen internally | If it doesn't |
+|---|---|---|
+| **0.0–0.5s** | Pattern interrupt — eye locks on. Visual contrast, novel word, unexpected number. | Thumb keeps moving. Game over. |
+| **0.5–1.5s** | Curiosity gap opens — reader senses a question they can't immediately answer. | Reader categorizes ("ad", "ranty post") and scrolls. |
+| **1.5–3.0s** | Identity recognition — "this is for someone like me." Or stake — "this matters." | Reader feels the hook isn't aimed at them; bounces. |
+| **3.0s+** | Commitment to read line 2. The hook has done its job. | Even great body copy never gets read. |
+
+If your hook works at 0.5s but fails at 1.5s, it's clickbait — pattern interrupt without a real curiosity gap. If it works at 1.5s but fails at 3s, it's aimed at the wrong audience. Diagnose by which moment fails, not by total performance.
+
+**Author-side feedback — what to measure and when:**
+
+| Timeframe | Signal | What it tells you |
+|---|---|---|
+| **First 60 minutes** | View-through past 3s, scroll-stop rate, dwell time on H1 | Did the trigger fire? |
+| **First 24 hours** | CTR, reply/comment rate, share rate | Did curiosity convert to action? |
+| **First week** | Conversion past the hook (signup, purchase, reply-to-cold-email) | Did the hook attract the right audience or the wrong one? |
+| **First month** | Repeat-exposure performance, copy by competitors | Is the hook still fresh, or entering habituation? |
+
+The trap: optimizing only on first-60-minute signals (vanity virality) instead of first-week conversion (audience fit). The Rings TV-prank failure mode — 10M views, no tickets — is a feedback-loop misread: the team watched 60-minute signals and missed that the 1-week signal said "wrong audience."
+
+**Latency rule:** A hook's "response time" is the gap between trigger and curiosity-gap opening. Aim for <1s. If a reader has to parse the sentence twice to feel the hook, it's too slow — same principle as UI feedback needing to land in <100ms.
 
 ## Common Mistakes
 
