@@ -1,0 +1,8 @@
+# gstack local state
+.gstack/
+
+# Build / staging artifacts from distill-to-skill (epub extractions, intermediate notes)
+skills-draft/
+
+# macOS
+.DS_Store

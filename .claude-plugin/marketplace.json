@@ -16,7 +16,7 @@
     {
       "name": "learning-thinking",
       "source": "./",
-      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, One-Month Day, Deep Learner, Bear Hunter System, Distill-to-Skill, and ADDIE instructional design.",
+      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, One-Month Day, Deep Learner, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
       "version": "0.0.1",
       "skills": [
         "./align-mental-model",
@@ -26,7 +26,8 @@
         "./deep-learner",
         "./bear-hunter-system",
         "./distill-to-skill",
-        "./addie"
+        "./addie",
+        "./ultralearning"
       ]
     },
     {
