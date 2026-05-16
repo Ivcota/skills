@@ -1,10 +1,7 @@
 ---
 name: breakthrough-advertising
 description: |
-  Apply, diagnose, and teach Eugene M. Schwartz's *Breakthrough Advertising* (1966) — find the Mass Desire in a market, locate the prospect's State of Awareness (5 states) and Market Sophistication (5 stages), and write copy that channels that desire through Schwartz's Seven Techniques (Intensification, Identification, Gradualization, Redefinition, Mechanization, Concentration, Camouflage) plus the Final Touches.
-  Schwartz's signature: copy cannot create desire — it can only channel it. The headline starts at the prospect's precise point of awareness, not at a clever line.
-  Use when the user mentions "write a headline", "mass desire", "5 states of awareness", "most aware / problem aware / unaware", "market sophistication", "first to market", "dead product", "intensify desire", "build belief", "name the mechanism", "borrow believability", "diagnose this ad", "Schwartz", or "Breakthrough Advertising". Also trigger when reviewing landing pages, sales letters, direct-response ads, or headline lists.
-  For offer construction (price / bonuses / guarantee), see hundred-million-offers. For lead generation upstream of copy, see hundred-million-leads.
+  Apply Eugene M. Schwartz's Breakthrough Advertising framework: Mass Desire, 5 States of Awareness, 5 Stages of Market Sophistication, and seven copy techniques. Use when the user mentions "write a headline", "mass desire", "5 states of awareness", "most aware", "problem aware", "unaware", "market sophistication", "first to market", "dead product", "intensify desire", "build belief", "name the mechanism", "borrow believability", "diagnose this ad", "Schwartz", or "Breakthrough Advertising". Also trigger when reviewing landing pages, sales letters, direct-response ads, or headline lists.
 ---
 
 # Breakthrough Advertising

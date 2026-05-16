@@ -1,10 +1,7 @@
 ---
 name: ultralearning
 description: |
-  Apply Scott H. Young's nine principles of ultralearning — Metalearning, Focus, Directness, Drill, Retrieval, Feedback, Retention, Intuition, Experimentation — to design and run aggressive, self-directed skill-acquisition projects.
-  Distinct from generic "learn faster" advice: this is an extracted framework with named tactics (Expert Interview Method, Direct-Then-Drill, Feynman Technique, Free Recall, Noise Cancellation, Copy-Then-Create) and a 5-step project process that compounds across projects.
-  Use when the user mentions "ultralearning", "MIT Challenge", "Year Without English", "Feynman technique", "deliberate practice", "retrieval practice", "directness", "drill", "feedback loops", "transfer", "metalearning map", "self-study plan", "curriculum design", "learning roadmap", or wants to design or audit a self-directed skill-acquisition project. Also trigger when the user is about to absorb a new technical domain on the job ("ramp up on X in 30 days", "compress ramp-up time", "get fluent in Y by Z"), is coaching someone through hard self-study, or is planning a portfolio/transition project.
-  For habit formation behind the daily practice, see drive-motivation. For applying ultralearning to a coaching/teaching offer, see grand-slam-offer.
+  Apply Scott H. Young's nine principles of ultralearning to design and run aggressive, self-directed skill-acquisition projects. Covers Metalearning, Focus, Directness, Drill, Retrieval, Feedback, Retention, Intuition, and Experimentation. Use when the user mentions "ultralearning", "MIT Challenge", "Year Without English", "Feynman technique", "deliberate practice", "retrieval practice", "directness", "drill", "feedback loops", "transfer", "metalearning map", "self-study plan", "curriculum design", "learning roadmap", or wants to design or audit a self-directed learning project. Also trigger for ramp-up plans like "learn X in 30 days", technical domain onboarding, hard self-study coaching, or portfolio transition projects.
 metadata:
   type: framework
   source: "Scott H. Young, *Ultralearning* (HarperBusiness, 2019)"
@@ -26,7 +23,55 @@ Young's bet is that strategy and method matter — even for people who aren't Te
 
 The framework is **nine principles, not nine steps.** Young chose principles deliberately: *"Ultralearning isn't a cookie-cutter method... Principles allow you to solve problems, even those you may have never encountered before, in a way that a recipe or mechanical procedure cannot."* (Ch. III) The principles do have a rough temporal arc — plan → start → practice → fix weaknesses → test → adjust → keep → deepen → push past — but Young is explicit that any given project will weight them differently.
 
-## The Nine Principles
+## How to use this skill
+
+When invoked, pick one mode based on what the user actually needs. Diagnose first; cite the relevant principle; don't recite all nine.
+
+| Mode | When | What you produce | Length |
+|---|---|---|---|
+| **A. Design a project** | User wants to learn X by Y date | 1-page plan: goal, scope, schedule, primary resource, direct-practice activity, week-1 pilot, maintenance plan. Run the [5-step process](#the-ultralearning-process). | ~400 words |
+| **B. Audit a project** | User is mid-project and stuck or losing momentum | Filled-in [Quick Diagnostic](#quick-diagnostic) (skip questions that don't apply) + 1-3 prioritized fixes citing specific principles | ~300 words |
+| **C. Pick a tactic** | User has one specific stuck point ("can't focus", "can't remember vocab", "no transfer to real work") | Diagnose which principle owns the problem → name 1 tactic → 3-line "how to apply this week" | <150 words |
+| **D. Explain a principle** | User asks about Feynman / metalearning / drill / etc. by name | Jump to that principle's section; summarize core concept + 1 named tactic + 1 application. Don't summarize the other eight. | <200 words |
+
+**Scope constraints:**
+- Never recite all nine principles unprompted — they are *reference depth*, not the default response.
+- Default response <300 words unless the user explicitly asks for a full curriculum design (Mode A).
+- If the user's goal is vague ("learn Python"), narrow it before applying any principle — vague scope is the #1 failure mode (Ch. XIII).
+- For Modes A and B, produce an artifact the user can act on **this week** — not a lecture.
+
+## The Ultralearning Process
+
+Young's five-step sequence for running a project (Ch. XIII). This is the spine of Mode A:
+
+1. **Do your research** — the metalearning packing checklist. Topic + scope (start narrow), primary resources, benchmark of how others learned it, direct practice activities, backup materials. Spend ~10% of total project time here.
+2. **Schedule your time** — decide *how much* (full-time month? hours/week?), *when* (consistent weekly schedule beats ad-hoc), *how long* (prefer shorter; break big goals into multi-month chunks). Put it on the calendar. **For projects ≥6 months, run a pilot week first** — retool the plan rather than abandon mid-stream.
+3. **Execute** — no plan is perfect; run the nine-principle self-audit ([Quick Diagnostic](#quick-diagnostic) below) while executing. Subtle adjustments along the way.
+4. **Review results** — what went right, what went wrong, what to do next time. Problems usually trace back to **conception**, not willpower (Young's failed Korean refresher: no immersive direct practice planned from the start, relied on textbook exercises). Analyze successes too — they tell you what to replicate.
+5. **Choose maintenance vs. relearning vs. mastery:**
+   - **Maintain** — light regular practice; integrate skill into life. Decay rate of maintenance can itself decay (Young: 30 min/week year 1 → 30 min/month year 2).
+   - **Relearn** — accept decay; relearning is faster than first-time learning. Best for skills used infrequently.
+   - **Master** — go deeper via continued light practice or another ultralearning project. Initial projects often expose sub-branches worth pursuing.
+
+## Quick Diagnostic
+
+Nine-question self-audit. Use as the spine of Mode B; also Step 3 of the 5-step process. Skip questions that aren't load-bearing for the user's current situation.
+
+| Question | If "no" | Action |
+|---|---|---|
+| **Metalearning** — Have I researched the typical ways, interviewed successful learners, spent ~10% of total time preparing? | You're navigating without a map | Pause; Expert Interview Method + Concepts/Facts/Procedures breakdown |
+| **Focus** — Am I focused or multitasking? Skipping sessions? How long to enter flow, how long to sustain? | Procrastination or distraction is winning | Escalate crutch one step (5-min → Pomodoro → time block) |
+| **Directness** — Am I practicing the skill in the way I'll use it? What mental processes are missing? | You're optimizing a proxy, not the real thing | Build the artifact; immersion; flight simulator |
+| **Drill** — Am I attacking my weakest points? What's the rate-limiting step? | Volume without targeted improvement | Diagnose bottleneck; Direct → Drill → Direct cycle |
+| **Retrieval** — Am I solving problems and recalling from memory, or just reading and reviewing? | Illusion of competence is forming | Free recall; question-book conversion; closed-book |
+| **Feedback** — Am I getting honest feedback early, or dodging punches? Overreacting to noisy data? | Either no signal or wrong signal | Move to higher-intensity feedback environment; or noise-cancel via proxy metrics |
+| **Retention** — Do I have a plan for long-term remembering? Am I spacing exposure and overlearning critical parts? | The bucket is leaking | Add SRS for atomics; design a decaying-maintenance schedule |
+| **Intuition** — Could I teach what I'm studying? Is it clear *why* it's true, or arbitrary? | You have memorized, not understood | Feynman Technique; re-derive; concrete-example-first |
+| **Experimentation** — Am I stuck with current methods? Do I need to branch out, develop a unique style? | The method has hit its limit | A/B compare two methods; Push to Extremes; Copy-Then-Create |
+
+## The Nine Principles (reference depth)
+
+The sections below are the deep reference for each principle — concept, mechanism, named tactics, applications, and ethical boundary. Jump to the relevant section based on the diagnostic above; don't read or recite all nine in a single response.
 
 ### 1. Metalearning — *First Draw a Map*
 
@@ -342,19 +387,6 @@ See: [references/08-intuition.md](references/08-intuition.md) for the full Feynm
 
 See: [references/09-experimentation.md](references/09-experimentation.md) for the Three Levels framework with worked examples and the experiment-design template.
 
-## The Ultralearning Process
-
-Young's five-step sequence for running a project (Ch. XIII):
-
-1. **Do your research** — the metalearning packing checklist. Topic + scope (start narrow), primary resources, benchmark of how others learned it, direct practice activities, backup materials. Spend ~10% of total project time here.
-2. **Schedule your time** — decide *how much* (full-time month? hours/week?), *when* (consistent weekly schedule beats ad-hoc), *how long* (prefer shorter; break big goals into multi-month chunks). Put it on the calendar. **For projects ≥6 months, run a pilot week first** — retool the plan rather than abandon mid-stream.
-3. **Execute** — no plan is perfect; run the nine-principle self-audit (see [Quick Diagnostic](#quick-diagnostic) below) while executing. Subtle adjustments along the way.
-4. **Review results** — what went right, what went wrong, what to do next time. Problems usually trace back to **conception**, not willpower (Young's failed Korean refresher: no immersive direct practice planned from the start, relied on textbook exercises). Analyze successes too — they tell you what to replicate.
-5. **Choose maintenance vs. relearning vs. mastery:**
-   - **Maintain** — light regular practice; integrate skill into life. Decay rate of maintenance can itself decay (Young: 30 min/week year 1 → 30 min/month year 2).
-   - **Relearn** — accept decay; relearning is faster than first-time learning. Best for skills used infrequently.
-   - **Master** — go deeper via continued light practice or another ultralearning project. Initial projects often expose sub-branches worth pursuing.
-
 ## Common Mistakes
 
 | Mistake | Why it fails | Fix | Source |
@@ -376,22 +408,6 @@ Young's five-step sequence for running a project (Ch. XIII):
 | Locking into the first method, never experimenting | Past the basics, originality matters; sticking to the middle explores ~none of the possibility space | A/B methods; Copy-Then-Create; Push to Extremes | Ch. XII |
 | Blaming willpower when a project fails | "Very often the problems with projects can be traced back to their conception" | Diagnose at the Step-4 review; fix the plan, not the discipline | Ch. XIII |
 | Reading/listening without active practice | Hours don't equal practice — Benny Lewis missed C2 German because he "spent too much time listening to the radio" | Convert passive intake into active drill or retrieval | Ch. I |
-
-## Quick Diagnostic
-
-Run this nine-question self-audit during Step 3 (Execute) of a project (Ch. XIII):
-
-| Question | If "no" | Action |
-|---|---|---|
-| **Metalearning** — Have I researched the typical ways, interviewed successful learners, spent ~10% of total time preparing? | You're navigating without a map | Pause; Expert Interview Method + Concepts/Facts/Procedures breakdown |
-| **Focus** — Am I focused or multitasking? Skipping sessions? How long to enter flow, how long to sustain? | Procrastination or distraction is winning | Escalate crutch one step (5-min → Pomodoro → time block) |
-| **Directness** — Am I practicing the skill in the way I'll use it? What mental processes are missing? | You're optimizing a proxy, not the real thing | Build the artifact; immersion; flight simulator |
-| **Drill** — Am I attacking my weakest points? What's the rate-limiting step? | Volume without targeted improvement | Diagnose bottleneck; Direct → Drill → Direct cycle |
-| **Retrieval** — Am I solving problems and recalling from memory, or just reading and reviewing? | Illusion of competence is forming | Free recall; question-book conversion; closed-book |
-| **Feedback** — Am I getting honest feedback early, or dodging punches? Overreacting to noisy data? | Either no signal or wrong signal | Move to higher-intensity feedback environment; or noise-cancel via proxy metrics |
-| **Retention** — Do I have a plan for long-term remembering? Am I spacing exposure and overlearning critical parts? | The bucket is leaking | Add SRS for atomics; design a decaying-maintenance schedule |
-| **Intuition** — Could I teach what I'm studying? Is it clear *why* it's true, or arbitrary? | You have memorized, not understood | Feynman Technique; re-derive; concrete-example-first |
-| **Experimentation** — Am I stuck with current methods? Do I need to branch out, develop a unique style? | The method has hit its limit | A/B compare two methods; Push to Extremes; Copy-Then-Create |
 
 ## Reference Files
 

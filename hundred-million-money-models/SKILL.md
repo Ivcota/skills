@@ -1,10 +1,7 @@
 ---
 name: hundred-million-money-models
 description: |
-  Design a sequence of offers — a "Money Model" — that makes more profit from a customer in the first 30 days than it costs to get and serve them, using Alex Hormozi's four-stage stack: Attraction → Upsell → Downsell → Continuity.
-  Distinct from `hundred-million-offers` (which scores a single offer on the Value Equation) and `grand-slam-offer` (which builds one offer end-to-end) — this skill is about the *sequence* of offers that compounds 30-day gross profit and removes cash as a constraint on growth.
-  Use when the user mentions "money model", "client-financed acquisition", "30-day payback", "CAC payback", "front-end offer", "upsell sequence", "downsell", "continuity", "buy X get Y free", "decoy offer", "win your money back", "trial with penalty", or "waived fee". Also trigger when the user is designing a sales funnel, pricing ladder, or offer stack; auditing why ads aren't profitable; or sequencing offers across attraction, upsell, downsell, and subscription.
-  For single-offer design, see `hundred-million-offers`. For lead generation upstream of these offers, see `hundred-million-leads`. For building one offer end-to-end, see `grand-slam-offer`.
+  Design a sequence of offers, or Money Model, that makes more profit from a customer in the first 30 days than it costs to get and serve them, using Alex Hormozi's four-stage stack: Attraction, Upsell, Downsell, Continuity. Use when the user mentions "money model", "client-financed acquisition", "30-day payback", "CAC payback", "front-end offer", "upsell sequence", "downsell", "continuity", "buy X get Y free", "decoy offer", "win your money back", "trial with penalty", or "waived fee". Also trigger when designing a sales funnel, pricing ladder, offer stack, or auditing why ads are not profitable.
 ---
 
 # $100M Money Models — The Four-Stage Offer Stack

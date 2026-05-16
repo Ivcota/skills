@@ -1,10 +1,7 @@
 ---
 name: hook-point
 description: |
-  Apply Brendan Kane's Hook Point framework to write copy that grabs attention in the first three seconds — across LinkedIn posts, X replies, video openers, cold outreach, landing page headlines, and ad creative.
-  Distinct in that it treats the hook as a *category of its own* — not a USP, tagline, or mission statement, but an attention vehicle that must evolve continuously and is always attached to an authentic story.
-  Use when the user says "write a hook", "hook for this", "why isn't this getting attention", "3-second test", "stop the scroll", "video opener", "first line", "cold open", "headline for this", "landing page hook", or "this isn't converting / landing / resonating". Also trigger when the user is reviewing or drafting LinkedIn posts, X threads, ad copy, podcast/video titles, cold email subject lines, or homepage above-the-fold copy.
-  For lead-gen system design (Core Four, lead magnets), see hundred-million-leads. For offer construction (price, bonuses, guarantee), see hundred-million-offers. For point-of-awareness copy and Mass Desire, see breakthrough-advertising. For sticky messaging (SUCCESs), see made-to-stick.
+  Apply Brendan Kane's Hook Point framework to write copy that grabs attention in the first three seconds across social posts, video openers, cold outreach, landing page headlines, and ad creative. Use when the user says "write a hook", "hook for this", "why isn't this getting attention", "3-second test", "stop the scroll", "video opener", "first line", "cold open", "headline for this", "landing page hook", or "this isn't converting". Also trigger when reviewing or drafting LinkedIn posts, X threads, ad copy, podcast/video titles, cold email subject lines, or homepage above-the-fold copy.
 metadata:
   author: Brendan Kane
   source: Hook Point — How to Stand Out in a 3-Second World (2020)
