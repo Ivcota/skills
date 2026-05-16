@@ -22,6 +22,51 @@ The framework rejects every comfortable substitute for action. No business plan,
 
 **The foundation:** "Small EXPERIMENTS, repeated over time, are the recipe for transformation in business, and life" ("Start Here", PDF p. 7). Belief follows behavior. You don't think your way into a business; you ask your way into one.
 
+## How to Use This Skill
+
+**Signifier conventions** (applies throughout this file):
+- **Bold** marks a named concept from the framework (e.g., **Freedom Number**, **Dream Ten**). Treat as a defined term.
+- ***Bold-italic*** marks an imperative — an action the user should take right now (e.g., ***Build Dream Ten***, ***Run the Coffee Challenge***).
+- *Plain italic* marks a verbatim quote from the book.
+
+**Current Mode (state the agent must maintain):** When using this skill across multiple turns, name the user's current mode at the start of each response in one line:
+`Mode: <pre-weekend | Friday | Saturday | Sunday | post-weekend | MVW step N | growth>`
+If the mode changes mid-conversation (especially the validation→growth transition at step 20), call it out explicitly. Do not let the user drift between modes unannounced.
+
+**On first invocation, do not dump the framework.** Ask the user where they are, then route to the matching section:
+
+> "Where are you in the weekend?
+> (a) No idea yet — need to find one
+> (b) Have an idea — need to validate with paying customers
+> (c) Validated — need first 100 customers and email list
+> (d) Post-weekend — growth, retention, weekly systems"
+
+Routing map:
+
+| Answer | Jump to | Skip |
+|---|---|---|
+| a | Section 3 (Finding Million-Dollar Ideas) + Section 4 (One-Minute Business Model) | Sections 5-9 until they have an idea |
+| b | Section 5 (48-Hour Money Challenge) | Sections 1-4 if they already have a problem + solution; Sections 6-9 until validated |
+| c | Sections 6 (Social) + 7 (Email) | Section 5 (already done); Section 8-9 until 100 subs exist |
+| d | Section 8 (Growth Machine) + Section 9 (52 Chances) | Earlier sections unless diagnosing a stuck channel |
+
+**Out of scope — disambiguate:** If user already has paying customers and is asking about pricing/packaging → `/hundred-million-offers`. If they're past validation and need lead-gen volume → `/hundred-million-leads`. If they want a product MVP, not a presold service → `/lean-startup`.
+
+**Default mode is the Minimum Viable Weekend (below) — not the full 32 steps.** Only escalate to the full process if the user asks for it or hits a step they can't complete.
+
+## Minimum Viable Weekend (4 steps)
+
+The compressed path for users who need to ship, not study. Run this first; expand only if a step fails.
+
+1. **Freedom Number** — write down the monthly $ that covers your living expenses. Done in 5 minutes (Ch 1, PDF p. 26).
+2. **One idea** — pick a problem someone you can already reach is having (Customer First, not Founder First). One sentence: *Who* / *What problem* / *Where they are* (Ch 3, PDF p. 39).
+3. **Dream Ten + ask for money** — list 10 prospects from your network. Text/DM/call each with a Price + Benefit + Time offer (Ch 5, PDF pp. 74-76).
+4. **Collect cash from 3 in 48 hours** — PayPal/Venmo/Stripe. Below 3 = not validated, pick another idea. 3+ = ship it (Ch 5, PDF p. 73).
+
+**Checkpoint after step 4:** Report back. Three paying customers → graduate to Section 6+ (audience, email, growth). Zero or 1-2 → run the rejection script (4 questions, Ch 5 PDF p. 78), then loop to step 2 with a new idea or a pivoted offer.
+
+If the user gets stuck on any step, expand into the full framework section for that step (1→§1, 2→§3+§4, 3→§5, 4→§5 rejection script + §2 ask-muscle work).
+
 ## Scoring
 
 Two numeric targets drive the whole method:
@@ -411,11 +456,15 @@ The full end-to-end run, in Kagan's own sequence:
 5. **Coffee Challenge** — ask for 10% off, in person, say nothing else (Ch 2, PDF p. 41).
 6. **Set Rejection Goals** — aim for 25+ rejections this week (Ch 2, PDF p. 34).
 
+**Checkpoint — Pre-weekend report:** Before moving to Friday, ask the user: "Did you do the Coffee Challenge and the Dollar Challenge? What happened — what did you ask, what did they say, how did your body feel asking?" If they skipped either, do not let them advance. The Ask muscle work is the prerequisite, not the warm-up. Acknowledge any rejection collected — name it as a point toward the quota, not a wound.
+
 ### Friday (Ch 3 — Find a million-dollar idea)
 
 7. Define your top **three target groups** inside your Zone of Influence (Ch 3, PDF p. 47).
 8. Generate **10+ ideas** using the four Idea Generators: Solve Your Own Problems / Bestsellers Are Your Best Friends / Marketplaces / Search Engine Queries (Ch 3, PDF pp. 51–55).
 9. Narrow to **3 ideas** you'd actually be excited to ship (Ch 3, PDF p. 57).
+
+**Checkpoint — Friday report:** Ask the user to read their 3 finalists aloud as *Who / What / Where* sentences. If any idea is missing one of the three Ws, push back — that idea isn't ready for the Saturday math. If all 3 finalists are "things I'd be excited to build" rather than "problems someone I can reach is having", flag the Founder First trap and loop back to Idea Generator #2 or #3 (Bestsellers / Marketplaces).
 
 ### Saturday (Ch 4 — One-Minute Business Model)
 
@@ -423,6 +472,8 @@ The full end-to-end run, in Kagan's own sequence:
 11. **Run the $1M opportunity check**: price × ideal customers ≥ $1,000,000 (Ch 4, PDF p. 63).
 12. **Run the unit-economics check**: Revenue – Cost = Profit; $1,000,000 ÷ unit profit = units required (Ch 4, PDF p. 64).
 13. **Pivot via Revenue Dials** if numbers don't work — 6 levers: AOV / Frequency / Price point / Customer type / Product line / Add-on services (Ch 4, PDF p. 67).
+
+**Checkpoint — Saturday report:** Ask: "Which of the 3 ideas passed the $1M check, and which one are you taking into Sunday?" Require a single named idea with price × customers ≥ $1M and a positive unit-profit number. If none pass, do NOT advance — loop back to Friday with a Revenue Dial pivot or a new idea from the four Generators. Sunday with an unviable idea wastes the 48-hour cap.
 
 ### Sunday (Ch 5 — 48-Hour Money Challenge)
 
@@ -434,6 +485,14 @@ The full end-to-end run, in Kagan's own sequence:
 19. **On rejection, run the 4-question script**: Why not? / Who else? / What would make it a no-brainer? / What would you pay? (Ch 5, PDF p. 78).
 20. **Three paying customers in 48 hours = validated.** Zero = pick another idea, repeat (Ch 5, PDF p. 90).
 
+**Checkpoint — Sunday report (the decision point of the whole weekend):** Ask: "How many customers paid? Names and amounts." Then branch:
+
+- **3+ paid:** Validated. Acknowledge the first dollar — "It's momentum. It's possibility. It's fear getting its ass kicked" (Ch 5, PDF p. 43). Advance to post-weekend growth (step 21).
+- **1-2 paid:** Almost. Run the rejection script on every "no" from the Dream Ten; ask the 4 questions (Ch 5, PDF p. 78). Often a tweak to Price + Benefit + Time unlocks 1-2 more. Give it 12 more hours, then re-decide.
+- **0 paid:** Not the idea. Do NOT proceed to growth. Loop to Friday with a new idea from Generator #2/#3/#4. The skill is not "build the failed idea anyway" — it's "pick another and run the loop again."
+
+**Mode transition:** Sunday closes *validation mode*. Steps 21+ open *growth mode* — different rules (audience, email, retention) that only apply once cash has changed hands. Do not let the user drift into list-building before validation is complete.
+
 ### Post-weekend growth (Part 3)
 
 21. **Define your unique angle** in 30 seconds using Ben Kenyon's 4-sentence template (Ch 6, PDF p. 95).
@@ -444,6 +503,8 @@ The full end-to-end run, in Kagan's own sequence:
 26. **Apply the Law of 100** before judging any channel (Ch 7, PDF p. 118).
 27. **Build a Marketing Experiment List**: one goal (number + deadline), candidate channels, best-guess expected sales; 30-day cutoff; double down on winners, kill losers (Ch 8, PDF pp. 122–126).
 28. **Over-deliver to first 100 customers** by hand — retention + referrals beat acquisition (Ch 8, PDF p. 128).
+
+**Checkpoint — Post-weekend report:** After 30 days on the chosen channel, ask: "What's actual vs expected on the Marketing Experiment List? Which channels are you killing, which are you doubling down on?" If the user hasn't hit Law of 100 yet on any channel, no kill decisions allowed — they're quitting in the dip. If they have hit 100 reps and a channel produced $0, kill it now without sentimentality.
 
 ### Ongoing systems (Ch 9)
 
@@ -487,6 +548,38 @@ Audit any business-launch attempt against the Million Dollar Weekend method:
 | Have you committed to **100 reps** on your chosen channel? | Quitting in the dip | Apply the Law of 100 before evaluating (Ch 7) |
 | Is your marketing on a **30-day cutoff** with expected vs actual sales? | Sunk-cost scaling on dead channels | Build a Marketing Experiment List; double down/kill at day 30 (Ch 8) |
 | Do you have a **weekly Sunday P-review** with an accountability buddy? | Goals drift without external pressure | 15-min email; categorize Work / Health / Personal / Travel (Ch 9) |
+
+## Scripts & Templates Index
+
+Flat catalog of every copy-paste-ready script in the framework. Surface these directly when a user asks for "the rejection script" or "the offer-sentence formula" — do not re-explain the surrounding chapter.
+
+| Script | Use when | Where |
+|---|---|---|
+| **Dollar Challenge text** | Asking one real person for $1 to break the asking seal | §1, Ch 1 PDF p. 20 |
+| **NOW-Not-How text** | First idea-discovery message to someone who knows you | §1, Ch 1 PDF p. 25 |
+| **Coffee Challenge close** | In-person ask for 10% off at a coffee shop | §2, Ch 2 PDF p. 42 |
+| **Persistence framing** | Self-talk before an outreach session | §2, Ch 2 PDF p. 37 |
+| **Cold pitch (Imgur/AppSumo)** | Cold email to a target customer offering free promo | §3, Ch 3 PDF p. 41 |
+| **Warm-intro coffee email** | Mutual-friend intro, asking for a breakfast meeting | §3, Ch 3 PDF p. 42 |
+| **Friend-network preselling email** | Preselling a service to your existing network with a date and cap | §3, Ch 3 PDF p. 49 |
+| **Three Listen questions** | First conversation with a Dream Ten prospect | §5, Ch 5 PDF p. 76 |
+| **Offer-sentence formula (Price + Benefit + Time)** | Closing the validation ask | §5, Ch 5 PDF p. 76 |
+| **Ask-for-money close** | Asking for cash on the spot with grandfathered pricing | §5, Ch 5 PDF p. 77 |
+| **Late-night preselling (Sumo Jerky)** | Casual same-day blast to friend list | §5, Ch 5 PDF p. 71 |
+| **Final Validation script** | Long-form ask combining problem + cap + refund offer | §5, Ch 5 PDF p. 90 |
+| **Virtual product post** | Marketplace test before any manufacturing | §5, Ch 5 PDF p. 83 |
+| **Rejection script (4 questions)** | Every "no" you get during the 48-Hour Money Challenge | §5, Ch 5 PDF p. 78 |
+| **Unique angle template (Ben Kenyon)** | 30-second intro for social bio or first video | §6, Ch 6 PDF p. 95 |
+| **Three viewpoint prompts** | When stuck for content ideas | §6, Ch 6 PDF p. 102 |
+| **Newsletter announcement** | First email when launching a list from zero | §7, Ch 7 PDF p. 115 |
+| **Targeted referral ask** | Asking someone to forward you to a specific kind of buyer | §7, Ch 7 PDF p. 115 |
+| **Welcome email opener** | First autoresponder email after subscribe | §7, Ch 7 PDF p. 116 |
+| **Email signature lead-magnet** | Passive list growth from every email you send | §7, Ch 7 PDF p. 115 |
+| **Wholesale split-the-profit pitch** | B2B distribution partnership ask | §8, Ch 8 PDF p. 128 |
+| **Free-sample influencer pitch** | Sending product to a group leader in exchange for distribution | §8, Ch 8 PDF p. 128 |
+| **Prefluencer cold compliment** | Building a relationship before you need anything | §9, Ch 9 PDF p. 145 |
+| **Andrew Chen referral intro** | Cold intro through a named mutual | §9, Ch 9 PDF p. 146 |
+| **Referral ask to a friend** | Generic "who should I meet next" ask | §9, Ch 9 PDF p. 147 |
 
 ## Reference Files
 
