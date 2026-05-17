@@ -2,6 +2,8 @@
 
 The exact shape SKILL.md must take. Placeholders in `{braces}`. Do not omit sections unless noted. Do not add sections not in this template unless the source has a structural element that demands one.
 
+**Hard cap: produced SKILL.md must be ≤ 100 lines.** That means SKILL.md is a *navigator*, not a textbook. Each framework section gets a one-line index entry in SKILL.md and a full `references/<section-slug>.md` file with the heavy content (Core concept, Why it works, Insights, Application table, Copy patterns, Ethical boundary). The template below shows the navigator shape; the per-section deep-dive shape is in the second block.
+
 ---
 
 ```markdown
@@ -30,41 +32,12 @@ description: |
 
 ## The {Framework Name} Framework
 
-### 1. {Section name — author's term}
+One line per section. Full content lives in `references/<section-slug>.md`.
 
-**Core concept:** {One paragraph. The author's own explanation, closely paraphrased.}
-
-**Why it works:** {One paragraph. The mechanism. Why this lever / pillar / pattern produces the result.}
-
-**Key insights:**
-- {Insight 1 — from extraction notes, cited}
-- {Insight 2}
-- {Insight 3 — aim for 5-7 total}
-
-**Product applications:**
-
-| Context | Application | Example |
-|---------|-------------|---------|
-| **{Context 1}** | {How this section applies} | {Specific quoted example} |
-| **{Context 2}** | {...} | {...} |
-| **{Context 3}** | {...} | {...} |
-| **{Context 4}** | {...} | {...} |
-| **{Context 5}** | {...} | {...} |
-
-*Only include rows the source covers. If the source only has B2B examples, don't invent B2C rows.*
-
-**Copy patterns:**
-- "{Pattern 1, with [placeholders]}"
-- "{Pattern 2}"
-- "{Pattern 3 — aim for 4-6 total}"
-
-**Ethical boundary:** {The author's own guardrail for this section. If the author doesn't state one for this section, omit this line — do not synthesize generic ethics.}
-
-See: [references/{section-slug}.md](references/{section-slug}.md) for {specific depth promise}.
-
-### 2. {Next section...}
-
-{Repeat structure. Match the author's section count — 4, 6, 8, 10 — don't force a number.}
+1. **{Section 1 name}** — {one-sentence essence}. See [references/{section-1-slug}.md](references/{section-1-slug}.md).
+2. **{Section 2 name}** — {...}. See [references/{section-2-slug}.md](references/{section-2-slug}.md).
+3. **{Section 3 name}** — {...}.
+4. **{...match the author's section count — 4, 6, 8, 10 — don't force a number.}**
 
 ## {Framework Name} Process
 
@@ -116,8 +89,46 @@ Use this table to audit an existing {artifact — offer, campaign, product, etc.
 
 ---
 
+---
+
+## Per-section deep-dive template (`references/<section-slug>.md`)
+
+This is where the heavy content from the old in-line section template now lives. One file per framework section.
+
+```markdown
+# {Section name}
+
+**Core concept:** {One paragraph. The author's own explanation, closely paraphrased.}
+
+**Why it works:** {One paragraph. The mechanism. Why this lever / pillar / pattern produces the result.}
+
+**Key insights:**
+- {Insight 1 — cited}
+- {Insight 2}
+- {5–7 total}
+
+**Product applications:**
+
+| Context | Application | Example |
+|---------|-------------|---------|
+| **{Context 1}** | {How this section applies} | {Specific quoted example} |
+| **{Context 2}** | {...} | {...} |
+| *Only include rows the source covers. If the source only has B2B examples, don't invent B2C rows.* | | |
+
+**Copy patterns:**
+- "{Pattern 1, with [placeholders]}"
+- "{4–6 total}"
+
+**Ethical boundary:** {The author's own guardrail for this section. Omit if the author doesn't state one — do not synthesize generic ethics.}
+
+**Source citations:** {pages, URLs, or quoted lines backing this section}
+```
+
+---
+
 ## Synthesis rules
 
+- **SKILL.md ≤ 100 lines.** If you can't fit, you're putting deep-dive content in the navigator — move it to `references/`.
 - **Section count follows the source.** If the source has 4 pillars, the skill has 4. Never pad to a target count.
 - **Every bullet must trace to a citation** in `sources.md`.
 - **Tables shrink when evidence is thin.** A 3-row application table beats a 5-row table with 2 invented rows.

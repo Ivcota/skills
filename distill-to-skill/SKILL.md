@@ -9,127 +9,62 @@ description: |
 
 # distill-to-skill — Source to Skill
 
-Transforms a source (book, paper, method, talk, course, URL) into a skill with this shape: frontmatter with trigger-rich description, core principle, numbered framework sections (each with Core concept, Why it works, Key insights, Applications table, Usage patterns, Ethical boundary, reference link), numbered process, common-mistakes table, quick-diagnostic table, `references/` deep-dives.
+Transforms a source (book, paper, method, talk, course, URL) into a skill that follows a strict template: trigger-rich frontmatter, core principle, numbered framework sections, process, common-mistakes table, quick-diagnostic table, and `references/` deep-dives.
 
 **Hard rule: every framework, insight, example, and copy pattern must trace back to a real source.** No model-memory restatements. If a claim can't be cited, it's dropped. See [citation-rules.md](references/citation-rules.md).
 
-References: [Output template](references/template.md) | [Extraction jobs](references/extraction-jobs.md) | [Citation rules](references/citation-rules.md) | [Description interview](references/description-interview.md) | [Review rubric](references/review-rubric.md)
+**Output cap: the produced SKILL.md must stay ≤ 100 lines.** Each framework section is a one-line index entry in SKILL.md; the full section (Core concept, Why it works, Insights, Application table, Copy patterns, Ethical boundary) lives in `references/<section-slug>.md`. See [template.md](references/template.md).
 
-## Input detection
+## Quickstart
 
-Accepts one or more of:
-- **File** — PDF, epub, markdown, txt (any path the Read tool can open; PDFs ≤20 pages per call, chunk longer books)
-- **URL** — article, blog post, transcript, publisher page
-- **Title + author** — triggers web research (WebSearch → WebFetch)
-- **Pasted text** — inline method description
+User: *"Distill The Mom Test into a skill."*
+Agent: confirms source → asks 3 description-interview questions → creates `./skills-draft/mom-test/` → builds `sources.md` → fans out 3 extraction sub-agents → assembles ≤100-line SKILL.md → one sub-agent per section into `references/` → scores rubric → prints summary and offers to move to `~/.claude/skills/mom-test/`.
 
-If only a title is given, confirm with the user before spending tokens on research: "I'll search for {title} by {author} — anything specific to prioritize (chapters, concepts)?"
+## Phases
 
-## Modes
+1. **Intake** — detect input type, pick mode + output location, run the description interview. See [intake.md](references/intake.md).
+   → **Done when:** `./skills-draft/<slug>/description-brief.md` exists on disk. (Mechanical gate — Phase 2 cannot start without it. This kills the "auto-generate description" capture error.)
+2. **Ingest** — build `sources.md` manifest (prefer primary sources; WebSearch only to fill gaps). See [phases.md](references/phases.md#phase-2-source-ingestion).
+   → **Done when:** `sources.md` lists ≥1 primary source with citation pointers.
+3. **Extract** — fan out 3 parallel sub-agents (Structure / Application / Guardrails) in a single message. Source-size gate decides full-load vs chapter-map. See [extraction-jobs.md](references/extraction-jobs.md) and [phases.md](references/phases.md#phase-3-parallel-extraction).
+   → **Done when:** 3 notes files exist, each ≤10k tokens, each item carries ≥1 citation.
+4. **Synthesize** — assemble SKILL.md in the main thread from extraction notes only. Match the author's own section order and count. See [template.md](references/template.md).
+   → **Done when:** SKILL.md exists and is ≤100 lines. If over, push section detail into `references/` and re-check.
+5. **Expand** — one sub-agent per framework section drafts `references/<section-slug>.md` (~100–300 lines each), plus `case-studies.md` and `checklist.md`. See [phases.md](references/phases.md#phase-5-references-fan-out).
+   → **Done when:** every section link in SKILL.md resolves to a real file.
+6. **Review** — self-score against [review-rubric.md](references/review-rubric.md). Anything <8/10 triggers a revision pass on that section.
+   → **Done when:** no rubric category scores <8/10.
+7. **Emit** — move staging dir to chosen install location; print slug, path, sources used, section count, rubric score.
+   → **Done when:** install path printed and user has confirmed location.
 
-- **strict** (default) — paraphrase closely; cite aggressively; drop un-citable content
-- **liberal** — rewrite in template voice; still cite but allow synthesis (tables, copy patterns) inferred from quoted material
+**Recovery:** if any gate fails, fix the named artifact and re-run from that phase. Do not skip forward.
 
-Ask the user which mode only if ambiguous.
+**Mechanical check:** run `./scripts/check.sh <staging-dir>` after each phase (or `--phase N` for a single phase). It validates the file-on-disk gates (description-brief, sources.md, extraction notes ≤10k tokens, SKILL.md ≤100 lines, all `references/*.md` links resolve) and exits non-zero on failure. Phase 6 rubric scoring still needs agent judgment.
 
-## Output location
+## Defaults
 
-Detect which skill directories exist on the user's system and offer them as targets. Common locations:
-- `~/.claude/skills/<slug>/` — Claude Code user-scoped skills
-- `~/.agents/skills/<slug>/` — generic agent skills (any compatible harness)
-- `./skills-draft/<slug>/` — local staging dir (review before installing)
-- A project-local `.claude/skills/` or `.agents/skills/` if one exists in the cwd
-
-Ask before writing: "Write to {detected-paths} or stage at `./skills-draft/<slug>/` first?" Slug = kebab-case of 3-5 significant words from the book/method title.
-
-## Phase 1: Intake
-
-1. Detect input type. If only title: propose a research plan and confirm.
-2. Ask the 2–3 [description-interview](references/description-interview.md) questions — audience, trigger phrases, primary use case. These drive the frontmatter `description:` (the only thing future agents see).
-3. Pick mode (strict / liberal). Pick output location.
-4. Derive slug. Create staging dir.
-
-**Exit gate:** slug chosen, mode chosen, output location chosen, description brief written.
-
-## Phase 2: Source ingestion
-
-Build a source manifest before any extraction. For each available source, record: `{type, location, access_method, coverage_estimate}`.
-
-- Files: read the full text, chunk if needed, keep page/section pointers
-- URLs: WebFetch; record URL + retrieval date
-- Title-only: WebSearch for — author page, publisher page, structured summaries (Blinkist, Shortform, Farnam Street, Derek Sivers' notes), interviews with author, official talks / YouTube transcripts, reviews that quote heavily. Prefer primary over secondary.
-
-**Exit gate:** manifest committed to `./skills-draft/<slug>/sources.md` with at least one primary source and links for gap-filling.
-
-## Phase 3: Parallel extraction
-
-Fan out **3 sub-agents** using the Agent tool, launched in a **single message with multiple tool calls**. Each is sized to stay under 150k tokens of context. See [extraction-jobs.md](references/extraction-jobs.md) for full prompts and token budgets.
-
-Job set:
-1. **Structure** — thesis + framework sections + end-to-end process (the spine)
-2. **Application** — copy patterns + case studies (the how-to-use)
-3. **Guardrails** — common mistakes + ethical boundaries (the what-not-to-do)
-
-Author bio, further reading, and trigger phrases are handled in the main thread (small WebFetch + reasoning over Job 1 output) — not delegated.
-
-**Source-size gate:** before spawning, estimate the source's token count.
-- ≤100k tokens → each agent loads the full source.
-- \>100k tokens → main thread builds a chapter map from the TOC and assigns chapter ranges per agent. Agents are forbidden from reading outside scope.
-
-Each agent is also instructed: read only your scope, cap WebSearch at 3 calls, return ≤10k tokens of structured notes, no inventions when the source is silent.
-
-**Exit gate:** all three agents returned notes with ≥1 citation per item, each under the 10k-token cap.
-
-## Phase 4: Synthesis
-
-Assemble SKILL.md in the main thread using [template.md](references/template.md) as the exact shape. Do not delegate synthesis — the main thread owns coherence across sections. Pull content from extraction notes only; if a section has thin material, flag it and either (a) spawn a targeted follow-up sub-agent, or (b) drop the section.
-
-Ordering check: framework sections should follow the author's own sequence, not your preferred order.
-
-## Phase 5: References fan-out
-
-For each framework section in SKILL.md, spawn one sub-agent to draft `references/<section-slug>.md`. The sub-agent gets: the section's notes, the source manifest, permission to WebSearch for deeper citations. Target ~100-300 lines per reference file. Also generate `references/case-studies.md` and `references/checklist.md`.
-
-**Exit gate:** every section linked from SKILL.md has a matching reference file.
-
-## Phase 6: Review
-
-Self-score against [review-rubric.md](references/review-rubric.md). Any category scoring <8/10 triggers a revision pass on that section. Minimum bar to ship:
-
-- [ ] Description includes "Use when..." with specific trigger phrases
-- [ ] Every framework section has Core concept + Why it works + Key insights + Application table + Copy patterns + Ethical boundary + reference link
-- [ ] Every claim traces to a citation in `sources.md`
-- [ ] No invented dollar values, statistics, or outcomes — only what the source states
-- [ ] Product-application table has ≥5 rows with distinct contexts
-- [ ] Common-mistakes table has ≥5 rows
-- [ ] Further reading section cites the primary source (ISBN / URL)
-- [ ] About-the-author section is grounded (no biographical invention)
-
-## Phase 7: Emit
-
-Move from staging to the chosen install location (e.g., `~/.claude/skills/<slug>/`, `~/.agents/skills/<slug>/`, or a project-local skills dir). Print:
-- slug + path
-- sources used
-- section count + reference count
-- rubric score
-
-## Process summary
-
-1. Intake → confirm source, mode, slug, location, description brief
-2. Ingest → build `sources.md` manifest
-3. Extract → fan out parallel sub-agents with citation rule
-4. Synthesize → assemble SKILL.md from notes only
-5. Expand → one sub-agent per reference file
-6. Review → score, revise
-7. Emit → move to final location
+- **Mode:** `strict` (paraphrase closely, drop un-citable content). `liberal` only on request.
+- **Staging:** `./skills-draft/<slug>/` until Phase 7. Never write directly into live skill dirs.
+- **Description:** never auto-generated — always run the [description interview](references/description-interview.md) first.
 
 ## Anti-patterns
 
-| Anti-pattern | Why it fails | Fix |
-|---|---|---|
-| Letting the model fill gaps from training data | Produces plausible-but-ungrounded skills; erodes trust in the output | Hard rule: no citation, no content |
-| Single monolithic extraction pass | Misses structure; synthesis and extraction fight each other | Separate extract → synthesize phases |
-| Auto-generating the description without user input | Triggers are the single most important field; hardest to guess | Always run the description interview |
-| Inventing numeric values in application tables | Faking values the source never stated is deceptive | Only include values the source states; otherwise leave qualitative |
-| Forcing a fixed section count | Some sources have 4 pillars, others 8 — padding to a target invents content | Match the source's actual structure |
-| Skipping the staging dir | Bad output pollutes the live skills dir and starts firing on triggers | Stage, review, then move |
+The big six (full table in [anti-patterns.md](references/anti-patterns.md)):
+
+- Letting the model fill gaps from training data → no citation, no content
+- Single monolithic extraction pass → separate extract → synthesize phases
+- Auto-generating the description → always run the description interview
+- Inventing numeric values in tables → only what the source states
+- Forcing a fixed section count → match the source's actual structure
+- **Putting full framework sections inside SKILL.md** → one-line index in SKILL.md, full section in `references/<slug>.md` (keeps SKILL.md ≤ 100 lines)
+
+## Reference index
+
+- [intake.md](references/intake.md) — Phase 1 detail (input types, modes, output locations)
+- [phases.md](references/phases.md) — Phases 2–7 detail with exit gates
+- [extraction-jobs.md](references/extraction-jobs.md) — Sub-agent prompts and token budgets
+- [template.md](references/template.md) — Exact output shape for produced SKILL.md
+- [citation-rules.md](references/citation-rules.md) — What counts as a citation, what gets dropped
+- [description-interview.md](references/description-interview.md) — Questions that drive the frontmatter
+- [review-rubric.md](references/review-rubric.md) — Scoring rubric for Phase 6
+- [anti-patterns.md](references/anti-patterns.md) — Full anti-pattern table
