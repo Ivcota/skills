@@ -27,6 +27,7 @@ npx skills@latest add Ivcota/skills/<skill-name>
   - [Customer](#customer)
   - [Offer & pricing](#offer--pricing)
   - [Demand](#demand)
+  - [Authority](#authority)
   - [Operations](#operations)
 
 ---
@@ -209,6 +210,14 @@ npx skills@latest add Ivcota/skills/hundred-million-leads
 
 ```bash
 npx skills@latest add Ivcota/skills/breakthrough-advertising
+```
+
+## Authority
+
+**Key Person of Influence** — Become the recognized authority in your industry in twelve months. Runs Priestley & Harrington's five-step sequence — Pitch → Publish → Product → Profile → Partnership — scoring each out of 10 so you fix the foundation before scaling.
+
+```bash
+npx skills@latest add Ivcota/skills/key-person-of-influence
 ```
 
 ## Operations
