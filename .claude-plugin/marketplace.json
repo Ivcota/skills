@@ -5,12 +5,13 @@
     {
       "name": "engineering",
       "source": "./",
-      "description": "Ship the right thing the first time. User Story Mapping, Domain Storytelling, and FAAS — for discovery, modeling, and clean feature delivery.",
+      "description": "Ship the right thing the first time. User Story Mapping, Domain Storytelling, FAAS, and Readable Code — for discovery, modeling, clean feature delivery, and line-level craft.",
       "version": "0.0.1",
       "skills": [
         "./user-story-mapping",
         "./domain-storytelling",
-        "./faas"
+        "./faas",
+        "./readable-code"
       ]
     },
     {

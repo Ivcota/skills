@@ -18,6 +18,7 @@ npx skills@latest add Ivcota/skills/<skill-name>
   - [Discovery & scoping](#discovery--scoping)
   - [Modeling](#modeling)
   - [Delivery](#delivery)
+  - [Code quality](#code-quality)
 - [Craft](#craft)
   - [Thinking](#thinking)
   - [Learning](#learning)
@@ -58,6 +59,14 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 
 ```bash
 npx skills@latest add Ivcota/skills/faas
+```
+
+## Code quality
+
+**Readable Code** — Write code that's fast to understand, not just short. Applies Boswell & Foucher's line-level tactics — naming, control flow, expressions, decomposition — to minimize time-till-understanding on every PR, function, and variable.
+
+```bash
+npx skills@latest add Ivcota/skills/readable-code
 ```
 
 ---
