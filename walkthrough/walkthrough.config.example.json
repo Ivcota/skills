@@ -1,0 +1,15 @@
+{
+  "trivial_threshold": {
+    "files": 2,
+    "lines": 50
+  },
+  "skip_paths": [
+    "**/*.md",
+    "**/*.lock",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/pnpm-lock.yaml",
+    "**/Cargo.lock",
+    "**/poetry.lock"
+  ]
+}
