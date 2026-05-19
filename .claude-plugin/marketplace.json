@@ -59,12 +59,13 @@
     {
       "name": "sales-marketing",
       "source": "./",
-      "description": "Find them, win them, sell them. Validate ICP, Buyer Profile, Persona to Product, Win Friends & Influence People, Value Equation, Grand Slam Offer, $100M Money Models, $100M Leads, Breakthrough Advertising, Hook Point, and Key Person of Influence.",
+      "description": "Find them, win them, sell them. Validate ICP, Buyer Profile, Persona to Product, Outcome-Driven Innovation, Win Friends & Influence People, Value Equation, Grand Slam Offer, $100M Money Models, $100M Leads, Breakthrough Advertising, Hook Point, and Key Person of Influence.",
       "version": "0.0.1",
       "skills": [
         "./validate-icp",
         "./buyer-profile",
         "./persona-to-product",
+        "./outcome-driven-innovation",
         "./win-friends-influence-people",
         "./value-equation",
         "./grand-slam-offer",
