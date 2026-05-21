@@ -17,13 +17,12 @@
     {
       "name": "learning-thinking",
       "source": "./",
-      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, One-Month Day, Deep Learner, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
+      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, Deep Learner, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
       "version": "0.0.1",
       "skills": [
         "./align-mental-model",
         "./feynman",
         "./the-one-thing",
-        "./one-month-day",
         "./deep-learner",
         "./bear-hunter-system",
         "./distill-to-skill",
@@ -74,6 +73,19 @@
         "./breakthrough-advertising",
         "./hook-point",
         "./key-person-of-influence"
+      ]
+    },
+    {
+      "name": "daily-planning",
+      "source": "./",
+      "description": "Plan the day, stay on track, and close the loop. One-Month Day reframes ambitious work into a compressed day, Now routes to the right daily workflow, Prep builds Shaped Goals and Rolling Timeblocks, Go commits the next block during the day, and Wrap-Up reflects and carries work forward.",
+      "version": "0.0.1",
+      "skills": [
+        "./one-month-day",
+        "./now",
+        "./prep",
+        "./go",
+        "./wrap-up"
       ]
     }
   ]
