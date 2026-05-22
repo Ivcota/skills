@@ -103,6 +103,12 @@ npx skills@latest add Ivcota/skills/the-one-thing
 npx skills@latest add Ivcota/skills/deep-learner
 ```
 
+**Four Pillars Learning Coach** — Learn through Dehaene's four pillars: focused attention, active attempt, diagnostic error feedback, and consolidation. Runs source-grounded tutoring one question at a time.
+
+```bash
+npx skills@latest add Ivcota/skills/four-pillars-learning-coach
+```
+
 **Bear Hunter System** — Actually remember what you learn. Builds a causal GRINDE map through AIM → SHOOT → SKIN so complex material sticks at 80–95% retention.
 
 ```bash
