@@ -95,6 +95,12 @@ npx skills@latest add Ivcota/skills/feynman
 npx skills@latest add Ivcota/skills/the-one-thing
 ```
 
+**Essentialism** — Stop overcommitting and choose the vital few. Runs McKeown's Essence → Explore → Eliminate → Execute framework with the 90 Percent Rule, graceful no scripts, buffers, and routines.
+
+```bash
+npx skills@latest add Ivcota/skills/essentialism-disciplined-pursuit
+```
+
 ## Learning
 
 **Deep Learner** — Actually understand what you study, not just recognize it. Runs a 7-step Socratic framework — Anchor → Connect → Translate → Dissect → Stress Test → Evaluate → Build — so every concept gets pulled out of you, not poured in.
