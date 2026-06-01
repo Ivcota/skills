@@ -21,6 +21,7 @@ npx skills@latest add Ivcota/skills/<skill-name>
   - [Code quality](#code-quality)
 - [Craft](#craft)
   - [Thinking](#thinking)
+  - [Habits](#habits)
   - [Learning](#learning)
   - [Voice](#voice)
 - [Business](#business)
@@ -99,6 +100,20 @@ npx skills@latest add Ivcota/skills/the-one-thing
 
 ```bash
 npx skills@latest add Ivcota/skills/essentialism-disciplined-pursuit
+```
+
+## Habits
+
+**Atomic Habits** — Turn goals into identity-based systems that survive real life. Applies James Clear's habit loop, Four Laws, environment design, habit stacking, tracking, and failure recovery.
+
+```bash
+npx skills@latest add Ivcota/skills/atomic-habits
+```
+
+**My Habits** — Surface the right active habit cards from your vault at the right time. Finds cue -> action cards by status, schedule, priority, weekday, date, and query.
+
+```bash
+npx skills@latest add Ivcota/skills/my-habits
 ```
 
 ## Learning

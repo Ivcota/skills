@@ -17,12 +17,14 @@
     {
       "name": "learning-thinking",
       "source": "./",
-      "description": "Think sharper, learn deeper. Mental-model alignment, Feynman, The ONE Thing, Deep Learner, Four Pillars Learning Coach, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
+      "description": "Think sharper, learn deeper, and build durable habits. Mental-model alignment, Feynman, The ONE Thing, Atomic Habits, My Habits, Deep Learner, Four Pillars Learning Coach, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
       "version": "0.0.1",
       "skills": [
         "./align-mental-model",
         "./feynman",
         "./the-one-thing",
+        "./atomic-habits",
+        "./my-habits",
         "./deep-learner",
         "./four-pillars-learning-coach",
         "./bear-hunter-system",
