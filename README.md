@@ -54,6 +54,12 @@ npx skills@latest add Ivcota/skills/user-story-mapping
 npx skills@latest add Ivcota/skills/domain-storytelling
 ```
 
+**Solutions Architect's Handbook** — Design and review solution architectures across business goals, NFRs, architecture views, quality pillars, operations, cost, and SAD documentation.
+
+```bash
+npx skills@latest add Ivcota/skills/solutions-architects-handbook
+```
+
 ## Delivery
 
 **FAAS** — Ship features without the mess. Four phases — Find → ARCH → Automate → Specify-Test-Refine — so every feature lands clean, tested, and maintainable.
