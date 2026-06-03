@@ -96,6 +96,18 @@ npx skills@latest add Ivcota/skills/align-mental-model
 npx skills@latest add Ivcota/skills/feynman
 ```
 
+**Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
+
+```bash
+npx skills@latest add Ivcota/skills/grill-me
+```
+
+**Grill with Docs** — Challenge a plan against the project's own language. Uses `CONTEXT.md` and ADRs to sharpen terms, catch contradictions, and record decisions only when they matter.
+
+```bash
+npx skills@latest add Ivcota/skills/grill-with-docs
+```
+
 **The ONE Thing** — Stop splitting attention, start making real progress. Runs Keller's Focusing Question and Goal Setting to the Now to isolate the one move that makes everything else easier or unnecessary.
 
 ```bash
