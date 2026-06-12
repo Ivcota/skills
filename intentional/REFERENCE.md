@@ -54,12 +54,24 @@ Ask: **"Which trigger does this task set off?"**
 | **Meaningless** | Do a values edit | Is the goal worth dropping? |
 
 Convert interventions into concrete Process actions. Examples:
+- **Up the challenge** → `30 mins: make the boring task harder in a useful way — race the clock, raise the quality bar, or add a constraint`
+- **Practice daily disconnection** → `10 mins tonight: put phone in Do Not Disturb, grayscale, or Sleep mode so stimulation winds down before bed`
+- **Dopamine fast** → `15 mins: identify one infinity pool/high-stimulation input to weed out and choose an analog replacement`
+- **Make it a learning goal** → `30 mins: try one approach and write what failed, changed, or became clearer`
+- **Practice aversion journaling** → `10 mins: write what feels unpleasant, what you're avoiding, and the smallest tolerable next action`
+- **Treat yourself** → `After the block: redeem a specific small reward if the work block is completed`
+- **Add joy** → `45 mins: work with music, coffee, location, tools, or company that makes the task lighter`
+- **Track your goal page** → `10 mins: update the cumulative goal page and compare current progress against target pace`
+- **Set mini goals** → `20 mins: complete the next tiny milestone toward the farther goal`
+- **Find accountability** → `5 mins: send the target and deadline to someone who will check whether it happened`
+- **Connect with future you** → `10 mins: write what future-you gains if this gets done and what they inherit if it doesn't`
 - **Define the very next step** → `15 mins: identify the first physical action and do it`
-- **Make it a learning goal** → `30 mins: try one approach and write what failed/changed`
-- **Add joy** → `45 mins: work with music/coffee/location that makes it lighter`
-- **Do a values edit** → `10 mins: rewrite why this matters and which Value it serves`
 - **Shrink your resistance** → `10 mins: open the file, make one tiny edit, stop if needed`
 - **Time block** → `30 mins: focused work on [specific task]`
+- **Connect to your life systems** → `10 mins: attach this task to an existing routine, calendar block, checklist, or habit stack`
+- **Designate habit points** → `5 mins: assign points for completing the habit and define what indulgence those points can redeem`
+- **Do a values edit** → `10 mins: rewrite why this matters and which Value it serves`
+- **Is the goal worth dropping?** → `10 mins: decide whether to drop, defer, shrink, or recommit to the goal`
 
 Do not over-prescribe. Pick the smallest useful intervention, especially in auto mode.
 
