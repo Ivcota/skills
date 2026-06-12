@@ -1,21 +1,21 @@
 ---
 name: intentional
-description: Planning session that builds a complete daily note with Shaped Goals, Rolling Timeblocks, and calendar awareness. Targets today (if before noon, incomplete note) or tomorrow (after noon). Uses auto proposal mode by default; use `/intentional deep` for a full Values interview. Use when the user says "intentional", "plan today", "plan tomorrow", or "set up my day".
-argument-hint: "[deep] [auto] [optional priorities or carry-forward items]"
+description: Planning session that builds a complete daily note with Shaped Goals, Rolling Timeblocks, calendar awareness, and a procrastination trigger roadmap. Targets today (if before noon, incomplete note) or tomorrow (after noon). Uses deep mode by default; use `/intentional auto` for auto proposal mode. Use when the user says "intentional", "plan today", "plan tomorrow", or "set up my day".
+argument-hint: "[auto] [optional priorities or carry-forward items]"
 disable-model-invocation: true
 ---
 
 Build a daily note so the user can execute without thinking. One question at a time.
 
-See [REFERENCE.md](REFERENCE.md) for the Values table, Shaped Goal format, and Daily Note template.
+See [REFERENCE.md](REFERENCE.md) for the Values table, Procrastination Roadmap, Shaped Goal format, and Daily Note template.
 
 ---
 
 ## Step 0: Determine Mode
 
 **Depth mode** (from `$ARGUMENTS`):
-- `deep` present → deep mode: full Values interview, one question at a time
-- `auto` present or absent → auto mode: read context, propose all goals at once, single adjustment prompt
+- `auto` present → auto mode: read context, propose all goals at once, single adjustment prompt
+- `auto` absent → deep mode: full Values interview, one question at a time
 - optional priorities or carry-forward items present → treat them as high-priority shaped goal inputs; propose them first in Step 2 before other inferred goals
 
 **Timing mode** (auto-detect current time):
@@ -45,21 +45,23 @@ Deduplicate and summarize fixed commitments, or confirm open calendar.
 
 ## Step 2: Shaped Goals
 
-**Deep mode:** Conversational Values interview. For each goal: ask why it matters → map to a Value → confirm concrete Outcome → get time-bound Process actions. See [REFERENCE.md](REFERENCE.md) for the Values table and question flow.
+**Deep mode:** Conversational Values interview. For each goal: ask why it matters → map to a Value → confirm concrete Outcome → get time-bound Process actions. If the goal is a carry-forward, stalled, avoided, or emotionally resisted item, run the Procrastination Roadmap trigger check before finalizing Process actions. See [REFERENCE.md](REFERENCE.md) for the Values table, Procrastination Roadmap, and question flow.
 
-**Auto mode:** Read the last 5 existing daily notes. Also read the configured procrastination list if it exists. Before proposing goals, surface what you found in one short block:
+**Auto mode:** Read the last 5 existing daily notes. Also read the configured procrastination list if it exists. Classify stalled/carry-forward items with the Procrastination Roadmap and fold the matching interventions into proposed Process blocks. Before proposing goals, surface what you found in one short block:
 
 > "Based on your last 5 days: [1–2 notable observations — e.g., 'You've carried X forward 3 days', 'Achievement goals have been your most-completed', 'Afternoon blocks rarely finish']. Here's what I'd set up:"
 
-Then propose all Shaped Goals at once — fully formed with inferred Value, Outcome, and Process. Values MUST come from the Values Table in REFERENCE.md — never invent one (valid: Achievement, Benevolence, Conformity, Face, Hedonism, Power, Security, Self-Direction, Spirituality, Stimulation, Tradition, Universalism). Ask once: "Any adjustments?" Make edits, then proceed immediately. See [REFERENCE.md](REFERENCE.md) for synthesis approach.
+Then propose all Shaped Goals at once — fully formed with inferred Value, Outcome, and Process. Values MUST come from the Values Table in REFERENCE.md — never invent one (valid: Achievement, Benevolence, Conformity, Face, Hedonism, Power, Security, Self-Direction, Spirituality, Stimulation, Tradition, Universalism). For any procrastination-prone goal, include 1–2 roadmap interventions as concrete Process items. Ask once: "Any adjustments?" Make edits, then proceed immediately. See [REFERENCE.md](REFERENCE.md) for synthesis approach.
 
 Repeat until 2–4 goals or user is done (deep mode only).
 
 ---
 
-## Step 3: Procrastination List (deep mode only)
+## Step 3: Procrastination Roadmap (deep mode only)
 
-Read the configured procrastination list if it exists. Surface unchecked items not already addressed. Build a Shaped Goal if yes. If no procrastination list exists, skip this step silently.
+Read the configured procrastination list if it exists. Surface unchecked items not already addressed. Build a Shaped Goal if yes. For each accepted item, ask which trigger(s) the task sets off — Boring, Frustrating, Unpleasant, Far Away, Unstructured, or Meaningless — then choose matching Prep/Do interventions from the Procrastination Roadmap in REFERENCE.md and turn them into Process blocks.
+
+If no procrastination list exists, still use the roadmap for any goal the user describes as stuck, avoided, vague, heavy, or repeatedly carried forward. Otherwise skip this step silently.
 
 (Auto mode folds these into Step 2 synthesis — don't surface again.)
 
@@ -83,10 +85,11 @@ After writing:
 
 ## Rules
 
-- Default is auto mode. Deep mode requires explicit `/intentional deep`.
+- Default is deep mode. Auto mode requires explicit `/intentional auto`.
 - Auto mode: always show synthesis observations before proposing — never silently propose.
 - Auto mode: never ask follow-up questions after the adjustment prompt — write and go.
 - Deep mode: never skip the Values conversation. A goal without a Value is just a wish.
+- For procrastination-prone work, diagnose the trigger before prescribing tactics; don't dump the whole roadmap unless useful.
 - One question at a time (deep mode). Don't stack questions.
 - Calendar check always runs first, both modes.
 - Tone: direct and energetic — sharp accountability partner, not a life coach.

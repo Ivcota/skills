@@ -11,8 +11,10 @@ For new goals:
 For each goal:
 1. "Why does that matter to you right now?" — uncovers the **Value**
 2. Confirm outcome — rephrase into something concrete, specific enough to know when done
-3. "How will you work on this? Give me the action as a time-bound block — like '30 mins of X'."
-4. "Anything else for this goal?"
+3. If the goal is stalled/avoided/carry-forward: "Which trigger does this task set off — boring, frustrating, unpleasant, far away, unstructured, or meaningless?"
+4. Choose matching Procrastination Roadmap interventions and convert them into time-bound Process actions
+5. "How will you work on this? Give me the action as a time-bound block — like '30 mins of X'."
+6. "Anything else for this goal?"
 
 ---
 
@@ -23,12 +25,43 @@ Read silently before responding:
 - The configured procrastination list, if one exists
 - Carry-forwards from `$ARGUMENTS`
 
-Synthesize patterns: recurring incomplete items, stated priorities, stalled procrastination items. Infer the most likely Value for each goal based on context.
+Synthesize patterns: recurring incomplete items, stated priorities, stalled procrastination items. For stalled/carry-forward work, infer likely procrastination triggers from the roadmap and pick matching interventions. Infer the most likely Value for each goal based on context.
 
 Propose all goals at once as fully-formed Shaped Goals (Value + Outcome + Process already filled). Then ask once:
 > "Here's what I'd set up for [today/tomorrow]. Any adjustments?"
 
 Make any requested edits, then proceed immediately to Rolling Timeblocks and writing the note — no further prompts. Rolling Timeblocks are a flexible menu of bounded work blocks, not a fixed schedule; intentional should not assign clock times.
+
+---
+
+## Procrastination Roadmap
+
+Use this when a task is stalled, repeatedly carried forward, vague, emotionally heavy, or listed on the user's procrastination list.
+
+Legend:
+- **Prep** = setup intervention before execution
+- **Do** = action intervention during execution
+
+Ask: **"Which trigger does this task set off?"**
+
+| Trigger | Prep interventions | Do interventions |
+|---|---|---|
+| **Boring** | Up the challenge; practice daily disconnection; dopamine fast | — |
+| **Frustrating** | Make it a learning goal | — |
+| **Unpleasant** | Add joy | Practice aversion journaling; treat yourself |
+| **Far Away** | Connect with future you; find accountability | Track your goal page; set mini goals; find accountability |
+| **Unstructured** | Connect to your life systems; designate habit points | Define the very next step; shrink your resistance; time block; connect to your life systems |
+| **Meaningless** | Do a values edit | Is the goal worth dropping? |
+
+Convert interventions into concrete Process actions. Examples:
+- **Define the very next step** → `15 mins: identify the first physical action and do it`
+- **Make it a learning goal** → `30 mins: try one approach and write what failed/changed`
+- **Add joy** → `45 mins: work with music/coffee/location that makes it lighter`
+- **Do a values edit** → `10 mins: rewrite why this matters and which Value it serves`
+- **Shrink your resistance** → `10 mins: open the file, make one tiny edit, stop if needed`
+- **Time block** → `30 mins: focused work on [specific task]`
+
+Do not over-prescribe. Pick the smallest useful intervention, especially in auto mode.
 
 ---
 
