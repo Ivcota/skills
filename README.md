@@ -23,6 +23,7 @@ npx skills@latest add Ivcota/skills/<skill-name>
   - [Thinking](#thinking)
   - [Habits](#habits)
   - [Learning](#learning)
+  - [Workflow](#workflow)
   - [Voice](#voice)
 - [Business](#business)
   - [Strategy & idea selection](#strategy--idea-selection)
@@ -44,6 +45,12 @@ npx skills@latest add Ivcota/skills/<skill-name>
 
 ```bash
 npx skills@latest add Ivcota/skills/user-story-mapping
+```
+
+**Outcome-Driven Innovation** — Stop guessing what customers want. Captures Jobs, Outcomes, and Constraints, ranks opportunities with Ulwick's Opportunity Algorithm, and scores concepts before you build.
+
+```bash
+npx skills@latest add Ivcota/skills/outcome-driven-innovation
 ```
 
 ## Modeling
@@ -74,6 +81,12 @@ npx skills@latest add Ivcota/skills/faas
 
 ```bash
 npx skills@latest add Ivcota/skills/readable-code
+```
+
+**Walkthrough** — Preserve the why behind non-trivial code changes. Chunks the current diff, writes rationale to `.claude/rationale/`, and gives future `/explain` calls something durable to recover.
+
+```bash
+npx skills@latest add Ivcota/skills/walkthrough
 ```
 
 ---
@@ -154,10 +167,66 @@ npx skills@latest add Ivcota/skills/four-pillars-learning-coach
 npx skills@latest add Ivcota/skills/bear-hunter-system
 ```
 
+**ADDIE** — Design training that solves the real performance problem. Runs Pastore's ADDIE framework — Analysis, Design, Development, Implementation, Evaluation — with objectives, assessments, multimedia principles, and evaluation baked in.
+
+```bash
+npx skills@latest add Ivcota/skills/addie
+```
+
+**Ultralearning** — Build an aggressive self-directed learning project. Applies Scott Young's nine principles — Metalearning, Focus, Directness, Drill, Retrieval, Feedback, Retention, Intuition, Experimentation — to compress skill acquisition.
+
+```bash
+npx skills@latest add Ivcota/skills/ultralearning
+```
+
+**Ultralearning Draft** — Draft version of the Ultralearning skill with extended framework notes and project process detail.
+
+```bash
+npx skills@latest add Ivcota/skills/skills-draft/ultralearning
+```
+
+**Teach** — Turn this workspace into a stateful teaching environment. Builds lessons, references, resources, and learning records around the user's mission.
+
+```bash
+npx skills@latest add Ivcota/skills/teach
+```
+
 **Distill to Skill** — Turn any book into a Claude skill. Fans out citation-grounded agents to extract the frameworks, patterns, and cases — then synthesizes them into an installable skill.
 
 ```bash
 npx skills@latest add Ivcota/skills/distill-to-skill
+```
+
+## Workflow
+
+**Now** — Route the day without thinking. Inspects time, daily-note state, and user intent, then hands off to `/prep`, `/go`, or `/wrap-up`.
+
+```bash
+npx skills@latest add Ivcota/skills/now
+```
+
+**Prep** — Build a complete daily note before execution. Creates Shaped Goals, Rolling Timeblocks, and calendar-aware plans for today or tomorrow.
+
+```bash
+npx skills@latest add Ivcota/skills/prep
+```
+
+**Go** — Sync progress and commit the next rolling timeblock. Use repeatedly during the day to stay locked in and keep the calendar aligned with reality.
+
+```bash
+npx skills@latest add Ivcota/skills/go
+```
+
+**Wrap Up** — Close the day cleanly. Summarizes completed and open work, captures missing logs, reflects, and hands off to `/prep` for tomorrow.
+
+```bash
+npx skills@latest add Ivcota/skills/wrap-up
+```
+
+**One-Month Day** — Plan a single day built for a month's worth of output. Stacks flow blocks, clears load, builds a flow fortress, and locks tomorrow's deep-work schedule.
+
+```bash
+npx skills@latest add Ivcota/skills/one-month-day
 ```
 
 ## Voice
@@ -198,6 +267,12 @@ npx skills@latest add Ivcota/skills/office-hours
 
 ```bash
 npx skills@latest add Ivcota/skills/zero-to-one
+```
+
+**Million Dollar Weekend** — Validate a business in 48 hours before you build. Runs Noah Kagan's process to find a problem, create a one-minute business model, and get three paying customers.
+
+```bash
+npx skills@latest add Ivcota/skills/million-dollar-weekend
 ```
 
 **Millionaire Fastlane** — Score your wealth plan before it costs you a decade. Runs DeMarco's CENTS commandments and Wealth Equation to tell you if you're on the Sidewalk, Slowlane, or Fastlane.
@@ -266,12 +341,30 @@ npx skills@latest add Ivcota/skills/hundred-million-leads
 npx skills@latest add Ivcota/skills/breakthrough-advertising
 ```
 
+**Hook Point** — Win the first three seconds. Applies Brendan Kane's framework to sharpen social posts, video openers, subject lines, headlines, ads, and above-the-fold copy.
+
+```bash
+npx skills@latest add Ivcota/skills/hook-point
+```
+
+**Epiphany Bridge** — Turn an origin story into a conversion story. Walks through Brunson's Backstory → Journey/Conflict → New Opportunity → Framework → Transformation arc and outputs full and 30-second versions.
+
+```bash
+npx skills@latest add Ivcota/skills/epiphany-bridge
+```
+
 ## Authority
 
 **Key Person of Influence** — Become the recognized authority in your industry in twelve months. Runs Priestley & Harrington's five-step sequence — Pitch → Publish → Product → Profile → Partnership — scoring each out of 10 so you fix the foundation before scaling.
 
 ```bash
 npx skills@latest add Ivcota/skills/key-person-of-influence
+```
+
+**Win Friends & Influence People** — Handle people without creating resentment. Applies Dale Carnegie's 30 principles to difficult messages, criticism, feedback, persuasion, networking, and leadership moments.
+
+```bash
+npx skills@latest add Ivcota/skills/win-friends-influence-people
 ```
 
 ## Operations
