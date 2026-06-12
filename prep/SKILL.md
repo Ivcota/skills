@@ -1,7 +1,7 @@
 ---
 name: prep
 description: Planning session that builds a complete daily note with Shaped Goals, Rolling Timeblocks, and calendar awareness. Targets today (if before noon, incomplete note) or tomorrow (after noon). Uses auto proposal mode by default; use `/prep deep` for a full Values interview. Use when the user says "prep", "plan today", "plan tomorrow", or "set up my day".
-argument-hint: "[deep] [or carry-forward items from wrap-up]"
+argument-hint: "[deep] [auto] [optional priorities or carry-forward items]"
 disable-model-invocation: true
 ---
 
@@ -16,8 +16,7 @@ See [REFERENCE.md](REFERENCE.md) for the Values table, Shaped Goal format, and D
 **Depth mode** (from `$ARGUMENTS`):
 - `deep` present → deep mode: full Values interview, one question at a time
 - `auto` present or absent → auto mode: read context, propose all goals at once, single adjustment prompt
-- carry-forward items present → parse them, skip reading today's note, jump to Step 1
-- `reflection-seeds` present → treat them as high-priority shaped goal inputs; propose them first in Step 2 before other inferred goals
+- optional priorities or carry-forward items present → treat them as high-priority shaped goal inputs; propose them first in Step 2 before other inferred goals
 
 **Timing mode** (auto-detect current time):
 - After noon → target = **tomorrow**
@@ -68,7 +67,7 @@ Read the configured procrastination list if it exists. Surface unchecked items n
 
 ## Step 4: Rolling Timeblocks
 
-Pull every Process item from all Shaped Goals into `# Rolling Timeblocks` as an ordered execution queue, not a fixed schedule. Do **not** assign clock times or prescribe exact calendar slots in the daily note. Use calendar events only to choose a sensible order and avoid unrealistic load. Add standing daily items at top. In auto mode, sequence and write immediately — no reorder prompt.
+Pull every Process item from all Shaped Goals into `# Rolling Timeblocks` as a flexible menu of bounded work blocks the user can choose from when ready to work. Do **not** assign clock times or prescribe exact calendar slots in the daily note. Use calendar events only to avoid unrealistic load and group/order blocks sensibly. Add standing daily items at top. In auto mode, write immediately — no reorder prompt.
 
 ---
 
@@ -91,5 +90,5 @@ After writing:
 - One question at a time (deep mode). Don't stack questions.
 - Calendar check always runs first, both modes.
 - Tone: direct and energetic — sharp accountability partner, not a life coach.
-- Works as part of an optional flow with `/go` and `/wrap-up` when those skills are installed: `/prep` → `/go` → `/wrap-up` → `/prep`.
-- If `$ARGUMENTS` has wrap-up context, acknowledge it and skip redundant steps.
+- Keep this skill standalone. Do not reference or depend on any other skills.
+- If `$ARGUMENTS` includes user-provided priorities or carry-forward items, acknowledge them briefly and fold them into planning.
