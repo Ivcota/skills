@@ -199,16 +199,16 @@ npx skills@latest add Ivcota/skills/distill-to-skill
 
 ## Workflow
 
-**Now** — Route the day without thinking. Inspects time, daily-note state, and user intent, then hands off to `/prep`, `/go`, or `/wrap-up`.
+**Now** — Route the day without thinking. Inspects time, daily-note state, and user intent, then hands off to `/intentional`, `/go`, or `/wrap-up`.
 
 ```bash
 npx skills@latest add Ivcota/skills/now
 ```
 
-**Prep** — Build a complete daily note before execution. Creates Shaped Goals, Rolling Timeblocks, and calendar-aware plans for today or tomorrow.
+**Intentional** — Build a complete daily note before execution. Creates Shaped Goals, Rolling Timeblocks, and calendar-aware plans for today or tomorrow.
 
 ```bash
-npx skills@latest add Ivcota/skills/prep
+npx skills@latest add Ivcota/skills/intentional
 ```
 
 **Go** — Sync progress and commit the next rolling timeblock. Use repeatedly during the day to stay locked in and keep the calendar aligned with reality.
@@ -217,7 +217,7 @@ npx skills@latest add Ivcota/skills/prep
 npx skills@latest add Ivcota/skills/go
 ```
 
-**Wrap Up** — Close the day cleanly. Summarizes completed and open work, captures missing logs, reflects, and hands off to `/prep` for tomorrow.
+**Wrap Up** — Close the day cleanly. Summarizes completed and open work, captures missing logs, reflects, and hands off to `/intentional` for tomorrow.
 
 ```bash
 npx skills@latest add Ivcota/skills/wrap-up

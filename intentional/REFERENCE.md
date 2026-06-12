@@ -1,4 +1,4 @@
-# Prep — Reference
+# Intentional — Reference
 
 ## Deep Mode Interview Flow
 
@@ -28,7 +28,7 @@ Synthesize patterns: recurring incomplete items, stated priorities, stalled proc
 Propose all goals at once as fully-formed Shaped Goals (Value + Outcome + Process already filled). Then ask once:
 > "Here's what I'd set up for [today/tomorrow]. Any adjustments?"
 
-Make any requested edits, then proceed immediately to Rolling Timeblocks and writing the note — no further prompts. Rolling Timeblocks are a flexible menu of bounded work blocks, not a fixed schedule; prep should not assign clock times.
+Make any requested edits, then proceed immediately to Rolling Timeblocks and writing the note — no further prompts. Rolling Timeblocks are a flexible menu of bounded work blocks, not a fixed schedule; intentional should not assign clock times.
 
 ---
 

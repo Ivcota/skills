@@ -1,11 +1,11 @@
 ---
 name: wrap-up
-description: End-of-day closure — summarizes the day, catches missing logs, reflects, and hands off to /prep for tomorrow. Use when the user says "wrap up", "end of day", "day review", "reflect on today", or "close out the day".
+description: End-of-day closure — summarizes the day, catches missing logs, reflects, and hands off to /intentional for tomorrow. Use when the user says "wrap up", "end of day", "day review", "reflect on today", or "close out the day".
 argument-hint: "[optional: any closing context or notes]"
 disable-model-invocation: false
 ---
 
-You are running an end-of-day wrap-up for today's daily note. Your job is to help the user close out the day cleanly — capturing what's missing, reflecting meaningfully, and then handing off to `/prep` to set up tomorrow. Be direct and conversational. One question at a time.
+You are running an end-of-day wrap-up for today's daily note. Your job is to help the user close out the day cleanly — capturing what's missing, reflecting meaningfully, and then handing off to `/intentional` to set up tomorrow. Be direct and conversational. One question at a time.
 
 Today's date is in the `currentDate` context variable (YYYY-MM-DD format).
 
@@ -73,7 +73,7 @@ If the user says they completed it:
 
 If yes (carry to tomorrow):
 - Change `[ ]` to `[>]` and append a link/reference to tomorrow's daily note on that line in **both** Rolling Timeblocks and Shaped Goals sections
-- Track the item — you'll pass it to `/prep` in Step 8
+- Track the item — you'll pass it to `/intentional` in Step 8
 
 If no, leave it as-is.
 
@@ -95,9 +95,9 @@ Capture their answers. You'll write them in Step 7.
 
 **After Q2 and Q3:** If the user named something heavy or a regret, immediately surface a shaped goal recommendation that addresses it. Be direct — one sentence, one suggestion:
 
-> "That sounds like a shaped goal for tomorrow: [concrete action that resolves the tension]. Want me to seed that into prep?"
+> "That sounds like a shaped goal for tomorrow: [concrete action that resolves the tension]. Want me to seed that into intentional?"
 
-If yes, track it as a `reflection-seed: [description]` to pass to `/prep` in Step 8. If no, move on.
+If yes, track it as a `reflection-seed: [description]` to pass to `/intentional` in Step 8. If no, move on.
 
 Only surface a recommendation when the answer is substantive — skip if they say "nothing" or "—".
 
@@ -121,17 +121,17 @@ Write this to the daily note.
 
 ---
 
-## Step 8: Hand Off to /prep
+## Step 8: Hand Off to /intentional
 
 After writing the reflection, ask:
-> "Want to prep tomorrow?"
+> "Want to set up tomorrow?"
 
 **If yes:**
 - Collect all carry-forward items (items marked `[>]` in Step 5) and any `reflection-seed` items from Step 6
-- Invoke `/prep` by continuing the conversation as if you are now running the `/prep` skill
-- Pass carry-forward and reflection-seed context so `/prep` can prioritize them. Format as: `carry-forward: [item 1], [item 2], ... | reflection-seeds: [seed 1], [seed 2], ...`
-- `/prep` should treat reflection-seeds as high-priority shaped goal inputs — propose them first, before other goals
-- Follow the `/prep` skill flow from Step 1 onward (check calendar, build shaped goals, etc.)
+- Invoke `/intentional` by continuing the conversation as if you are now running the `/intentional` skill
+- Pass carry-forward and reflection-seed context so `/intentional` can prioritize them. Format as: `carry-forward: [item 1], [item 2], ... | reflection-seeds: [seed 1], [seed 2], ...`
+- `/intentional` should treat reflection-seeds as high-priority shaped goal inputs — propose them first, before other goals
+- Follow the `/intentional` skill flow from Step 1 onward (check calendar, build shaped goals, etc.)
 - After the daily note is written: take the **first Rolling Timeblock** from tomorrow's note and create a calendar event for it on the selected timeblock calendar at the planned start time. If no timeblock calendar is selected yet, list available calendars and ask which one to use for timeblocks, then persist it if the environment supports persistent skill/user config. Assume Google Calendar MCP tools are available. If calendar listing or creation fails because the tools are unavailable or unauthorized, tell the user what failed so they can connect or authorize Google Calendar. Confirm: "First block locked on your calendar for tomorrow."
 
 **If no:**
@@ -147,4 +147,4 @@ No extra commentary.
 - Don't summarize or editorialize their reflection answers — write them as they said them.
 - If `$ARGUMENTS` contains context, open with it before the summary.
 - Keep tone direct and grounded — sharp, not soft.
-- This skill can work with `/prep` and `/go` when those skills are available. The wrap-up naturally flows into `/prep` as the final step.
+- This skill can work with `/intentional` and `/go` when those skills are available. The wrap-up naturally flows into `/intentional` as the final step.

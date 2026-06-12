@@ -100,4 +100,4 @@ When all timeblocks are complete, continue directly into the `/wrap-up` skill fl
 - **Plan in progress** → sync, orient, commit (Steps 3–7)
 - **Queue clear** → close out via `/wrap-up` inline if available, otherwise summarize and offer next-day planning (Step 8)
 
-`/prep` is the intentional deep version — run it explicitly on quiet mornings when you want the full Values interview.
+`/intentional` is the intentional deep version — run it explicitly on quiet mornings when you want the full Values interview.

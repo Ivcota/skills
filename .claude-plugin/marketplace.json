@@ -84,12 +84,12 @@
     {
       "name": "daily-planning",
       "source": "./",
-      "description": "Plan the day, stay on track, and close the loop. One-Month Day reframes ambitious work into a compressed day, Now routes to the right daily workflow, Prep builds Shaped Goals and Rolling Timeblocks, Go commits the next block during the day, and Wrap-Up reflects and carries work forward.",
+      "description": "Plan the day, stay on track, and close the loop. One-Month Day reframes ambitious work into a compressed day, Now routes to the right daily workflow, Intentional builds Shaped Goals and Rolling Timeblocks, Go commits the next block during the day, and Wrap-Up reflects and carries work forward.",
       "version": "0.0.1",
       "skills": [
         "./one-month-day",
         "./now",
-        "./prep",
+        "./intentional",
         "./go",
         "./wrap-up"
       ]

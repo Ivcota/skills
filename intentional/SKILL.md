@@ -1,6 +1,6 @@
 ---
-name: prep
-description: Planning session that builds a complete daily note with Shaped Goals, Rolling Timeblocks, and calendar awareness. Targets today (if before noon, incomplete note) or tomorrow (after noon). Uses auto proposal mode by default; use `/prep deep` for a full Values interview. Use when the user says "prep", "plan today", "plan tomorrow", or "set up my day".
+name: intentional
+description: Planning session that builds a complete daily note with Shaped Goals, Rolling Timeblocks, and calendar awareness. Targets today (if before noon, incomplete note) or tomorrow (after noon). Uses auto proposal mode by default; use `/intentional deep` for a full Values interview. Use when the user says "intentional", "plan today", "plan tomorrow", or "set up my day".
 argument-hint: "[deep] [auto] [optional priorities or carry-forward items]"
 disable-model-invocation: true
 ---
@@ -83,7 +83,7 @@ After writing:
 
 ## Rules
 
-- Default is auto mode. Deep mode requires explicit `/prep deep`.
+- Default is auto mode. Deep mode requires explicit `/intentional deep`.
 - Auto mode: always show synthesis observations before proposing — never silently propose.
 - Auto mode: never ask follow-up questions after the adjustment prompt — write and go.
 - Deep mode: never skip the Values conversation. A goal without a Value is just a wish.
