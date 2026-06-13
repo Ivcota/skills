@@ -2,44 +2,65 @@
 
 Type `/grand-slam-offer`. Claude becomes Hormozi. Type `/zero-to-one`. Claude becomes Thiel. Every framework elite builders rely on — encoded as a single command, ready the moment you need it.
 
-Organized by domain: **Product** (build the thing), **Craft** (sharpen yourself), **Business** (grow the company).
+Organized by job-to-be-done: **Build Products**, **Learn & Think**, **Focus & Execute**, **Write & Communicate**, **Win Customers**, and **Run the Business**.
 
 ## Install
 
-Every skill installs the same way:
+Every individual skill installs the same way:
 
 ```bash
 npx skills@latest add Ivcota/skills/<skill-name>
 ```
 
+Bundle-level install commands are intentionally omitted until the exact CLI syntax is verified.
+
+## Bundles
+
+| Bundle | Job | Included Skills |
+|---|---|---|
+| [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough` |
+| [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `grill-me`, `grill-with-docs` |
+| [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `unstuck-now` |
+| [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `win-friends-influence-people`, `key-person-of-influence` |
+| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `good-strategy-bad-strategy`, `e-myth-revisited`, `theory-of-constraints` |
+
 ## Index
 
-- [Product & Engineering](#product--engineering)
-  - [Discovery & scoping](#discovery--scoping)
-  - [Modeling](#modeling)
-  - [Delivery](#delivery)
-  - [Code quality](#code-quality)
-- [Craft](#craft)
-  - [Thinking](#thinking)
-  - [Habits](#habits)
-  - [Learning](#learning)
-  - [Workflow](#workflow)
-  - [Voice](#voice)
-- [Business](#business)
-  - [Strategy & idea selection](#strategy--idea-selection)
-  - [Customer](#customer)
-  - [Offer & pricing](#offer--pricing)
-  - [Demand](#demand)
-  - [Authority](#authority)
-  - [Operations](#operations)
+- [Build Products](#build-products)
+  - [Discover](#discover)
+  - [Model & Architect](#model--architect)
+  - [Deliver & Explain](#deliver--explain)
+- [Learn & Think](#learn--think)
+  - [Understand](#understand)
+  - [Teach & Design Learning](#teach--design-learning)
+  - [Stress-Test Decisions](#stress-test-decisions)
+- [Focus & Execute](#focus--execute)
+  - [Prioritize](#prioritize)
+  - [Plan the Day](#plan-the-day)
+  - [Start & Sustain](#start--sustain)
+  - [Close the Loop](#close-the-loop)
+- [Write & Communicate](#write--communicate)
+  - [Capture Voice](#capture-voice)
+  - [Apply Voice](#apply-voice)
+- [Win Customers](#win-customers)
+  - [Understand Buyers](#understand-buyers)
+  - [Package Value](#package-value)
+  - [Create Demand](#create-demand)
+  - [Persuade & Build Authority](#persuade--build-authority)
+- [Run the Business](#run-the-business)
+  - [Choose the Bet](#choose-the-bet)
+  - [Set Strategy](#set-strategy)
+  - [Operate the System](#operate-the-system)
+- [Personal / Draft](#personal--draft)
 
 ---
 
-# Product & Engineering
+# Build Products
 
-*Ship the right thing the first time.*
+*Decide what to build, model it clearly, ship it cleanly, and preserve the why.*
 
-## Discovery & scoping
+## Discover
 
 **User Story Mapping** — Stop shipping features that don't connect to outcomes. Builds a 2D grid — backbone + tasks — so the whole team sees the story before committing to a sprint.
 
@@ -53,7 +74,7 @@ npx skills@latest add Ivcota/skills/user-story-mapping
 npx skills@latest add Ivcota/skills/outcome-driven-innovation
 ```
 
-## Modeling
+## Model & Architect
 
 **Domain Storytelling** — Build a domain model the business actually recognizes. Interview-driven DDD that maps stakeholder conversations directly to code — no translation layer, no guesswork.
 
@@ -67,7 +88,7 @@ npx skills@latest add Ivcota/skills/domain-storytelling
 npx skills@latest add Ivcota/skills/solutions-architects-handbook
 ```
 
-## Delivery
+## Deliver & Explain
 
 **FAAS** — Ship features without the mess. Four phases — Find → ARCH → Automate → Specify-Test-Refine — so every feature lands clean, tested, and maintainable.
 
@@ -75,9 +96,13 @@ npx skills@latest add Ivcota/skills/solutions-architects-handbook
 npx skills@latest add Ivcota/skills/faas
 ```
 
-## Code quality
+**INVEST Framework** — Make tasks, issues, user stories, goals, and implementation slices independent, negotiable, valuable, estimable, small, and testable before execution.
 
-**Readable Code** — Write code that's fast to understand, not just short. Applies Boswell & Foucher's line-level tactics — naming, control flow, expressions, decomposition — to minimize time-till-understanding on every PR, function, and variable.
+```bash
+npx skills@latest add Ivcota/skills/invest-framework
+```
+
+**Readable Code** — Write code that's fast to understand, not just short. Applies Boswell & Foucher's line-level tactics — naming, control flow, expressions, decomposition — to minimize time-till-understanding.
 
 ```bash
 npx skills@latest add Ivcota/skills/readable-code
@@ -91,13 +116,13 @@ npx skills@latest add Ivcota/skills/walkthrough
 
 ---
 
-# Craft
+# Learn & Think
 
-*Think sharper than your tools.*
+*Understand faster, teach better, and stress-test decisions.*
 
-## Thinking
+## Understand
 
-**Align Mental Model** — Catch wrong beliefs before they cost you. Runs a prediction-check loop — predict, rate confidence, see the truth. High-confidence-wrongs get traced to the root assumption. Three modes: codebase, learning, planning.
+**Align Mental Model** — Catch wrong beliefs before they cost you. Runs a prediction-check loop — predict, rate confidence, see the truth — then traces high-confidence-wrong answers to the root assumption.
 
 ```bash
 npx skills@latest add Ivcota/skills/align-mental-model
@@ -109,47 +134,7 @@ npx skills@latest add Ivcota/skills/align-mental-model
 npx skills@latest add Ivcota/skills/feynman
 ```
 
-**Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
-
-```bash
-npx skills@latest add Ivcota/skills/grill-me
-```
-
-**Grill with Docs** — Challenge a plan against the project's own language. Uses `CONTEXT.md` and ADRs to sharpen terms, catch contradictions, and record decisions only when they matter.
-
-```bash
-npx skills@latest add Ivcota/skills/grill-with-docs
-```
-
-**The ONE Thing** — Stop splitting attention, start making real progress. Runs Keller's Focusing Question and Goal Setting to the Now to isolate the one move that makes everything else easier or unnecessary.
-
-```bash
-npx skills@latest add Ivcota/skills/the-one-thing
-```
-
-**Essentialism** — Stop overcommitting and choose the vital few. Runs McKeown's Essence → Explore → Eliminate → Execute framework with the 90 Percent Rule, graceful no scripts, buffers, and routines.
-
-```bash
-npx skills@latest add Ivcota/skills/essentialism-disciplined-pursuit
-```
-
-## Habits
-
-**Atomic Habits** — Turn goals into identity-based systems that survive real life. Applies James Clear's habit loop, Four Laws, environment design, habit stacking, tracking, and failure recovery.
-
-```bash
-npx skills@latest add Ivcota/skills/atomic-habits
-```
-
-**My Habits** — Surface the right active habit cards from your vault at the right time. Finds cue -> action cards by status, schedule, priority, weekday, date, and query.
-
-```bash
-npx skills@latest add Ivcota/skills/my-habits
-```
-
-## Learning
-
-**Deep Learner** — Actually understand what you study, not just recognize it. Runs a 7-step Socratic framework — Anchor → Connect → Translate → Dissect → Stress Test → Evaluate → Build — so every concept gets pulled out of you, not poured in.
+**Deep Learner** — Actually understand what you study, not just recognize it. Runs a 7-step Socratic framework — Anchor → Connect → Translate → Dissect → Stress Test → Evaluate → Build.
 
 ```bash
 npx skills@latest add Ivcota/skills/deep-learner
@@ -167,22 +152,18 @@ npx skills@latest add Ivcota/skills/four-pillars-learning-coach
 npx skills@latest add Ivcota/skills/bear-hunter-system
 ```
 
-**ADDIE** — Design training that solves the real performance problem. Runs Pastore's ADDIE framework — Analysis, Design, Development, Implementation, Evaluation — with objectives, assessments, multimedia principles, and evaluation baked in.
-
-```bash
-npx skills@latest add Ivcota/skills/addie
-```
-
-**Ultralearning** — Build an aggressive self-directed learning project. Applies Scott Young's nine principles — Metalearning, Focus, Directness, Drill, Retrieval, Feedback, Retention, Intuition, Experimentation — to compress skill acquisition.
+**Ultralearning** — Build an aggressive self-directed learning project. Applies Scott Young's nine principles — Metalearning, Focus, Directness, Drill, Retrieval, Feedback, Retention, Intuition, Experimentation.
 
 ```bash
 npx skills@latest add Ivcota/skills/ultralearning
 ```
 
-**Ultralearning Draft** — Draft version of the Ultralearning skill with extended framework notes and project process detail.
+## Teach & Design Learning
+
+**ADDIE** — Design training that solves the real performance problem. Runs Pastore's ADDIE framework — Analysis, Design, Development, Implementation, Evaluation — with objectives, assessments, multimedia principles, and evaluation baked in.
 
 ```bash
-npx skills@latest add Ivcota/skills/skills-draft/ultralearning
+npx skills@latest add Ivcota/skills/addie
 ```
 
 **Teach** — Turn this workspace into a stateful teaching environment. Builds lessons, references, resources, and learning records around the user's mission.
@@ -197,7 +178,41 @@ npx skills@latest add Ivcota/skills/teach
 npx skills@latest add Ivcota/skills/distill-to-skill
 ```
 
-## Workflow
+## Stress-Test Decisions
+
+**Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
+
+```bash
+npx skills@latest add Ivcota/skills/grill-me
+```
+
+**Grill with Docs** — Challenge a plan against the project's own language. Uses `CONTEXT.md` and ADRs to sharpen terms, catch contradictions, and record decisions only when they matter.
+
+```bash
+npx skills@latest add Ivcota/skills/grill-with-docs
+```
+
+---
+
+# Focus & Execute
+
+*Choose what matters, plan the day, start moving, and close the loop.*
+
+## Prioritize
+
+**The ONE Thing** — Stop splitting attention, start making real progress. Runs Keller's Focusing Question and Goal Setting to the Now to isolate the one move that makes everything else easier or unnecessary.
+
+```bash
+npx skills@latest add Ivcota/skills/the-one-thing
+```
+
+**Essentialism** — Stop overcommitting and choose the vital few. Runs McKeown's Essence → Explore → Eliminate → Execute framework with the 90 Percent Rule, graceful no scripts, buffers, and routines.
+
+```bash
+npx skills@latest add Ivcota/skills/essentialism-disciplined-pursuit
+```
+
+## Plan the Day
 
 **Now** — Route the day without thinking. Inspects time, daily-note state, and user intent, then hands off to `/intentional`, `/go`, or `/wrap-up`.
 
@@ -211,11 +226,33 @@ npx skills@latest add Ivcota/skills/now
 npx skills@latest add Ivcota/skills/intentional
 ```
 
+**One-Month Day** — Plan a single day built for a month's worth of output. Stacks flow blocks, clears load, builds a flow fortress, and locks tomorrow's deep-work schedule.
+
+```bash
+npx skills@latest add Ivcota/skills/one-month-day
+```
+
+## Start & Sustain
+
+**Atomic Habits** — Turn goals into identity-based systems that survive real life. Applies James Clear's habit loop, Four Laws, environment design, habit stacking, tracking, and failure recovery.
+
+```bash
+npx skills@latest add Ivcota/skills/atomic-habits
+```
+
+**Unstuck Now** — Break acute procrastination with a short action-first loop: clarify the task, identify the blocker, reduce resistance, and commit to a tiny immediate start.
+
+```bash
+npx skills@latest add Ivcota/skills/unstuck-now
+```
+
 **Go** — Sync progress and commit the next rolling timeblock. Use repeatedly during the day to stay locked in and keep the calendar aligned with reality.
 
 ```bash
 npx skills@latest add Ivcota/skills/go
 ```
+
+## Close the Loop
 
 **Wrap Up** — Close the day cleanly. Summarizes completed and open work, captures missing logs, reflects, and hands off to `/intentional` for tomorrow.
 
@@ -223,13 +260,13 @@ npx skills@latest add Ivcota/skills/go
 npx skills@latest add Ivcota/skills/wrap-up
 ```
 
-**One-Month Day** — Plan a single day built for a month's worth of output. Stacks flow blocks, clears load, builds a flow fortress, and locks tomorrow's deep-work schedule.
+---
 
-```bash
-npx skills@latest add Ivcota/skills/one-month-day
-```
+# Write & Communicate
 
-## Voice
+*Capture your voice, package it, and make drafts sound human.*
+
+## Capture Voice
 
 **Style Profile** — Write in your voice, not Claude's. Extracts a style profile from your samples and applies it to any new content.
 
@@ -243,6 +280,8 @@ npx skills@latest add Ivcota/skills/style-profile
 npx skills@latest add Ivcota/skills/style-to-skill
 ```
 
+## Apply Voice
+
 **Humanizer** — Make AI-written text read like you wrote it. Detects and rewrites 29 AI patterns — significance inflation, em dash overuse, chatbot artifacts — with optional voice calibration from your own samples.
 
 ```bash
@@ -251,43 +290,11 @@ npx skills@latest add Ivcota/skills/humanizer
 
 ---
 
-# Business
+# Win Customers
 
-*Build the machine that grows.*
+*Understand buyers, package value, create demand, and persuade.*
 
-## Strategy & idea selection
-
-**Office Hours** — Find the holes in your idea before the market does. Two modes: Startup (hard questions that expose fatal flaws) and Builder (think through the details).
-
-```bash
-npx skills@latest add Ivcota/skills/office-hours
-```
-
-**Zero to One** — Find out if your startup is genuinely different or just a copy. Runs Thiel's full framework — Contrarian Question, Monopoly vs Competition, Seven Questions — and gives you a verdict.
-
-```bash
-npx skills@latest add Ivcota/skills/zero-to-one
-```
-
-**Million Dollar Weekend** — Validate a business in 48 hours before you build. Runs Noah Kagan's process to find a problem, create a one-minute business model, and get three paying customers.
-
-```bash
-npx skills@latest add Ivcota/skills/million-dollar-weekend
-```
-
-**Millionaire Fastlane** — Score your wealth plan before it costs you a decade. Runs DeMarco's CENTS commandments and Wealth Equation to tell you if you're on the Sidewalk, Slowlane, or Fastlane.
-
-```bash
-npx skills@latest add Ivcota/skills/millionaire-fastlane
-```
-
-**Good Strategy / Bad Strategy** — Stop mistaking goals for strategy. Runs Rumelt's Kernel — diagnosis, guiding policy, coherent action — and flags the four hallmarks of bad strategy before you commit to a direction.
-
-```bash
-npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
-```
-
-## Customer
+## Understand Buyers
 
 **Validate ICP** — Prove the market exists before you build. Mines Reddit, HN, X, and forums for verbatim pain quotes — then returns a VALIDATED / WEAK / NOT FOUND verdict with source links and a DM list.
 
@@ -307,9 +314,9 @@ npx skills@latest add Ivcota/skills/buyer-profile
 npx skills@latest add Ivcota/skills/persona-to-product
 ```
 
-## Offer & pricing
+## Package Value
 
-**Value Equation** — Find the lever killing your conversions. Scores any offer, feature, or content across Hormozi's four levers — Dream Outcome, Perceived Likelihood, Time Delay, Effort — and gives you a path to 10/10.
+**Value Equation** — Find the lever killing your conversions. Scores any offer, feature, content, or idea across Hormozi's four levers and gives you a path to 10/10.
 
 ```bash
 npx skills@latest add Ivcota/skills/value-equation
@@ -327,7 +334,7 @@ npx skills@latest add Ivcota/skills/grand-slam-offer
 npx skills@latest add Ivcota/skills/hundred-million-money-models
 ```
 
-## Demand
+## Create Demand
 
 **$100M Leads** — Stop hoping leads find you. Builds a lead engine using the Core Four, lead magnets, and Lead Getters — with the Rule of 100 and advertising compounding model built in.
 
@@ -335,7 +342,7 @@ npx skills@latest add Ivcota/skills/hundred-million-money-models
 npx skills@latest add Ivcota/skills/hundred-million-leads
 ```
 
-**Breakthrough Advertising** — Write copy that doesn't try to create desire — it channels desire that already exists. Runs Schwartz's full diagnostic (mass desire × awareness state × sophistication stage) before a single word is written.
+**Breakthrough Advertising** — Write copy that doesn't try to create desire — it channels desire that already exists. Runs Schwartz's diagnostic across mass desire, awareness, and sophistication before a single word is written.
 
 ```bash
 npx skills@latest add Ivcota/skills/breakthrough-advertising
@@ -359,13 +366,7 @@ npx skills@latest add Ivcota/skills/aida
 npx skills@latest add Ivcota/skills/epiphany-bridge
 ```
 
-## Authority
-
-**Key Person of Influence** — Become the recognized authority in your industry in twelve months. Runs Priestley & Harrington's five-step sequence — Pitch → Publish → Product → Profile → Partnership — scoring each out of 10 so you fix the foundation before scaling.
-
-```bash
-npx skills@latest add Ivcota/skills/key-person-of-influence
-```
+## Persuade & Build Authority
 
 **Win Friends & Influence People** — Handle people without creating resentment. Applies Dale Carnegie's 30 principles to difficult messages, criticism, feedback, persuasion, networking, and leadership moments.
 
@@ -373,7 +374,53 @@ npx skills@latest add Ivcota/skills/key-person-of-influence
 npx skills@latest add Ivcota/skills/win-friends-influence-people
 ```
 
-## Operations
+**Key Person of Influence** — Become the recognized authority in your industry in twelve months. Runs Priestley & Harrington's five-step sequence — Pitch → Publish → Product → Profile → Partnership — scoring each out of 10.
+
+```bash
+npx skills@latest add Ivcota/skills/key-person-of-influence
+```
+
+---
+
+# Run the Business
+
+*Pick the right bet, set real strategy, and improve the operating system.*
+
+## Choose the Bet
+
+**Office Hours** — Find the holes in your idea before the market does. Two modes: Startup for hard questions that expose fatal flaws, and Builder for thinking through the details.
+
+```bash
+npx skills@latest add Ivcota/skills/office-hours
+```
+
+**Zero to One** — Find out if your startup is genuinely different or just a copy. Runs Thiel's full framework — Contrarian Question, Monopoly vs Competition, Seven Questions — and gives you a verdict.
+
+```bash
+npx skills@latest add Ivcota/skills/zero-to-one
+```
+
+**Million Dollar Weekend** — Validate a business in 48 hours before you build. Runs Noah Kagan's process to find a problem, create a one-minute business model, and get three paying customers.
+
+```bash
+npx skills@latest add Ivcota/skills/million-dollar-weekend
+```
+
+**Millionaire Fastlane** — Score your wealth plan before it costs you a decade. Runs DeMarco's CENTS commandments and Wealth Equation to tell you if you're on the Sidewalk, Slowlane, or Fastlane.
+
+```bash
+npx skills@latest add Ivcota/skills/millionaire-fastlane
+```
+
+## Set Strategy
+
+**Good Strategy / Bad Strategy** — Stop mistaking goals for strategy. Runs Rumelt's Kernel — diagnosis, guiding policy, coherent action — and flags the four hallmarks of bad strategy before you commit to a direction.
+
+```bash
+npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
+```
+
+## Operate the System
 
 **E-Myth Revisited** — Stop being the bottleneck in your own business. Applies Gerber's Franchise Prototype and seven Business Development strategies to build a system that runs without you.
 
@@ -385,4 +432,22 @@ npx skills@latest add Ivcota/skills/e-myth-revisited
 
 ```bash
 npx skills@latest add Ivcota/skills/theory-of-constraints
+```
+
+---
+
+# Personal / Draft
+
+These are documented but excluded from the public marketplace bundles.
+
+**My Habits** — Personal/vault-specific habit surfacing. Finds active habit cards from an Obsidian vault and shows the right cue/action at the right time.
+
+```bash
+npx skills@latest add Ivcota/skills/my-habits
+```
+
+**Ultralearning Draft** — Draft version of the Ultralearning skill with extended framework notes and project process detail.
+
+```bash
+npx skills@latest add Ivcota/skills/skills-draft/ultralearning
 ```

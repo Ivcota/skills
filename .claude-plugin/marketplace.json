@@ -3,43 +3,61 @@
   "owner": { "name": "Ivcota" },
   "plugins": [
     {
-      "name": "engineering",
+      "name": "build-products",
       "source": "./",
-      "description": "Ship the right thing the first time. User Story Mapping, Domain Storytelling, FAAS, and Readable Code — for discovery, modeling, clean feature delivery, and line-level craft.",
+      "description": "Build the right product and ship it cleanly. User Story Mapping, Domain Storytelling, FAAS, Readable Code, and Walkthrough support discovery, modeling, delivery, and change rationale.",
       "version": "0.0.1",
       "skills": [
         "./user-story-mapping",
+        "./outcome-driven-innovation",
         "./domain-storytelling",
+        "./solutions-architects-handbook",
         "./faas",
-        "./readable-code"
+        "./invest-framework",
+        "./readable-code",
+        "./walkthrough"
       ]
     },
     {
-      "name": "learning-thinking",
+      "name": "learn-think",
       "source": "./",
-      "description": "Think sharper, learn deeper, and build durable habits. Mental-model alignment, Feynman, Teach, Grill Me, Grill with Docs, The ONE Thing, Atomic Habits, My Habits, Deep Learner, Four Pillars Learning Coach, Bear Hunter System, Distill-to-Skill, ADDIE instructional design, and Ultralearning.",
+      "description": "Understand faster and make sharper decisions. Feynman, Deep Learner, Four Pillars Learning Coach, Align Mental Model, and Grill Me cover study, teaching, and stress-testing.",
       "version": "0.0.1",
       "skills": [
         "./align-mental-model",
         "./feynman",
-        "./teach",
-        "./grill-me",
-        "./grill-with-docs",
-        "./the-one-thing",
-        "./atomic-habits",
-        "./my-habits",
         "./deep-learner",
         "./four-pillars-learning-coach",
         "./bear-hunter-system",
-        "./distill-to-skill",
         "./addie",
-        "./ultralearning"
+        "./ultralearning",
+        "./teach",
+        "./distill-to-skill",
+        "./grill-me",
+        "./grill-with-docs"
       ]
     },
     {
-      "name": "writing",
+      "name": "focus-execute",
       "source": "./",
-      "description": "Write in your voice, not Claude's. Style Profile, Style-to-Skill, and Humanizer — extract your voice, package it as a skill, and strip AI patterns from any draft.",
+      "description": "Choose what matters, start moving, and run the day. The ONE Thing, Essentialism, Atomic Habits, One-Month Day, and Now help prioritize, plan, unblock, and close loops.",
+      "version": "0.0.1",
+      "skills": [
+        "./now",
+        "./intentional",
+        "./go",
+        "./wrap-up",
+        "./one-month-day",
+        "./the-one-thing",
+        "./essentialism-disciplined-pursuit",
+        "./atomic-habits",
+        "./unstuck-now"
+      ]
+    },
+    {
+      "name": "write-communicate",
+      "source": "./",
+      "description": "Write in your voice and clean up AI-sounding drafts. Style Profile, Style-to-Skill, and Humanizer capture, package, and apply a personal writing voice.",
       "version": "0.0.1",
       "skills": [
         "./style-profile",
@@ -48,50 +66,39 @@
       ]
     },
     {
-      "name": "strategy-operations",
+      "name": "win-customers",
       "source": "./",
-      "description": "Pick the right bet and run the business that bets it. Office Hours, Zero to One, Millionaire Fastlane, Good Strategy / Bad Strategy, E-Myth Revisited, and Theory of Constraints.",
-      "version": "0.0.1",
-      "skills": [
-        "./office-hours",
-        "./zero-to-one",
-        "./millionaire-fastlane",
-        "./good-strategy-bad-strategy",
-        "./e-myth-revisited",
-        "./theory-of-constraints"
-      ]
-    },
-    {
-      "name": "sales-marketing",
-      "source": "./",
-      "description": "Find them, win them, sell them. Validate ICP, Buyer Profile, Persona to Product, Outcome-Driven Innovation, Win Friends & Influence People, Value Equation, Grand Slam Offer, $100M Money Models, $100M Leads, Breakthrough Advertising, Hook Point, and Key Person of Influence.",
+      "description": "Understand buyers, package value, and create demand. Validate ICP, Grand Slam Offer, $100M Leads, Breakthrough Advertising, and Key Person of Influence help win customers end-to-end.",
       "version": "0.0.1",
       "skills": [
         "./validate-icp",
         "./buyer-profile",
         "./persona-to-product",
-        "./outcome-driven-innovation",
-        "./win-friends-influence-people",
         "./value-equation",
         "./grand-slam-offer",
         "./hundred-million-money-models",
         "./hundred-million-leads",
         "./breakthrough-advertising",
         "./hook-point",
+        "./aida",
+        "./epiphany-bridge",
+        "./win-friends-influence-people",
         "./key-person-of-influence"
       ]
     },
     {
-      "name": "daily-planning",
+      "name": "run-business",
       "source": "./",
-      "description": "Plan the day, stay on track, and close the loop. One-Month Day reframes ambitious work into a compressed day, Now routes to the right daily workflow, Intentional builds Shaped Goals and Rolling Timeblocks, Go commits the next block during the day, and Wrap-Up reflects and carries work forward.",
+      "description": "Pick better bets and improve the operating system. Office Hours, Zero to One, Million Dollar Weekend, Good Strategy / Bad Strategy, and Theory of Constraints support strategy and operations.",
       "version": "0.0.1",
       "skills": [
-        "./one-month-day",
-        "./now",
-        "./intentional",
-        "./go",
-        "./wrap-up"
+        "./office-hours",
+        "./zero-to-one",
+        "./million-dollar-weekend",
+        "./millionaire-fastlane",
+        "./good-strategy-bad-strategy",
+        "./e-myth-revisited",
+        "./theory-of-constraints"
       ]
     }
   ]
