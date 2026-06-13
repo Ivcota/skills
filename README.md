@@ -347,6 +347,12 @@ npx skills@latest add Ivcota/skills/breakthrough-advertising
 npx skills@latest add Ivcota/skills/hook-point
 ```
 
+**AIDA** — Write persuasive copy one step at a time. Coaches Attention → Interest → Desire → Action for posts, emails, ads, landing pages, sales pages, CTAs, and outreach.
+
+```bash
+npx skills@latest add Ivcota/skills/aida
+```
+
 **Epiphany Bridge** — Turn an origin story into a conversion story. Walks through Brunson's Backstory → Journey/Conflict → New Opportunity → Framework → Transformation arc and outputs full and 30-second versions.
 
 ```bash
