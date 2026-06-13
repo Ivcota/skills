@@ -5,11 +5,38 @@ description: Grilling session that challenges your plan against the existing dom
 
 <what-to-do>
 
-Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
+Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one.
 
-Ask the questions one at a time, waiting for feedback on each question before continuing.
+Ask the questions one at a time. Wait for the user's answer before continuing.
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
+
+## Question format
+
+Every question must use this deterministic structure:
+
+```md
+Recognition: <briefly restate the last decision or clarification the user confirmed. Omit only for the first question if nothing has been confirmed yet.>
+
+Question N: <single decision or clarification needed>
+
+a) <option>
+b) <option>
+c) <option>
+d) <option>
+
+Recommendation: Choose <a|b|c|d>)
+
+Why: <short rationale for the recommendation>
+```
+
+Rules:
+
+- Always provide exactly four answer options: `a)`, `b)`, `c)`, and `d)`.
+- Make options mutually exclusive when possible.
+- Keep each question focused on one decision.
+- Include the recommended answer every time.
+- Recognition is a short restatement of what the user just confirmed, not a full decision log.
 
 ## Final artifact
 
