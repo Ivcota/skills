@@ -1,6 +1,6 @@
 ---
 name: epiphany-bridge
-description: Walk through Russell Brunson's Epiphany Bridge Script end-to-end — Backstory → Journey/Conflict → New Opportunity → Framework → Achievement & Transformation. Produces a finished Epiphany Bridge story in two cuts (full 14-question version and 30-second compression) the user can drop into a podcast intro, webinar opener, sales video, ad, email, or speaking engagement. Use when the user says "epiphany bridge", "tell my story", "write my origin story", "expert secrets story", "hero's two journeys", "potato gun story", "founder story for my webinar", "story for my sales video", "how I discovered ___", "Brunson story script", or wants to convert a personal aha moment into a conversion-grade story.
+description: Build a Russell Brunson Epiphany Bridge story from a personal aha — Backstory → Journey/Conflict → New Opportunity → Framework → Achievement & Transformation. Use when the user mentions "epiphany bridge", "Expert Secrets story", "potato gun", "origin story", "founder story", "webinar story", "sales video story", or wants to turn "how I discovered ___" into persuasive story copy.
 ---
 
 # Epiphany Bridge
@@ -15,7 +15,7 @@ Build a finished Epiphany Bridge story the way Brunson teaches it: five phases, 
 - **Generation-heavy** — once the user gives raw facts, propose 2-3 concrete phrasings for each story beat. User picks / edits / rejects. Don't ask open questions and wait.
 - **Each phase ends with an explicit exit** — a one-line beat carried forward into story assembly.
 - **Backtracking allowed** — user can say "go back to Phase N" any time. Replay forward, don't restart.
-- **Tag every move** *(book)* or *(workflow)*. Lets the user trust what's Brunson vs operationalization.
+- **Tag process moves, not story prose** *(book)* or *(workflow)*. Use tags on prompts, pushes, and explanations so the user trusts what's Brunson vs operationalization. Do not clutter final story prose with tags.
 - **Voice-match.** Write beats in the user's natural register, not corporate copywriter voice. If they say "I was broke", don't render it as "I was facing significant financial headwinds."
 
 **Load `PATTERNS.md` once at intake.** Reference it during every phase that requires generation — desire archetypes (win/retrieve/escape/stop), villain archetypes, internal-struggle prompts, guide types, epiphany phrasings, framework naming patterns, achievement-vs-transformation contrast, and the canonical potato gun exemplar threaded across all five phases.
@@ -51,6 +51,8 @@ Then **old vehicle** *(book)* — "What had you already tried to get this, that 
 - Internal desire
 - 1-3 old vehicles that didn't work
 
+**Completion criterion:** all exit beats are captured with concrete, user-approved wording before advancing.
+
 ---
 
 ## Phase 2 — The Journey / Conflict *(book Phase #2)*
@@ -69,6 +71,8 @@ Mini-interview (3 questions):
 - The call (one sentence — what triggered the attempt)
 - Named villain
 - Stakes ("if this fails, then ___")
+
+**Completion criterion:** all exit beats are captured with concrete, user-approved wording before advancing.
 
 ---
 
@@ -89,6 +93,8 @@ Mini-interview (3 questions):
 - The epiphany in one short paragraph — written so a listener has the same aha you had
 - The new vehicle
 
+**Completion criterion:** all exit beats are captured with concrete, user-approved wording before advancing.
+
 ---
 
 ## Phase 4 — The Framework *(book Phase #4)*
@@ -108,6 +114,8 @@ Mini-interview (3 questions):
 - Your concrete results (numbers)
 - 2-4 case studies, each tagged by audience type
 
+**Completion criterion:** all exit beats are captured with concrete, user-approved wording before advancing.
+
 ---
 
 ## Phase 5 — Achievement and Transformation *(book Phase #5)*
@@ -124,6 +132,8 @@ Mini-interview (2 questions):
 **Exit beats:**
 - Achievement (external close)
 - Transformation (internal close)
+
+**Completion criterion:** both loops close with concrete, user-approved wording before final assembly.
 
 ---
 
@@ -194,16 +204,11 @@ Tell the user: "You now have one story you can stretch from 30 seconds to two ho
 ## Rules
 
 - **One epiphany per story.** Don't bundle multiple ahas. If the user has more than one, run the skill again.
-- **Tag every move** *(book)* or *(workflow)* so the user knows what's Brunson vs operationalization.
-- **Generation-heavy.** After raw facts, propose phrasings — don't ask open questions and wait.
 - **Internal desire is not optional.** *(book — this is where rapport happens.)* If the user gives only the external, push once. If they still won't, name it bluntly: "We can ship without it, but the story will feel like marketing instead of a memory."
 - **Specific over vague.** Real numbers, real names, real settings. "I made some money" → cut. "I sold one DVD a day at $37" → keep.
 - **Externalize the villain.** *(book)* Listeners can't side against "myself" or "fear." Pull toward false beliefs, broken systems, or industry lies.
 - **Same aha for the listener.** *(book — Phase 3's job)* If the rendered epiphany wouldn't give a cold reader the same shift you had, rewrite it.
 - **Close both loops in Phase 5.** External answer in Phase 5 must mirror external desire in Phase 1. Same for internal. If they don't pair up, the story leaks.
-- **Voice-match.** User's natural register, not corporate copy.
-- **Backtracking is fine.** "Go back to Phase 2" replays forward.
-- **Conversation-only.** No file save. The Final Story block is the deliverable.
 
 ## Files
 

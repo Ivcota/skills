@@ -148,14 +148,7 @@ Pattern: "I set out to ___. I got that. But what actually changed was ___ — I 
 
 ## Length Calibration
 
-| Use case | Word target | What gets compressed |
-|---|---|---|
-| Ad / email / FB Live opener | 200-400 | Trim old vehicles to 1, compress framework to 1 sentence, drop multiple case studies |
-| Podcast intro / sales video / speaking opener | 500-900 | One old vehicle, one case study, full transformation beat |
-| Webinar Story segment / keynote | 1000-1800 | Full 14 questions answered, 2-3 case studies, vivid scenes |
-| Long-form (interview, book chapter) | Unbounded | Fully expand every beat, multi-scene |
-
-The 30-Second cut ships regardless of use case.
+See `SKILL.md → Final Assembly` for use-case word targets. The 30-Second cut ships regardless of use case.
 
 ---
 
