@@ -55,6 +55,60 @@ Use either **power through** or **get help** from [`references/gatekeepers.md`](
 - **OLQ:** “You okay if I ask one last question before I go?”
 - **Final challenge:** “Do you mind if I ask a tough question? Have you accepted this is the way things are?”
 
+## Example conversation
+
+Seller: “John, we don't know each other. Would you be mad if I asked you something about your sales team?”
+
+Prospect: “No, go ahead.”
+
+Seller: “I work with teams like yours, and a few problems usually come up: reps have good conversations but don't book enough meetings, follow-ups slip through the cracks, or prospects say they're interested and then ghost. But maybe none of that is happening and everything is running perfectly.”
+
+Prospect: “No, the ghosting thing definitely happens.”
+
+Seller: “What does that look like?”
+
+Prospect: “They'll say send me info, then we never hear back.”
+
+Seller: “What's the impact of that?”
+
+Prospect: “Pipeline looks better than it is. Reps think they have opportunities that aren't real.”
+
+Seller: “Where do you think that comes from?”
+
+Prospect: “Probably not creating enough urgency on the first call.”
+
+Seller: “Let me see if I got this right: prospects show interest, reps leave thinking there's a real opportunity, but because the problem wasn't made painful enough, those prospects disappear. Is that fair?”
+
+Prospect: “Yeah, exactly.”
+
+Seller: “Do you mind if I ask a tough question? Have you accepted this is just the way outbound works?”
+
+Prospect: “No, but it feels hard to fix.”
+
+Seller: “Would it be a bad idea to put some time aside and see if I can help you tighten that first-call structure?”
+
+Prospect: “No, that'd be fine.”
+
+Seller: “You sure you're not going to wake up that morning and think, ‘I don't actually have this problem’?”
+
+Prospect: “No, it's definitely a problem.”
+
+Seller: “Perfect. I'll send the invite with an agenda, and I'll text you beforehand to confirm.”
+
+### Concept map for the example
+
+- **Safety of no:** “Would you be mad if I asked you something?” lets the prospect say “No, go ahead,” so no creates permission.
+- **Problem pitch:** The seller lists common peer problems before mentioning any product.
+- **Negative frame:** “Maybe none of that is happening and everything is running perfectly” gives the prospect room to reject the premise.
+- **Problem ownership:** The prospect chooses “ghosting” instead of being told what their problem is.
+- **Example:** “They'll say send me info, then we never hear back.”
+- **Impact:** “Pipeline looks better than it is...” turns the symptom into business pain.
+- **Root cause:** “Not creating enough urgency...” locates why the problem keeps happening.
+- **Summary:** The seller recaps the problem, example, and impact before closing.
+- **Final challenge:** “Have you accepted this is just the way outbound works?” tests whether the problem has energy.
+- **No-oriented close:** “Would it be a bad idea...” lets “No” mean yes to the meeting.
+- **Post-close anti-flake:** The seller gives one more objection and reconfirms the problem before sending the invite.
+
 ## Guardrails
 
 - Do not pitch features before the prospect owns a problem.
