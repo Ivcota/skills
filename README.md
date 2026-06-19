@@ -23,7 +23,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `unstuck-now` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
 | [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `win-friends-influence-people`, `key-person-of-influence` |
-| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `good-strategy-bad-strategy`, `e-myth-revisited`, `theory-of-constraints` |
+| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
 
@@ -421,6 +421,12 @@ npx skills@latest add Ivcota/skills/good-strategy-bad-strategy
 ```
 
 ## Operate the System
+
+**Business Operator** — Choose the next growth move from one cockpit: decisions, outreach, offers, capacity, and cost curves. Turns business noise into a 7-day operator test with clear economics.
+
+```bash
+npx skills@latest add Ivcota/skills/business-operator
+```
 
 **E-Myth Revisited** — Stop being the bottleneck in your own business. Applies Gerber's Franchise Prototype and seven Business Development strategies to build a system that runs without you.
 
