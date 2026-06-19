@@ -3,10 +3,11 @@
 Source: user-provided framework notes, 2026-06-19.
 
 ## Core promise
-Structure cold outreach conversations so the prospect feels safe saying no, recognizes their own problem, provides examples and impact, and accepts a low-pressure next step only after enough problem ownership exists.
+Structure cold outreach conversations so the prospect feels safe saying no, recognizes their own problem, provides examples and impact, and accepts a low-pressure next step only after enough problem ownership exists. Key idea: **no means yes** — use no-oriented questions where “no” is the safe answer that grants permission or forward movement.
 
 ## Leading words / signature concepts
 - Safety of no
+- No-oriented questions / no means yes
 - Negative frame
 - Problem ownership
 - OLQ / one last question
@@ -15,12 +16,13 @@ Structure cold outreach conversations so the prospect feels safe saying no, reco
 - Emotional peak
 
 ## Opener lines
-Build an opener around candid unfamiliarity, relevance, and permission/help.
+Build an opener around candid unfamiliarity, relevance, and permission/help. Prefer no-oriented permission questions so the prospect does not feel cornered by a yes.
 
 Examples:
 1. “{Name}, we don't know each other. I'm calling as you're {title} of {company}, and I'd like to work with you. Can you help me understand if this is a good fit?”
 2. “If I told you this visit/call was about {product/service/concept}, would a piece of you die inside?”
 3. “Hey {name}, we don't know each other. If I told you this was a call about {problem}, you'd probably tell me {opposite}.”
+4. “Would you be mad if I asked you something about {problem/context}?”
 
 ## Pitch framework
 When speaking with other {title / ICP}, they mention facing problems like two or three pains with consequences:

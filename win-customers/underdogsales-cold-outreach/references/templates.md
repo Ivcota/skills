@@ -4,11 +4,12 @@ Source: user-provided UnderdogSales framework notes, 2026-06-19.
 
 ## Opener lines
 
-Use one of these shapes, adapted to the user's ICP, offer, and channel.
+Use one of these shapes, adapted to the user's ICP, offer, and channel. Prefer no-oriented wording where “no” is the safe forward answer: no means consent or permission, not rejection.
 
 1. “{Name}, we don't know each other. I'm calling as you're {title} of {company}, and I'd like to work with you. Can you help me understand if this is a good fit?”
 2. “If I told you this visit/call was about {product/service/concept}, would a piece of you die inside?”
 3. “Hey {name}, we don't know each other. If I told you this was a call about {problem}, you'd probably tell me {opposite}.”
+4. “Would you be mad if I asked you something about {problem/context}?”
 
 ## Problem pitch
 
@@ -36,10 +37,11 @@ Use these when the prospect asks a question or gives vague language.
 - Options: “When you say {x}, do you mean A, B, or C?”
 - The Why: “I'm guessing {x} is important to you for a reason?”
 
-## Disqualifying questions
+## No-oriented and disqualifying questions
 
-Use these to test fit without chasing.
+Use these to test fit without chasing. A no-oriented question makes “no” feel safe and can move the conversation forward: “No, I wouldn't be mad,” “No, it wouldn't be a bad idea,” or “No, there isn't a reason not to.”
 
+- Safety of no: “Would you be mad if I asked you something?”
 - Negative frame: “You probably couldn't do {thing that would qualify them}?”
 - Reduce problem: “You seem to be doing very well anyway.”
 - Disqualify: “Even if we could fix that, it wouldn't be a priority, right?”

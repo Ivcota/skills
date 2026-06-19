@@ -7,6 +7,7 @@ Source status: primary working notes from the skill owner.
 
 Covered concepts:
 - Opener lines
+- Safety of no / no-oriented questions where “no means yes”
 - Pitch framework
 - Conversation core structure
 - Objection handling
@@ -16,7 +17,7 @@ Covered concepts:
 - Closing
 - Gatekeeper framework
 
-Citation pointer: user message in current conversation beginning “Opener Lines - Build an opener around these examples...”
+Citation pointer: user message in current conversation beginning “Opener Lines - Build an opener around these examples...” and later clarification: “the key idea is -> no means yes. like would you be mad if I asked you something?”
 
 ## Notes
 This draft is currently grounded only in user-provided notes. If the user later provides UnderdogSales URLs, course notes, transcripts, screenshots, or PDFs, add them here and cite them from reference files.
