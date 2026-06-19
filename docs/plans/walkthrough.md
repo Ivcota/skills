@@ -235,7 +235,7 @@ See §6.6.
 
 ## 8. Installation
 
-**Entry point:** `skills/walkthrough/install.sh`
+**Entry point:** `build-products/walkthrough/install.sh`
 
 **Idempotent. Must:**
 1. Copy `skills/walkthrough/` into `~/.claude/skills/walkthrough/` (or honor a `--project` flag to install into `<repo>/.claude/skills/`).

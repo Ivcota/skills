@@ -8,21 +8,21 @@ One-liner (works in any repo, no clone needed):
 
 ```bash
 # This repo only (recommended for first try)
-curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/walkthrough/install.sh | bash -s -- --project
+curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/build-products/walkthrough/install.sh | bash -s -- --project
 
 # Globally for every Claude session on this machine
-curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/walkthrough/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/build-products/walkthrough/install.sh | bash
 
 # Remove (preserves rationale docs)
-curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/walkthrough/install.sh | bash -s -- --uninstall
+curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/build-products/walkthrough/install.sh | bash -s -- --uninstall
 ```
 
 Or, if you've cloned this repo:
 
 ```bash
-bash walkthrough/install.sh --project    # this repo only
-bash walkthrough/install.sh              # globally
-bash walkthrough/install.sh --uninstall  # remove
+bash build-products/walkthrough/install.sh --project    # this repo only
+bash build-products/walkthrough/install.sh              # globally
+bash build-products/walkthrough/install.sh --uninstall  # remove
 ```
 
 Requires `jq` (and `curl` for the one-liner).

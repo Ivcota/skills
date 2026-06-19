@@ -7,7 +7,7 @@
 #   install.sh --uninstall — remove hooks and skill files (preserves rationale docs)
 #
 # One-liner (after the repo is pushed to GitHub):
-#   curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/walkthrough/install.sh | bash -s -- --project
+#   curl -fsSL https://raw.githubusercontent.com/Ivcota/skills/main/build-products/walkthrough/install.sh | bash -s -- --project
 #
 # Idempotent: re-running installs once, doesn't duplicate entries.
 
@@ -18,7 +18,7 @@ set -euo pipefail
 # and the bundle files don't exist on disk — fetch them from GitHub instead.
 WALKTHROUGH_REPO="${WALKTHROUGH_REPO:-Ivcota/skills}"
 WALKTHROUGH_REF="${WALKTHROUGH_REF:-main}"
-WALKTHROUGH_PATH="${WALKTHROUGH_PATH:-walkthrough}"
+WALKTHROUGH_PATH="${WALKTHROUGH_PATH:-build-products/walkthrough}"
 RAW_BASE="https://raw.githubusercontent.com/${WALKTHROUGH_REPO}/${WALKTHROUGH_REF}/${WALKTHROUGH_PATH}"
 
 if [ -n "${BASH_SOURCE[0]:-}" ] && [ -f "${BASH_SOURCE[0]:-}" ]; then

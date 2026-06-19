@@ -268,4 +268,4 @@ Hormozi explicitly delimits the techniques in this chapter to real constraints a
 - [warm-outreach.md](warm-outreach.md) — the channel that pairs naturally with first lead-magnet tests
 - [paid-ads.md](paid-ads.md) — where the magnet's headline gets stress-tested at scale
 - [case-studies.md](case-studies.md) — the Webinar → Case Study pivot, expanded with full numbers
-- [`hundred-million-offers`](../../hundred-million-offers/SKILL.md) — the Value Equation referenced on p. 51 ("Grand Slam Offers work for free stuff as much or better than they do for paid stuff")
+- [`grand-slam-offer`](../../grand-slam-offer/SKILL.md) — the Value Equation referenced on p. 51 ("Grand Slam Offers work for free stuff as much or better than they do for paid stuff")

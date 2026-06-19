@@ -343,7 +343,7 @@ See: [references/open-to-goal.md](references/open-to-goal.md) for the One-Page P
 
 End-to-end sequence to apply the whole framework:
 
-1. **Confirm you have an offer worth advertising.** *$100M Leads* sits on top of *$100M Offers* (see [hundred-million-offers](../hundred-million-offers/SKILL.md)). If no Grand Slam Offer, build that first.
+1. **Confirm you have an offer worth advertising.** *$100M Leads* sits on top of *$100M Offers* (see [grand-slam-offer](../grand-slam-offer/SKILL.md)). If no Grand Slam Offer, build that first.
 2. **Diagnose the user's level on the Seven Levels of Advertisers.** That sets the Primary Action.
 3. **Design or audit the lead magnet.** Run the seven-step process: pick the narrow problem → pick the type → pick the delivery → test the headline → make it consumable → make it darn good → build the CTA.
 4. **Pick the Core Four channel(s) appropriate for the level.** Level 1: Warm Outreach. Level 2: add Post Free Content. Levels 3+: add Cold Outreach and Paid Ads in that order.
@@ -379,7 +379,7 @@ Use this table to audit a lead-generation system:
 
 | Question | If No | Action |
 |---|---|---|
-| Do you have a Grand Slam Offer worth advertising? | No offer = no leads to chase | Stop. Go to [hundred-million-offers](../hundred-million-offers/SKILL.md) first. |
+| Do you have a Grand Slam Offer worth advertising? | No offer = no leads to chase | Stop. Go to [grand-slam-offer](../grand-slam-offer/SKILL.md) first. |
 | Do you have a lead magnet (or have you tested without one and confirmed direct sale works)? | Direct-to-offer not converting | Build a lead magnet using the seven-step process (Section 1). |
 | Are you doing the Core Four channel appropriate for your Seven Levels position? | Wrong channel for the level | Drop back to the level's Primary Action — usually warm outreach + content for Levels 1–2. |
 | Are you doing 100 primary actions/day OR running Open To Goal? | Volume is the failure mode | Pick one. Fill out the One-Page Plan. |
