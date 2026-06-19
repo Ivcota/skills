@@ -1,13 +1,13 @@
 ---
-name: underdogsales-cold-outreach
-description: Create, diagnose, and teach live cold outreach conversations using the UnderdogSales method for booking calls, follow-ups, and next steps across cold calling and door-to-door. Use when the user mentions “cold outreach conversation,” “cold calling,” “door to door,” live cold outreach, follow-up, objection handling, or booking calls. Also trigger when drafting scripts, improving outreach, structuring an outbound conversation, or roleplaying prospect conversations.
+name: conversation-first-outreach
+description: Create, diagnose, and roleplay live outreach conversations using a conversation-first method for booking calls, follow-ups, and next steps across cold calling, door-to-door, and direct outreach. Use when the user mentions “conversation-first outreach,” “cold outreach conversation,” “cold calling,” “door to door,” live outreach, follow-up, objection handling, or booking calls. Also trigger when drafting scripts, improving outreach, structuring an outbound conversation, or roleplaying prospect conversations.
 ---
 
-# UnderdogSales Cold Outreach
+# Conversation-First Outreach
 
-Live cold outreach works by giving the prospect safety of no: structure questions so a prospect can comfortably answer “no,” because in this method no often functions as consent or forward movement (“no means yes”). Then help them take problem ownership, drill into example-impact-root cause, and close only after enough problem energy exists.
+Live outreach works by giving the prospect safety of no: structure questions so a prospect can comfortably answer “no,” because in this method no often functions as consent or forward movement (“no means yes”). Then help them take problem ownership, drill into example-impact-root cause, and close only after enough problem energy exists.
 
-Source: user-provided UnderdogSales framework notes captured in `sources.md`. Use exact templates from [`references/templates.md`](references/templates.md) when the user wants wording.
+Source: user-provided conversation-first outreach framework notes captured in `sources.md`. Use exact templates from [`references/templates.md`](references/templates.md) when the user wants wording.
 
 ## Run sequence
 

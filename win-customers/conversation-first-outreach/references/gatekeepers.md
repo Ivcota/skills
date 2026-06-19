@@ -1,6 +1,6 @@
-# Gatekeeper Framework — UnderdogSales Cold Outreach
+# Gatekeeper Framework — Conversation-First Outreach
 
-Source: user-provided UnderdogSales framework notes, 2026-06-19.
+Source: user-provided conversation-first outreach framework notes, 2026-06-19.
 
 Use this branch when the user needs to reach a prospect through a receptionist, assistant, or gatekeeper.
 

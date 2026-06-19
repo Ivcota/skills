@@ -1,4 +1,4 @@
-# Extraction notes — UnderdogSales Cold Outreach v0
+# Extraction notes — Conversation-First Outreach v0
 
 Source: user-provided framework notes, 2026-06-19.
 

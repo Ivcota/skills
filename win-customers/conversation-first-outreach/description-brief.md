@@ -1,4 +1,4 @@
-# Description brief — UnderdogSales Cold Outreach
+# Description brief — Conversation-First Outreach
 
 ## Audience
 Anyone trying to do live cold outreach conversations to book calls, follow-ups, meetings, replies, or next steps — especially cold calling and door-to-door.
@@ -17,4 +17,4 @@ All of the above: create new outreach scripts, diagnose existing outreach, teach
 This should be the primary cold outreach skill. Adjacent sales skills may be referenced only when helpful, but this skill owns cold outreach conversation structure.
 
 ## Draft description
-Create, diagnose, and teach live cold outreach conversations using the UnderdogSales method for booking calls, follow-ups, and next steps across cold calling and door-to-door. Use when the user mentions “cold outreach conversation,” “cold calling,” “door to door,” live cold outreach, follow-up, objection handling, or booking calls. Also trigger when drafting scripts, improving outreach, structuring an outbound conversation, or roleplaying prospect conversations.
+Create, diagnose, and roleplay live outreach conversations using a conversation-first method for booking calls, follow-ups, and next steps across cold calling, door-to-door, and direct outreach. Use when the user mentions “conversation-first outreach,” “cold outreach conversation,” “cold calling,” “door to door,” live outreach, follow-up, objection handling, or booking calls. Also trigger when drafting scripts, improving outreach, structuring an outbound conversation, or roleplaying prospect conversations.

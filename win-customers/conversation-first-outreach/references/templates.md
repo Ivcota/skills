@@ -1,6 +1,6 @@
-# Templates — UnderdogSales Cold Outreach
+# Templates — Conversation-First Outreach
 
-Source: user-provided UnderdogSales framework notes, 2026-06-19.
+Source: user-provided conversation-first outreach framework notes, 2026-06-19.
 
 ## Opener lines
 
