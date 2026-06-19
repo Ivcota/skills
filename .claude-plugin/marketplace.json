@@ -71,7 +71,7 @@
     {
       "name": "win-customers",
       "source": "./",
-      "description": "Understand buyers, package value, create demand, and sell complex deals. Validate ICP, Grand Slam Offer, $100M Leads, Breakthrough Advertising, Challenger Sale, and Key Person of Influence help win customers end-to-end.",
+      "description": "Understand buyers, package value, create demand, and sell. Validate ICP, Grand Slam Offer, $100M Leads, Breakthrough Advertising, UnderdogSales Cold Outreach, Challenger Sale, and Key Person of Influence help win customers end-to-end.",
       "version": "0.0.1",
       "skills": [
         "./win-customers/validate-icp",
@@ -85,6 +85,7 @@
         "./win-customers/hook-point",
         "./win-customers/aida",
         "./win-customers/epiphany-bridge",
+        "./win-customers/underdogsales-cold-outreach",
         "./win-customers/challenger-sale",
         "./win-customers/win-friends-influence-people",
         "./win-customers/key-person-of-influence"
