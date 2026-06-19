@@ -68,7 +68,7 @@
     {
       "name": "win-customers",
       "source": "./",
-      "description": "Understand buyers, package value, and create demand. Validate ICP, Grand Slam Offer, $100M Leads, Breakthrough Advertising, and Key Person of Influence help win customers end-to-end.",
+      "description": "Understand buyers, package value, create demand, and sell complex deals. Validate ICP, Grand Slam Offer, $100M Leads, Breakthrough Advertising, Challenger Sale, and Key Person of Influence help win customers end-to-end.",
       "version": "0.0.1",
       "skills": [
         "./validate-icp",
@@ -82,6 +82,7 @@
         "./hook-point",
         "./aida",
         "./epiphany-bridge",
+        "./challenger-sale",
         "./win-friends-influence-people",
         "./key-person-of-influence"
       ]
@@ -89,13 +90,14 @@
     {
       "name": "run-business",
       "source": "./",
-      "description": "Pick better bets and improve the operating system. Office Hours, Zero to One, Million Dollar Weekend, Good Strategy / Bad Strategy, and Theory of Constraints support strategy and operations.",
+      "description": "Pick better bets and improve the operating system. Office Hours, Zero to One, Million Dollar Weekend, Sweaty Startup, Good Strategy / Bad Strategy, and Theory of Constraints support strategy and operations.",
       "version": "0.0.1",
       "skills": [
         "./office-hours",
         "./zero-to-one",
         "./million-dollar-weekend",
         "./millionaire-fastlane",
+        "./sweaty-startup",
         "./good-strategy-bad-strategy",
         "./e-myth-revisited",
         "./theory-of-constraints"
