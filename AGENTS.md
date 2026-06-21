@@ -1,5 +1,9 @@
 # Agent Instructions
 
+## Skill lookup
+
+- When discussing skills, check this repository first before looking at global skills.
+
 ## Commit style
 
 - Commit only when the user explicitly asks for a commit.
