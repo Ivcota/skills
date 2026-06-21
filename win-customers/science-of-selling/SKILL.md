@@ -9,7 +9,6 @@ description: |
 Use Hoffeld’s core model: **positive buying decision = commitments to the Six Whys + positive buyer emotional state**. Selling works when the sales process matches how buyers make decisions, not when it follows sales folklore.
 
 ## Choose the branch
-
 1. **Teach** when the user wants to understand the book. Explain only the relevant framework, then ask one check-for-understanding question. Done when the user can restate the framework in their own words.
 2. **Apply** when the user is creating a pitch, email, demo, call plan, or close. Build the artifact through the Sales Equation. Done when every Six Why has a line in the artifact or an intentional omission.
 3. **Diagnose** when the user has an existing pitch/message/deal that is not working. Audit for rejected Whys, weak emotional state, missing motivators, and generic value. Done when you identify the likely bottleneck and rewrite the weakest part.
@@ -27,6 +26,17 @@ For any selling situation, map the buyer’s state before giving advice:
 | **Why Your Product / Service?** | Is the value distinct and desired? | State what is unique, why it matters, and ask the buyer to verbalize impact. |
 | **Why Spend the Money?** | Is the investment justified by gain or avoided loss? | Ask for desire-for-gain and fear-of-loss consequences in the buyer’s words. |
 | **Emotional State** | Is the buyer positive or at least neutral? | Pause, acknowledge, redirect to positive topics, or change the interaction dynamic. |
+
+## Reference deep dives
+| Area | Use when |
+|---|---|
+| [`six-whys-playbook.md`](references/six-whys-playbook.md) | Building/auditing the core Sales Equation commitments. |
+| [`primary-buying-motivators.md`](references/primary-buying-motivators.md) | Planning discovery and capturing buyer language. |
+| [`influence-heuristics.md`](references/influence-heuristics.md) | Adding peripheral influence without replacing the central message. |
+| [`emotional-state.md`](references/emotional-state.md) | Reading and repairing buyer emotional state. |
+| [`value-competition-objections.md`](references/value-competition-objections.md) | Creating value, inoculating competitors, or mapping objections. |
+| [`strategic-commitments.md`](references/strategic-commitments.md) | Trial closes, noncommittal answers, and final close timing. |
+| [`presentation-strategy.md`](references/presentation-strategy.md) | Designing sales decks, demos, stories, and price presentation. |
 
 ## Apply from scratch
 
@@ -87,5 +97,4 @@ Treat objections as rejected Six Whys.
 | Over-presenting | Use less-is-more; cut anything not needed for a confident buying decision. |
 
 ## Source boundary
-
-This skill is based on David Hoffeld’s *The Science of Selling* (Penguin Random House / TarcherPerigee). Keep advice inside the extracted source notes in `sources.md` and `notes-*.md`; if asked for a citation, quote from those files rather than model memory.
+This skill is based on David Hoffeld’s *The Science of Selling* (Penguin Random House / TarcherPerigee). Keep advice inside `sources.md`, `notes-*.md`, and `references/`; if asked for a citation, quote from source-grounded files rather than memory.

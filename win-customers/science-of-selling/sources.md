@@ -5,11 +5,10 @@
 1. **David Hoffeld, *The Science of Selling: Proven Strategies to Make Your Pitch, Influence Decisions, and Close the Deal***
    - Type: EPUB book
    - Location: `/Users/iversondiles/Downloads/David Hoffeld - The Science of Selling_ Proven Strategies to Make Your Pitch, Influence Decisions, and Close the Deal (2016, Penguin Publishing Group_ TarcherPerigee) - libgen.li.epub`
-   - Access method: extracted EPUB XHTML into Markdown files under `source-extract/`
+   - Access method: EPUB inspected locally; extracted notes are summarized in `notes-structure.md`, `notes-application.md`, and `notes-guardrails.md`.
    - Publisher metadata from EPUB: Penguin Publishing Group / TarcherPerigee; print ISBN `9780143129325`; EPUB identifier `9781101993187`; created `2016-10-18`.
-   - Coverage estimate: full book extracted, including introduction, chapters 1–10, notes, index, and about-the-author page. Extracted text: ~85,660 words; estimated ~111,358 tokens.
-   - Citation pointer format: `The Science of Selling`, `{chapter title or section}`, `source-extract/<file>.md`, quote: "...".
-   - Chapter map: `source-extract/chapter-map.md`.
+   - Coverage estimate: full book reviewed during extraction, including introduction, chapters 1–10, notes, index, and about-the-author page.
+   - Citation pointer format: `The Science of Selling`, `{chapter title or section}`, note entry quote: "...". Some note entries retain original `source-extract/...` labels from the extraction workspace; rely on the embedded quote in the note file.
 
 ## Secondary / verification sources
 
