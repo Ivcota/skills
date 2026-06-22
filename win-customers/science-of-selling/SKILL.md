@@ -59,7 +59,7 @@ For any selling situation, map the buyer's state before giving advice:
 
 ## Core tactics
 
-- **Layered questions:** first-level facts → second-level explanation → third-level emotional motives. Do not jump to third-level before the buyer feels understood.
+- **Layered questions:** first-level facts → second-level assessment/explanation of that first-level response → third-level emotional motives. Gate each layer: do not ask Level 2 until the buyer has given a concrete fact/thought/behavior/situation; do not ask Level 3 until the buyer has assessed or explained why that fact matters. Do not jump to third-level before the buyer feels understood.
 - **Strategic commitments:** closing is a series of small commitments, not a final trick; ask the final close only after the Six Whys and emotional state are satisfied.
 - **Objections:** treat objections as rejected Whys; soften, isolate, map, answer the root, and regain commitment.
 - **Presentation:** less-is-more; anchor price; mirror subtly; use visuals for picture superiority; tell buyer-relevant stories with distracting details removed.

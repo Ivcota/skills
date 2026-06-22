@@ -22,11 +22,19 @@ Use this to prepare discovery, listen during calls, and convert buyer language i
 
 | Level | Purpose | Examples |
 |---|---|---|
-| **First-level** | Facts, situations, process. | "What is your current process?" "How do you decide on a vendor?" |
-| **Second-level** | Explanation and assessment. | "Why is that important?" "How has that affected the team?" |
-| **Third-level** | Emotional motive: gain/loss. | "If we solved that, what would it mean for you?" "If it stays unresolved, what happens?" |
+| **First-level** | Facts, thoughts, behaviors, situations, process. | "What is your current process?" "How do you decide on a vendor?" |
+| **Second-level** | Ask the buyer to assess or explain their first-level response. | "Why is that important?" "How has that affected the team?" "May I ask why you chose that vendor?" |
+| **Third-level** | Ask the buyer to reveal emotional motive: fear of loss or desire for gain. | "If we solved that, what would it mean for you?" "If it stays unresolved, what happens?" |
 
-The notes cite Chapter 5: first-level questions reveal "thoughts, facts, behaviors, and situations"; second-level questions guide buyers in "assessing and explaining"; third-level questions reveal dominant buying motives.
+The notes cite Chapter 5: first-level questions reveal "thoughts, facts, behaviors, and situations"; second-level questions guide buyers in "assessing and explaining" first-level responses and can be formed by asking customers to "either assess or explain a first-level response"; third-level questions reveal dominant buying motives.
+
+## Layer gates
+
+1. **Level 1 gate:** get a concrete first-level response: a fact, thought, behavior, situation, process, vendor, criterion, timeline, or stakeholder.
+2. **Level 2 gate:** use that exact response as the object of the follow-up; ask the buyer to assess or explain it before adding your interpretation.
+3. **Level 3 gate:** once the buyer has explained importance, impact, or meaning, ask about desire for gain or fear of loss.
+
+Pattern: **"You said [first-level response]. How/why [assess or explain it]?"** Then: **"If that changed / stayed unresolved, what would that mean?"**
 
 ## Buyer-language rule
 
