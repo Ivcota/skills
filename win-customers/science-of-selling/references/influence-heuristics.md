@@ -23,7 +23,7 @@ Never use heuristics as decoration. Tie each one to a specific Why.
 
 ## Asymmetric dominance example
 
-The EPUB Chapter 2 section says the asymmetric dominance effect works by introducing "a third option that is inferior to one of the others" so "the lesser alternative makes the option that it is dominated by look more appealing." Use this only when all options are legitimate and the comparison helps the buyer decide.
+The primary-source notes for Chapter 2 say the asymmetric dominance effect works by introducing "a third option that is inferior to one of the others" so "the lesser alternative makes the option that it is dominated by look more appealing." Use this only when all options are legitimate and the comparison helps the buyer decide.
 
 ## Social proof pattern
 

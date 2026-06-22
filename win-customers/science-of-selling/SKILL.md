@@ -1,100 +1,81 @@
 ---
 name: science-of-selling
 description: |
-  Apply, diagnose, or explain David Hoffeld’s Science of Selling: Sales Equation, Six Whys, buyer emotional state, layered questions, buying motivators, value creation, strategic commitments, presentation strategy, and objection handling. Use when the user says “help me sell,” “improve my pitch,” “why isn’t this prospect buying,” “The Science of Selling,” “Hoffeld,” or asks to understand the book’s frameworks. Also trigger for sales emails, discovery calls, demos, objections, closing, or persuasive sales messages. For outbound systems, see predictable-revenue; for prospecting scripts, see prospecting; for negotiation, see negotiation.
+  Apply David Hoffeld's Science of Selling to teach the framework, build sales artifacts, or diagnose stalled deals. Use for pitches, discovery calls, demos, sales emails, objections, closing, or Hoffeld questions. For outbound systems, see predictable-revenue; for prospecting scripts, see prospecting; for negotiation, see negotiation.
 ---
 
 # The Science of Selling
 
-Use Hoffeld’s core model: **positive buying decision = commitments to the Six Whys + positive buyer emotional state**. Selling works when the sales process matches how buyers make decisions, not when it follows sales folklore.
+Use Hoffeld's core model: **positive buying decision = commitments to the Six Whys + positive buyer emotional state**. Selling works when the sales process matches how buyers make decisions, not when it follows sales folklore.
 
 ## Choose the branch
-1. **Teach** when the user wants to understand the book. Explain only the relevant framework, then ask one check-for-understanding question. Done when the user can restate the framework in their own words.
-2. **Apply** when the user is creating a pitch, email, demo, call plan, or close. Build the artifact through the Sales Equation. Done when every Six Why has a line in the artifact or an intentional omission.
-3. **Diagnose** when the user has an existing pitch/message/deal that is not working. Audit for rejected Whys, weak emotional state, missing motivators, and generic value. Done when you identify the likely bottleneck and rewrite the weakest part.
+
+1. **Teach** when the user wants the book/framework explained. Explain only the relevant framework, then ask one check-for-understanding question. Done when the user can restate it.
+2. **Apply** when the user is creating a pitch, email, demo, call plan, or close. Build through the Sales Equation. Done when every Six Why has a line or an intentional omission.
+3. **Diagnose** when an existing pitch/message/deal is not working. Audit for rejected Whys, weak emotional state, missing motivators, and generic value. Done when one bottleneck is named and the weakest part is rewritten.
 
 ## Sales Equation audit
 
-For any selling situation, map the buyer’s state before giving advice:
+For any selling situation, map the buyer's state before giving advice:
 
 | Commitment | Diagnostic question | If weak, do this |
 |---|---|---|
 | **Why Change?** | Does the buyer feel a meaningful problem? | Surface the problem, cause, scope, and cost of inaction. |
-| **Why Now?** | Does the buyer have urgency without feeling pressured? | Show the cost of delay while preserving choice: “Of course, it’s up to you.” |
+| **Why Now?** | Does the buyer have urgency without feeling pressured? | Show the cost of delay while preserving choice: "Of course, it's up to you." |
 | **Why Your Industry Solution?** | Are non-consumption, DIY, internal workarounds, or other categories neutralized? | Compare outcomes and risks against outside alternatives. |
 | **Why You / Your Company?** | Does the buyer trust the seller and company? | Add expertise, proof, confidence, and relevant credibility. |
 | **Why Your Product / Service?** | Is the value distinct and desired? | State what is unique, why it matters, and ask the buyer to verbalize impact. |
-| **Why Spend the Money?** | Is the investment justified by gain or avoided loss? | Ask for desire-for-gain and fear-of-loss consequences in the buyer’s words. |
+| **Why Spend the Money?** | Is the investment justified by gain or avoided loss? | Ask for desire-for-gain and fear-of-loss consequences in the buyer's words. |
 | **Emotional State** | Is the buyer positive or at least neutral? | Pause, acknowledge, redirect to positive topics, or change the interaction dynamic. |
 
-## Reference deep dives
-| Area | Use when |
+## Context pointers
+
+| Reach when | Load |
 |---|---|
-| [`six-whys-playbook.md`](references/six-whys-playbook.md) | Building/auditing the core Sales Equation commitments. |
-| [`primary-buying-motivators.md`](references/primary-buying-motivators.md) | Planning discovery and capturing buyer language. |
-| [`influence-heuristics.md`](references/influence-heuristics.md) | Adding peripheral influence without replacing the central message. |
-| [`emotional-state.md`](references/emotional-state.md) | Reading and repairing buyer emotional state. |
-| [`value-competition-objections.md`](references/value-competition-objections.md) | Creating value, inoculating competitors, or mapping objections. |
-| [`strategic-commitments.md`](references/strategic-commitments.md) | Trial closes, noncommittal answers, and final close timing. |
-| [`presentation-strategy.md`](references/presentation-strategy.md) | Designing sales decks, demos, stories, and price presentation. |
+| Building/auditing Sales Equation commitments | [`six-whys-playbook.md`](references/six-whys-playbook.md) |
+| Planning discovery or capturing buyer language | [`primary-buying-motivators.md`](references/primary-buying-motivators.md) |
+| Adding peripheral influence to a central message | [`influence-heuristics.md`](references/influence-heuristics.md) |
+| Reading or repairing buyer emotional state | [`emotional-state.md`](references/emotional-state.md) |
+| Creating value, inoculating competitors, or mapping objections | [`value-competition-objections.md`](references/value-competition-objections.md) |
+| Using trial closes, noncommittal answers, or final close timing | [`strategic-commitments.md`](references/strategic-commitments.md) |
+| Designing decks, demos, stories, or price presentation | [`presentation-strategy.md`](references/presentation-strategy.md) |
 
 ## Apply from scratch
 
-1. **Capture context.** Ask what is being sold, to whom, deal stage, current obstacle, and desired artifact. Completion: you know buyer, offer, stage, and goal.
-2. **Find motivators.** Identify the buyer’s problems, dominant buying motives, decision process, decision makers, and decision criteria. Completion: each motivator is stated in buyer language or marked unknown.
-3. **Build the Six Whys.** Draft one clear answer for each Why. Completion: no Why is blank unless the user explicitly lacks information.
-4. **Create value.** Use a Primary Buying Motivator Statement: “Earlier you mentioned [buyer words]. Our [feature/process] helps by [link to motivator].” Completion: value is tied to buyer-stated motives, not generic benefits.
-5. **Add influence support.** Use peripheral cues only to strengthen the central message: social proof, contrast, scarcity, credibility, likability, reciprocity, or option framing. Completion: each cue supports a specific Why.
-6. **Ask for commitments.** Convert assumptions into small yes/no commitments before the final close. Completion: the artifact includes a next-step commitment.
-7. **Shape the presentation.** Use less-is-more, price anchoring, mirroring, picture superiority, and stories only where they support a specific commitment. Completion: the presentation contains no unsupported slide, claim, or story.
+1. **Capture context.** Ask what is being sold, to whom, deal stage, current obstacle, and desired artifact. Done when buyer, offer, stage, and goal are known.
+2. **Find motivators.** Identify problems, dominant buying motives, decision process, decision makers, and decision criteria. Done when each is in buyer language or marked unknown.
+3. **Build the Six Whys.** Draft one answer for each Why. Done when no Why is blank unless information is explicitly missing.
+4. **Create value.** Use: "Earlier you mentioned [buyer words]. Our [feature/process] helps by [link to motivator]." Done when value is tied to buyer-stated motives.
+5. **Add influence support.** Use peripheral cues only to strengthen the central message. Done when each cue supports a specific Why.
+6. **Ask for commitments.** Convert assumptions into small yes/no commitments before the final close. Done when the artifact includes a next-step commitment.
+7. **Shape the presentation.** Use less-is-more, anchoring, mirroring, visuals, and stories only where they support a commitment. Done when no unsupported slide, claim, or story remains.
 
 ## Diagnose existing sales work
 
-1. **Mark each claim.** Label every sentence by which Why it supports. Completion: unsupported fluff is visible.
-2. **Find the gap.** Look for missing Why Change, weak Why Now, generic value, unproven trust, unmapped competitor, or unclear money justification. Completion: one primary bottleneck is named.
-3. **Check emotional load.** Identify language that creates pressure, confusion, skepticism, or threat. Completion: negative emotional triggers are softened or reframed.
-4. **Rewrite the weakest section.** Keep what supports the Sales Equation; cut what does not. Completion: the revised section makes the next commitment easier.
+1. **Mark each claim.** Label every sentence by which Why it supports. Done when unsupported fluff is visible.
+2. **Find the gap.** Look for missing Why Change, weak Why Now, generic value, unproven trust, unmapped competitor, or unclear money justification. Done when one primary bottleneck is named.
+3. **Check emotional load.** Identify language that creates pressure, confusion, skepticism, or threat. Done when negative emotional triggers are softened or reframed.
+4. **Rewrite the weakest section.** Keep what supports the Sales Equation; cut what does not. Done when the next commitment is easier.
 
-## Strategic commitments
+## Core tactics
 
-Closing is not a final trick; it is the visible result of earlier commitments. Use small, explicit yes/no commitments, involvement trial closes (“If you moved forward, would you use A or B?”), commitment trial closes (“Is this something you need to solve now?”), then a simple final ask (“Would you like to move forward?”).
-
-## Presentation strategy
-
-Use the five presentation moves only in service of the Sales Equation: **less really is more**; **anchor price** before the number; **mirror** subtly; use visuals because of the **picture superiority effect**; use buyer-relevant **stories** with distracting details removed.
-
-## Layered questions
-
-Use questions in this order:
-
-1. **First-level:** facts, situations, process. “What is your process for deciding which vendor you’ll choose?”
-2. **Second-level:** explanation and assessment. “That sounds important. May I ask why?”
-3. **Third-level:** emotional motives. “If we solved that, how would it affect your team?” / “If this stays unresolved, what happens?”
-
-Do not jump to third-level questions before the buyer has disclosed enough facts to feel understood.
-
-## Objection handling
-
-Treat objections as rejected Six Whys.
-
-1. **Soften.** Acknowledge without arguing.
-2. **Isolate.** “Other than [objection], is there any other reason you wouldn’t move forward?”
-3. **Map.** Decide which Why is rejected.
-4. **Answer root.** Provide evidence, story, question, or value link for that Why.
-5. **Regain commitment.** Ask a small commitment question before moving on.
+- **Layered questions:** first-level facts → second-level explanation → third-level emotional motives. Do not jump to third-level before the buyer feels understood.
+- **Strategic commitments:** closing is a series of small commitments, not a final trick; ask the final close only after the Six Whys and emotional state are satisfied.
+- **Objections:** treat objections as rejected Whys; soften, isolate, map, answer the root, and regain commitment.
+- **Presentation:** less-is-more; anchor price; mirror subtly; use visuals for picture superiority; tell buyer-relevant stories with distracting details removed.
 
 ## Common mistakes
 
 | Mistake | Fix |
 |---|---|
-| Selling from anecdotes | Tie each move to the buyer’s decision process. |
+| Selling from anecdotes | Tie each move to the buyer's decision process. |
 | Closing only at the end | Ask for strategic commitments throughout. |
 | Pitching generic value | Repeat buyer motivators and link the offer to them. |
 | Asking random questions | Use first-, second-, then third-level questions. |
 | Ignoring emotional state | Shift negative states before advancing. |
-| Weak closing | Build strategic commitments before the final ask. |
 | Answering surface objections | Map the objection to the rejected Why. |
-| Over-presenting | Use less-is-more; cut anything not needed for a confident buying decision. |
+| Over-presenting | Cut anything not needed for a confident buying decision. |
 
 ## Source boundary
-This skill is based on David Hoffeld’s *The Science of Selling* (Penguin Random House / TarcherPerigee). Keep advice inside `sources.md`, `notes-*.md`, and `references/`; if asked for a citation, quote from source-grounded files rather than memory.
+
+This skill is based on David Hoffeld's *The Science of Selling* (Penguin Random House / TarcherPerigee). Keep advice inside `sources.md`, `notes-*.md`, and `references/`; if asked for a citation, quote from source-grounded files rather than memory.

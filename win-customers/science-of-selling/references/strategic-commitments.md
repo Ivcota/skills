@@ -4,7 +4,7 @@ Use this when planning closes, diagnosing stalls, or writing call scripts. Hoffe
 
 ## Core rule
 
-Ask for the sale only after the Sales Equation is fulfilled: the buyer has committed to the Six Whys and is in a positive/neutral emotional state. The EPUB Chapter 8 says buyers are ready after "qualified buyers commit to each of the Six Whys® and adopt a positive emotional state."
+Ask for the sale only after the Sales Equation is fulfilled: the buyer has committed to the Six Whys and is in a positive/neutral emotional state. The primary-source notes for Chapter 8 say buyers are ready after "qualified buyers commit to each of the Six Whys® and adopt a positive emotional state."
 
 ## Commitment ladder
 
@@ -41,7 +41,7 @@ Patterns:
 
 ## Handling noncommittal responses
 
-The EPUB Chapter 8 defines a noncommittal response as "any reaction that is not a strong commitment." Treat it as useful diagnostic signal, not rejection.
+The primary-source notes for Chapter 8 define a noncommittal response as "any reaction that is not a strong commitment." Treat it as useful diagnostic signal, not rejection.
 
 ### If they object
 

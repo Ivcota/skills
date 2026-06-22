@@ -8,7 +8,7 @@
    - Access method: EPUB inspected locally; extracted notes are summarized in `notes-structure.md`, `notes-application.md`, and `notes-guardrails.md`.
    - Publisher metadata from EPUB: Penguin Publishing Group / TarcherPerigee; print ISBN `9780143129325`; EPUB identifier `9781101993187`; created `2016-10-18`.
    - Coverage estimate: full book reviewed during extraction, including introduction, chapters 1–10, notes, index, and about-the-author page.
-   - Citation pointer format: `The Science of Selling`, `{chapter title or section}`, note entry quote: "...". Some note entries retain original `source-extract/...` labels from the extraction workspace; rely on the embedded quote in the note file.
+   - Citation pointer format: `The Science of Selling`, `{chapter title or section}`, note/reference entry quote: "...". Some note entries retain original `source-extract/...` labels from the extraction workspace; rely on the embedded quote in the checked-in note or reference file.
 
 ## Secondary / verification sources
 

@@ -32,7 +32,7 @@ Boundary: anchors must be credible. Do not use irrelevant high numbers just to m
 
 ## Strategy 3: Mirroring
 
-The EPUB Chapter 9 defines mirroring as when "one person emulates aspects of another person's verbal or nonverbal behavior." It increases rapport, trust, likability, perspective-taking, and emotional recognition when done subtly.
+The primary-source notes for Chapter 9 define mirroring as when "one person emulates aspects of another person's verbal or nonverbal behavior." It increases rapport, trust, likability, perspective-taking, and emotional recognition when done subtly.
 
 Use:
 
@@ -60,7 +60,7 @@ Rule: the slide should make the idea easier to picture, not give you text to rea
 
 ## Strategy 5: Use stories
 
-The EPUB Chapter 9 says people are not simply buying you or the product; "they are buying the stories they believe about them." Stories shift emotional state, make value memorable, and help buyers imagine the outcome.
+The primary-source notes for Chapter 9 say people are not simply buying you or the product; "they are buying the stories they believe about them." Stories shift emotional state, make value memorable, and help buyers imagine the outcome.
 
 Story structure from the application notes:
 
