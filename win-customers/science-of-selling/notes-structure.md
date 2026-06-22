@@ -264,6 +264,24 @@ frameworks:
           file: "source-extract/15-chapter-6.md"
           section: "Primary Buying Motivator #3: Buying Requirements"
           quote: "This buying motivator unveils who is involved in the buying decision, how that decision will be made, and the specific criteria that will be used to judge your company, product, or service."
+      - text: "The decision process should include the formal process, decision makers, influencers, and how buy-in is achieved."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/15-chapter-6.md"
+          section: "Component #1: Identify the Decision Process"
+          quote: "Discovering how an organization makes a buying decision is usually an uncomplicated endeavor that buyers will freely share if you ask."
+      - text: "Decision criteria contain three essential parts: product or service parameters, time frame, and finances."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/15-chapter-6.md"
+          section: "Component #2: Establish the Decision Criteria"
+          quote: "What is this decision criteria? I have found that it contains three essential parts."
+      - text: "Finances should be discussed early enough to understand budget, restrictions, approvals, timing, and funding path."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/15-chapter-6.md"
+          section: "3. Face Finances"
+          quote: "addressing finances early can reduce your sales cycle and increase the likelihood of the sale."
       - text: "Decision criteria should be confirmed to create buyer ownership and avoid misunderstanding."
         citation:
           source: "The Science of Selling"

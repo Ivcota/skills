@@ -1,7 +1,7 @@
 ---
 name: science-of-selling
 description: |
-  Apply David Hoffeld's Science of Selling to teach the framework, build sales artifacts, or diagnose stalled deals. Use for pitches, discovery calls, demos, sales emails, objections, closing, or Hoffeld questions. For outbound systems, see predictable-revenue; for prospecting scripts, see prospecting; for negotiation, see negotiation.
+  Apply David Hoffeld's Science of Selling to teach the framework, build sales artifacts, or diagnose stalled deals. Use for Sales Equation/Six Whys, Why People Buy/primary buying motivators, discovery, demos, objections, closing, or Hoffeld questions. For outbound systems, see predictable-revenue; for prospecting scripts, see prospecting; for negotiation, see negotiation.
 ---
 
 # The Science of Selling
@@ -33,7 +33,7 @@ For any selling situation, map the buyer's state before giving advice:
 | Reach when | Load |
 |---|---|
 | Building/auditing Sales Equation commitments | [`six-whys-playbook.md`](references/six-whys-playbook.md) |
-| Planning discovery or capturing buyer language | [`primary-buying-motivators.md`](references/primary-buying-motivators.md) |
+| Teaching/applying **Why People Buy** or capturing buyer language | [`primary-buying-motivators.md`](references/primary-buying-motivators.md) |
 | Adding peripheral influence to a central message | [`influence-heuristics.md`](references/influence-heuristics.md) |
 | Reading or repairing buyer emotional state | [`emotional-state.md`](references/emotional-state.md) |
 | Creating value, inoculating competitors, or mapping objections | [`value-competition-objections.md`](references/value-competition-objections.md) |
@@ -43,7 +43,7 @@ For any selling situation, map the buyer's state before giving advice:
 ## Apply from scratch
 
 1. **Capture context.** Ask what is being sold, to whom, deal stage, current obstacle, and desired artifact. Done when buyer, offer, stage, and goal are known.
-2. **Find motivators.** Identify problems, dominant buying motives, decision process, decision makers, and decision criteria. Done when each is in buyer language or marked unknown.
+2. **Run Why People Buy discovery.** Load [`primary-buying-motivators.md`](references/primary-buying-motivators.md), then capture buyer problems, dominant buying motives, and buying requirements. Done when every field in its call-note template is in buyer language or marked unknown.
 3. **Build the Six Whys.** Draft one answer for each Why. Done when no Why is blank unless information is explicitly missing.
 4. **Create value.** Use: "Earlier you mentioned [buyer words]. Our [feature/process] helps by [link to motivator]." Done when value is tied to buyer-stated motives.
 5. **Add influence support.** Use peripheral cues only to strengthen the central message. Done when each cue supports a specific Why.
@@ -59,6 +59,7 @@ For any selling situation, map the buyer's state before giving advice:
 
 ## Core tactics
 
+- **Why People Buy:** do not guess from the seller's perspective; capture primary buying motivators before positioning value.
 - **Layered questions:** first-level facts → second-level assessment/explanation of that first-level response → third-level emotional motives. Gate each layer: do not ask Level 2 until the buyer has given a concrete fact/thought/behavior/situation; do not ask Level 3 until the buyer has assessed or explained why that fact matters. Do not jump to third-level before the buyer feels understood.
 - **Strategic commitments:** closing is a series of small commitments, not a final trick; ask the final close only after the Six Whys and emotional state are satisfied.
 - **Objections:** treat objections as rejected Whys; soften, isolate, map, answer the root, and regain commitment.

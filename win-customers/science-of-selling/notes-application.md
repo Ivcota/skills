@@ -83,6 +83,26 @@ copy_patterns:
     template: "Who else from within your organization is part of this decision process?"
     source_phrase: "Who else from within your organization is part of this decision process?"
     citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Decision Makers", quote: "How can you identify decision makers? Simply ask questions such as, ‘Who is involved in making this decision?’ or ‘Who else from within your organization is part of this decision process?’"}
+  - section: "Buying requirements / influencers"
+    template: "Will anyone else be helping with this decision?"
+    source_phrase: "Will anyone else be helping with this decision?"
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Influencers", quote: "Recognizing influencers is relatively clear-cut. Ask questions like, ‘Will anyone else be helping with this decision?’"}
+  - section: "Buying requirements / buy-in path"
+    template: "What would the team need to see or discuss to feel confident moving forward?"
+    source_phrase: "how it will be made" / "ask for a meeting with decision makers"
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "How Buy-In Is Achieved", quote: "Once you have identified who is involved in the decision, you now need to find how it will be made."}
+  - section: "Buying requirements / product or service parameters"
+    template: "When evaluating [product/service/category], how will you know if any option is right for you?"
+    source_phrase: "When evaluating [state the specific product or service], how will you know if any option is right..."
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Determine Product or Service Parameters", quote: "When evaluating [state the specific product or service], how will you know if any option is right..."}
+  - section: "Buying requirements / time frame"
+    template: "Is there a certain time you will need this installed by?"
+    source_phrase: "Is there a certain time you will need this installed by?"
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Identify a Time Frame", quote: "Identify a buyer’s time frame by asking questions early on in the process, such as, ‘Is there a certain time you will need this installed by?’"}
+  - section: "Buying requirements / finances"
+    template: "Is there a predetermined budget for this project? If not, how would funds be obtained and approved?"
+    source_phrase: "Is there a predetermined budget for this project?" / "how will they obtain them?"
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Face Finances", quote: "Is there a predetermined budget for this project? If so, what is it?"}
   - section: "Buying requirements / shape criteria"
     template: "What many of my clients just like you have found is that [criterion insight]... Is this something you would want in a potential solution?"
     source_phrase: "What many of my clients just like you have found is that . . ." / "Is this something you would want in a potential solution?"

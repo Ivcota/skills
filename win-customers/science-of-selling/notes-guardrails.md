@@ -145,6 +145,16 @@ boundaries:
     reasoning: "Fear without a clear relief path frustrates buyers and can cause them to ignore the message."
     citation: {source: "The Science of Selling", file: "source-extract/11-chapter-3.md", section: "2. Fear of Loss", quote: "As a result, when you evoke the fear of loss, you must always reveal how buyers can escape that fear through the benefits they will receive from your company, product, or service."}
 
+  - section: "Buying requirements / process"
+    rule: "Do not treat an opportunity as qualified until the decision process, decision makers, influencers, buy-in path, criteria, time frame, and finances are known or explicitly marked unknown."
+    reasoning: "Buying requirements reveal how the decision will be made and how the seller should position the message and next commitment."
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Primary Buying Motivator #3: Buying Requirements", quote: "This buying motivator unveils who is involved in the buying decision, how that decision will be made, and the specific criteria that will be used to judge your company, product, or service."}
+
+  - section: "Buying requirements / information confirmation"
+    rule: "After identifying decision criteria, repeat them in the buyer's words and ask for confirmation before using them to position value or close."
+    reasoning: "Confirmation catches misunderstanding and helps the buyer take ownership of the criteria."
+    citation: {source: "The Science of Selling", file: "source-extract/15-chapter-6.md", section: "Confirm the Decision Criteria", quote: "After you’ve identified the decision criteria... you should obtain buy-in."}
+
   - section: "Hiring / integrity"
     rule: "Do not hire or tolerate salespeople who will do or say anything to earn the sale."
     reasoning: "Hoffeld names this as a liability and bad for business; long-term success requires trustworthiness and honesty."
