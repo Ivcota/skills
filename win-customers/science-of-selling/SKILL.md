@@ -22,6 +22,7 @@ For any selling situation, map the buyer's state before giving advice:
 |---|---|---|
 | **Why Change?** | Does the buyer feel a meaningful problem? | Surface the problem, cause, scope, and cost of inaction. |
 | **Why Now?** | Does the buyer have urgency without feeling pressured? | Show the cost of delay while preserving choice: "Of course, it's up to you." |
+| **Buying Requirements Gate** *(discovery gate, not a Why)* | Do we know how the buyer will judge, approve, time, and fund the purchase? | Before presenting, ask for solution criteria, stakeholders, process, timeline, budget/ROI, and confirm them in buyer words. |
 | **Why Your Industry Solution?** | Are non-consumption, DIY, internal workarounds, or other categories neutralized? | Compare outcomes and risks against outside alternatives. |
 | **Why You / Your Company?** | Does the buyer trust the seller and company? | Add expertise, proof, confidence, and relevant credibility. |
 | **Why Your Product / Service?** | Is the value distinct and desired? | State what is unique, why it matters, and ask the buyer to verbalize impact. |
@@ -45,11 +46,12 @@ For any selling situation, map the buyer's state before giving advice:
 
 1. **Capture context.** Ask what is being sold, to whom, deal stage, current obstacle, and desired artifact. Done when buyer, offer, stage, and goal are known.
 2. **Run Why People Buy discovery.** Load [`primary-buying-motivators.md`](references/primary-buying-motivators.md), then capture buyer problems, dominant buying motives, and buying requirements. Done when every field in its call-note template is in buyer language or marked unknown.
-3. **Build the Six Whys.** Draft one answer for each Why. Done when no Why is blank unless information is explicitly missing.
-4. **Create value.** Use Chapter 7: buyer-defined value, reciprocity when asking for attention, labels when helping buyers act, and Primary Buying Motivator Statements. If the user asks for a value statement, buyer statement, or reciprocity statement, load `value-competition-objections.md` and choose the right pattern before writing. Done when value is tied to buyer-stated motives.
-5. **Add influence support.** Use peripheral cues only to strengthen the central message. Done when each cue supports a specific Why.
-6. **Ask for commitments.** Convert assumptions into small yes/no commitments before the final close. Done when the artifact includes a next-step commitment.
-7. **Shape the presentation.** Use less-is-more, anchoring, mirroring, visuals, and stories only where they support a commitment. Done when no unsupported slide, claim, or story remains.
+3. **Pass the Buying Requirements Gate before presenting.** After Why Change/Why Now are at least tentatively accepted, ask: "If you were going to solve this, what would a good solution need to include for you to feel confident moving forward?" Confirm criteria, decision process, stakeholders, timeline, and budget/ROI in buyer words. Done when the buyer agrees: "Yes, those are the requirements."
+4. **Build the Six Whys.** Draft one answer for each Why, using the confirmed buying requirements to shape Why Industry Solution, Why You/Company, Why Product/Service, and Why Spend the Money. Done when no Why is blank unless information is explicitly missing.
+5. **Create value.** Use Chapter 7: buyer-defined value, reciprocity when asking for attention, labels when helping buyers act, and Primary Buying Motivator Statements. If the user asks for a value statement, buyer statement, or reciprocity statement, load `value-competition-objections.md` and choose the right pattern before writing. Done when value is tied to buyer-stated motives.
+6. **Add influence support.** Use peripheral cues only to strengthen the central message. Done when each cue supports a specific Why.
+7. **Ask for commitments.** Convert assumptions into small yes/no commitments before the final close. Done when the artifact includes a next-step commitment.
+8. **Shape the presentation.** Use less-is-more, anchoring, mirroring, visuals, and stories only where they support a commitment. Done when no unsupported slide, claim, or story remains.
 
 ## Diagnose existing sales work
 
@@ -63,6 +65,7 @@ For any selling situation, map the buyer's state before giving advice:
 - **Why People Buy:** do not guess from the seller's perspective; capture primary buying motivators before positioning value.
 - **Value statements:** distinguish two patterns: reciprocity value statements for early outreach before asking for time, and Primary Buying Motivator Statements after discovery to connect the offer to the buyer's own words.
 - **Layered questions:** first-level facts → second-level assessment/explanation of that first-level response → third-level emotional motives. Gate each layer: do not ask Level 2 until the buyer has given a concrete fact/thought/behavior/situation; do not ask Level 3 until the buyer has assessed or explained why that fact matters. Do not jump to third-level before the buyer feels understood.
+- **Buying Requirements Gate:** after the buyer agrees there is a meaningful problem and some reason to address it, pause before pitching. Ask how they will judge, approve, time, and fund a solution. Confirm the requirements in buyer words, then use them to answer the later Whys.
 - **Strategic commitments:** closing is a series of small commitments, not a final trick; ask the final close only after the Six Whys and emotional state are satisfied.
 - **Objections:** treat objections as rejected Whys; identify them quickly, watch emotional state, soften, isolate, map, answer with evidence or third-party story, and regain commitment.
 - **Presentation:** less-is-more; anchor price; mirror subtly; use visuals for picture superiority; tell buyer-relevant stories with distracting details removed.
@@ -74,6 +77,7 @@ For any selling situation, map the buyer's state before giving advice:
 | Selling from anecdotes | Tie each move to the buyer's decision process. |
 | Closing only at the end | Ask for strategic commitments throughout. |
 | Pitching generic value | Repeat buyer motivators and link the offer to them. |
+| Presenting before criteria are clear | Pass the Buying Requirements Gate: confirm decision criteria, stakeholders, timeline, and money path first. |
 | Asking random questions | Use first-, second-, then third-level questions. |
 | Ignoring emotional state | Shift negative states before advancing. |
 | Answering surface objections | Map the objection to the rejected Why. |

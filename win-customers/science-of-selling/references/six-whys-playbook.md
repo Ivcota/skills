@@ -6,6 +6,8 @@ Use this when building or auditing a pitch, call plan, demo, close, or sales mes
 
 Do not treat the Six Whys as a checklist you recite to the buyer. Treat them as **commitments the buyer must make** while moving through the sale. If one is missing, the sale stalls there and the objection usually points back to that rejected Why.
 
+Add one explicit discovery checkpoint between early problem/urgency work and presenting: the **Buying Requirements Gate**. After the buyer at least tentatively accepts **Why Change** and **Why Now**, ask how they will judge, approve, time, and fund a solution. Do not present until criteria, stakeholders, process, timeline, and budget/ROI are confirmed in buyer words. This gate is not a seventh Why; it tells you how to answer Why Industry Solution, Why You/Company, Why Product/Service, and Why Spend the Money.
+
 ## The six commitments
 
 | Why | Buyer must believe | Discovery questions | Proof / move | Commitment check |

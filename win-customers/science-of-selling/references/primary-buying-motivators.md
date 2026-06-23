@@ -72,6 +72,43 @@ Sales Equation link: Why Spend the Money
 
 Buying requirements are the specific factors that influence the buying decision and reveal how to position the seller, message, and next step. Capture two components: **decision process** and **decision criteria**.
 
+### Buying Requirements Gate
+
+Treat buying requirements as an explicit gate in the sales workflow. It is **not one of the Six Whys**; it is the discovery checkpoint that tells you how to answer the later Whys.
+
+**Where it goes:** after the buyer has at least tentatively accepted **Why Change** and **Why Now**, and before you present the solution.
+
+**Gate question:**
+
+> "If you were going to solve this, what would a good solution need to include for you to feel confident moving forward?"
+
+Then clarify:
+
+- "How would you judge the options?"
+- "Who else would be involved?"
+- "What would make this a yes?"
+- "What would make this a no?"
+- "What timeline matters?"
+- "What would the money, budget, or ROI need to look like?"
+
+**Pass condition:** the buyer confirms the decision criteria, decision process, stakeholders, timeline, and financial/approval path in their own words.
+
+Confirmation pattern:
+
+> "Just so I understand, for this to be a possible solution, it needs to [criteria], involve [people/process], fit [timeline], and make financial sense by [budget/ROI logic]. Is that correct?"
+
+**Fail condition:** criteria are vague, decision makers are unknown, timeline is unclear, budget/ROI path is unspoken, or the seller is guessing what matters. If the gate fails, do not pitch yet; keep discovering.
+
+**How it feeds the Sales Equation:**
+
+| Buying requirement | Helps answer |
+|---|---|
+| Required outcomes, features, constraints | Why Your Product / Service |
+| Trust, proof, implementation, support needs | Why You / Company |
+| Timeline, deadline, fiscal or seasonal trigger | Why Now |
+| Budget, approval path, payback, ROI | Why Spend the Money |
+| Alternatives being compared | Why Your Industry Solution |
+
 ### Component 1: identify the decision process
 
 Map the real path to approval.
@@ -121,8 +158,8 @@ Then ask for the next commitment:
 3. **Map cause, scope, and damage.** Use second-level questions before offering solutions.
 4. **Elicit dominant buying motives.** Use third-level gain/loss questions only after the buyer has explained why the problem matters.
 5. **Map buying requirements.** Capture process, decision makers, influencers, buy-in path, criteria, timeline, and finances.
-6. **Confirm criteria.** Use the information confirmation statement and obtain buy-in.
-7. **Convert to the Sales Equation.** Link buyer problems to Why Change/Why Now, dominant motives to Why Spend the Money, and requirements to positioning, proof, and close path.
+6. **Pass the Buying Requirements Gate.** Use the information confirmation statement and obtain buy-in before presenting or recommending a solution.
+7. **Convert to the Sales Equation.** Link buyer problems to Why Change/Why Now, dominant motives to Why Spend the Money, and confirmed requirements to Why Industry Solution, Why You/Company, Why Product/Service, and close path.
 
 ## Layered question bank
 
@@ -148,6 +185,7 @@ Every artifact should reuse the buyer's exact words. Replace seller language lik
 
 ## Qualification red flags
 
+- Buying Requirements Gate not passed → do not present yet; criteria, decision process, timeline, or money path are still unclear.
 - No clear problem → weak **Why Change**.
 - No cause, scope, or damage → problem is too vague to create urgency.
 - No time pressure or consequence → weak **Why Now**.
@@ -183,6 +221,7 @@ Every artifact should reuse the buyer's exact words. Replace seller language lik
 - Budget / financial constraints:
 - Funding / approval path:
 - Confirmed decision criteria:
+- Buying Requirements Gate passed? Why/why not:
 
 ## Commitments earned
 - Why Change:
