@@ -13,6 +13,18 @@ Use this when turning discovery into a pitch, differentiating against alternativ
 | **Inoculation** | Differentiating against competitors or protecting the sale. | Buyer verbalizes a counterargument against inferior alternatives. |
 | **Objection process** | Buyer resists, delays, objects, or gives a vague reason. | Objection mapped to a rejected Why, answered, and recommitted. |
 
+## When the user asks for value statements
+
+Default to this decision rule before drafting:
+
+| User asks for | Use | Timing | Required inputs |
+|---|---|---|---|
+| **"value statement"** | Ask whether it is for outreach or after discovery; if unclear, explain both. | Depends | Buyer/problem, offer, desired next step. |
+| **"reciprocity statement" / "value statement with reciprocity"** | Reciprocity value statement. | Early outreach before asking for time or information. | Valuable asset/insight, its relevance, credible value, small next step. |
+| **"buyer statement" / "buyer motivator statement" / "Primary Buying Motivator Statement"** | Primary Buying Motivator Statement. | After discovery or after the buyer stated a motivator. | Buyer's exact words, relevant feature/process, promised outcome. |
+
+If inputs are missing, ask for them instead of inventing buyer words. If the user wants examples, label each example by which pattern it uses.
+
 ## Social exchange: value before ask
 
 The notes cite Chapter 7: social exchange theory says relationships continue when perceived value exceeds perceived cost. If buyers ignore calls, cancel meetings, or stall, assume the interaction feels too costly relative to value.
@@ -30,11 +42,17 @@ Pattern:
 
 ## Value creation workflow
 
+Use this after the buyer has revealed what matters. Do not lead with seller features.
+
 1. **Repeat the buyer's primary buying motivator.** "Earlier you mentioned [buyer words]."
 2. **Name the relevant capability.** "Our [feature/process/service] does [mechanism]."
 3. **Link capability to motivator.** "That helps by [specific buyer outcome]."
 4. **Ask for impact.** "How would that affect [metric/team/risk]?"
 5. **Get commitment.** "Would that meet the requirement you described?"
+
+Fast formula:
+
+> "You said [buyer words]. We do [mechanism]. That helps you [buyer outcome]. Would that [solve/meet] [the issue/requirement] you described?"
 
 ## Primary Buying Motivator Statement
 
@@ -42,7 +60,18 @@ The application notes cite this pattern from Chapter 7:
 
 > "[Buyer], earlier you mentioned [PBM in buyer's words]. As I [demonstrated/mentioned], our [feature/process] will [meet PBM]."
 
-Use this instead of generic feature-benefit claims.
+Use this instead of generic feature-benefit claims. Hoffeld's three steps are: identify how the offer meets the buyer's primary buying motivators, remind the buyer of those motivators using their exact words, then link the offer's value to those motivators.
+
+Required parts:
+
+1. **Buyer quote:** the problem, dominant motive, or buying requirement in the buyer's language.
+2. **Relevant capability:** the feature, process, service, proof, or company strength that maps to it.
+3. **Specific fulfillment:** how the capability satisfies the motivator.
+4. **Commitment check:** a small question that confirms the buyer sees the value.
+
+Template:
+
+> "[Name], earlier you mentioned [buyer quote / PBM]. As I [showed/mentioned], our [capability] [mechanism], which means [specific fulfillment of PBM]. Would that [meet/solve/address] [the requirement/problem] you described?"
 
 Bad:
 
@@ -54,19 +83,27 @@ Good:
 
 ## Reciprocity workflow
 
-The notes cite Chapter 7: reciprocity creates a felt debt and increases buyer receptiveness. Use it by giving buyer-relevant value before asking for action.
+The notes cite Chapter 7: reciprocity creates a felt debt and increases buyer receptiveness. Use it by giving buyer-relevant value before asking for action. This is the right pattern for cold calls, cold emails, first-touch LinkedIn messages, or any moment where the buyer has not yet agreed the conversation is worth their time.
 
 1. **Create a useful asset or insight.** Report, checklist, benchmark, diagnosis, comparison, risk list, or data point.
 2. **Make it relevant to the buyer's motivator.** The gift must help with a problem or requirement they care about.
-3. **State its value without cheapening it as a generic freebie.** If credible, name the monetary, effort, or expertise value.
+3. **State its value without cheapening it as a generic freebie.** If credible, name the monetary, effort, or expertise value. If there is no honest monetary value, state the expertise or work behind it instead.
 4. **Give before asking.** Let the buyer receive value first.
 5. **Ask for a small next step.** The ask should feel proportional to the value given.
 
-Template:
+Book-grounded template:
 
-> "The reason for my call is I wanted to share [valuable asset] about [buyer problem]. We normally [sell/use this internally] for [value], but I wanted to give it to you at no cost because rather than just tell you [claim], I'd like to show you so you can see for yourself. Would it make sense to [small next step]?"
+> "The reason for my call today is I wanted to share [valuable asset] that [buyer-relevant benefit]. We normally [sell/use this internally] for [credible value], but I would like to give it to you at no cost, because rather than just tell you [claim], I'd like to show you so you can see for yourself. Would it make sense to [small next step]?"
 
-Guardrail: reciprocity must be useful to the buyer. Do not use fake gifts, inflated value, or irrelevant bait.
+Short email/DM template:
+
+> "I put together [valuable asset] on [buyer problem]. It should help you [useful outcome] whether or not we work together. Want me to send it over?"
+
+Combined reciprocity + buyer motivator pattern:
+
+> "I noticed [likely buyer problem]. I put together [valuable asset] that helps [buyer type] [useful outcome]. If [PBM] is a priority, I can send it over and show you how to apply it in [small time commitment]."
+
+Guardrail: reciprocity must be useful to the buyer. Do not use fake gifts, inflated value, irrelevant bait, or a made-up price. If no real asset exists, first help the user create one.
 
 ## Labeling workflow
 
