@@ -131,10 +131,18 @@ copy_patterns:
     template: "One thing that is unique about our company is that we are the only provider who offers [distinct value]. From what you have expressed, it sounds like a solution that did not include [distinct value] would not meet your needs, is that correct? If someone proposed a solution that did not include [distinct value], how would you respond?"
     source_phrase: "One thing that is unique about our company is that we are the only provider who offers [distinct value]... If someone proposed a solution that did not include [distinct value], how would you respond?"
     citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "The Science of Neutralizing Your Competitors", quote: "After you present distinct value and obtain agreement that it is something your buyers desire, you can assert, ‘One thing that is unique about our company is that we are the only provider who offers [distinct value]...’ You should follow up with a question such as, ‘If someone proposed a solution that did not include [distinct value], how would you respond?’"}
+  - section: "Inoculation / after the sale"
+    template: "Out of curiosity, what were the primary reasons why you chose to move forward with us? ... It is likely that [competitor] will contact you. What will you say if they contact you?"
+    source_phrase: "Out of curiosity, what were the primary reasons why you chose to move forward with us?" / "What will you say if they contact you?"
+    citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "2. After the Sale", quote: "After the sale is finalized, ask your customer, ‘Out of curiosity, what were the primary reasons why you chose to move forward with us?’... ‘What will you say if they contact you?’"}
   - section: "Objection handling / five-step sequence"
-    template: "Softening statement → isolate objection → map to Six Whys → answer with evidence/story → gain commitment."
+    template: "Softening statement → isolate objection → map to Six Whys → answer with evidence or third-party story → gain commitment."
     source_phrase: "Step #1: Use a Softening Statement... Step #5: Gain Commitment"
     citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "The Process for Identifying and Overcoming Objections", quote: "Step #1: Use a Softening Statement... Step #2: Isolate the Objection... Step #3: Identify the Root of the Objection... Step #4: Answer the Objection... Step #5: Gain Commitment"}
+  - section: "Objection handling / answer ingredients"
+    template: "Answer with new evidence that lets the buyer save face and make a new decision, or with a true third-party story about a similar customer who had the same concern."
+    source_phrase: "Evidence: This is new information..." / "Third-party Stories: These are true stories about a customer, similar to your buyers..."
+    citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "Step #4: Answer the Objection", quote: "When creating the responses for each of the Six Whys®, you should focus on two particular areas: 1. Evidence... 2. Third-party Stories..."}
   - section: "Objection handling / isolate"
     template: "Other than [objection], is there any other reason why you would not invest in [product]?"
     source_phrase: "Other than [objection], is there any other reason why you would not invest in this product?"

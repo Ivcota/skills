@@ -294,6 +294,12 @@ frameworks:
     mechanism: "Value is buyer-defined, so sellers must connect product value to what the buyer already said matters. When objections arise, soften, isolate, identify the rejected Why, respond to the root, and regain commitment."
     order_in_source: 7
     insights:
+      - text: "Buyer-seller interactions continue when the buyer perceives the value of the interaction to exceed its cost."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/16-chapter-7.md"
+          section: "The Science of Value Creation"
+          quote: "When potential customers behave in these ways it is because they believe that the cost of the interaction exceeds the benefits."
       - text: "Value is defined by buyers, not sellers."
         citation:
           source: "The Science of Selling"
@@ -324,6 +330,12 @@ frameworks:
           file: "source-extract/16-chapter-7.md"
           section: "The Science of Neutralizing Your Competitors"
           quote: "resistance to a persuasive argument can be enhanced by first exposing someone to a weak, easily defeated version of that argument."
+      - text: "After the sale, inoculation can protect the decision by having customers verbalize why they chose you and what they will say if competitors contact them."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/16-chapter-7.md"
+          section: "2. After the Sale"
+          quote: "After the sale is finalized, ask your customer, ‘Out of curiosity, what were the primary reasons why you chose to move forward with us?’... ‘What will you say if they contact you?’"
       - text: "Objections should be neutralized before the final ask by gaining commitments to the Six Whys."
         citation:
           source: "The Science of Selling"
@@ -336,6 +348,12 @@ frameworks:
           file: "source-extract/16-chapter-7.md"
           section: "The Process for Identifying and Overcoming Objections"
           quote: "After making a softening statement and asking isolation questions, you should mentally identify which of the Six Whys® the objection is linked to."
+      - text: "Objection answers should use compelling evidence or true third-party stories that let buyers make a new decision."
+        citation:
+          source: "The Science of Selling"
+          file: "source-extract/16-chapter-7.md"
+          section: "Step #4: Answer the Objection"
+          quote: "When creating the responses for each of the Six Whys®, you should focus on two particular areas: 1. Evidence... 2. Third-party Stories..."
 
 process:
   - step: 1

@@ -135,6 +135,16 @@ boundaries:
     reasoning: "The author explicitly frames science-based selling as aligned assistance, not manipulation."
     citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "Why Use These Strategies and Insights", quote: "As a result, these strategies should not be thought of as something you do to others, but something you do with and for them."}
 
+  - section: "Reciprocity / value offered"
+    rule: "Offer buyer-relevant value before asking for attention; do not use fake gifts, inflated value, or irrelevant bait."
+    reasoning: "Reciprocity works when the buyer receives useful value connected to what matters to them."
+    citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "Improve Buyer Receptiveness with Reciprocity", quote: "document some insights that will provide value to them in ways that are meaningful and are aligned with what you’re selling."}
+
+  - section: "Labeling / honesty"
+    rule: "Use labels only when they are truthful and tied to observed behavior or a real decision event."
+    reasoning: "Labels should help buyers act consistently with useful behavior, not manipulate through false praise."
+    citation: {source: "The Science of Selling", file: "source-extract/16-chapter-7.md", section: "Boost Your Influence with Labeling", quote: "labeling... is when you assign a standard of behavior to a person or situation and then request conduct that is consistent with it."}
+
   - section: "Why Spend the Money / dominant buying motives"
     rule: "Do not tell buyers their dominant buying motive; guide them to state their own reasons."
     reasoning: "Buyer-owned reasons are used to nudge the decision; seller-imposed motives are disallowed."
