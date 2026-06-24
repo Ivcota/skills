@@ -1,6 +1,8 @@
 ---
 name: problem-firewall
-description: Use when the user wants help solving something but the problem is vague, symptom-level, or framed as a premature solution. Enforce a problem-solution firewall: clarify the desired outcome, obstacles, root-cause condition, and user-owned plain-language Problem Frame before moving to solution methods.
+description: |
+  Use when the user wants help solving something but the problem is vague, symptom-level, or framed as a premature solution.
+  Enforce a problem-solution firewall: clarify the desired outcome, obstacles, root-cause condition, and user-owned plain-language Problem Frame before moving to solution methods.
 ---
 
 # Problem Firewall
