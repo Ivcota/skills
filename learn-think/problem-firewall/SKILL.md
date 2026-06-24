@@ -35,10 +35,12 @@ Core principles:
    - Completion criterion: the obstacle has been traced to a plausible condition that, if changed, would prevent the problem from recurring.
 
 4. **Run the Teach-Back Check.**
-   - Ask the user to explain the Problem Frame back in their own words.
-   - Required shape: "I want ___, but ___ is standing in the way. The deeper condition seems to be ___. If that changed, this problem likely would not exist."
-   - If the user cannot pass, identify the missing piece — outcome, obstacle, root-cause condition, or plain language — ask one repair question, then retry.
-   - Completion criterion: the user can plainly state the desired outcome, obstacle, and root-cause condition.
+   - Default to a lightweight confirmation when the user has already given clear plain-language answers for the desired outcome, obstacle, and root-cause condition: summarize the Problem Frame and ask, "Does this match?"
+   - A simple confirmation such as "yes," "yep," or "that's right" passes the Clarity Gate when the prior answers provide enough evidence of understanding.
+   - If the user says "mostly," "not exactly," corrects part of the summary, or otherwise signals mismatch, treat that as a repair signal: update the Problem Frame, ask one focused repair question only if needed, then offer the summary confirmation again.
+   - Require the full teach-back only when clarity is uncertain — for example, if the user keeps using vague jargon, contradicts themselves, or confirms without enough prior evidence.
+   - Full teach-back shape: "I want ___, but ___ is standing in the way. The deeper condition seems to be ___. If that changed, this problem likely would not exist."
+   - Completion criterion: the user can plainly confirm or state the desired outcome, obstacle, and root-cause condition.
 
 5. **Perform the Problem Handoff.**
    - Only after the Teach-Back Check passes, ask whether the user already knows how they want to start solving.
