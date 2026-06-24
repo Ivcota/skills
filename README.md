@@ -22,7 +22,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 |---|---|---|
 | [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough` |
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `grill-me`, `grill-with-docs` |
-| [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `traction`, `unstuck-now`, `my-habits` |
+| [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
 | [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
@@ -245,12 +245,6 @@ npx skills@latest add Ivcota/skills/focus-execute/atomic-habits
 
 ```bash
 npx skills@latest add Ivcota/skills/focus-execute/mood-to-motion
-```
-
-**Traction** — Make tasks easier to do than avoid. Strips procrastination drag, adds desire and ease, and breaks large work into motivating chained steps.
-
-```bash
-npx skills@latest add Ivcota/skills/focus-execute/traction
 ```
 
 **My Habits** — Surface the right habit cue at the right time. Finds active habit cards from an Obsidian vault by day, schedule, cue, priority, or tag.
