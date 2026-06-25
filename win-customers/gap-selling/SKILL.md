@@ -22,7 +22,7 @@ Do not sell the product first. Diagnose the buyer's current state, future state,
 1. **Choose the branch.** Classify the work as discovery, deal coaching, prospecting, demo/objection, or sales leadership. Completion: the answer uses the branch format, not generic sales advice.
 2. **Diagnose the current state.** Identify facts, problems, impact, root cause, and emotional state. Completion: each element is known, marked unknown, or turned into a question.
 3. **Define the future state.** Quantify what the buyer wants, what solving the problem changes, and why it matters. Completion: desired outcome and intrinsic motivation are explicit or asked for.
-4. **Calculate the gap.** Compare current and future states in business terms. Completion: value, urgency, and cost of inaction are stated; if the gap is small, advise qualifying out or widening through more discovery.
+4. **Calculate the gap.** Compare current and future states in business terms. Completion: value, urgency, and cost of inaction are stated; if the gap is small, advise qualifying out or widening through more discovery. Before discussing price or investment, attempt to quantify the gap in money, time, frequency, people affected, risk, delayed revenue, customer impact, or career/political cost. If the buyer cannot provide numbers, confirm the qualitative impact is concrete and significant enough to justify change.
 5. **Move to the next yes.** Ask for the next buyer commitment that advances the sale. Completion: next step is a buyer action tied to value, not a seller check-in.
 
 ## Branches
@@ -69,6 +69,7 @@ Full context and source refs live in the reference files.
 | Pitching before diagnosis | Starts in the middle of the sale. | Stay in current state until problem, impact, root cause, and future state are clear. |
 | Selling to stated need | Buyers often misdiagnose their own problem. | Challenge assumptions with problem-centric discovery. |
 | Accepting vague answers | Vague answers cannot build value or urgency. | Ask for definitions, numbers, process details, and consequences. |
+| Discussing price before quantifying impact | The buyer cannot compare investment to value, so price feels disconnected from the gap. | Before price, quantify the gap or confirm the qualitative cost is concrete enough to justify change. |
 | Demoing everything | Features not tied to problems dilute value. | Use the PIC as the demo map; cap to the few features that solve the gap. |
 | Defending objections | Makes the seller argue product value. | Use “I’m confused. You said…” and make the buyer reconcile objection vs outcome. |
 | Forecasting by optimism | Hides risk until late quarter. | Verify evidence: current state, future state, gap, criteria, buying process, next yes. |
