@@ -21,7 +21,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 | Bundle | Job | Included Skills |
 |---|---|---|
 | [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough` |
-| [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `grill-me`, `grill-with-docs` |
+| [Learn & Think](#learn--think) | Understand faster, teach better, and make sharper decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `decision-options`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
 | [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
@@ -119,7 +119,7 @@ npx skills@latest add Ivcota/skills/build-products/walkthrough
 
 # Learn & Think
 
-*Understand faster, teach better, and stress-test decisions.*
+*Understand faster, teach better, and make sharper decisions.*
 
 ## Understand
 
@@ -181,10 +181,18 @@ npx skills@latest add Ivcota/skills/learn-think/distill-to-skill
 
 ## Stress-Test Decisions
 
-**Problem Firewall** — Define the problem before solving it. Enforces a problem-solution firewall, finds the root-cause condition, and requires the user to explain the problem plainly before handoff.
+**Problem-Solving Toolkit** — Use `problem-firewall` and `decision-options` as a two-step toolkit: first define the real problem and park premature solutions, then turn the clear Problem Frame into options, tradeoffs, criteria, and a next test.
+
+**Problem Firewall** — Phase 1: define the problem before solving it. Enforces a problem-solution firewall, finds the root-cause condition, and produces a plain-language Problem Frame for handoff.
 
 ```bash
 npx skills@latest add Ivcota/skills/learn-think/problem-firewall
+```
+
+**Decision Options** — Phase 2: choose what to do from a clear Problem Frame. Generates three-plus options, stress-tests consequences and opportunity costs, battles criteria, and lands on a choice or information-gathering test.
+
+```bash
+npx skills@latest add Ivcota/skills/learn-think/decision-options
 ```
 
 **Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
