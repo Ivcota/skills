@@ -1,14 +1,14 @@
 ---
-name: decision-options
+name: solution-options
 description: |
-  Options is the second phase after problem-firewall: generate, stress-test, and evaluate solutions from a clear Problem Frame.
-  Use when the user has a plain desired outcome, obstacle, and root-cause condition and wants to explore solutions, evaluate options, compare tradeoffs, run a premortem, avoid binary thinking, define decision criteria, or choose what to do next.
+  Solution Options is the second phase after problem-firewall: generate, stress-test, and evaluate solutions from a clear Problem Frame.
+  Use when the user has a plain desired outcome, obstacle, and root-cause condition and wants to explore solution options, evaluate tradeoffs, run a premortem, avoid binary thinking, define decision criteria, or choose what to do next.
   For vague, symptom-level, or solution-first problems, use problem-firewall first.
 ---
 
-# Decision Options
+# Solution Options
 
-Use only after the `problem-firewall` Clarity Gate. The job is to turn a user-owned Problem Frame into a decision: enough credible options, enough brutal facts, and criteria decisive enough to choose.
+Use only after the `problem-firewall` Clarity Gate. The job is to turn a user-owned Problem Frame into a solution decision: enough credible options, enough brutal facts, and criteria decisive enough to choose.
 
 ## Steps
 
