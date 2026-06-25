@@ -24,7 +24,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
-| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
@@ -391,6 +391,12 @@ npx skills@latest add Ivcota/skills/win-customers/epiphany-bridge
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/conversation-first-outreach
+```
+
+**Straight Line Selling** — Move qualified prospects from open to decision using Belfort's Three Tens, first four seconds, looping, action threshold, pain threshold, and ethical closing.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/straight-line-selling
 ```
 
 **Gap Selling** — Diagnose buyer problems before pitching. Applies Keenan's current state → future state gap, PIC, discovery, demos, objections, prospecting, and next yes to B2B deals.
