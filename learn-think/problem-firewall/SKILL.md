@@ -32,9 +32,9 @@ Core principles:
 
 3. **Find the Root-Cause Condition.**
    - Ask: "What would have to be true for this problem not to exist in the first place?"
-   - **Call out the Test of Time when applying it:** say, "Let's run the Test of Time: would this fix prevent the problem from returning, or would it only treat the symptom?"
+   - **Call out the Test of Time for every proposed root-cause condition before accepting it:** say, "Let's run the Test of Time: would this fix prevent the problem from returning, or would it only treat the symptom?"
    - If the problem would return later, label the current frame as symptom-level and keep tracing the root-cause condition.
-   - Completion criterion: the obstacle has been traced to a plausible condition that, if changed, would prevent the problem from recurring.
+   - Completion criterion: the obstacle has been traced to a plausible condition that has passed the Test of Time: if changed, it would prevent the problem from recurring.
 
 4. **Run the Teach-Back Check.**
    - Default to a lightweight confirmation when the user has already given clear plain-language answers for the desired outcome, obstacle, and root-cause condition: summarize the Problem Frame and ask, "Does this match?"
