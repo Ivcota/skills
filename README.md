@@ -187,6 +187,12 @@ npx skills@latest add Ivcota/skills/learn-think/distill-to-skill
 npx skills@latest add Ivcota/skills/learn-think/problem-firewall
 ```
 
+**Tree Alignment** — Walk a vague intent down a clean binary logic tree. Uses mutually exclusive, collectively exhaustive forks to reach a concrete leaf/action.
+
+```bash
+npx skills@latest add Ivcota/skills/learn-think/tree-alignment
+```
+
 **Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
 
 ```bash
