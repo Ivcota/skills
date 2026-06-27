@@ -13,6 +13,7 @@ Core principles:
 
 - **Definition principle:** the user must take responsibility for defining the problem. Help them understand it; do not define it for them. Strip jargon.
 - **Root-cause principle:** identify the root-cause condition. Do not accept symptom treatment as problem definition.
+- **Test of Time principle:** explicitly check whether a likely fix would prevent recurrence or merely treat a symptom.
 - **Problem-solution firewall:** park solution ideas until the Clarity Gate is passed.
 
 ## Steps
@@ -31,7 +32,8 @@ Core principles:
 
 3. **Find the Root-Cause Condition.**
    - Ask: "What would have to be true for this problem not to exist in the first place?"
-   - Use the **Test of Time**: if a likely solution would make the problem return later, the current frame is still symptom-level.
+   - **Call out the Test of Time when applying it:** say, "Let's run the Test of Time: would this fix prevent the problem from returning, or would it only treat the symptom?"
+   - If the problem would return later, label the current frame as symptom-level and keep tracing the root-cause condition.
    - Completion criterion: the obstacle has been traced to a plausible condition that, if changed, would prevent the problem from recurring.
 
 4. **Run the Teach-Back Check.**
