@@ -20,7 +20,7 @@ Define the objective, scope, stakes, affected parties, time horizon, and cost of
 
 **Output:** A bounded Inquiry.
 
-**Gate:** Is it clear what understanding or outcome the Inquiry must enable?
+**Gate:** Pass when objective, scope, stakes, affected parties, time horizon, and cost of delay have each been assessed, and the required understanding or outcome is clear.
 
 ## 2. Map the Working Model
 
@@ -28,7 +28,7 @@ Identify the relevant Claims, Evidence, Assumptions, Constraints, Criteria, Unkn
 
 **Output:** An initial Working Model.
 
-**Gate:** Are all potentially material elements represented and correctly classified?
+**Gate:** Pass when every potentially material element discovered so far is represented and correctly classified.
 
 ## 3. Establish the First Principles
 
@@ -36,7 +36,7 @@ Challenge material Claims, examine their basis and confidence, expose Assumption
 
 **Output:** A Working Model grounded in First Principles.
 
-**Gate:** Is each First Principle defensible, foundational, and sufficiently reduced?
+**Gate:** Pass when each First Principle is defensible, foundational, sufficiently reduced, and distinct from an Assumption, Constraint, or Criterion.
 
 # Build
 
@@ -46,7 +46,7 @@ Reason forward from the First Principles to produce relevant derived Claims with
 
 **Output:** Traceable conclusions about what follows.
 
-**Gate:** Does every derived Claim follow from the grounded Working Model?
+**Gate:** Pass when every derived Claim is traceable to the grounded Working Model rather than an imported conventional answer.
 
 ## 5. Construct Possible Next Moves
 
@@ -54,7 +54,7 @@ Turn the derived Claims into possible decisions, actions, tests, investigations,
 
 **Output:** A set of possible Next Moves.
 
-**Gate:** Does each possible Next Move address the Inquiry?
+**Gate:** Pass when each possible Next Move addresses the Inquiry and the meaningful immediate moves are represented, including a test, investigation, or deliberate pause when relevant.
 
 ## 6. Evaluate Possible Next Moves
 
@@ -62,7 +62,7 @@ Reject moves that violate Constraints, compare remaining moves using Criteria, a
 
 **Output:** A defensible comparison of viable Next Moves.
 
-**Gate:** Are the meaningful differences and trade-offs explicit?
+**Gate:** Pass when Constraint violations have been rejected first and the meaningful trade-offs, Assumptions, Unknowns, and Risks are explicit.
 
 # Move
 
@@ -72,7 +72,7 @@ Determine whether further inquiry could produce a Material Change worth its cost
 
 **Output:** Either Sufficient Clarity or a defined material information gap.
 
-**Gate:** Is there enough clarity to justify the immediate Next Move?
+**Gate:** Pass when every unresolved material Unknown has been considered against the value, cost, and delay of further inquiry, and an immediate Next Move is justified.
 
 ## 8. Make the Next Move
 
@@ -80,7 +80,7 @@ Act, decide, test, investigate, or deliberately pause according to the Working M
 
 **Output:** An executed Next Move with explicit rationale and Risk.
 
-**Gate:** Was the move actually made rather than merely recommended?
+**Gate:** Pass when the Next Move has occurred with explicit rationale and Risk.
 
 ## 9. Update from Evidence
 
@@ -88,25 +88,7 @@ Observe the outcome, treat it as Evidence, and revise the Working Model.
 
 **Output:** An updated Working Model or a completed Inquiry.
 
-**Gate:** Has the new Evidence resolved the Inquiry or identified where the approach must resume?
-
-# Complete Logic
-
-> An Inquiry is Grounded by bounding it, mapping its Working Model, and establishing its First Principles. Possible Next Moves are Built by deriving from those First Principles, constructing possible moves, and evaluating them. A Next Move is made when the Inquiry reaches Sufficient Clarity. Its outcome creates Evidence that updates the Working Model and either completes the Inquiry or begins another cycle.
-
-# Worked-Example Contract
-
-Every worked example must show the following for every step:
-
-1. **Input**
-2. **Work performed**
-3. **Output**
-4. **Gate result**
-5. **What happens next**
-
-No reasoning may occur invisibly between steps. When new Evidence causes the approach to repeat, the example must show which step it returns to and why.
-
-The canonical worked example is [Choosing Dinner Before a Movie](./examples/DINNER.md).
+**Gate:** Pass when the resulting Evidence has been incorporated and the Inquiry is completed or assigned a justified return step.
 
 # Adaptive Depth
 
@@ -115,25 +97,5 @@ The steps remain constant while their depth changes:
 - For a simple, reversible Inquiry, a step may require only one sentence.
 - For a consequential Inquiry, a step may require an auditable part of the Working Model.
 - When an Unknown prevents a final decision, the justified Next Move may be a test or investigation that creates new Evidence.
-
-# Minimal Form
-
-## Ground
-
-1. Bound the Inquiry.
-2. Map the Working Model.
-3. Establish the First Principles.
-
-## Build
-
-4. Derive from First Principles.
-5. Construct Possible Next Moves.
-6. Evaluate Possible Next Moves.
-
-## Move
-
-7. Establish Sufficient Clarity.
-8. Make the Next Move.
-9. Update from Evidence.
 
 The canonical definitions for capitalized domain terms are maintained in [CONTEXT.md](./CONTEXT.md).
