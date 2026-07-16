@@ -23,7 +23,7 @@
     {
       "name": "learn-think",
       "source": "./",
-      "description": "Understand faster and make sharper decisions. Feynman, Deep Learner, Four Pillars Learning Coach, Align Mental Model, and Grill Me cover study, teaching, and stress-testing.",
+      "description": "Understand faster and make sharper decisions. Feynman, Deep Learner, First Principles, Align Mental Model, and Grill Me cover study, teaching, and stress-testing.",
       "version": "0.0.1",
       "skills": [
         "./learn-think/align-mental-model",
@@ -36,6 +36,7 @@
         "./learn-think/teach",
         "./learn-think/distill-to-skill",
         "./learn-think/problem-firewall",
+        "./learn-think/first-principles",
         "./learn-think/grill-me",
         "./learn-think/grill-with-docs"
       ]
