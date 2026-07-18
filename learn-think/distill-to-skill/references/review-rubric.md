@@ -64,12 +64,13 @@ Self-score the generated skill on each category 0–10. Any category <8 triggers
 
 When a category scores <target:
 
-1. Identify which section(s) pulled the score down
-2. Spawn a targeted sub-agent with the extraction prompt for that section + the specific deficiency ("the copy patterns don't match the source's voice — re-extract with tighter quoting")
-3. Replace just that section in SKILL.md
-4. Re-score that category only
+1. Identify which file(s) or section(s) pulled the score down.
+2. Group all deficiencies that touch the same target so parallel workers never edit the same file.
+3. Prefer `workflows/distill.js` stage `review` when Workflow is available and authorized; it runs structured scoring, surgical revision pipelines, and re-scoring.
+4. Otherwise spawn a targeted Agent with the canonical extraction prompt plus the specific deficiency ("the copy patterns don't match the source's voice — re-extract with tighter quoting").
+5. Replace only the deficient material, then re-score the affected category.
 
-Do not re-generate the whole skill — surgical fixes.
+Do not regenerate the whole skill. Workflow and fallback paths both use surgical fixes.
 
 ## Review output
 

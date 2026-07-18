@@ -1,6 +1,6 @@
 # Extraction jobs
 
-Three sub-agents, launched in parallel via the Agent tool (single message, multiple tool calls). Each is sized to complete in **≤150k tokens of context**: source slice + system prompt + working notes + output. Author info and trigger phrases are handled in the main thread, not delegated.
+These are the canonical prompts and output schemas for both orchestration paths: the saved `workflows/distill.js` Workflow and the portable direct-Agent fallback. The Workflow launches all three with `parallel()`; the fallback launches them as Agent calls in one message. Each worker is sized to complete in **≤150k tokens of context**: source slice + system prompt + working notes + output. Author info and trigger phrases stay in the main thread.
 
 ## Token budget per agent
 

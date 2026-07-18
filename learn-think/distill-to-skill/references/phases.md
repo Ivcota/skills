@@ -1,65 +1,140 @@
 # Phase details
 
-Full prose for each phase. SKILL.md keeps the one-line summary; this file holds the gates, sub-agent fan-out rules, and source-size logic.
+Full prose for each phase. SKILL.md keeps the spine; this file holds gates, Workflow inputs, direct-Agent fallbacks, and source-size logic.
 
 ## Phase 2: Source ingestion
 
-Build a source manifest before any extraction. For each available source, record: `{type, location, access_method, coverage_estimate}`.
+Build a source manifest before extraction. For each source, record: `{type, location, access_method, coverage_estimate}`.
 
 - Files: read the full text, chunk if needed, keep page/section pointers
 - URLs: WebFetch; record URL + retrieval date
-- Title-only: WebSearch for — author page, publisher page, structured summaries (Blinkist, Shortform, Farnam Street, Derek Sivers' notes), interviews with author, official talks / YouTube transcripts, reviews that quote heavily. Prefer primary over secondary.
+- Title-only: WebSearch for author/publisher pages, structured summaries, interviews, official talks/transcripts, and reviews that quote heavily. Prefer primary sources.
 
-**Exit gate:** manifest committed to `./skills-draft/<slug>/sources.md` with at least one primary source and links for gap-filling.
+**Exit gate:** `./skills-draft/<slug>/sources.md` exists with at least one primary source and citation pointers.
 
 ## Phase 3: Parallel extraction
 
-Fan out **3 sub-agents** using the Agent tool, launched in a **single message with multiple tool calls**. Each is sized to stay under 150k tokens of context. See [extraction-jobs.md](extraction-jobs.md) for full prompts and token budgets.
+Run exactly three independent jobs:
 
-Job set:
-1. **Structure** — thesis + framework sections + end-to-end process (the spine)
-2. **Application** — copy patterns + case studies (the how-to-use)
-3. **Guardrails** — common mistakes + ethical boundaries (the what-not-to-do)
+1. **Structure** — thesis + framework sections + end-to-end process
+2. **Application** — copy patterns + case studies
+3. **Guardrails** — common mistakes + ethical boundaries
 
-Author bio, further reading, and trigger phrases are handled in the main thread (small WebFetch + reasoning over Job 1 output) — not delegated.
+The canonical job prompts and schemas live in [extraction-jobs.md](extraction-jobs.md).
 
-**Source-size gate:** before spawning, estimate the source's token count.
-- ≤100k tokens → each agent loads the full source.
-- \>100k tokens → main thread builds a chapter map from the TOC and assigns chapter ranges per agent. Agents are forbidden from reading outside scope.
+### Preferred: saved Workflow
 
-Each agent is also instructed: read only your scope, cap WebSearch at 3 calls, return ≤10k tokens of structured notes, no inventions when the source is silent.
+When the Workflow tool is available and the user authorized workflow/multi-agent orchestration, invoke:
 
-**Exit gate:** all three agents returned notes with ≥1 citation per item, each under the 10k-token cap.
+```text
+Workflow({
+  scriptPath: "${CLAUDE_SKILL_DIR}/workflows/distill.js",
+  args: {
+    stage: "extract",
+    skillDir: "<absolute active skill directory>",
+    stagingDir: "<absolute staging directory>",
+    estimatedSourceTokens: <number or omit>,
+    sourceScope: "full source"
+      OR { structure: "...", application: "...", guardrails: "..." }
+  }
+})
+```
+
+The Workflow launches all three workers with `parallel()`. Each writes only its assigned artifact:
+
+- `notes-structure.md`
+- `notes-application.md`
+- `notes-guardrails.md`
+
+### Portable fallback: direct Agent fan-out
+
+If Workflow is absent or not authorized, launch the three jobs from [extraction-jobs.md](extraction-jobs.md) as Agent calls in one message so they run concurrently. Give each cold-start prompt the staging path, source manifest, exact scope, output filename, citation rules, and token cap.
+
+### Shared source-size gate
+
+Estimate source tokens before launching (rough: words × 1.3).
+
+- ≤100k tokens → each worker may load the full source.
+- >100k tokens → the main thread builds a chapter map and passes explicit per-job scopes. Workers may not read outside scope.
+
+Every worker must cap WebSearch at 3 verification reads, return/write ≤10k tokens of structured notes, and omit unsupported claims. Author bio, further reading, and trigger phrases remain main-thread tasks.
+
+**Exit gate:** all three notes files exist, carry ≥1 citation per item, and stay under the 10k-token cap. Run `scripts/check.sh <staging-dir> --phase 3`.
 
 ## Phase 4: Synthesis
 
-Assemble SKILL.md in the main thread using [template.md](template.md) as the exact shape. Do not delegate synthesis — the main thread owns coherence across sections. Pull content from extraction notes only; if a section has thin material, flag it and either (a) spawn a targeted follow-up sub-agent, or (b) drop the section.
+Assemble SKILL.md in the main thread using [template.md](template.md). Do not delegate synthesis: the main thread owns framework-name reconciliation, source ordering, and cross-section coherence. Pull only from extraction notes. If a section is thin, launch one targeted follow-up worker or drop it.
 
-Ordering check: framework sections should follow the author's own sequence, not your preferred order.
+Ordering check: framework sections follow the author's sequence, not the model's preferred order.
+
+**Exit gate:** SKILL.md exists and is ≤100 lines. Run `scripts/check.sh <staging-dir> --phase 4`.
 
 ## Phase 5: References fan-out
 
-For each framework section in SKILL.md, spawn one sub-agent to draft `references/<section-slug>.md`. The sub-agent gets: the section's notes, the source manifest, permission to WebSearch for deeper citations. Target ~100-300 lines per reference file. Also generate `references/case-studies.md` and `references/checklist.md`.
+First ensure `<staging-dir>/references/` exists. Build the canonical section list from synthesized SKILL.md:
 
-**Exit gate:** every section linked from SKILL.md has a matching reference file.
+```text
+sections: [{ name: "Author's section name", slug: "safe-lowercase-slug" }, ...]
+```
 
-## Phase 6: Review
+### Preferred: saved Workflow
 
-Self-score against [review-rubric.md](review-rubric.md). Any category scoring <8/10 triggers a revision pass on that section. Minimum bar to ship:
+Invoke `workflows/distill.js` with `stage: "expand"`, absolute `skillDir`/`stagingDir`, and `sections`. The Workflow pipelines each framework section, `case-studies.md`, and `checklist.md` through:
 
-- [ ] Description includes "Use when..." with specific trigger phrases
-- [ ] SKILL.md ≤ 100 lines (push framework section detail into `references/<section>.md`)
-- [ ] Every framework section has Core concept + Why it works + Key insights + Application table + Copy patterns + Ethical boundary + reference link in its reference file
-- [ ] Every claim traces to a citation in `sources.md`
-- [ ] No invented dollar values, statistics, or outcomes — only what the source states
-- [ ] Product-application table has ≥5 rows with distinct contexts
-- [ ] Common-mistakes table has ≥5 rows
-- [ ] Further reading section cites the primary source (ISBN / URL)
-- [ ] About-the-author section is grounded (no biographical invention)
+1. a focused drafting worker that writes only its assigned file;
+2. a verifier that inspects and surgically fixes that same file.
+
+Different items run concurrently; verification for an item begins as soon as its draft finishes.
+
+### Portable fallback: direct Agent fan-out
+
+Launch one Agent per framework section plus one for `case-studies.md` and one for `checklist.md`. Each gets its section notes, `sources.md`, citation rules, review rubric, target path, and permission to WebSearch only for deeper verification. Target roughly 100–300 lines per framework reference. After drafting, verify each file directly or with a focused follow-up Agent.
+
+Both paths must preserve source order and voice, cite every claim/example/pattern, and avoid invented contexts, values, or ethics.
+
+**Exit gate:** every `references/*.md` link in SKILL.md resolves, and `references/case-studies.md` plus `references/checklist.md` exist. Run `scripts/check.sh <staging-dir> --phase 5`.
+
+## Phase 6: Review and surgical revision
+
+### Preferred: saved Workflow
+
+Invoke:
+
+```text
+Workflow({
+  scriptPath: "${CLAUDE_SKILL_DIR}/workflows/distill.js",
+  args: {
+    stage: "review",
+    skillDir: "<absolute active skill directory>",
+    stagingDir: "<absolute staging directory>",
+    maxRevisionRounds: 3
+  }
+})
+```
+
+The Workflow uses structured rubric output, groups deficiencies by target file/section, pipelines non-overlapping surgical revisions, and re-scores after each round. It never regenerates the whole skill. Revision rounds are capped at 5; if unresolved targets remain, the Workflow returns them explicitly for main-thread resolution.
+
+### Portable fallback: direct review
+
+Self-score against [review-rubric.md](review-rubric.md). For each category below target, launch a focused revision Agent with the affected files, original extraction instructions, and exact deficiency. Replace only deficient material and re-score only the affected category.
+
+Minimum ship bar:
+
+- [ ] Description includes `Use when...` with specific trigger phrases
+- [ ] SKILL.md ≤100 lines
+- [ ] Every framework reference has all sourced required elements
+- [ ] Every claim traces to `sources.md`
+- [ ] No invented numbers, statistics, contexts, or outcomes
+- [ ] Application and common-mistakes tables meet sourced depth targets
+- [ ] Further reading and author bio are grounded
+- [ ] `case-studies.md` and `checklist.md` exist
+
+**Exit gate:** every rubric category meets its target; hard rules score 10.
 
 ## Phase 7: Emit
 
-Move from staging to the chosen install location (e.g., `~/.claude/skills/<slug>/`, `~/.agents/skills/<slug>/`, or a project-local skills dir). Print:
+Move from staging to the confirmed install location, such as `~/.claude/skills/<slug>/`, `~/.agents/skills/<slug>/`, or a project-local skills directory. Print:
+
 - slug + path
 - sources used
 - section count + reference count
