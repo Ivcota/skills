@@ -63,9 +63,10 @@
     {
       "name": "write-communicate",
       "source": "./",
-      "description": "Write in your voice and clean up AI-sounding drafts. Style Profile, Style-to-Skill, and Humanizer capture, package, and apply a personal writing voice.",
+      "description": "Learn, package, and apply a personal writing voice. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup.",
       "version": "0.0.1",
       "skills": [
+        "./write-communicate/learn-my-voice",
         "./write-communicate/style-profile",
         "./write-communicate/style-to-skill",
         "./write-communicate/humanizer"
