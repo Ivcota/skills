@@ -34,7 +34,7 @@ if phase 2; then
   if [[ -f "$DIR/sources.md" ]]; then
     pass "sources.md exists"
     # Count lines that look like citations (URL, ISBN, page ref, or quoted)
-    CITES=$(grep -cE 'https?://|ISBN|p\.[0-9]+|^> |"[^"]{20,}"' "$DIR/sources.md" 2>/dev/null || echo 0)
+    CITES=$(grep -cE 'https?://|ISBN|p\.[0-9]+|^> |"[^"]{20,}"' "$DIR/sources.md" 2>/dev/null || true)
     [[ "$CITES" -ge 1 ]] \
       && pass "sources.md has $CITES citation-shaped line(s)" \
       || fail "sources.md has no URL/ISBN/page-ref/quoted citations"
@@ -55,6 +55,10 @@ if phase 3; then
       else
         fail "notes-$job.md too large (${CHARS} chars, >40k char proxy for 10k tokens)"
       fi
+      CITES=$(grep -cE 'https?://|ISBN|p\.[0-9]+|page [0-9]+|source:|citation:' "$F" 2>/dev/null || true)
+      [[ "$CITES" -ge 1 ]] \
+        && pass "notes-$job.md has $CITES citation-shaped line(s)" \
+        || fail "notes-$job.md has no citation-shaped lines"
     else
       fail "notes-$job.md missing"
     fi
@@ -92,7 +96,13 @@ if phase 5; then
         BROKEN=$((BROKEN+1))
       fi
     done < <(grep -oE '\(references/[a-z0-9_-]+\.md\)' "$DIR/SKILL.md" 2>/dev/null | tr -d '()' | sort -u)
-    [[ "$BROKEN" -eq 0 ]] && pass "all references/*.md links resolve"
+    for REQUIRED in references/case-studies.md references/checklist.md; do
+      if [[ ! -f "$DIR/$REQUIRED" ]]; then
+        fail "$REQUIRED missing"
+        BROKEN=$((BROKEN+1))
+      fi
+    done
+    [[ "$BROKEN" -eq 0 ]] && pass "all references/*.md links resolve and required references exist"
   else
     skip "SKILL.md missing — cannot check references"
   fi

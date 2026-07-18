@@ -1,6 +1,6 @@
 # Extraction jobs
 
-These are the canonical prompts and output schemas for both orchestration paths: the saved `workflows/distill.js` Workflow and the portable direct-Agent fallback. The Workflow launches all three with `parallel()`; the fallback launches them as Agent calls in one message. Each worker is sized to complete in **≤150k tokens of context**: source slice + system prompt + working notes + output. Author info and trigger phrases stay in the main thread.
+These are the canonical prompts and output schemas for both orchestration paths: the saved `workflows/distill.js` Workflow and the portable direct-Agent fallback. The Workflow launches all three with `parallel()`; the fallback launches them as Agent calls in one message. Each worker is sized to complete in **≤150k tokens of context**: source slice + system prompt + working notes + output. Author info and trigger phrases stay with the single synthesis owner.
 
 ## Token budget per agent
 
@@ -17,7 +17,7 @@ These are the canonical prompts and output schemas for both orchestration paths:
 Before spawning, check the source token count (rough: words × 1.3).
 
 - **Source ≤100k tokens** — each agent loads the full source.
-- **Source >100k tokens** — each agent loads a **scoped slice**. The main thread builds a chapter map from the TOC and assigns chapter ranges per job (see "Slicing rules" below). Agents are forbidden from reading outside their scope.
+- **Source >100k tokens** — each agent loads a **scoped slice**. The calling session builds a chapter map from the TOC before invoking the Workflow and assigns chapter ranges per job (see "Slicing rules" below). Agents are forbidden from reading outside their scope.
 
 ## Universal boilerplate
 
@@ -69,7 +69,7 @@ Covers copy patterns and case studies. One agent owns everything that turns the 
 >
 > Slicing rules (only if source >100k): read example-heavy chapters (use TOC keywords: "examples", "case studies", "in practice", named-customer chapters). Skip pure-theory and pure-warning chapters.
 >
-> You will receive the framework section names extracted by Job 1's main-thread preview, OR — if jobs run in parallel — group by your best read of the author's structure and the main thread will reconcile.
+> Jobs run in parallel, so group by your best read of the author's structure. The single synthesis owner will reconcile names and ordering using Job 1 as canonical.
 >
 > Return:
 > ```
@@ -111,11 +111,12 @@ Covers common mistakes and ethical boundaries. One agent owns negative space.
 >     citation: {...}
 > ```
 
-## Main-thread tasks (no sub-agent)
+## Ingestion and synthesis-owner tasks
 
-These are small enough to do in the main thread without burning a sub-agent.
+The calling session completes author-source ingestion before the Workflow starts; the one synthesis owner then turns those grounded inputs into final copy.
 
-- **Author + further reading** — one WebFetch on the author's publisher/personal page; record bio (2–3 sentences, grounded), other books, verified ISBNs/URLs.
+- **Author + further reading ingestion** — add the author's publisher/personal page to `sources.md`; record the bio evidence, other books, and verified ISBNs/URLs there.
+- **Author + further reading synthesis** — use only those manifest entries for the 2–3 sentence bio and reading list; omit unsupported details.
 - **Triggers** — derive 8–15 trigger phrases from the description-interview answers + Job 1's framework names. Group into (a) direct names, (b) problem phrases, (c) artifact phrases.
 
 ## Forbidden patterns
@@ -133,5 +134,5 @@ Each agent prompt explicitly bans:
 
 - An agent returns long prose with no citations — reject, re-run with stricter prompt
 - An agent's output exceeds 10k tokens — request a compression pass, do not synthesize bloated notes
-- Job 1 and Job 2 disagree on framework section names — main thread reconciles using Job 1 as canonical
+- Job 1 and Job 2 disagree on framework section names — the synthesis owner reconciles using Job 1 as canonical
 - Source >100k but agent ignored slicing — its context will spike; abort and re-spawn with explicit chapter list

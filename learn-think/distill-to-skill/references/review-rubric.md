@@ -62,13 +62,15 @@ Self-score the generated skill on each category 0–10. Any category <8 triggers
 
 ## Revision protocol
 
+The one-run Workflow owns review after extraction, synthesis, and expansion. It scores these canonical keys exactly once: `citation_coverage`, `no_invented_numbers`, `author_bio_grounded`, `description_quality`, `structural_fidelity`, `framework_depth`, `reference_completeness`, `mistakes_and_diagnostic`, `voice_match`, and `ethical_boundaries`. Targets come from the coordinator, not the reviewer, and the coordinator computes ship readiness.
+
 When a category scores <target:
 
-1. Identify which file(s) or section(s) pulled the score down.
+1. Identify which final output file(s) or section(s) pulled the score down.
 2. Group all deficiencies that touch the same target so parallel workers never edit the same file.
-3. Prefer `workflows/distill.js` stage `review` when Workflow is available and authorized; it runs structured scoring, surgical revision pipelines, and re-scoring.
-4. Otherwise spawn a targeted Agent with the canonical extraction prompt plus the specific deficiency ("the copy patterns don't match the source's voice — re-extract with tighter quoting").
-5. Replace only the deficient material, then re-score the affected category.
+3. Allow revisions only in `SKILL.md` and the generated `references/*.md` files; never revise sources or extraction notes to improve the score.
+4. In direct-Agent fallback mode, spawn a targeted Agent with the canonical extraction prompt plus the specific deficiency ("the copy patterns don't match the source's voice — re-extract with tighter quoting").
+5. Replace only the deficient material, then run a fresh score pass.
 
 Do not regenerate the whole skill. Workflow and fallback paths both use surgical fixes.
 
