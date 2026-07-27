@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fanatical Prospecting"
+  short_description: "Build disciplined multichannel prospecting systems"
+  default_prompt: "Use $fanatical-prospecting to build a practical prospecting plan and outreach system."
