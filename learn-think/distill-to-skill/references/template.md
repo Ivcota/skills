@@ -55,7 +55,7 @@ Follow these steps in order to apply the framework from scratch:
 |---------|-------------|-----|
 | **{Mistake 1}** | {Author's reasoning} | {Author's prescription} |
 | **{Mistake 2}** | {...} | {...} |
-| *≥5 rows* | | |
+| *As many distinct mistakes as the source supports* | | |
 
 ## Quick Diagnostic
 
@@ -73,7 +73,8 @@ Use this table to audit an existing {artifact — offer, campaign, product, etc.
 - [{section-1-slug}.md](references/{section-1-slug}.md): {One-line description}
 - [{section-2-slug}.md](references/{section-2-slug}.md): {...}
 - [case-studies.md](references/case-studies.md): Detailed worked examples across {contexts}
-- [checklist.md](references/checklist.md): Step-by-step worksheet and scoring rubric
+- [checklist.md](references/checklist.md): Step-by-step worksheet; scoring only if the source provides it
+- [sources.md](sources.md): Source locations, coverage, and framework map
 
 ## Further Reading
 
@@ -100,12 +101,12 @@ This is where the heavy content from the old in-line section template now lives.
 
 **Core concept:** {One paragraph. The author's own explanation, closely paraphrased.}
 
-**Why it works:** {One paragraph. The mechanism. Why this lever / pillar / pattern produces the result.}
+**Why it works:** {The source-supported mechanism. Label a connection derived from the source as interpretation; if no mechanism is supported, state that the source does not explain it. Do not invent effectiveness claims.}
 
 **Key insights:**
 - {Insight 1 — cited}
 - {Insight 2}
-- {5–7 total}
+- {Further distinct insights where supported}
 
 **Product applications:**
 
@@ -117,11 +118,11 @@ This is where the heavy content from the old in-line section template now lives.
 
 **Copy patterns:**
 - "{Pattern 1, with [placeholders]}"
-- "{4–6 total}"
+- {Further patterns where supported; otherwise state that none are provided}
 
 **Ethical boundary:** {The author's own guardrail for this section. Omit if the author doesn't state one — do not synthesize generic ethics.}
 
-**Source citations:** {pages, URLs, or quoted lines backing this section}
+**Source citations:** {source IDs and precise passage pointers backing the inline claims; resolve IDs through ../sources.md}
 ```
 
 ---
@@ -130,8 +131,11 @@ This is where the heavy content from the old in-line section template now lives.
 
 - **SKILL.md ≤ 100 lines.** If you can't fit, you're putting deep-dive content in the navigator — move it to `references/`.
 - **Section count follows the source.** If the source has 4 pillars, the skill has 4. Never pad to a target count.
-- **Every bullet must trace to a citation** in `sources.md`.
+- **Every substantive claim must trace to a precise citation** in the final references, with source IDs resolved in `sources.md`.
 - **Tables shrink when evidence is thin.** A 3-row application table beats a 5-row table with 2 invented rows.
 - **Ethical-boundary lines are optional per section.** Only include when the author has explicit guardrails for that section.
 - **Voice matches the source.** If the author is plain-spoken and direct, the skill is too. Don't translate into generic marketing-speak.
 - **No metadata drift.** Keep a stable frontmatter schema (name, description, license optional, metadata.author optional, metadata.version optional).
+
+- **No depth quotas.** Reference length, insight count, table rows, and copy patterns follow the evidence. Keep the content categories, briefly noting absent source material instead of padding.
+- **No duplicate case writeups.** Aggregate files may link to detailed examples in framework references.

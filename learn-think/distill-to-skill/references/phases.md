@@ -1,178 +1,33 @@
-# Phase details
+# Source mapping and assembly
 
-Full prose for each phase. SKILL.md keeps the spine; this file holds gates, the one-run Workflow contract, direct-Agent fallback, and source-size logic.
+## Map once
 
-## Phase 2: Source ingestion
+In sources.md, give each source a stable ID, title/author, location, access method, and coverage (full text, selected chapters, excerpt, or author summary). For web material include retrieval date. Preserve page numbers, section headings, or transcript timestamps in cached text.
 
-Build a source manifest before extraction. For each source, record: `{type, location, access_method, coverage_estimate}`.
+Add a compact ordered map: framework name → reference filename → source ID and passage ranges. Include shared definitions only when needed to prevent inconsistent terminology. Slugs must be unique kebab-case; reserve `case-studies` and `checklist` for the aggregate files.
 
-- Files: read the full text, chunk if needed, keep page/section pointers
-- URLs: WebFetch; record URL + retrieval date
-- Title-only: WebSearch for author/publisher pages, structured summaries, interviews, official talks/transcripts, and reviews that quote heavily. Prefer primary sources.
-- Author grounding: add the author's official site, publisher page, or book jacket as a manifest entry for the bio and further-reading section. Do this even when the main source is a local PDF.
+Use at least one primary framework source: original text, author-authored article, talk, or interview. A user-provided original method counts as primary material. Summaries can locate evidence but cannot substitute for unavailable primary claims. If no usable primary material is accessible, report that blocker and request the source.
 
-**Exit gate:** `./skills-draft/<slug>/sources.md` exists with at least one primary framework source, citation pointers, and an author/publisher source for biographical claims.
+For books, inspect the contents, introduction, and structural signposts before assigning sections. Do not read the entire book just to create the map. Assign every relevant chapter or passage to a writer; include examples, warnings, and concluding material, not just framework headings. Track uncovered areas. For an excerpt, describe the output as covering that excerpt; do not claim full-book coverage.
 
-## One saved Workflow for Phases 3–6
+Keep one authoritative source cache when retrieval or conversion is needed. Writers share its paths and read their ranges, not duplicate downloads. Retain durable source locations in sources.md rather than relying solely on temporary cache paths.
 
-After Intake and Ingest pass, invoke the saved Workflow once:
+## Write directly
 
-```text
-Workflow({
-  scriptPath: "${CLAUDE_SKILL_DIR}/workflows/distill.js",
-  args: {
-    skillDir: "<absolute active skill directory>",
-    stagingDir: "<absolute staging directory>",
-    estimatedSourceTokens: <number or omit>,
-    sourceScope: "full source"
-      OR { structure: "...", application: "...", guardrails: "..." },
-    maxRevisionRounds: 3
-  }
-})
-```
+Use the final reference template during source reading. Record claim pointers beside the content as it is written. Private working notes are optional and temporary, never a required handoff artifact. Revisit a passage when necessary to verify a claim; the goal is to avoid redundant full-source passes, not prohibit useful verification.
 
-Do not pass `stage` or `sections`. The Workflow advances through Extract → Synthesize → Expand → Review/Revise in one run. It derives the canonical section list from synthesis and returns:
+Source ordering controls the framework. If detailed reading reveals a missing section or incorrect boundary, report the exact map correction to the main agent before writing into another owner's scope.
 
-- `ready` — every phase completed, every rubric category passes, and the internal mechanical validation Agent confirmed the staged artifacts
-- `blocked` — a prerequisite, worker, result contract, path, or rubric response failed; later phases did not run
-- `needs-revision` — review is valid, but deficiencies remain after the revision cap
+## Assemble once
 
-The result includes sections, generated files, counts, per-phase summaries, and blockers or unresolved targets. The main session remains responsible for interactive Intake/Ingest, re-running the final mechanical check independently, and emission.
+Read completed references to build SKILL.md, the process, mistakes, diagnostic, and checklist. Those distilled statements must point to the relevant reference evidence, directly or through an unambiguous section mapping. Ground author information and further reading in the supplied source, author site, or publisher page; make a targeted lookup only when needed.
 
-If Workflow is unavailable or the user did not authorize multi-agent orchestration, use the direct-Agent fallback described under each phase. Both paths must produce identical artifacts and obey identical gates.
+Use case-studies.md as a navigable collection of sourced cases. Link to complete examples already in framework references; write a detailed cross-section case here only when it adds distinct value. The checklist translates sourced steps into actions without adding thresholds or scoring models the author never supplied.
 
-## Phase 3: Parallel extraction
+When evidence is absent for a category, state that briefly rather than padding it. Required aggregate files still exist; for example, case-studies.md may explain that the supplied excerpt contains no worked cases.
 
-Run exactly three independent jobs:
+## Finish and recover
 
-1. **Structure** — thesis + framework sections + end-to-end process
-2. **Application** — copy patterns + case studies
-3. **Guardrails** — common mistakes + ethical boundaries
+Apply the review checklist once. Repair cited defects locally; recheck affected sections and their dependent summaries. Broaden review only if a correction reveals a systemic problem. Unresolved factual or coverage defects must be disclosed; do not label an incomplete result ready.
 
-The canonical job prompts and schemas live in [extraction-jobs.md](extraction-jobs.md).
-
-### Saved Workflow behavior
-
-The Workflow launches all three workers with `parallel()`. Each writes only its assigned artifact:
-
-- `notes-structure.md`
-- `notes-application.md`
-- `notes-guardrails.md`
-
-Null, malformed, wrong-path, or explicitly blocked results become first-class blockers. The Workflow does not synthesize from an incomplete extraction set.
-
-### Portable fallback: direct Agent fan-out
-
-Launch the three jobs from [extraction-jobs.md](extraction-jobs.md) as Agent calls in one message so they run concurrently. Give each cold-start prompt the staging path, source manifest, exact scope, output filename, citation rules, and token cap. Do not continue unless all three assigned files exist and are grounded.
-
-### Shared source-size gate
-
-Estimate source tokens before launching (rough: words × 1.3).
-
-- ≤100k tokens → each worker may load the full source.
-- >100k tokens → build a chapter map and pass explicit per-job scopes. Workers may not read outside scope.
-
-Every worker must cap WebSearch at 3 verification reads, return/write ≤10k tokens of structured notes, and omit unsupported claims. Author bio, further reading, and trigger phrases belong to the single synthesis owner.
-
-**Exit gate:** all three notes files exist, carry ≥1 citation per item, and stay under the 10k-token cap. Run `scripts/check.sh <staging-dir> --phase 3` when checking manually.
-
-## Phase 4: Synthesis
-
-### Saved Workflow behavior
-
-One dedicated synthesis Agent owns the complete `SKILL.md`. It reads `description-brief.md`, `sources.md`, all three extraction files, [template.md](template.md), citation rules, and the rubric.
-
-The synthesis Agent must:
-
-- reconcile framework names using Structure as canonical;
-- preserve the author's section order and actual section count;
-- use the interviewed description rather than generating a replacement;
-- keep SKILL.md at or below 100 lines;
-- link every framework section plus `case-studies.md` and `checklist.md`;
-- return the canonical ordered `[{name, slug}]` list.
-
-The coordinator derives `references/<slug>.md` itself. It rejects duplicate names/slugs, non-kebab-case slugs, and collisions with `case-studies` or `checklist` before expansion starts.
-
-### Portable fallback: main-session synthesis
-
-Assemble SKILL.md in the main session using [template.md](template.md). Do not split this file across workers: one coherence owner must reconcile framework names, source ordering, frontmatter, and cross-section links. Read `description-brief.md`, `sources.md`, and all three extraction notes; use the manifest's author/publisher entry for the bio and further reading. If a section is thin, launch one targeted follow-up worker or drop it.
-
-Ordering check: framework sections follow the author's sequence, not the model's preferred order.
-
-**Exit gate:** SKILL.md exists, is ≤100 lines, and yields a safe unique section list. Run `scripts/check.sh <staging-dir> --phase 4` when checking manually.
-
-## Phase 5: References fan-out
-
-### Saved Workflow behavior
-
-The Workflow internally builds this item list:
-
-1. every validated framework section from synthesis;
-2. `references/case-studies.md`;
-3. `references/checklist.md`.
-
-It runs each item through a two-stage `pipeline()`:
-
-1. a focused drafting worker writes only its assigned file;
-2. a verifier inspects and surgically fixes that same file.
-
-Different items run concurrently; verification for one item begins as soon as its draft succeeds. A null, malformed, blocked, or wrong-path draft skips its verifier and blocks review. A failed verifier also blocks review.
-
-### Portable fallback: direct Agent pipelines
-
-Launch one Agent per framework section plus one for case studies and one for checklist. Each gets its section notes, `sources.md`, citation rules, review rubric, target path, and permission to WebSearch only for deeper verification. Target roughly 100–300 lines per framework reference. After each draft succeeds, verify that same file directly or with a focused follow-up Agent; never verify a missing draft.
-
-Both paths must preserve source order and voice, cite every claim/example/pattern, and avoid invented contexts, values, or ethics.
-
-**Exit gate:** every `references/*.md` link in SKILL.md resolves, and `references/case-studies.md` plus `references/checklist.md` exist. Run `scripts/check.sh <staging-dir> --phase 5` when checking manually.
-
-## Phase 6: Review and surgical revision
-
-### Saved Workflow behavior
-
-The Workflow scores every canonical category exactly once. Category keys and targets are coordinator-owned; the reviewer does not decide `ship` or invent target values. Missing, duplicate, unknown, or malformed categories block the run instead of crashing or shipping.
-
-For below-target categories, revision targets may include only final generated artifacts:
-
-- `SKILL.md`
-- validated `references/<section-slug>.md` files
-- `references/case-studies.md`
-- `references/checklist.md`
-
-The coordinator rejects traversal, absolute paths outside staging, notes/source edits, and any file outside that allowlist. Targets sharing a file are merged so concurrent revision workers always have disjoint write scopes. After successful surgical revisions, the Workflow runs a fresh review. Revision rounds default to 3 and are capped at 5.
-
-If every category passes, status is `ready`. If the cap is reached with valid unresolved deficiencies, status is `needs-revision`. Null or malformed reviews/revisions return `blocked`.
-
-### Portable fallback: direct review
-
-Self-score against [review-rubric.md](review-rubric.md). For each category below target, group issues by final output file, merge overlapping scopes, and launch focused revision Agents only for disjoint targets. Replace only deficient material and re-score after each round. Never modify source manifests or extraction notes to make the score appear better.
-
-Minimum ship bar:
-
-- [ ] Description includes `Use when...` with specific trigger phrases
-- [ ] SKILL.md ≤100 lines
-- [ ] Every framework reference has all sourced required elements
-- [ ] Every claim traces to `sources.md`
-- [ ] No invented numbers, statistics, contexts, or outcomes
-- [ ] Application and common-mistakes tables meet sourced depth targets
-- [ ] Further reading and author bio are grounded
-- [ ] `case-studies.md` and `checklist.md` exist
-
-**Exit gate:** every rubric category meets its target; hard rules score 10.
-
-## Final mechanical validation
-
-Before returning `ready`, the Workflow launches a read-only validation Agent that executes `scripts/check.sh <staging-dir>` and independently confirms that SKILL.md, every linked section reference, `case-studies.md`, and `checklist.md` exist. It must inspect the command result rather than trusting prior worker reports. A missing result, non-zero command, or absent required file returns `blocked` at the Validate phase.
-
-The main session re-runs the same checker before emission so the final outward-facing move does not rely solely on a sub-agent's report.
-
-## Phase 7: Emit
-
-After the Workflow returns `ready`, run `scripts/check.sh <staging-dir>`. Then move from staging to the confirmed install location, such as `~/.claude/skills/<slug>/`, `~/.agents/skills/<slug>/`, or a project-local skills directory. Print:
-
-- slug + path
-- sources used
-- section count + reference count
-- rubric score
-
-Do not emit on `blocked`. On `needs-revision`, resolve or explicitly surface the remaining targets before asking whether to emit.
+Run the mechanical checker after final edits. Move or copy to the requested destination when authorized, preserving sources.md and all linked references. Report the final path and material limitations. If interrupted, use existing sources and finished references; do not restart valid work.

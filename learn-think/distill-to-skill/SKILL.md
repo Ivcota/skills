@@ -1,92 +1,41 @@
 ---
 name: distill-to-skill
 description: |
-  Distill a book, method, or framework into an agent skill (Claude Code or any compatible agent) that follows a structured template (numbered framework sections, application tables, usage patterns, ethical boundaries, references/ deep-dives).
-  Grounds every claim in verifiable sources — cites pages, URLs, or quotes; web-searches when the source isn't in front of the agent; drops anything that can't be cited.
-  Uses one saved multi-agent workflow for extraction, coherent synthesis, reference expansion, and targeted review when authorized, with a portable direct-Agent fallback.
-  Use when the user wants to turn a book / method / framework / paper / talk / course into a skill, or says "distill this", "make a skill from this book", "turn X into a skill", "book to skill", "source to skill".
+  Distill a book, method, framework, paper, talk, or course into a source-grounded agent skill with a compact SKILL.md and practical reference files.
+  Use when the user says "distill this", "make a skill from this book", "turn X into a skill", "book to skill", or "source to skill".
 ---
 
 # distill-to-skill — Source to Skill
 
-Transforms a source into a strict skill shape: trigger-rich frontmatter, core principle, numbered framework sections, process, common-mistakes table, quick diagnostic, and `references/` deep-dives.
+Preserve the author's framework and turn it into usable instructions. Produce a ≤100-line SKILL.md plus framework deep-dives, case studies, a checklist, and sources.md using [template.md](references/template.md).
 
-**Hard rule: every framework, insight, example, and copy pattern must trace to a real source.** No model-memory restatements. If a claim cannot be cited, drop it. See [citation-rules.md](references/citation-rules.md).
+**Grounding:** every substantive claim, example, pattern, and number must have a source pointer in the final artifacts. Omit unsupported material; never fill gaps from memory. Read [citation-rules.md](references/citation-rules.md) before writing.
 
-**Output cap: the produced SKILL.md must stay ≤100 lines.** Keep one-line section indexes there; put full sections in `references/<section-slug>.md`. See [template.md](references/template.md).
+## Process
 
-## Quickstart
+1. **Clarify** — use the conversation to establish the source, audience, intended use, and destination. Ask only consequential missing questions, bundled together. Draft the description from this context; no mandatory interview or approval gate. See [intake.md](references/intake.md) when input or destination is unclear.
+2. **Map** — create a compact sources.md with source locations, coverage limits, and the author's ordered framework sections and passage pointers. Inspect structure first; leave detailed reading to the writer. See [phases.md](references/phases.md) for long or incomplete sources.
+3. **Write** — read the relevant passages and write final framework references directly, including applications and guardrails. Handle small sources in the main session. For larger sources, optionally assign related sections to a few workers using [writing-jobs.md](references/writing-jobs.md). Each file has one owner; no separate extraction notes.
+4. **Assemble** — the main agent owns SKILL.md and terminology, ordering, cross-section process, diagnostics, case studies, and checklist. Build from finished references; return to source passages only for a specific gap. Link to detailed examples instead of copying them across files.
+5. **Check** — apply [review-rubric.md](references/review-rubric.md) once, directly or through one reviewer. Repair specific defects and recheck changed material and affected links. Run `bash <skill-directory>/scripts/check.sh <output-directory>` after final edits. Report path, sources, section count, and any coverage limitations.
 
-User: *"Distill The Mom Test into a skill."*
-Agent: confirms source → runs the description interview → stages files → builds `sources.md` → invokes one saved Workflow for Extract → Synthesize → Expand → Review/Revise → checks the result → emits it.
+## Working rules
 
-## Orchestration rule
+- Preserve the output categories and the source's actual section order and count. Depth follows evidence, not minimum line, insight, or example counts.
+- Use the user's requested destination. Otherwise stage at `./skills-draft/<slug>/`; install only within the requested scope. No separate confirmation is needed for an already authorized destination.
+- Keep source mapping compact: section names, pointers, shared definitions, and coverage limits, not a prose summary of every chapter.
+- Read supporting instructions only when relevant. Workers receive their source scope and output template, not every reference file or unrelated completed section.
+- Reuse retrieved source text. Browse only for unavailable source material or a specific evidence gap; stop searching when the usable scope is established.
+- Resume from valid artifacts after interruption. Reopen only incomplete sections or affected dependencies.
+- Mechanical checks establish file validity, not factual accuracy. Never represent their success as proof of grounding.
 
-Complete interactive Intake and Ingest first. Once `description-brief.md` and `sources.md` pass their gates, invoke `${CLAUDE_SKILL_DIR}/workflows/distill.js` **once** when the Workflow tool exists and the user authorized workflow/multi-agent orchestration. The Workflow owns Phases 3–6 and returns `ready`, `blocked`, or `needs-revision`. Do not create separate Workflow runs for individual phases.
+## Supporting guidance
 
-```text
-Workflow({
-  scriptPath: "${CLAUDE_SKILL_DIR}/workflows/distill.js",
-  args: {
-    skillDir: "<absolute active skill directory>",
-    stagingDir: "<absolute staging directory>",
-    estimatedSourceTokens: <number or omit>,
-    sourceScope: "full source"
-      OR { structure: "...", application: "...", guardrails: "..." },
-    maxRevisionRounds: 3
-  }
-})
-```
-
-If Workflow is unavailable or not authorized, follow the direct-Agent fallback in [phases.md](references/phases.md). Both paths must create the same artifacts and pass the same gates.
-
-## Phases
-
-1. **Intake** — detect input type, pick mode + output location, run the [description interview](references/description-interview.md).
-   → **Done when:** `description-brief.md` exists. Phase 2 cannot start without it.
-2. **Ingest** — build `sources.md` (prefer primary sources; include an author/publisher source for bio claims). See [phases.md](references/phases.md#phase-2-source-ingestion).
-   → **Done when:** `sources.md` lists ≥1 primary framework source plus grounded author information with citation pointers.
-3. **Extract** — the Workflow launches Structure / Application / Guardrails workers together with disjoint output files and explicit source scopes.
-   → **Done when:** all three notes files exist, each ≤10k tokens with citations; any missing or blocked result stops the run.
-4. **Synthesize** — one Workflow synthesis Agent owns the complete SKILL.md and canonical ordered section list. In the fallback path, the main session owns this step. See [template.md](references/template.md).
-   → **Done when:** SKILL.md exists, is ≤100 lines, and yields unique non-reserved section slugs.
-5. **Expand** — the Workflow derives reference paths from synthesis, then pipelines each section plus case studies and checklist through draft → verify.
-   → **Done when:** every section link resolves, plus `case-studies.md` and `checklist.md` exist; a missing draft never reaches verification.
-6. **Review + Validate** — the same Workflow scores canonical rubric categories, applies non-overlapping surgical revisions, re-scores, then runs the mechanical artifact gates before returning `ready`.
-   → **Done when:** status is `ready`; `blocked` reports the failed phase or gate, while `needs-revision` returns unresolved targets.
-7. **Emit** — re-run the mechanical checker, then move staging to the confirmed install location; print slug, path, sources, section count, references, and rubric score.
-   → **Done when:** install path is printed and confirmed.
-
-**Recovery:** fix the reported blocker or unresolved target, preserve valid staged artifacts, and re-invoke the single end-to-end Workflow. Never switch back to stage-specific Workflow calls.
-
-**Mechanical check:** run `${CLAUDE_SKILL_DIR}/scripts/check.sh <staging-dir>` after the Workflow returns and before emission. Phase 6 scoring still requires agent judgment.
-
-## Defaults
-
-- **Mode:** `strict`; use `liberal` only on request.
-- **Staging:** `./skills-draft/<slug>/`; never write directly into live skill directories.
-- **Description:** never auto-generate it; always run the interview first.
-- **Synthesis:** one coherence owner only — the Workflow's dedicated synthesis Agent, or the main session in fallback mode.
-
-## Anti-patterns
-
-- Filling source gaps from training data
-- Starting a Workflow before Intake and Ingest pass
-- Creating separate Workflow runs for Extract, Expand, and Review
-- Running one monolithic extraction worker
-- Auto-generating the description
-- Inventing numeric values or application contexts
-- Forcing a fixed framework count
-- Putting full framework sections inside SKILL.md
-
-## Reference index
-
-- [intake.md](references/intake.md) — input types, modes, output locations
-- [phases.md](references/phases.md) — phase detail, workflow contract, fallbacks, gates
-- [extraction-jobs.md](references/extraction-jobs.md) — canonical extraction worker specifications
-- [template.md](references/template.md) — exact produced SKILL.md shape
-- [citation-rules.md](references/citation-rules.md) — citation requirements
-- [description-interview.md](references/description-interview.md) — frontmatter interview
-- [review-rubric.md](references/review-rubric.md) — scoring and revision protocol
-- [anti-patterns.md](references/anti-patterns.md) — full anti-pattern table
-- [distill.js](workflows/distill.js) — one-run Claude Code multi-agent orchestration
+- [template.md](references/template.md) — required output shape; read before writing
+- [citation-rules.md](references/citation-rules.md) — final-artifact evidence conventions
+- [phases.md](references/phases.md) — source mapping, assembly, and recovery details
+- [writing-jobs.md](references/writing-jobs.md) — optional scoped delegation
+- [intake.md](references/intake.md) — source and destination choices
+- [description-interview.md](references/description-interview.md) — description guidance when context is insufficient
+- [review-rubric.md](references/review-rubric.md) — one concrete review checklist
+- [anti-patterns.md](references/anti-patterns.md) — troubleshooting waste and fidelity problems

@@ -1,124 +1,72 @@
 #!/usr/bin/env bash
-# check.sh — mechanically validate distill-to-skill phase exit gates.
-# Usage: ./check.sh <staging-or-skill-dir> [--phase N]
-# Exits non-zero on any failure. Prints pass/fail per gate.
-
-set -u
-
-DIR="${1:-}"
-ONLY_PHASE="${3:-}"
-[[ "${2:-}" == "--phase" ]] || ONLY_PHASE=""
-
-if [[ -z "$DIR" || ! -d "$DIR" ]]; then
-  echo "usage: $0 <dir> [--phase N]" >&2
+# Validate final deliverables. Requires Python 3; semantic review is separate.
+set -eu
+if [[ $# -ne 1 || ! -d "$1" ]]; then
+  echo "usage: $0 <output-directory>" >&2
   exit 2
 fi
+python3 - "$1" <<'PY'
+from pathlib import Path
+import re
+import sys
 
-FAIL=0
-pass() { printf "  \033[32m✓\033[0m %s\n" "$1"; }
-fail() { printf "  \033[31m✗\033[0m %s\n" "$1"; FAIL=1; }
-skip() { printf "  \033[90m–\033[0m %s\n" "$1"; }
-phase() { [[ -z "$ONLY_PHASE" || "$ONLY_PHASE" == "$1" ]]; }
+root = Path(sys.argv[1]).resolve()
+errors = []
+def fail(message):
+    errors.append(message)
+    print(f'FAIL: {message}')
 
-# Phase 1: description-brief.md exists
-if phase 1; then
-  echo "Phase 1 — Intake"
-  [[ -f "$DIR/description-brief.md" ]] \
-    && pass "description-brief.md exists" \
-    || fail "description-brief.md missing — Phase 1 not complete (run description interview)"
-fi
+required = ['SKILL.md', 'sources.md', 'references/case-studies.md', 'references/checklist.md']
+for name in required:
+    path = root / name
+    if not path.is_file() or not path.read_text().strip():
+        fail(f'{name} missing or empty')
 
-# Phase 2: sources.md exists with ≥1 cited line
-if phase 2; then
-  echo "Phase 2 — Ingest"
-  if [[ -f "$DIR/sources.md" ]]; then
-    pass "sources.md exists"
-    # Count lines that look like citations (URL, ISBN, page ref, or quoted)
-    CITES=$(grep -cE 'https?://|ISBN|p\.[0-9]+|^> |"[^"]{20,}"' "$DIR/sources.md" 2>/dev/null || true)
-    [[ "$CITES" -ge 1 ]] \
-      && pass "sources.md has $CITES citation-shaped line(s)" \
-      || fail "sources.md has no URL/ISBN/page-ref/quoted citations"
-  else
-    fail "sources.md missing"
-  fi
-fi
+skill = root / 'SKILL.md'
+if skill.is_file():
+    text = skill.read_text()
+    if len(text.splitlines()) > 100:
+        fail('SKILL.md exceeds 100 lines')
+    front = re.match(r'\A---\r?\n(.*?)\r?\n---(?:\r?\n|$)', text, re.S)
+    if not front:
+        fail('SKILL.md requires YAML frontmatter')
+    else:
+        metadata = front.group(1)
+        if not re.search(r'^name:\s*[a-z0-9]+(?:-[a-z0-9]+)*\s*$', metadata, re.M):
+            fail('frontmatter requires a kebab-case name')
+        description = re.search(r'^description:[ \t]*(.*(?:\n[ \t]+[^\n]*)*)', metadata, re.M)
+        value = description.group(1).strip() if description else ''
+        value = re.sub(r'^[|>][-+]?[ \t]*\n', '', value)
+        value = ' '.join(line.strip() for line in value.splitlines()).strip('\'"')
+        if 'Use when' not in value:
+            fail('frontmatter description requires Use when triggers')
+        if len(value) > 1024:
+            fail('description exceeds 1024 characters')
+    targets = re.findall(r'\]\(([^\s)]+)(?:\s+"[^"]*")?\)', text)
+    paths = {target.split('#')[0] for target in targets}
+    for name in required[1:]:
+        if name not in paths:
+            fail(f'SKILL.md must link {name}')
+    sections = {name for name in paths if name.startswith('references/') and name.endswith('.md')} - set(required[2:])
+    if not sections:
+        fail('SKILL.md must link at least one framework reference')
 
-# Phase 3: three extraction notes, each ≤10k tokens (~40k chars rough proxy)
-if phase 3; then
-  echo "Phase 3 — Extract"
-  for job in structure application guardrails; do
-    F="$DIR/notes-$job.md"
-    if [[ -f "$F" ]]; then
-      CHARS=$(wc -c < "$F" | tr -d ' ')
-      if [[ "$CHARS" -le 40000 ]]; then
-        pass "notes-$job.md exists (${CHARS} chars, ~$((CHARS/4)) tokens)"
-      else
-        fail "notes-$job.md too large (${CHARS} chars, >40k char proxy for 10k tokens)"
-      fi
-      CITES=$(grep -cE 'https?://|ISBN|p\.[0-9]+|page [0-9]+|source:|citation:' "$F" 2>/dev/null || true)
-      [[ "$CITES" -ge 1 ]] \
-        && pass "notes-$job.md has $CITES citation-shaped line(s)" \
-        || fail "notes-$job.md has no citation-shaped lines"
-    else
-      fail "notes-$job.md missing"
-    fi
-  done
-fi
+# Check local file links in every final Markdown artifact, including aggregate files.
+# Heading anchors are not validated; source locations may be plain text in sources.md.
+for path in sorted(root.rglob('*.md')):
+    content = re.sub(r'```.*?```', '', path.read_text(), flags=re.S)
+    for target in re.findall(r'\]\(([^\s)]+)(?:\s+"[^"]*")?\)', content):
+        if re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', target) or target.startswith('#'):
+            continue
+        local = target.split('#')[0]
+        resolved = (path.parent / local).resolve()
+        if not resolved.is_relative_to(root):
+            fail(f'{path.relative_to(root)}: nonportable local link {target}')
+        elif not resolved.is_file() or not resolved.stat().st_size:
+            fail(f'{path.relative_to(root)}: missing or empty link target {target}')
 
-# Phase 4: SKILL.md exists and ≤100 lines
-if phase 4; then
-  echo "Phase 4 — Synthesize"
-  if [[ -f "$DIR/SKILL.md" ]]; then
-    LINES=$(wc -l < "$DIR/SKILL.md" | tr -d ' ')
-    if [[ "$LINES" -le 100 ]]; then
-      pass "SKILL.md is $LINES lines (≤100)"
-    else
-      fail "SKILL.md is $LINES lines — over the 100-line cap (push section detail to references/)"
-    fi
-    # Description sanity check
-    grep -q "Use when" "$DIR/SKILL.md" \
-      && pass "description contains 'Use when' trigger phrase" \
-      || fail "description missing 'Use when' trigger phrase"
-  else
-    fail "SKILL.md missing"
-  fi
-fi
-
-# Phase 5: every references/*.md linked from SKILL.md resolves
-if phase 5; then
-  echo "Phase 5 — Expand"
-  if [[ -f "$DIR/SKILL.md" ]]; then
-    BROKEN=0
-    # Extract markdown links to references/*.md
-    while IFS= read -r REF; do
-      if [[ ! -f "$DIR/$REF" ]]; then
-        fail "broken link: $REF (referenced in SKILL.md, file missing)"
-        BROKEN=$((BROKEN+1))
-      fi
-    done < <(grep -oE '\(references/[a-z0-9_-]+\.md\)' "$DIR/SKILL.md" 2>/dev/null | tr -d '()' | sort -u)
-    for REQUIRED in references/case-studies.md references/checklist.md; do
-      if [[ ! -f "$DIR/$REQUIRED" ]]; then
-        fail "$REQUIRED missing"
-        BROKEN=$((BROKEN+1))
-      fi
-    done
-    [[ "$BROKEN" -eq 0 ]] && pass "all references/*.md links resolve and required references exist"
-  else
-    skip "SKILL.md missing — cannot check references"
-  fi
-fi
-
-# Phase 6: rubric scoring (cannot automate semantic judgment)
-if phase 6; then
-  echo "Phase 6 — Review"
-  skip "rubric scoring requires human/agent judgment; see references/review-rubric.md"
-fi
-
-echo
-if [[ "$FAIL" -eq 0 ]]; then
-  printf "\033[32mAll checked gates passed.\033[0m\n"
-  exit 0
-else
-  printf "\033[31mOne or more gates failed.\033[0m Fix and re-run.\n"
-  exit 1
-fi
+if errors:
+    print(f'{len(errors)} structural issue(s).')
+    sys.exit(1)
+print('Final artifact checks passed. Source fidelity and coverage require semantic review.')
+PY

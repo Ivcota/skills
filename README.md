@@ -173,7 +173,7 @@ npx skills@latest add Ivcota/skills/learn-think/addie
 npx skills@latest add Ivcota/skills/learn-think/teach
 ```
 
-**Distill to Skill** — Turn any book into a Claude skill. Fans out citation-grounded agents to extract the frameworks, patterns, and cases — then synthesizes them into an installable skill.
+**Distill to Skill** — Turn a book, method, or framework into a source-grounded agent skill. Maps the source, writes practical references directly, and assembles a compact skill with optional scoped delegation.
 
 ```bash
 npx skills@latest add Ivcota/skills/learn-think/distill-to-skill

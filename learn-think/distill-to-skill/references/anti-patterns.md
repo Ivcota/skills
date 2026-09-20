@@ -1,12 +1,14 @@
 # Anti-patterns
 
-| Anti-pattern | Why it fails | Fix |
-|---|---|---|
-| Letting the model fill gaps from training data | Produces plausible-but-ungrounded skills; erodes trust in the output | Hard rule: no citation, no content |
-| Single monolithic extraction pass | Misses structure; synthesis and extraction fight each other | Separate extract → synthesize phases |
-| Auto-generating the description without user input | Triggers are the single most important field; hardest to guess | Always run the description interview |
-| Inventing numeric values in application tables | Faking values the source never stated is deceptive | Only include values the source states; otherwise leave qualitative |
-| Forcing a fixed section count | Some sources have 4 pillars, others 8 — padding to a target invents content | Match the source's actual structure |
-| Skipping the staging dir | Bad output pollutes the live skills dir and starts firing on triggers | Stage, review, then move |
-| SKILL.md over 100 lines | Future agents load it on every invocation; bloat costs tokens and obscures the spine | Push framework section detail into `references/<section>.md`; SKILL.md is a navigator |
-| Putting full framework sections inside SKILL.md | Each section's tables + insights blow past the 100-line cap | One-line-per-section index in SKILL.md, full section in `references/<slug>.md` |
+| Problem | Correction |
+|---|---|
+| Several agents read the full source for different extraction roles | Assign related source sections to one final-file writer |
+| Extensive notes are rewritten into references by another agent | Write final references during detailed source reading |
+| Every worker receives every instruction and completed file | Pass only its scope, template, citations, and shared definitions |
+| Each file gets a verifier before another whole-output review | One final review, then targeted corrections |
+| A local correction triggers a complete restart | Recheck changed content and affected dependencies |
+| Missing examples trigger padding or open-ended research | Keep sourced content and disclose the gap |
+| Claims depend on discarded extraction notes | Put evidence pointers in final references and sources.md |
+| A fixed interview repeats known information | Infer from context and bundle only consequential missing questions |
+| Detailed examples appear in several files | Keep one full treatment and link to it |
+| Mechanical success is treated as factual validation | Check source evidence separately |
