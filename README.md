@@ -20,7 +20,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 
 | Bundle | Job | Included Skills |
 |---|---|---|
-| [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough` |
+| [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
 | [Learn & Think](#learn--think) | Understand faster, teach better, and make sharper decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `decision-options`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
@@ -113,6 +113,12 @@ npx skills@latest add Ivcota/skills/build-products/readable-code
 
 ```bash
 npx skills@latest add Ivcota/skills/build-products/walkthrough
+```
+
+**Manage Skills** — Inventory and switch local project or global skills across Codex, Claude Code, Pi, OpenCode, and Cursor. Preserves symlinks and previews every affected agent before moving anything.
+
+```bash
+npx skills@latest add Ivcota/skills/build-products/manage-skills
 ```
 
 ---
@@ -508,4 +514,3 @@ npx skills@latest add Ivcota/skills/run-business/e-myth-revisited
 ```bash
 npx skills@latest add Ivcota/skills/run-business/theory-of-constraints
 ```
-

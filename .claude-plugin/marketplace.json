@@ -17,7 +17,8 @@
         "./build-products/faas",
         "./build-products/invest-framework",
         "./build-products/readable-code",
-        "./build-products/walkthrough"
+        "./build-products/walkthrough",
+        "./build-products/manage-skills"
       ]
     },
     {
