@@ -24,7 +24,7 @@
     {
       "name": "learn-think",
       "source": "./",
-      "description": "Understand faster and make sharper decisions. Feynman, Deep Learner, Four Pillars Learning Coach, Align Mental Model, the Problem-Solving Toolkit (Problem Firewall + Decision Options), and Grill Me cover study, teaching, problem framing, and decision stress-testing.",
+      "description": "Understand faster and make sharper decisions. Feynman, Deep Learner, First Principles, Align Mental Model, and the Problem-Solving Toolkit (Problem Firewall + Solution Options) cover study, teaching, problem framing, and decision stress-testing.",
       "version": "0.0.1",
       "skills": [
         "./learn-think/align-mental-model",
@@ -37,7 +37,9 @@
         "./learn-think/teach",
         "./learn-think/distill-to-skill",
         "./learn-think/problem-firewall",
-        "./learn-think/decision-options",
+        "./learn-think/solution-options",
+        "./learn-think/first-principles",
+        "./learn-think/tree-alignment",
         "./learn-think/grill-me",
         "./learn-think/grill-with-docs"
       ]
@@ -64,9 +66,10 @@
     {
       "name": "write-communicate",
       "source": "./",
-      "description": "Write in your voice and clean up AI-sounding drafts. Style Profile, Style-to-Skill, and Humanizer capture, package, and apply a personal writing voice.",
+      "description": "Learn, package, and apply a personal writing voice. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup.",
       "version": "0.0.1",
       "skills": [
+        "./write-communicate/learn-my-voice",
         "./write-communicate/style-profile",
         "./write-communicate/style-to-skill",
         "./write-communicate/humanizer"
@@ -91,6 +94,7 @@
         "./win-customers/epiphany-bridge",
         "./win-customers/conversation-first-outreach",
         "./win-customers/gap-selling",
+        "./win-customers/straight-line-selling",
         "./win-customers/sandler-selling-system",
         "./win-customers/challenger-sale",
         "./win-customers/jolt-effect",

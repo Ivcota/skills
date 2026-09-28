@@ -1,37 +1,9 @@
 # Intake
 
-## Input detection
+Accept local files, pasted text, URLs, or a title and author. Use supplied material first. For title-only requests, find primary text or author-authored explanations and disclose actual coverage; no routine research approval is needed. Ask for clarification if the title is ambiguous or usable source material cannot be accessed.
 
-Accepts one or more of:
-- **File** — PDF, epub, markdown, txt (any path the Read tool can open; PDFs ≤20 pages per call, chunk longer books)
-- **URL** — article, blog post, transcript, publisher page
-- **Title + author** — triggers web research (WebSearch → WebFetch)
-- **Pasted text** — inline method description
+Infer audience and intended use from the request and conversation. If a missing answer would materially change the skill, bundle questions about audience, use, and source scope into one message. Otherwise proceed with a brief stated assumption. See [description-interview.md](description-interview.md) for description guidance.
 
-If only a title is given, confirm with the user before spending tokens on research: "I'll search for {title} by {author} — anything specific to prioritize (chapters, concepts)?"
+Default to close, source-grounded paraphrase. If the user requests freer phrasing, rewrite while preserving evidence; permission to rewrite does not authorize invented examples, numbers, or author claims.
 
-## Modes
-
-- **strict** (default) — paraphrase closely; cite aggressively; drop un-citable content
-- **liberal** — rewrite in template voice; still cite but allow synthesis (tables, copy patterns) inferred from quoted material
-
-Ask the user which mode only if ambiguous.
-
-## Output location
-
-Detect which skill directories exist on the user's system and offer them as targets. Common locations:
-- `~/.claude/skills/<slug>/` — Claude Code user-scoped skills
-- `~/.agents/skills/<slug>/` — generic agent skills (any compatible harness)
-- `./skills-draft/<slug>/` — local staging dir (review before installing)
-- A project-local `.claude/skills/` or `.agents/skills/` if one exists in the cwd
-
-Ask before writing: "Write to {detected-paths} or stage at `./skills-draft/<slug>/` first?" Slug = kebab-case of 3-5 significant words from the book/method title.
-
-## Phase 1 checklist
-
-1. Detect input type. If only title: propose a research plan and confirm.
-2. Ask the 2–3 [description-interview](description-interview.md) questions — audience, trigger phrases, primary use case. These drive the frontmatter `description:` (the only thing future agents see).
-3. Pick mode (strict / liberal). Pick output location.
-4. Derive slug. Create staging dir.
-
-**Exit gate:** slug chosen, mode chosen, output location chosen, description brief written.
+Use a concise kebab-case slug and the requested output location. Otherwise use `./skills-draft/<slug>/`. Do not scan global skill directories just to offer installation choices. Existing authorization for a destination is sufficient; avoid overwriting unrelated existing work.

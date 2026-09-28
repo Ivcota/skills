@@ -21,10 +21,10 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 | Bundle | Job | Included Skills |
 |---|---|---|
 | [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
-| [Learn & Think](#learn--think) | Understand faster, teach better, and make sharper decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `decision-options`, `grill-me`, `grill-with-docs` |
+| [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
-| [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `style-profile`, `style-to-skill`, `humanizer` |
-| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
+| [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
@@ -179,7 +179,7 @@ npx skills@latest add Ivcota/skills/learn-think/addie
 npx skills@latest add Ivcota/skills/learn-think/teach
 ```
 
-**Distill to Skill** — Turn any book into a Claude skill. Fans out citation-grounded agents to extract the frameworks, patterns, and cases — then synthesizes them into an installable skill.
+**Distill to Skill** — Turn a book, method, or framework into a source-grounded agent skill. Maps the source, writes practical references directly, and assembles a compact skill with optional scoped delegation.
 
 ```bash
 npx skills@latest add Ivcota/skills/learn-think/distill-to-skill
@@ -187,7 +187,7 @@ npx skills@latest add Ivcota/skills/learn-think/distill-to-skill
 
 ## Stress-Test Decisions
 
-**Problem-Solving Toolkit** — Use `problem-firewall` and `decision-options` as a two-step toolkit: first define the real problem and park premature solutions, then turn the clear Problem Frame into options, tradeoffs, criteria, and a next test.
+**Problem-Solving Toolkit** — Use `problem-firewall` and `solution-options` as a two-step toolkit: first define the real problem and park premature solutions, then turn the clear Problem Frame into options, tradeoffs, criteria, and a next test.
 
 **Problem Firewall** — Phase 1: define the problem before solving it. Enforces a problem-solution firewall, finds the root-cause condition, and produces a plain-language Problem Frame for handoff.
 
@@ -195,10 +195,22 @@ npx skills@latest add Ivcota/skills/learn-think/distill-to-skill
 npx skills@latest add Ivcota/skills/learn-think/problem-firewall
 ```
 
-**Decision Options** — Phase 2: choose what to do from a clear Problem Frame. Generates three-plus options, stress-tests consequences and opportunity costs, battles criteria, and lands on a choice or information-gathering test.
+**Solution Options** — Phase 2: choose what to do from a clear Problem Frame. Generates three-plus options, stress-tests consequences and opportunity costs, battles criteria, and lands on a choice or information-gathering test.
 
 ```bash
-npx skills@latest add Ivcota/skills/learn-think/decision-options
+npx skills@latest add Ivcota/skills/learn-think/solution-options
+```
+
+**First Principles** — Move from an unclear situation to a justified next move. Grounds a working model in defensible first principles, derives possible moves, and updates the model from evidence.
+
+```bash
+npx skills@latest add Ivcota/skills/learn-think/first-principles
+```
+
+**Tree Alignment** — Walk a vague intent down a clean binary logic tree. Uses mutually exclusive, collectively exhaustive forks to reach a concrete leaf/action.
+
+```bash
+npx skills@latest add Ivcota/skills/learn-think/tree-alignment
 ```
 
 **Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
@@ -300,6 +312,12 @@ npx skills@latest add Ivcota/skills/focus-execute/wrap-up
 *Capture your voice, package it, and make drafts sound human.*
 
 ## Capture Voice
+
+**Learn My Voice** — Build an ear for how you write. Learns an evidence-backed voice profile through adaptive conversation, contrastive checks, and ongoing calibration.
+
+```bash
+npx skills@latest add Ivcota/skills/write-communicate/learn-my-voice
+```
 
 **Style Profile** — Write in your voice, not Claude's. Extracts a style profile from your samples and applies it to any new content.
 
@@ -405,6 +423,12 @@ npx skills@latest add Ivcota/skills/win-customers/epiphany-bridge
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/conversation-first-outreach
+```
+
+**Straight Line Selling** — Move qualified prospects from open to decision using Belfort's Three Tens, first four seconds, looping, action threshold, pain threshold, and ethical closing.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/straight-line-selling
 ```
 
 **Gap Selling** — Diagnose buyer problems before pitching. Applies Keenan's current state → future state gap, PIC, discovery, demos, objections, prospecting, and next yes to B2B deals.

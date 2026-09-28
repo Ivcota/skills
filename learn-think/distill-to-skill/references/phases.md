@@ -1,66 +1,33 @@
-# Phase details
+# Source mapping and assembly
 
-Full prose for each phase. SKILL.md keeps the one-line summary; this file holds the gates, sub-agent fan-out rules, and source-size logic.
+## Map once
 
-## Phase 2: Source ingestion
+In sources.md, give each source a stable ID, title/author, location, access method, and coverage (full text, selected chapters, excerpt, or author summary). For web material include retrieval date. Preserve page numbers, section headings, or transcript timestamps in cached text.
 
-Build a source manifest before any extraction. For each available source, record: `{type, location, access_method, coverage_estimate}`.
+Add a compact ordered map: framework name → reference filename → source ID and passage ranges. Include shared definitions only when needed to prevent inconsistent terminology. Slugs must be unique kebab-case; reserve `case-studies` and `checklist` for the aggregate files.
 
-- Files: read the full text, chunk if needed, keep page/section pointers
-- URLs: WebFetch; record URL + retrieval date
-- Title-only: WebSearch for — author page, publisher page, structured summaries (Blinkist, Shortform, Farnam Street, Derek Sivers' notes), interviews with author, official talks / YouTube transcripts, reviews that quote heavily. Prefer primary over secondary.
+Use at least one primary framework source: original text, author-authored article, talk, or interview. A user-provided original method counts as primary material. Summaries can locate evidence but cannot substitute for unavailable primary claims. If no usable primary material is accessible, report that blocker and request the source.
 
-**Exit gate:** manifest committed to `./skills-draft/<slug>/sources.md` with at least one primary source and links for gap-filling.
+For books, inspect the contents, introduction, and structural signposts before assigning sections. Do not read the entire book just to create the map. Assign every relevant chapter or passage to a writer; include examples, warnings, and concluding material, not just framework headings. Track uncovered areas. For an excerpt, describe the output as covering that excerpt; do not claim full-book coverage.
 
-## Phase 3: Parallel extraction
+Keep one authoritative source cache when retrieval or conversion is needed. Writers share its paths and read their ranges, not duplicate downloads. Retain durable source locations in sources.md rather than relying solely on temporary cache paths.
 
-Fan out **3 sub-agents** using the Agent tool, launched in a **single message with multiple tool calls**. Each is sized to stay under 150k tokens of context. See [extraction-jobs.md](extraction-jobs.md) for full prompts and token budgets.
+## Write directly
 
-Job set:
-1. **Structure** — thesis + framework sections + end-to-end process (the spine)
-2. **Application** — copy patterns + case studies (the how-to-use)
-3. **Guardrails** — common mistakes + ethical boundaries (the what-not-to-do)
+Use the final reference template during source reading. Record claim pointers beside the content as it is written. Private working notes are optional and temporary, never a required handoff artifact. Revisit a passage when necessary to verify a claim; the goal is to avoid redundant full-source passes, not prohibit useful verification.
 
-Author bio, further reading, and trigger phrases are handled in the main thread (small WebFetch + reasoning over Job 1 output) — not delegated.
+Source ordering controls the framework. If detailed reading reveals a missing section or incorrect boundary, report the exact map correction to the main agent before writing into another owner's scope.
 
-**Source-size gate:** before spawning, estimate the source's token count.
-- ≤100k tokens → each agent loads the full source.
-- \>100k tokens → main thread builds a chapter map from the TOC and assigns chapter ranges per agent. Agents are forbidden from reading outside scope.
+## Assemble once
 
-Each agent is also instructed: read only your scope, cap WebSearch at 3 calls, return ≤10k tokens of structured notes, no inventions when the source is silent.
+Read completed references to build SKILL.md, the process, mistakes, diagnostic, and checklist. Those distilled statements must point to the relevant reference evidence, directly or through an unambiguous section mapping. Ground author information and further reading in the supplied source, author site, or publisher page; make a targeted lookup only when needed.
 
-**Exit gate:** all three agents returned notes with ≥1 citation per item, each under the 10k-token cap.
+Use case-studies.md as a navigable collection of sourced cases. Link to complete examples already in framework references; write a detailed cross-section case here only when it adds distinct value. The checklist translates sourced steps into actions without adding thresholds or scoring models the author never supplied.
 
-## Phase 4: Synthesis
+When evidence is absent for a category, state that briefly rather than padding it. Required aggregate files still exist; for example, case-studies.md may explain that the supplied excerpt contains no worked cases.
 
-Assemble SKILL.md in the main thread using [template.md](template.md) as the exact shape. Do not delegate synthesis — the main thread owns coherence across sections. Pull content from extraction notes only; if a section has thin material, flag it and either (a) spawn a targeted follow-up sub-agent, or (b) drop the section.
+## Finish and recover
 
-Ordering check: framework sections should follow the author's own sequence, not your preferred order.
+Apply the review checklist once. Repair cited defects locally; recheck affected sections and their dependent summaries. Broaden review only if a correction reveals a systemic problem. Unresolved factual or coverage defects must be disclosed; do not label an incomplete result ready.
 
-## Phase 5: References fan-out
-
-For each framework section in SKILL.md, spawn one sub-agent to draft `references/<section-slug>.md`. The sub-agent gets: the section's notes, the source manifest, permission to WebSearch for deeper citations. Target ~100-300 lines per reference file. Also generate `references/case-studies.md` and `references/checklist.md`.
-
-**Exit gate:** every section linked from SKILL.md has a matching reference file.
-
-## Phase 6: Review
-
-Self-score against [review-rubric.md](review-rubric.md). Any category scoring <8/10 triggers a revision pass on that section. Minimum bar to ship:
-
-- [ ] Description includes "Use when..." with specific trigger phrases
-- [ ] SKILL.md ≤ 100 lines (push framework section detail into `references/<section>.md`)
-- [ ] Every framework section has Core concept + Why it works + Key insights + Application table + Copy patterns + Ethical boundary + reference link in its reference file
-- [ ] Every claim traces to a citation in `sources.md`
-- [ ] No invented dollar values, statistics, or outcomes — only what the source states
-- [ ] Product-application table has ≥5 rows with distinct contexts
-- [ ] Common-mistakes table has ≥5 rows
-- [ ] Further reading section cites the primary source (ISBN / URL)
-- [ ] About-the-author section is grounded (no biographical invention)
-
-## Phase 7: Emit
-
-Move from staging to the chosen install location (e.g., `~/.claude/skills/<slug>/`, `~/.agents/skills/<slug>/`, or a project-local skills dir). Print:
-- slug + path
-- sources used
-- section count + reference count
-- rubric score
+Run the mechanical checker after final edits. Move or copy to the requested destination when authorized, preserving sources.md and all linked references. Report the final path and material limitations. If interrupted, use existing sources and finished references; do not restart valid work.
