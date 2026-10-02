@@ -20,7 +20,7 @@ Bundle-level install commands are intentionally omitted until the exact CLI synt
 
 | Bundle | Job | Included Skills |
 |---|---|---|
-| [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
+| [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `value-proposition-design`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
@@ -73,6 +73,12 @@ npx skills@latest add Ivcota/skills/build-products/user-story-mapping
 
 ```bash
 npx skills@latest add Ivcota/skills/build-products/outcome-driven-innovation
+```
+
+**Value Proposition Design**. Design and test offers with Osterwalder's Value Proposition Canvas, connecting customer jobs, pains, and gains to the value your product creates.
+
+```bash
+npx skills@latest add Ivcota/skills/build-products/value-proposition-design
 ```
 
 ## Model & Architect
