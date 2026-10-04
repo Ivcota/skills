@@ -1,8 +1,22 @@
 # Skills
 
-Type `/grand-slam-offer`. Claude becomes Hormozi. Type `/zero-to-one`. Claude becomes Thiel. Every framework elite builders rely on — encoded as a single command, ready the moment you need it.
+Turn a problem you're working on into a guided AI workflow.
 
-Organized by job-to-be-done: **Build Products**, **Learn & Think**, **Focus & Execute**, **Write & Communicate**, **Win Customers**, and **Run the Business**.
+For founders using an AI assistant to build a product and run a business, this collection puts practical methods into reusable skills. Choose a skill for the task in front of you, bring your context, and work through its questions and steps toward a concrete output.
+
+You don't have to remember every framework or write a detailed prompt from scratch. Each skill gives your assistant instructions for applying a specific method. Depending on the skill, you can leave with a release plan, an offer draft, a challenged assumption, or a first action you can take today.
+
+## Start with your problem
+
+| What you're trying to do | Start here | What you'll work toward |
+|---|---|---|
+| Decide what belongs in the next product release | [User Story Mapping](build-products/user-story-mapping/SKILL.md) | A shared view of the user journey and a release slice tied to an outcome. |
+| Find the weak points in a plan before committing | [Grill Me](learn-think/grill-me/SKILL.md) | A decision-by-decision interview that exposes unresolved choices. |
+| Turn your expertise into an offer buyers can assess | [Grand Slam Offer](win-customers/grand-slam-offer/SKILL.md) | An Offer Card with scope, pricing, bonuses, and guarantee terms to review. |
+| Choose a business direction beyond revenue goals | [Good Strategy / Bad Strategy](run-business/good-strategy-bad-strategy/SKILL.md) | A diagnosis of the challenge, a guiding policy, and actions that support it. |
+| Start a task you've been avoiding | [Unstuck Now](focus-execute/unstuck-now/SKILL.md) | A small first action matched to the blocker, with a commitment card. |
+
+Browse the six categories below when your task changes. They're organized by the work you need to do, so you can choose a skill without knowing the framework's name.
 
 ## Install
 
@@ -14,7 +28,11 @@ npx skills@latest add Ivcota/skills/<category>/<skill-name>
 
 Install paths are organized by category folders such as `learn-think/grill-me` and `win-customers/grand-slam-offer`.
 
-Bundle-level install commands are intentionally omitted until the exact CLI syntax is verified.
+Read the skill's `SKILL.md` for its workflow and any prerequisites. Some skills work entirely in conversation; others use workspace files, a calendar, or an Obsidian vault.
+
+After installation, ask your assistant to use the skill on your task. For example:
+
+> Use grand-slam-offer to help me package a bookkeeping service for independent consultants. I need to define the scope and pricing before drafting a sales page.
 
 ## Bundles
 
@@ -159,7 +177,7 @@ npx skills@latest add Ivcota/skills/learn-think/deep-learner
 npx skills@latest add Ivcota/skills/learn-think/four-pillars-learning-coach
 ```
 
-**Bear Hunter System** — Actually remember what you learn. Builds a causal GRINDE map through AIM → SHOOT → SKIN so complex material sticks at 80–95% retention.
+**Bear Hunter System.** Organize complex material into a causal GRINDE map, then use the AIM, SHOOT, and SKIN stages to practice recall and identify gaps.
 
 ```bash
 npx skills@latest add Ivcota/skills/learn-think/bear-hunter-system
@@ -265,7 +283,7 @@ npx skills@latest add Ivcota/skills/focus-execute/now
 npx skills@latest add Ivcota/skills/focus-execute/intentional
 ```
 
-**One-Month Day** — Plan a single day built for a month's worth of output. Stacks flow blocks, clears load, builds a flow fortress, and locks tomorrow's deep-work schedule.
+**One-Month Day.** Make room for focused work tomorrow. Guides you through clearing competing commitments, reducing distractions, and scheduling flow blocks.
 
 ```bash
 npx skills@latest add Ivcota/skills/focus-execute/one-month-day
@@ -353,7 +371,7 @@ npx skills@latest add Ivcota/skills/write-communicate/humanizer
 
 ## Understand Buyers
 
-**Validate ICP** — Prove the market exists before you build. Mines Reddit, HN, X, and forums for verbatim pain quotes — then returns a VALIDATED / WEAK / NOT FOUND verdict with source links and a DM list.
+**Validate ICP.** Look for evidence of a buyer problem before you build. Searches Reddit, HN, X, and forums for pain quotes, then returns an evidence verdict with source links and a list of people for potential follow-up.
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/validate-icp
@@ -379,13 +397,13 @@ npx skills@latest add Ivcota/skills/win-customers/persona-to-product
 npx skills@latest add Ivcota/skills/win-customers/value-equation
 ```
 
-**Grand Slam Offer** — Design an offer so good people feel stupid saying no. Runs Hormozi's full workflow — Dream Outcome through Pricing — and hands you a complete Offer Card ready for a sales page.
+**Grand Slam Offer.** Make your offer concrete enough to review with potential buyers. Works through the desired outcome, delivery, bonuses, guarantee, pricing, and naming to produce a complete Offer Card.
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/grand-slam-offer
 ```
 
-**$100M Money Models** — Make acquisition self-funding. Chains Attraction → Upsell → Downsell → Continuity offers so 30-day gross profit exceeds CAC — turning credit-card float into client-financed growth.
+**$100M Money Models.** Design an offer sequence and assess its acquisition economics. Connects attraction, upsell, downsell, and continuity offers to examine whether 30-day gross profit can cover customer acquisition cost.
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/hundred-million-money-models
@@ -473,7 +491,7 @@ npx skills@latest add Ivcota/skills/win-customers/science-of-selling
 npx skills@latest add Ivcota/skills/win-customers/win-friends-influence-people
 ```
 
-**Key Person of Influence** — Become the recognized authority in your industry in twelve months. Runs Priestley & Harrington's five-step sequence — Pitch → Publish → Product → Profile → Partnership — scoring each out of 10.
+**Key Person of Influence.** Identify gaps in how you build authority in your industry. Reviews your pitch, publishing, product, profile, and partnerships, then scores each to help you choose where to work next.
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/key-person-of-influence
