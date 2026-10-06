@@ -43,7 +43,7 @@ After installation, ask your assistant to use the skill on your task. For exampl
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
 | [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
-| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
+| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
 
@@ -521,6 +521,12 @@ npx skills@latest add Ivcota/skills/run-business/zero-to-one
 
 ```bash
 npx skills@latest add Ivcota/skills/run-business/million-dollar-weekend
+```
+
+**Running Lean** — Design, validate, and grow a business model with Ash Maurya's Lean Canvas, traction-first stress tests, and Demo–Sell–Build approach. Test demand through customer interviews and offers before building an MVP.
+
+```bash
+npx skills@latest add Ivcota/skills/run-business/running-lean
 ```
 
 **Millionaire Fastlane** — Score your wealth plan before it costs you a decade. Runs DeMarco's CENTS commandments and Wealth Equation to tell you if you're on the Sidewalk, Slowlane, or Fastlane.
