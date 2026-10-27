@@ -42,8 +42,8 @@ After installation, ask your assistant to use the skill on your task. For exampl
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
-| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence` |
-| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `sweaty-startup`, `good-strategy-bad-strategy`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
+| [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `offer-fulfillment`, `sweaty-startup`, `good-strategy-bad-strategy`, `author-outcomes`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
 
@@ -441,6 +441,18 @@ npx skills@latest add Ivcota/skills/win-customers/aida
 npx skills@latest add Ivcota/skills/win-customers/epiphany-bridge
 ```
 
+**Fanatical Prospecting** — Build, audit, and explain prospecting systems with Jeb Blount's framework: daily activity plans, pipeline math, call scripts, and channel mix.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/fanatical-prospecting
+```
+
+**Oversubscribed** — Plan founder demand campaigns with Daniel Priestley's method so qualified demand exceeds honest capacity before you release an offer.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/oversubscribed
+```
+
 ## Persuade & Build Authority
 
 **Conversation-First Outreach** — Structure live cold calls and door-to-door conversations around safety of no, problem ownership, objection redirects, OLQs, and low-pressure closes.
@@ -549,12 +561,24 @@ npx skills@latest add Ivcota/skills/run-business/sweaty-startup
 npx skills@latest add Ivcota/skills/run-business/good-strategy-bad-strategy
 ```
 
+**Author Outcomes** — Capture what success looks like before work starts. Scaffolds or co-authors `product/context/outcomes.md` with user-owned outcomes and L1/L2 metrics—one outcome at a time, without inventing Today or Target values.
+
+```bash
+npx skills@latest add Ivcota/skills/run-business/author-outcomes
+```
+
 ## Operate the System
 
 **Business Operator** — Choose the next growth move from one cockpit: decisions, outreach, offers, capacity, and cost curves. Turns business noise into a 7-day operator test with clear economics.
 
 ```bash
 npx skills@latest add Ivcota/skills/run-business/business-operator
+```
+
+**Offer Fulfillment** — Turn a Grand Slam Offer (or equivalent) into a fulfillment blueprint, production playbooks, and an implementation plan the business can run.
+
+```bash
+npx skills@latest add Ivcota/skills/run-business/offer-fulfillment
 ```
 
 **E-Myth Revisited** — Stop being the bottleneck in your own business. Applies Gerber's Franchise Prototype and seven Business Development strategies to build a system that runs without you.
