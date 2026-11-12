@@ -42,7 +42,7 @@ After installation, ask your assistant to use the skill on your task. For exampl
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
-| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `winning-markets`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `launch`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `offer-fulfillment`, `sweaty-startup`, `good-strategy-bad-strategy`, `author-outcomes`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
@@ -391,7 +391,13 @@ npx skills@latest add Ivcota/skills/win-customers/persona-to-product
 
 ## Package Value
 
-**Value Equation** — Find the lever killing your conversions. Scores any offer, feature, content, or idea across Hormozi's four levers and gives you a path to 10/10.
+**Winning Markets** — Pick the market before the offer. Scores Pain, Purchasing Power, Easy to Target, and Growing on a specific avatar, classifies starving crowd vs normal vs bad market, and hands off to Value Equation or stops with a market brief.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/winning-markets
+```
+
+**Value Equation** — Design or score an offer (or any artifact) across Hormozi's four drivers one at a time — Dream Outcome, Perceived Likelihood of Achievement, Time Delay, Effort & Sacrifice — with optional stack and pricing checks via Dollars mode.
 
 ```bash
 npx skills@latest add Ivcota/skills/win-customers/value-equation
@@ -410,6 +416,12 @@ npx skills@latest add Ivcota/skills/win-customers/hundred-million-money-models
 ```
 
 ## Create Demand
+
+**Launch.** Plan product launches with Jeff Walker's Product Launch Formula, from audience discovery and prelaunch content through Open Cart and follow-up. Covers Seed, Internal, JV, and live launches.
+
+```bash
+npx skills@latest add Ivcota/skills/win-customers/launch
+```
 
 **$100M Leads** — Stop hoping leads find you. Builds a lead engine using the Core Four, lead magnets, and Lead Getters — with the Rule of 100 and advertising compounding model built in.
 
