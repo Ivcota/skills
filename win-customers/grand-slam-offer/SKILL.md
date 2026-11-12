@@ -1,11 +1,13 @@
 ---
 name: grand-slam-offer
-description: Walk through Alex Hormozi's $100M Offers workflow end-to-end to design a Grand Slam Offer from scratch — Dream Outcome → Problems → Solutions → Trim & Stack → Bonuses → Guarantee → Scarcity & Urgency → Pricing → Naming. Produces a complete Offer Card (named, priced, bonus-stacked, guaranteed, with scarcity copy) ready to drop into a sales page. Distinct from `hundred-million-offers` (reference skill) and `value-equation` (scores any artifact on four levers) — this is the build-an-offer workflow specifically. Use when the user says "build a grand slam offer", "design my offer", "package my offer", "create an irresistible offer", "build an offer from scratch", "walk me through making an offer", or wants to construct a complete offer with bonuses, guarantee, scarcity, and pricing in one guided pass.
+description: Walk through Alex Hormozi's $100M Offers workflow end-to-end to design a Grand Slam Offer from scratch — Dream Outcome → Problems → Solutions → Delivery Vehicles → Trim & Stack → Bonuses → Guarantee → Scarcity & Urgency → Pricing → Naming. Produces a complete Offer Card (named, priced, bonus-stacked, guaranteed, with scarcity copy) ready to drop into a sales page. Distinct from `hundred-million-offers` (reference skill) and `value-equation` (scores any artifact on four levers) — this is the build-an-offer workflow specifically. Use when the user says "build a grand slam offer", "design my offer", "package my offer", "create an irresistible offer", "build an offer from scratch", "walk me through making an offer", or wants to construct a complete offer with bonuses, guarantee, scarcity, and pricing in one guided pass.
 ---
 
 # Grand Slam Offer
 
-Build a complete offer the way the book builds it: nine steps, in book order, mini-interview per step, full Offer Card at the end.
+Build a complete offer the way the book builds it: ten steps, mini-interview per step, full Offer Card at the end.
+
+Steps 1–5 are the book's numbered offer-creation sequence: Dream Outcome → Problems → Solutions → Delivery Vehicles → Trim & Stack. Steps 6–10 enhance that offer: Bonuses → Guarantee → Scarcity & Urgency → Pricing → Naming. Pricing is last *(workflow)* so the 10:1 ratio is set against the full stack.
 
 **Output is conversation-only.** No file is saved. The Offer Card at the end is the deliverable — user copy-pastes it.
 
@@ -17,7 +19,9 @@ Build a complete offer the way the book builds it: nine steps, in book order, mi
 - **Backtracking allowed** — user can say "go back to Step N" any time. Replay forward from the edited state, don't restart.
 - **Tag every move** *(book)* or *(workflow)*. Lets the user trust what's Hormozi vs what's an operationalization.
 
-**Load `PATTERNS.md` once at intake.** Reference it during every step that requires generation (Dream Outcomes, problems, solutions, vehicles, bonus names, guarantee phrasing, scarcity copy, MAGIC names, stack reveal). It contains book-faithful copy patterns, calibrating examples, and the canonical weight-loss exemplar threaded across Steps 2-5.
+**Load `PATTERNS.md` once at intake.** Reference it during every step that requires generation (Dream Outcomes, problems, solutions, vehicles, trim quadrants, bonus names, guarantee phrasing, scarcity copy, MAGIC names, stack reveal). It contains book-faithful copy patterns, calibrating examples, and the canonical weight-loss exemplar threaded through every step.
+
+**Pivot:** If the user says "value equation," "pull the levers," or "one lever at a time," stop this workflow. Carry only the ICP and the locked Dream Outcome into `value-equation`. Do not generate the next Grand Slam step. Resume here only when they say "back to Grand Slam step N."
 
 ## Intake (always, before Step 1)
 
@@ -44,81 +48,110 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 
 ## Step 2 — List Problems *(book Step #2)*
 
-**Frame:** "We list every obstacle between [ICP] and [Dream Outcome] — chronologically by stage, tagged by which of the 4 value drivers each hits."
+**Frame:** "We list every obstacle between [ICP] and [Dream Outcome] — chronologically by stage, tagged by which Value Equation lever each hits."
+
+**Lever map** *(workflow — same four parts as `value-equation`)* — Value = (Dream Outcome × Likelihood) / (Time Delay × Effort & Sacrifice). Numerators should go up; denominators should go down toward 1.
+
+| Tag | Lever | Problem sounds like | Solving it does |
+|---|---|---|---|
+| **DO** | Dream Outcome | result feels weak, vague, not *for me*, or not life-changing enough | raise the result |
+| **L** | Likelihood | "won't work for someone like me" | raise the belief |
+| **T** | Time Delay | "takes too long / no early win" | shrink the wait |
+| **E&S** | Effort & Sacrifice | hard, confusing, costly, identity cost — money they give up lives here, not under DO | shrink the work |
 
 1. **Stage proposal** — draft 4-7 chronological stages the customer goes through (e.g. for "land 10 clients": Identify ICP → Get attention → Book calls → Close calls → Deliver → Renew). User confirms / reorders / adds.
-2. **Per-stage problem generation** — for each stage, draft 4-8 candidate problems, each auto-tagged by value driver: **DO** (Dream Outcome — won't be worth it), **L** (Likelihood — won't work for me), **E&S** (Effort & Sacrifice — too hard, confusing), **T** (Time — too long). Multi-tagging allowed.
+2. **Per-stage problem generation** — for each stage, draft 4-8 candidate problems, each auto-tagged with the lever map above. Multi-tagging allowed when a problem truly hits more than one lever. Do not file "too expensive" or other cost-to-buyer under **DO**.
 3. **User reacts** — kill / keep / edit / add per stage.
-4. **Volume target: ~20-40 problems total.** *(workflow — book targets 32-64; chat compresses.)* If a stage has fewer than 3, push for more.
+4. **Volume target: ~20-40 problems total.** *(workflow — book targets 32-64; chat compresses.)* If a stage has fewer than 3, push for more. If a stage is missing a lever, draft at least one problem for that lever.
 
-**Exit:** structured problem list — grouped by stage, each tagged with value driver(s). Carried into Step 3.
+**Exit:** structured problem list — grouped by stage, each tagged with lever(s). Tags carry into Steps 3–6 so solutions, vehicles, trim, and bonuses pull the right lever.
 
 ---
 
 ## Step 3 — Solutions List *(book Step #3)*
 
-**Frame:** "We flip every problem into a 'How to...' solution, dedupe, then name each."
+**Frame:** "We flip every problem into a 'How to...' solution that pulls its tagged lever, dedupe, then name each."
 
-1. **Auto-flip** *(book — "copywriting 101")* — mechanically convert every Step 2 problem into "How to [reverse]" form. Show the full list grouped by stage.
+1. **Auto-flip** *(book — "copywriting 101")* — mechanically convert every Step 2 problem into "How to [reverse]" form. Keep the lever tag on each flip. Show the full list grouped by stage. Load `PATTERNS.md → Step 3` for lever-specific flip templates.
 2. **User review** — strike bad ones, edit language, add missing.
-3. **Dedupe pass** *(workflow)* — flag near-duplicates, propose merges, user approves each. *(Book says repetition is normal; we dedupe because Step 4 needs clean state.)*
+3. **Dedupe pass** *(workflow)* — flag near-duplicates, propose merges, user approves each. *(Book says repetition is normal; we dedupe because Step 4 writes a vehicle list per solution, and near-duplicates multiply that list.)* Prefer the merge that still names the lever the survivor pulls.
 4. **Name each surviving solution** *(book)* — propose short specific names (benefit + ideally avatar/timeframe). User edits.
 
-**Exit:** named, deduped "How to..." solution list, each linked to the original problem(s).
+**Exit:** named, deduped "How to..." solution list, each linked to the original problem(s) and lever tag(s).
 
 ---
 
-## Step 4 — Trim & Stack *(book Step #4)*
+## Step 4 — Delivery Vehicles *(book Step #4 — "The How")*
 
-**Frame:** "Each solution can be delivered many ways. We pick a vehicle for each, score Value × Cost, and trim what's expensive and low-value."
+**Frame:** "For every solution, list everything you could possibly deliver. This is what they get in exchange for money. Divergent first. Whether you would actually do it is not the filter. The filter is whether they would say: all that? Seriously? Yes, I'm in."
 
-1. **Vehicle dimensions cheat-sheet:**
-   - **Attention:** 1-on-1 / small group / 1-to-many
+1. **Delivery cheat codes** *(book — the Delivery Cube)* — vary each solution across all six:
+   - **Attention:** one-on-one / small group / one-to-many
    - **Effort:** DIY / done-with-you / done-for-you
-   - **Format:** live / recorded / written / software / physical
-   - **Speed:** sync / async / on-demand
-   *(User can mix.)*
-2. **Vehicle proposal** — draft 2-3 candidate vehicles per solution, user picks one (or combines).
-3. **Quick qualitative score** *(book — Hormozi is qualitative here, axis chart not numeric)* — Value to customer (Low/Med/High) × Cost to deliver (Low/Med/High).
-4. **Categorize** *(workflow refinement of book's two buckets)*:
+   - **Live medium:** in person / phone / email / text / Zoom / chat
+   - **Recorded consumption:** audio / video / written
+   - **Reply speed:** 24/7 / business hours / within 5 minutes / within an hour / within 24 hours
+   - **10× / 1/10th:** what you would deliver if they paid 10× (or $100,000); what would still make them successful at 1/10th the price
+2. **Per-solution generation** *(book)* — group each list by attention level, the way the grocery example does: one-on-one, then small group, then one-to-many. Cover more than one effort level. Include at least one 10× idea and one 1/10th idea. Bias vehicle ideas toward the solution's lever tag *(workflow)*: **DO** → vivid outcome proof and identity-level framing; **L** → hand-holding, proof, live support; **T** → faster reply, first-win formats, done-for-you speed; **E&S** → DIY tools that remove decisions, DWY coaching, or DFY. Load `PATTERNS.md → Step 4` for the grocery exemplar before generating. Chat compresses *(workflow)*: draft 6–10 vehicles per solution. If a solution only varies format inside one attention level, push for the other levels.
+3. **User reacts** — kill / keep / edit / add. Cost is not a reason to kill yet. Trimming is Step 5.
+4. **Solve every perceived problem** *(book)* — one unsolved problem is often why someone doesn't buy. If a Step 3 solution has no vehicles, add them before exiting.
+
+**Exit:** untrimmed vehicle list, grouped by solution and attention level. Carried into Step 5.
+
+---
+
+## Step 5 — Trim & Stack *(book Step #5)*
+
+**Frame:** "Now we trim. High value to them, lower cost to you. Over-deliver at first to create cash flow, then build systems that create the same value for less. The piece that makes them say yes stays, even when it costs more to deliver."
+
+1. **Score each kept vehicle** *(book — qualitative, axis chart not numeric)* — Value to customer (Low/Med/High) × Cost to deliver (Low/Med/High). Value is high when the vehicle clearly pulls its tagged lever (bigger result, stronger belief, shorter wait, or less work).
+2. **Categorize** *(workflow refinement of the book's high-value/low-cost trim)*:
    - **CUT** = High Cost + Low Value
    - **CORE (keep)** = High Value + Low Cost
    - **ANCHOR (keep)** = High Value + High Cost — the headline component, justifies price
    - **DEMOTE** = Low Value + Low Cost — bonus candidate or cut
-5. User confirms each call.
+3. **Sales-fulfillment check** *(book)* — for each ANCHOR, ask whether a system could deliver the same customer value at lower cost later. Keep the value now. Note the later system as an ops note, not a reason to cut the promise.
+4. User confirms each call. One vehicle, or a deliberate combination, per solution that stays.
 
-**Exit:** offer stack — solution+vehicle pairs categorized as Anchor / Core / Demote / Cut. Carry forward.
+**Exit:** offer stack — solution+vehicle pairs categorized as Anchor / Core / Demote / Cut. Carry the kept pieces forward whole. Step 6 breaks that stack apart into bonuses; demoted items are a later bonus source only when they kill an objection.
 
 ---
 
-## Step 5 — Bonuses *(book Section IV)*
+## Step 6 — Bonuses *(book Section IV)*
 
-**Frame:** "Each bonus targets a specific objection, has a unique name, a justified price, and proof. Total bonus value > eventual core price."
+**Frame:** "A single offer is worth less than the same offer broken into its parts and stacked as bonuses. We anchor the price on one core. Every other piece they already get gets its own name, its own price, and a 'but wait.' Then we add whatever still kills the reason they would say no. Close a price gap by adding a bonus. The core price stays put."
 
-1. **Recycle DEMOTED items from Step 4** *(workflow)* — propose as bonus candidates, but only if they map to a real objection. Reframe each as objection-killer.
-2. **Identify remaining objections** *(workflow Q's, book intent)* — 3 questions:
+Load `PATTERNS.md → Step 6` before generating names or the breakout.
+
+1. **Splinter the stack** *(book — products and services already inside the offer, broken out and stacked)*. Take the kept Anchor + Core deliverables from Step 5. Pick one price-anchor core, usually the headline vehicle. Break every other kept deliverable into its own bonus. Each piece was already in the offer; naming it and pricing it is what makes it visible. Propose the breakout in one pass: what stays the core, and each splinter with a benefit-first name plus the problem it was already solving. User kills / keeps / edits the *presentation*. A splinter still ships. You are changing how it is shown, not whether they receive it.
+2. **Next logical need** *(book)* — 1-2 bonuses for the problem they hit the moment the Dream Outcome arrives, before they know to ask. These are new pieces, beyond the splinter.
+3. **Recycle DEMOTED items from Step 5** *(workflow)* — propose one only when it maps to a real objection. Reframe it as an objection-killer. Tag the lever it kills (**L** and **E&S** are the usual ones; **T** for "I'll start later"; **DO** only when the result still feels too small).
+4. **Identify remaining objections** *(workflow Q's, book intent)* — 3 questions:
    - "#1 reason a fit prospect would still hesitate?"
    - "Most common 'but what about...' question?"
    - "Closest-to-the-line objection — fix it and they'd buy today?"
-3. **Generate bonus candidates per objection** — 1-2 each. **Prefer tools / checklists / templates / swipe files over more training content.** *(book — explicit Hormozi rule.)*
-4. **Partner-bonus nudge** *(book)* — single ask: "Any partner whose product you could include at zero cost?"
-5. **Name each bonus** *(book)* — pattern: include the benefit, ideally avatar + timeframe (e.g., "The 6-Week Six-Pack Bootcamp for Busy Men"). Length serves clarity, not a fixed cap.
-6. **Capture pitch elements per bonus** *(book — Hormozi's literal bonus-pitch rules)*:
-   - Objection it kills
+   Map each answer to a lever before generating. Skip an objection a splinter or next-need bonus already kills.
+5. **Generate one added bonus per remaining objection.** **Prefer tools / checklists / templates / swipe files over more training content.** *(book)* Tools and checklists beat another training because effort and time drop, so perceived value rises.
+6. **Partner-bonus nudge** *(book)* — single ask: "Any adjacent business whose product you could include at zero cost, in exchange for sending them customers?" High-value to the buyer, free to you. Direct competitors stay out.
+7. **Name each bonus** *(book)* — benefit in the title, ideally avatar + timeframe (e.g., "The 6-Week Six-Pack Bootcamp for Busy Men"). A splinter sheds its internal label ("weekly group call" becomes a named bonus). Length serves clarity, not a fixed cap.
+8. **Capture pitch elements per bonus** *(book — Hormozi's bonus-pitch rules)*:
+   - How it relates to their issue (the objection or obstacle it kills)
    - What it is
-   - How you discovered/created it
-   - How it improves their life (vivid future picture)
-   - Proof point (stat / case study / anecdote) — if available
-7. **Assign dollar value, justify it, round down** *(book — "undervalue rather than overvalue")*. No 3x cap; the rule is honest and defensible.
-8. **Optional bonus-level scarcity** *(book)* — "Any bonus worth limiting separately? (e.g., first 20 enrollees only.)"
-9. **Stack order** — value-descending by default *(workflow)*. User can reorder for narrative.
-10. **Volume** — enough to neutralize key objections, typically 3-7. No hard count.
+   - How you discovered or created it — for a splinter, the story is that this was buried inside the offer until it was pulled out and named
+   - How it improves their life (vivid future picture: faster, easier, or less sacrifice)
+   - Proof point (stat / past client / personal experience) — if available
+   - The dollar value, and why that number is fair
+9. **Assign a dollar value to every bonus, justify it, round down** *(book — "undervalue rather than overvalue")*. The rule is honest and defensible. Sum of bonus values eclipses the stated value of the price-anchor core *(book)*.
+10. **Optional bonus-level scarcity or urgency** *(book)* — scarcity: only people who buy get a piece that exists nowhere else, or the last N seats of something real. Urgency: the bonus arrives only if they buy today. "Any bonus worth limiting on its own?" Confirm the limit is real. Step 8 still owns offer-level scarcity.
+11. **Stack order** — state the core and its price first, then expand *(book — price anchor, then "but wait")*. Within the bonuses, value-descending *(workflow)*. User can reorder for the story.
+12. **Volume** — every kept deliverable outside the core is broken out. Added bonuses cover the objections that breakout left standing. No fixed count.
+13. **One-to-one reveal** *(book)* — on a sales call, ask for the sale on the core first. If they say yes, reveal the bonuses after the yes. If they say no, bring the one bonus that matches the obstacle they just named, then ask again.
 
-**Exit:** named bonus list, each with objection + description + discovery story + future picture + proof + dollar value, ordered, total value summed.
+**Exit:** ordered bonus list. Each row tagged `splinter`, `next need`, `demoted`, `tool`, or `partner`, with objection + description + discovery story + future picture + proof + dollar value. Total bonus value summed, and greater than the core's stated value.
 
 ---
 
-## Step 6 — Guarantee *(book Section IV)*
+## Step 7 — Guarantee *(book Section IV)*
 
 **Frame:** "Pick a guarantee that fits, name it, make it specific and bold — not vague."
 
@@ -143,7 +176,7 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 
 ---
 
-## Step 7 — Scarcity & Urgency *(book Section IV)*
+## Step 8 — Scarcity & Urgency *(book Section IV)*
 
 **Frame:** "Scarcity = limited quantity. Urgency = limited time. Pair both. Every claim must be true."
 
@@ -161,11 +194,11 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 
 ---
 
-## Step 8 — Pricing *(re-ordered: book treats pricing as upfront mindset; we price last because the 10:1 ratio needs full stack value)*
+## Step 9 — Pricing *(re-ordered: book treats pricing as upfront mindset; we price last because the 10:1 ratio needs full stack value)*
 
 **Frame:** "Now the full stack is built. We price against total perceived value. Target 10:1 — perceived value 10x your price."
 
-1. **Compute total stack value** — auto-sum: core component values (Step 4) + bonus values (Step 5). Display: "Total stack value: $X." Guarantee + scarcity boost perceived value but aren't summed.
+1. **Compute total stack value** — count each deliverable once. Price-anchor core value + every Step 6 bonus (splintered components and added bonuses). Display: "Total stack value: $X." A piece moved into bonuses in Step 6 is already inside that bonus total. Guarantee + scarcity boost perceived value but aren't summed.
 2. **Three anchors** *(book references all three)*:
    - **Stack anchor:** total stack ÷ 10
    - **Status-quo anchor:** cost of doing nothing for 12 months
@@ -179,9 +212,9 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 5. **Payment structure** *(book)* — if price ≥ $2K, prompt PIF vs payment plan + PIF discount. Below, default PIF.
 6. **Generate stack reveal copy** *(book — pattern straight from Hormozi's worked examples)*:
    ```
-   Core: [Component] — $X value
-   Bonus 1: [Name] — $X value
-   Bonus 2: [Name] — $X value
+   Core: [Price-anchor] — $X value
+   Bonus 1: [Splintered piece or added bonus] — $X value
+   Bonus 2: [Splintered piece or added bonus] — $X value
    ...
    Guarantee: [Named Guarantee]
    ─────────────
@@ -193,7 +226,7 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 
 ---
 
-## Step 9 — Naming + Final Offer Card *(book Section IV — MAGIC)*
+## Step 10 — Naming + Final Offer Card *(book Section IV — MAGIC)*
 
 **Frame:** "The name does the selling. Use MAGIC. Test variations."
 
@@ -208,7 +241,7 @@ If user needs guidance selecting a market or ICP, reference `PATTERNS.md → Int
 
 ### Final Offer Card (the deliverable)
 
-Assemble everything into a single block. This is what the user copy-pastes:
+Assemble everything into a single block. THE STACK is the price-anchor core only. Pieces broken out in Step 6 sit under BONUSES and are counted once. This is what the user copy-pastes:
 
 ```
 ━━━ GRAND SLAM OFFER ━━━
@@ -218,13 +251,11 @@ For: [ICP]
 Promise: [Dream Outcome]
 
 THE STACK
-• [Anchor component] — $X
-• [Core component] — $X
-• [Core component] — $X
+• [Price-anchor core] — $X
 
 BONUSES
-• [Bonus 1 name] — $X — kills [objection]
-• [Bonus 2 name] — $X — kills [objection]
+• [Named piece broken out of the offer] — $X — kills [objection]
+• [Added bonus] — $X — kills [objection]
 • ...
 
 GUARANTEE
@@ -239,7 +270,7 @@ Your investment: $Y
 Payment: [PIF or plan]
 
 STACK REVEAL COPY
-[Sales-page block from Step 8]
+[Sales-page block from Step 9]
 ━━━━━━━━━━━━━━━━━
 ```
 

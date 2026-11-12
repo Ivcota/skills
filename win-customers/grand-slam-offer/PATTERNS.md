@@ -57,33 +57,33 @@ The narrower you go, the more a prospect feels *this was made for me* — and th
 
 ## Step 2 — List Problems (Weight-Loss Exemplar)
 
-Hormozi's canonical problem list — use as the calibration target for completeness and detail.
+Hormozi's grocery / cooking / eating / exercise stages, retagged to the Value Equation. Money the buyer spends is **E&S**, not **DO**. **DO** is when the end state itself feels too small or not *theirs*.
 
 **Stage 1: Buying healthy food (grocery shopping)**
-- E&S: hard, confusing, won't like it
-- T: takes too much time
-- DO: too expensive, not financially worth it
+- DO: even if I buy the right food, I still won't look or feel the way I want
 - L: I won't be able to keep doing it; family's needs will get in my way; can't do it while traveling
+- T: takes too much time in an already packed week
+- E&S: hard, confusing, won't like it; groceries cost more than what I buy now
 
 **Stage 2: Cooking healthy food**
-- E&S: hard, won't enjoy it, will suck at it
-- T: takes too much time
-- DO: too expensive, not worth it
+- DO: cooking "healthy" still won't get me the body / energy I actually want
 - L: unsustainable; family will derail me; can't cook healthy while traveling
+- T: takes too much time
+- E&S: hard, won't enjoy it, will suck at it; special ingredients cost more
 
 **Stage 3: Eating healthy food**
-- E&S: doesn't taste good; complicated to follow
-- T: meal prep eats my evenings
-- DO: cost of eating out healthy is steep
+- DO: eating clean still leaves me looking average in clothes and photos
 - L: can't sustain; social events break me
+- T: meal prep eats my evenings
+- E&S: doesn't taste good; complicated to follow; eating out healthy is steep
 
 **Stage 4: Exercising regularly**
-- E&S: hard, intimidating, I'll suck at it
-- T: no time in my schedule
-- DO: gym membership and gear cost too much
+- DO: workouts won't change how I look enough to feel like a new person
 - L: I always quit by week 3
+- T: no time in my schedule; results feel months away
+- E&S: hard, intimidating, I'll suck at it; gym membership and gear cost too much
 
-**Pattern:** every stage gets all 4 drivers (DO/L/E&S/T). When generating for a new domain, walk the same matrix per stage.
+**Pattern:** every stage gets all 4 levers (DO/L/T/E&S). When generating for a new domain, walk the same matrix per stage. If a line is about money, hours of work, confusion, or identity cost → **E&S**. If it is about the result feeling weak → **DO**.
 
 ---
 
@@ -91,21 +91,21 @@ Hormozi's canonical problem list — use as the calibration target for completen
 
 Mechanical reversal: every problem → "How to..." statement.
 
-**Reversal templates by driver:**
+**Reversal templates by lever:**
 
-| Problem driver | Flip template |
-|---|---|
-| **E&S** ("too hard, confusing") | "How to make [X] easy and enjoyable, especially for [avatar]" |
-| **T** ("too slow") | "How to [X] in under [tight time]" |
-| **DO** ("not worth it / too expensive") | "How [doing X] is actually cheaper than [status quo]" |
-| **L** ("won't work for me") | "How to make [X] stick despite [specific constraint]" |
+| Lever | Problem sounds like | Flip template | Pulls |
+|---|---|---|---|
+| **DO** | result feels weak / not mine | "How [avatar] gets [specific, identity-level result] from [X]" | raise the result |
+| **L** | won't work for me | "How to make [X] stick despite [specific constraint]" | raise the belief |
+| **T** | too slow / no early win | "How to [X] in under [tight time]" | shrink the wait |
+| **E&S** | too hard, confusing, or costly | "How to make [X] easy / cheap / decision-free for [avatar]" | shrink the work |
 
 **Worked flips (paired with Step 2):**
 
-- "Buying healthy food is hard" → "How busy moms can buy healthy food without confusion"
-- "Cooking healthy takes too long" → "How to cook healthy meals in under 5 minutes"
-- "Eating healthy is expensive" → "How healthy eating actually costs less than your current grocery bill"
-- "I always quit by week 3" → "How to make exercise stick when motivation runs out"
+- DO: "Eating clean still leaves me looking average" → "How busy moms get a clothes-confident body from the food they already buy"
+- L: "I always quit by week 3" → "How to make exercise stick when motivation runs out"
+- T: "Cooking healthy takes too long" → "How to cook healthy meals in under 5 minutes"
+- E&S: "Buying healthy food is hard / expensive" → "How busy moms buy healthy food without confusion or a bigger grocery bill"
 
 **Solution naming pattern (3-7 words):**
 - "5-Minute Healthy Meals"
@@ -114,7 +114,43 @@ Mechanical reversal: every problem → "How to..." statement.
 
 ---
 
-## Step 4 — Trim & Stack (Quadrant Examples)
+## Step 4 — Delivery Vehicles (Grocery Exemplar)
+
+Book pattern for one problem: group every possible delivery by attention level before any cost trim. Use this shape for every solution. The list is supposed to feel too long.
+
+**Problem:** Buying healthy food is hard, confusing, and I won't like it.
+
+**One-on-one**
+- In-person grocery trip: take them to the store and teach them to shop
+- Personalized grocery list: teach them to build their own list
+- Full-service shopping: buy the food for them, 100% done-for-you
+- In-person orientation, not at the store: teach them what to get
+- Text support while they shop
+- Phone call while they shop, planned for when they are in the aisle
+
+**Small group**
+- In-person group shop: meet several people and take them shopping
+- Group lesson on building the weekly list, once or every week
+- Buy and deliver the group's groceries
+- Offsite group orientation, not at the store
+
+**One-to-many**
+- Live virtual grocery tour: stream one store walkthrough, they ask questions live
+- Recorded grocery tour they rewatch on their own
+- DIY grocery calculator or a shareable tool that builds the list
+- Predetermined weekly lists, made ahead, used on their own time
+- Grocery buddy pairing: match customers and send them shopping together
+- Pre-made Instacart carts: one click, groceries at the door
+
+**10× / 1/10th on this same problem**
+- 10×: a shopper on call who buys, packs, and delivers every week, plus a same-day text line
+- 1/10th: one recorded store tour plus a one-page "grab these, skip those" card
+
+Stretch both directions for every solution. A vehicle you would not run yet still belongs on this list. Cutting it is Step 5.
+
+---
+
+## Step 5 — Trim & Stack (Quadrant Examples)
 
 | Quadrant | Example (weight loss for busy moms) |
 |---|---|
@@ -133,9 +169,21 @@ The ANCHOR is usually a cell on the right side of the cost ladder where the valu
 
 ---
 
-## Step 5 — Bonuses (Copy Patterns + Examples)
+## Step 6 — Bonuses (Copy Patterns + Examples)
 
-**Pitch-pattern per bonus** *(book — rule 3 from Hormozi's bonuses chapter):*
+**Splinter first** *(book)*. One offer left as a lump is worth less than the same offer broken into named, priced parts. Products and services already inside the Step 5 stack are the first bonuses. The next problem they will hit is the second pile. Tools, partner products, and a demoted leftover come after, and only when a reason to hesitate is still standing.
+
+| Source | What becomes the bonus | Weight-loss example |
+|---|---|---|
+| Splinter | A kept deliverable, pulled out of "the program" and named | "Weekly habit tracker" → The 'No Willpower' Habit Tracker |
+| Next logical need | The problem right after the Dream Outcome | Once home meals work, travel weeks blow it up → Travel-Day Eating Playbook |
+| Tool / checklist / swipe | One-time asset they can use forever; prefer this over another training | Pantry Reset Checklist |
+| Partner | Adjacent business's product, your cost at zero | $200 meal-prep voucher |
+| Demoted | A low-value leftover that still kills one real objection | Skip it when it kills nothing |
+
+The price-anchor stays one piece. In the busy-mom example the live Tuesday group is the core. The recipe library, the meal-plan generator, and the habit tracker were inside that same offer; each leaves the lump and gets its own line.
+
+**Pitch-pattern per bonus** *(book)*:
 
 ```
 Bonus #N: [Name] — a $[Value] value
@@ -170,7 +218,7 @@ Proof: [stat / case study / anecdote, if available]
 
 ---
 
-## Step 6 — Guarantees (Phrasing by Type)
+## Step 7 — Guarantees (Phrasing by Type)
 
 **Unconditional**
 - "Try it for 30 days. Not a fit? Full refund. Keep the bonuses."
@@ -207,7 +255,7 @@ Proof: [stat / case study / anecdote, if available]
 
 ---
 
-## Step 7 — Scarcity & Urgency (Copy Patterns)
+## Step 8 — Scarcity & Urgency (Copy Patterns)
 
 **Capacity scarcity:**
 - "Only [X] spots remaining in this cohort"
@@ -234,27 +282,30 @@ Proof: [stat / case study / anecdote, if available]
 
 ---
 
-## Step 8 — Pricing (Stack Reveal Examples)
+## Step 9 — Pricing (Stack Reveal Examples)
 
 **Full stack reveal block (drop into a sales page):**
 
 ```
 What you get when you enroll today:
 
-✓ The Healthy Mom Method (12-week program)         $4,000 value
-✓ Weekly live group coaching with Coach            $2,400 value
-✓ The Recipe Video Library (200+ meals)            $1,500 value
-✓ Bonus 1: Travel-Day Eating Playbook              $   297 value
-✓ Bonus 2: Spouse Sabotage Survival Guide          $   197 value
-✓ Bonus 3: Pantry Reset Toolkit                    $   197 value
-✓ Bonus 4: Founder's Weekly Office Hours Pass      $1,000 value
-✓ Bonus 5: Plateau Buster Protocol                 $   297 value
+✓ The Tuesday Group for Busy Moms (12 weeks, live) $2,400 value
+✓ Bonus: The 200-Meal Recipe Video Library          $1,497 value
+✓ Bonus: The Weekly Meal-Plan Generator             $   497 value
+✓ Bonus: The 'No Willpower' Habit Tracker           $   297 value
+✓ Bonus: Travel-Day Eating Playbook                 $   297 value
+✓ Bonus: Spouse Sabotage Survival Guide             $   197 value
+✓ Bonus: Pantry Reset Checklist                     $   197 value
+✓ Bonus: Founder's Weekly Office Hours Pass         $1,000 value
+✓ Bonus: Plateau Buster Protocol                    $   297 value
 ─────────────────────────────────────────────────
-Total value:                                       $9,888
+Total value:                                        $6,679
 
 Your investment today: $997
 Or 3 monthly payments of $397
 ```
+
+The first line is the price-anchor core. The recipe library, meal-plan generator, and habit tracker are the same offer, splintered. Travel, spouse, pantry, office hours, and plateau are added bonuses. Each deliverable is priced once.
 
 **Anchor language:**
 - "An investment of $X for $[10x] in [outcome]"
@@ -270,7 +321,7 @@ Or 3 monthly payments of $397
 
 ---
 
-## Step 9 — Naming (MAGIC Examples)
+## Step 10 — Naming (MAGIC Examples)
 
 **MAGIC = M**agnetic · **A**vatar · **G**oal · **I**ndicate timeframe · **C**ontainer
 
@@ -319,6 +370,8 @@ Or 3 monthly payments of $397
 | Pricing on cost | Price on Dream Outcome value × 10 |
 | No guarantee | Add a specific, named one — even modest is better than none |
 | Vague bonuses | Each gets a distinct name + objection-killed + dollar value |
+| Bonuses only as extras piled on a lump | Break the kept offer apart first; name and price each piece, then add what still kills a hesitation |
 | Fake scarcity | Only ship claims you'll honor 100% |
 | Generic name | Run all 5 MAGIC elements, drop weakest |
 | Solving everything | Stay anchored to ONE Dream Outcome |
+| Filing "too expensive" under DO | Money / hours / confusion / identity cost → E&S; weak result → DO |
