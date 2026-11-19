@@ -67,13 +67,14 @@
     {
       "name": "write-communicate",
       "source": "./",
-      "description": "Learn, package, and apply a personal writing voice. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup.",
+      "description": "Learn, package, and apply a personal writing voice, and turn published articles into LinkedIn video. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup. Blog Post to LinkedIn Video builds a 4:5 explainer and a caption from a blog post.",
       "version": "0.0.1",
       "skills": [
         "./write-communicate/learn-my-voice",
         "./write-communicate/style-profile",
         "./write-communicate/style-to-skill",
-        "./write-communicate/humanizer"
+        "./write-communicate/humanizer",
+        "./write-communicate/blog-post-to-linkedin-video"
       ]
     },
     {

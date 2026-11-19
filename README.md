@@ -15,6 +15,7 @@ You don't have to remember every framework or write a detailed prompt from scrat
 | Turn your expertise into an offer buyers can assess | [Grand Slam Offer](win-customers/grand-slam-offer/SKILL.md) | An Offer Card with scope, pricing, bonuses, and guarantee terms to review. |
 | Choose a business direction beyond revenue goals | [Good Strategy / Bad Strategy](run-business/good-strategy-bad-strategy/SKILL.md) | A diagnosis of the challenge, a guiding policy, and actions that support it. |
 | Start a task you've been avoiding | [Unstuck Now](focus-execute/unstuck-now/SKILL.md) | A small first action matched to the blocker, with a commitment card. |
+| Turn a published article into a LinkedIn explainer | [Blog Post to LinkedIn Video](write-communicate/blog-post-to-linkedin-video/SKILL.md) | A 4:5 motion graphic and a caption that points readers back to the article. |
 
 Browse the six categories below when your task changes. They're organized by the work you need to do, so you can choose a skill without knowing the framework's name.
 
@@ -41,7 +42,7 @@ After installation, ask your assistant to use the skill on your task. For exampl
 | [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `value-proposition-design`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
 | [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
-| [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
+| [Write & Communicate](#write--communicate) | Capture your voice, package it, make drafts sound human, and turn articles into LinkedIn video. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer`, `blog-post-to-linkedin-video` |
 | [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `winning-markets`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `launch`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `offer-fulfillment`, `sweaty-startup`, `good-strategy-bad-strategy`, `author-outcomes`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
@@ -63,6 +64,7 @@ After installation, ask your assistant to use the skill on your task. For exampl
 - [Write & Communicate](#write--communicate)
   - [Capture Voice](#capture-voice)
   - [Apply Voice](#apply-voice)
+  - [Publish](#publish)
 - [Win Customers](#win-customers)
   - [Understand Buyers](#understand-buyers)
   - [Package Value](#package-value)
@@ -333,7 +335,7 @@ npx skills@latest add Ivcota/skills/focus-execute/wrap-up
 
 # Write & Communicate
 
-*Capture your voice, package it, and make drafts sound human.*
+*Capture your voice, package it, make drafts sound human, and turn articles into LinkedIn video.*
 
 ## Capture Voice
 
@@ -361,6 +363,14 @@ npx skills@latest add Ivcota/skills/write-communicate/style-to-skill
 
 ```bash
 npx skills@latest add Ivcota/skills/write-communicate/humanizer
+```
+
+## Publish
+
+**Blog Post to LinkedIn Video** — Turn a published article into a story-driven 4:5 LinkedIn explainer. Builds a muted-autoplay motion graphic from the post's facts and brand, then writes a caption that sends readers back to the article.
+
+```bash
+npx skills@latest add Ivcota/skills/write-communicate/blog-post-to-linkedin-video
 ```
 
 ---
