@@ -43,7 +43,13 @@ Choose **one shared visual motif** (for example a focus ring, cursor, badge, or 
 
 ## 3. Build in Remotion (`TransitionSeries`)
 
-If a local Remotion project already exists, reuse its helper scripts for scaffolding, asset fetch, audio, preview, render, and QA. Otherwise scaffold a Remotion project with `remotion`, `@remotion/transitions`, `@remotion/lottie`, `@remotion/google-fonts`, and `ffmpeg`.
+When `storytelling-motion-graphics` is installed, pair with it instead of rebuilding a Remotion project from scratch. Install it with:
+
+```bash
+npx skills@latest add Ivcota/skills/write-communicate/storytelling-motion-graphics
+```
+
+Reuse that skill's `references/` (`MOTION_RULES.md`, `STORYTELLING.md`, `WORKFLOW.md`), `scripts/` (`new.sh`, `fetch_lottie.js`, `gen_audio.py`, `preview.sh`, `render.sh`, `qa.py`), and `assets/template/`. If it is not installed and a local Remotion project already exists, reuse that project's helper scripts. Otherwise scaffold a Remotion project with `remotion`, `@remotion/transitions`, `@remotion/lottie`, `@remotion/google-fonts`, and `ffmpeg`.
 
 Apply these **cut-polish rules** so transitions feel like one continuous film:
 

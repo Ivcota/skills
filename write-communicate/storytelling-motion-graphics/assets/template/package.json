@@ -1,0 +1,16 @@
+{
+  "name": "motion-template",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "remotion": "4.0.545",
+    "@remotion/cli": "4.0.545",
+    "@remotion/lottie": "4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "@remotion/google-fonts": "4.0.545",
+    "lottie-web": "^5.12.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {"typescript": "^5.6.0", "@types/react": "^19.0.0"}
+}

@@ -67,14 +67,15 @@
     {
       "name": "write-communicate",
       "source": "./",
-      "description": "Learn, package, and apply a personal writing voice, and turn published articles into LinkedIn video. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup. Blog Post to LinkedIn Video builds a 4:5 explainer and a caption from a blog post.",
+      "description": "Learn, package, and apply a personal writing voice, and turn writing into story-driven video. Learn My Voice, Style Profile, Style-to-Skill, and Humanizer cover conversation-driven calibration through final cleanup. Blog Post to LinkedIn Video builds a 4:5 explainer and a caption from a blog post. Storytelling Motion Graphics is the Remotion toolkit those videos are built with.",
       "version": "0.0.1",
       "skills": [
         "./write-communicate/learn-my-voice",
         "./write-communicate/style-profile",
         "./write-communicate/style-to-skill",
         "./write-communicate/humanizer",
-        "./write-communicate/blog-post-to-linkedin-video"
+        "./write-communicate/blog-post-to-linkedin-video",
+        "./write-communicate/storytelling-motion-graphics"
       ]
     },
     {
