@@ -11,7 +11,7 @@ You don't have to remember every framework or write a detailed prompt from scrat
 | What you're trying to do | Start here | What you'll work toward |
 |---|---|---|
 | Decide what belongs in the next product release | [User Story Mapping](build-products/user-story-mapping/SKILL.md) | A shared view of the user journey and a release slice tied to an outcome. |
-| Find the weak points in a plan before committing | [Grill Me](learn-think/grill-me/SKILL.md) | A decision-by-decision interview that exposes unresolved choices. |
+| Find the weak points in a plan before committing | [Grill with Docs](learn-think/grill-with-docs/SKILL.md) | A one-question-at-a-time interview that stress-tests your plan and updates CONTEXT.md and ADRs as decisions settle. |
 | Turn your expertise into an offer buyers can assess | [Grand Slam Offer](win-customers/grand-slam-offer/SKILL.md) | An Offer Card with scope, pricing, bonuses, and guarantee terms to review. |
 | Choose a business direction beyond revenue goals | [Good Strategy / Bad Strategy](run-business/good-strategy-bad-strategy/SKILL.md) | A diagnosis of the challenge, a guiding policy, and actions that support it. |
 | Start a task you've been avoiding | [Unstuck Now](focus-execute/unstuck-now/SKILL.md) | A small first action matched to the blocker, with a commitment card. |
@@ -26,7 +26,7 @@ Every individual skill installs the same way:
 npx skills@latest add Ivcota/skills/<category>/<skill-name>
 ```
 
-Install paths are organized by category folders such as `learn-think/grill-me` and `win-customers/grand-slam-offer`.
+Install paths are organized by category folders such as `learn-think/feynman` and `win-customers/grand-slam-offer`.
 
 Read the skill's `SKILL.md` for its workflow and any prerequisites. Some skills work entirely in conversation; others use workspace files, a calendar, or an Obsidian vault.
 
@@ -39,10 +39,10 @@ After installation, ask your assistant to use the skill on your task. For exampl
 | Bundle | Job | Included Skills |
 |---|---|---|
 | [Build Products](#build-products) | Decide what to build, model it clearly, ship it cleanly, and preserve the why. | `user-story-mapping`, `outcome-driven-innovation`, `value-proposition-design`, `domain-storytelling`, `solutions-architects-handbook`, `faas`, `invest-framework`, `readable-code`, `walkthrough`, `manage-skills` |
-| [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-me`, `grill-with-docs` |
+| [Learn & Think](#learn--think) | Understand faster, teach better, and stress-test decisions. | `align-mental-model`, `feynman`, `deep-learner`, `four-pillars-learning-coach`, `bear-hunter-system`, `addie`, `ultralearning`, `teach`, `distill-to-skill`, `problem-firewall`, `solution-options`, `first-principles`, `tree-alignment`, `grill-with-docs` |
 | [Focus & Execute](#focus--execute) | Choose what matters, plan the day, start moving, and close the loop. | `now`, `intentional`, `go`, `wrap-up`, `one-month-day`, `the-one-thing`, `essentialism-disciplined-pursuit`, `atomic-habits`, `mood-to-motion`, `unstuck-now`, `my-habits` |
 | [Write & Communicate](#write--communicate) | Capture your voice, package it, and make drafts sound human. | `learn-my-voice`, `style-profile`, `style-to-skill`, `humanizer` |
-| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `winning-markets`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `launch`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
+| [Win Customers](#win-customers) | Understand buyers, package value, create demand, and persuade. | `validate-icp`, `buyer-profile`, `persona-to-product`, `winning-markets`, `value-equation`, `grand-slam-offer`, `hundred-million-money-models`, `hundred-million-leads`, `breakthrough-advertising`, `hook-point`, `aida`, `epiphany-bridge`, `conversation-first-outreach`, `fanatical-prospecting`, `straight-line-selling`, `gap-selling`, `sandler-selling-system`, `challenger-sale`, `jolt-effect`, `science-of-selling`, `win-friends-influence-people`, `key-person-of-influence`, `oversubscribed` |
 | [Run the Business](#run-the-business) | Pick the right bet, set real strategy, and improve the operating system. | `office-hours`, `zero-to-one`, `million-dollar-weekend`, `running-lean`, `millionaire-fastlane`, `offer-fulfillment`, `sweaty-startup`, `good-strategy-bad-strategy`, `author-outcomes`, `business-operator`, `e-myth-revisited`, `theory-of-constraints` |
 
 ## Index
@@ -237,12 +237,6 @@ npx skills@latest add Ivcota/skills/learn-think/first-principles
 npx skills@latest add Ivcota/skills/learn-think/tree-alignment
 ```
 
-**Grill Me** — Stress-test a plan or design until every branch of the decision tree is explicit. Asks one hard question at a time, gives a recommended answer, and stops before implementation.
-
-```bash
-npx skills@latest add Ivcota/skills/learn-think/grill-me
-```
-
 **Grill with Docs** — Challenge a plan against the project's own language. Uses `CONTEXT.md` and ADRs to sharpen terms, catch contradictions, and record decisions only when they matter.
 
 ```bash
@@ -416,12 +410,6 @@ npx skills@latest add Ivcota/skills/win-customers/hundred-million-money-models
 ```
 
 ## Create Demand
-
-**Launch.** Plan product launches with Jeff Walker's Product Launch Formula, from audience discovery and prelaunch content through Open Cart and follow-up. Covers Seed, Internal, JV, and live launches.
-
-```bash
-npx skills@latest add Ivcota/skills/win-customers/launch
-```
 
 **$100M Leads** — Stop hoping leads find you. Builds a lead engine using the Core Four, lead magnets, and Lead Getters — with the Rule of 100 and advertising compounding model built in.
 
