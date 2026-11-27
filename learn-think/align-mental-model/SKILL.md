@@ -6,7 +6,7 @@ description: |
   Use when the user is about to make a codebase change, learn a new topic, or commit to a plan, and wants to surface wrong beliefs first.
   Also trigger on "check my mental model", "what am I getting wrong about X", "stress-test my understanding before I do X", "where is my model off", or "align my model".
   Asks for confidence before revealing truth — high-confidence-wrong beliefs (the dangerous ones) get the deepest correction.
-  For surfacing gaps via attempted explanation, see feynman. For stress-testing decisions in a plan, see grill-me. For encoding new material into a retention map, see bear-hunter-system.
+  For surfacing gaps via attempted explanation, see feynman. For stress-testing decisions in a plan, see grill-with-docs. For encoding new material into a retention map, see bear-hunter-system.
 ---
 
 # Align Mental Model

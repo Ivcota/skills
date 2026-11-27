@@ -1,0 +1,13 @@
+name: Check installable skills
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skill install paths
+        run: python3 scripts/check-installable-skills.py
